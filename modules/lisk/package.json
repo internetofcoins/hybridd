@@ -1,0 +1,9 @@
+{
+  "author": "Joachim de Koning",
+  "name": "hybrid-module-lisk",
+  "description": "Internet of Coins module: lisk",
+  "version": "1",
+  "engines": {
+    "node": "*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "js-nacl",
+  "version": "1.2.1",
+  "homepage": "https://github.com/tonyg/js-nacl",
+  "authors": [
+    "Tony Garnock-Jones"
+  ],
+  "description": "High-level API to libsodium.",
+  "main": "lib/nacl_factory.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "encryption",
+    "high-level",
+    "crypto",
+    "networking",
+    "nacl"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

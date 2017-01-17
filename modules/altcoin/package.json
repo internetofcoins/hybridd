@@ -1,0 +1,9 @@
+{
+  "author": "Joachim de Koning",
+  "name": "hybrid-module-altcoin",
+  "description": "Internet of Coins module: altcoin",
+  "version": "1",
+  "engines": {
+    "node": "*"
+  }
+}
