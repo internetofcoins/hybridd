@@ -16,9 +16,11 @@ git clone https://github.com/internetofcoins/hybridd
 cd hybridd
 ./hybridd
 ```
-3. Open http://localhost:1111 to access the REST API. We currently use only GET functions for ease of use.
+3. Open http://localhost:8080 to access the GUI wallet. (Make sure you are running the right daemons for coin support. Example: electrum for Bitcoin.)
 
-4. You can also access all REST functions from the command-line in another terminal, once <i>hybridd</i> is running.
+4. Open http://localhost:1111 to access the REST API. (We currently use only GET functions for ease of use.)
+
+5. You can also access all REST functions from the command-line in another terminal, once <i>hybridd</i> is running.
 
 ### Command examples:
 ```
