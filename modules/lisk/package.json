@@ -1,8 +1,9 @@
 {
   "author": "Joachim de Koning",
-  "name": "hybrid-module-lisk",
-  "description": "Internet of Coins module: lisk",
+  "name": "node-rest-client",
+  "description": "Lisk Internet of Coins module",
   "version": "1",
+  "main": "./lib/node-rest-client", 
   "engines": {
     "node": "*"
   }

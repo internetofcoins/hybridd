@@ -1,9 +1,0 @@
-{
-  "author": "Joachim de Koning",
-  "name": "hybrid-module-ethereum",
-  "description": "Internet of Coins module: ethereum",
-  "version": "1",
-  "engines": {
-    "node": "*"
-  }
-}

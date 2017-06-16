@@ -1,9 +1,0 @@
-{
-  "author": "Joachim de Koning",
-  "name": "hybrid-module-cryptonote",
-  "description": "Internet of Coins module: cryptonote",
-  "version": "1",
-  "engines": {
-    "node": "*"
-  }
-}

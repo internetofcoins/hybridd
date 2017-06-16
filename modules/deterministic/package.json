@@ -1,0 +1,10 @@
+{
+  "author": "Joachim de Koning",
+  "name": "modules-deterministic",
+  "description": "deterministic cryptography module",
+  "version": "1",
+  "main": "./modules/deterministic", 
+  "engines": {
+    "node": "*"
+  }
+}

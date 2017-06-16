@@ -14,33 +14,11 @@ exports.post = post;
 exports.stop = stop;
 exports.link = link;
 
-// init function
+exports.delay = delay; // for testing only!
+
+// initialization function
 function init() {
-	var modulename = 'lisk';
-	var command = ["status/init"];
-	// this module can provide assets (wallet)
-	for (var asset in global.hybridd.asset) {
-		if(typeof global.hybridd.asset[asset].module != 'undefined' && global.hybridd.asset[asset].module == modulename) {
-			// check the status of the connection, and give init feedback
-			var processID = scheduler.initproc(0);
-			var target = global.hybridd.asset[asset]; target.name = asset;
-			var subprocesses = []
-      subprocesses.push('func("lisk","exec",'+JSON.stringify({target,command})+')');
-			subprocesses.push('func("lisk","post",'+JSON.stringify({target,command})+')');
-			scheduler.subqueue(processID,subprocesses);
-		}
-	}
-	// this module can provide sources (daemon)
-	for (var source in global.hybridd.source) {
-		if(typeof global.hybridd.source[source].module != 'undefined' && global.hybridd.source[source].module == modulename) {
-			// check the status of the connection, and give init feedback
-			var processID = scheduler.initproc(0);
-			var target = global.hybridd.source[source]; target.name = source;
-			var subprocesses = modules.module.lisk.main.exec({"processID":processID,"target":target,"command":command});
-			subprocesses.push('func("lisk","post",'+JSON.stringify({target,command})+')')
-			scheduler.subqueue(processID,subprocesses);
-		}
-	}
+	modules.initexec('lisk',['init']);
 }
 
 // stop function
@@ -56,69 +34,75 @@ function tick(properties) {
 function exec(properties) {
 	// decode our serialized properties
 	var processID = properties.processID;
-	var source = properties.source;
 	var target = properties.target;
-	var type  = properties.type;
-	var factor = (typeof properties.factor != 'undefined'?properties.factor:12);
+	var mode  = target.mode;
+	var factor = (typeof target.factor != 'undefined'?target.factor:null);
+	var fee = (typeof target.fee != 'undefined'?target.fee:null);
 	var subprocesses = [];	
 	var command = [];
 	var postprocessing = true;
 	// set request to what command we are performing
 	global.hybridd.proc[processID].request = properties.command;
-	// shortcut to function link (see below)
-	var link = 'modules.module.lisk.main.link';
 	// handle standard cases here, and construct the sequential process list
 	switch(properties.command[0]) {
+		case 'init':
+			// set up init probe command to check if Altcoin RPC is responding and connected
+			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getStatus"]})');
+			subprocesses.push('func("lisk","post",{target:'+str(target)+',command:["init"],data:data,data})');
+      subprocesses.push('pass( (data != null && typeof data.success!="undefined" && data.success ? 1 : 0) )');      
+      subprocesses.push('logs(1,"module lisk: "+(data?"connected":"failed connection")+" to ['+target.name+'] host '+target.host+':'+target.port+'",data)');      
+		break;
+		case 'test':
+      subprocesses.push('time(0)');
+			subprocesses.push('wait(2000)');
+			subprocesses.push('wait(2000)');
+			subprocesses.push('func("lisk","delay",{target:'+str(target)+'})');
+			subprocesses.push('wait(2000)');
+			subprocesses.push('wait(2000)');
+			subprocesses.push('wait(8000)');
+			subprocesses.push('jump(-6)');
+		break;
 		case 'status':
-			// set up init probe command to check if Lisk API is responding and connected
-			if(typeof properties.command[1] == 'undefined') {	// ignore this during init phase
-				command = ['api/loader/status/sync'];	// get sync status
-				subprocesses.push('func("lisk","link",'+JSON.stringify({target,command})+')');
-				subprocesses.push('poke("liskA",data)');	// store the resulting data for post-process collage
-				command = ['api/blocks/getStatus'];	// get milestone / difficulty
-				subprocesses.push('func("lisk","link",'+JSON.stringify({target,command})+')');
-				// DEPRECATED: subprocesses.push('modules.module.lisk.main.link('+JSON.stringify({processID,target,command})+')');
-				subprocesses.push('poke("liskB",data)');	// store the resulting data for post-process collage
-			}			
-			command = ['api/peers/version'];	// get version
-			subprocesses.push(link+'('+JSON.stringify({processID,target,command})+')');    // extended version: subprocesses.push('modules.module.counterparty.main.link({"processID":'+s_processID+',"target":'+s_target+',"command":'+JSON.stringify(command)+'});');
-		break;
-		case 'balance':
-      // define the source address/wallet
-      var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'local');
-      command = ['api/accounts/getBalance?address='+sourceaddr];
-      subprocesses.push('func("lisk","link",'+JSON.stringify({target,command})+')');
-		break;
-		case 'transfer':
-      // if local wallet
-      if(type == 'local') {
-        subprocesses.push('stop(0,"Error: local wallet not supported!")');
-      } else {
-				var deterministic_script = (typeof properties.command[1] != 'undefined'?properties.command[1]:false);
-				if(deterministic_script) {
-          // get the nethash to be able to send transactions
-          command = ['/api/blocks/getNetHash'];
-          subprocesses.push('func("lisk","link",'+JSON.stringify({target,command})+')');
-          // shoot deterministic script object to peer node
-          command = ['peer/transactions',deterministic_script];
-          subprocesses.push('func("lisk","link",{target:'+JSON.stringify(target)+',command:'+JSON.stringify(command)+',nethash:data.nethash})');
-        }
-      }
-    break;
+			// set up init probe command to check if Altcoin RPC is responding and connected
+			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/loader/status/sync"]})'); // get sync status
+      subprocesses.push('poke("liskA",data)');	                                                            // store the resulting data for post-process collage
+			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getStatus"]})');   // get milestone / difficulty
+      subprocesses.push('poke("liskB",data)');	                                                            // store the resulting data for post-process collage
+			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/peers/version"]})');      // get version
+			subprocesses.push('func("lisk","post",{target:'+str(target)+',command:["status"],data:{liskA:peek("liskA"),liskB:peek("liskB"),liskC:data}})');       // post process the data
+		break;    
 		case 'factor':
       // directly relay factor, post-processing not required!
-      subprocesses.push('stop(0,'+factor+')');     
+      subprocesses.push('stop(0,"'+factor+'")');     
 		break;
-      case 'confirm':
-      confirms = 10;
-      subprocesses.push('poke("i",4)');
-      subprocesses.push('poke("j",5)');
-      subprocesses.push('poke("k",6)');
-      subprocesses.push('coll(0)');
-      subprocesses.push('stop(0,data)');
-      postprocessing = false;
+		case 'fee':
+      // directly relay factor, post-processing not required!
+      subprocesses.push('stop(0,"'+padFloat(fee,factor)+'")');
 		break;
-		case 'transferlist':
+    case 'balance':
+      // define the source address/wallet
+      var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'');
+      if(sourceaddr) {     
+        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
+        subprocesses.push('stop((typeof data.balance!="undefined"?0:1),fromInt(data.balance,'+factor+'))');
+      } else {
+        subprocesses.push('stop(1,"Error: missing address!")');
+      }      
+		break;
+		case 'push':
+      var deterministic_script = (typeof properties.command[1] != 'undefined'?properties.command[1]:false);
+      if(deterministic_script && typeof deterministic_script=='string') {
+        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
+        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:'+str(['peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
+        subprocesses.push('stop((typeof data.success!="undefined" && data.success?0:1),(typeof data.transactionId!="undefined"?functions.clean(data.transactionId):"Transaction error or bad nethash!"))'); // shoot deterministic script object to peer node
+      } else {
+        subprocesses.push('stop(1,"Missing or badly formed deterministic transaction!")');
+      }
+    break;
+		case 'unspent':
+      subprocesses.push('stop(0,{"unspents":[],"change":"0"})');      
+    break;
+		case 'history':
       //if(typeof properties.command[1] != 'undefined') { if(properties.command[1] == 'pending') { var transfertype = 'unavailable' } else { var transfertype = 'available'; } } else { var transfertype = 'available'; }
       // /api/transactions?blockId=blockId&senderId=senderId&recipientId=recipientId&limit=limit&offset=offset&orderBy=field
       var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'local');
@@ -129,16 +113,70 @@ function exec(properties) {
       var params = 'recipientId='+sourceaddr+limit+offset+'&orderBy=timestamp:desc';
       command = ['api/transactions?'+params];
       subprocesses.push('poke("sourceaddr","'+sourceaddr+'")');	// store the resulting data for post-process collage
-      subprocesses.push('func("lisk","link",'+JSON.stringify({target,command})+')');
+      subprocesses.push('func("lisk","link",'+str({target,command})+')');
 		break;
 		default:
 		 	subprocesses.push('stop(1,"Asset function not supported!")');
 	}
-	return subprocesses;
+  // fire the Qrtz-language program into the subprocess queue
+  scheduler.fire(processID,subprocesses);
 }
-
+  
 // standard function for postprocessing the data of a sequential set of instructions
 function post(properties) {
+	// decode our serialized properties
+	var processID = properties.processID
+	var target = properties.target
+	var postdata = properties.data;
+	var factor = (typeof target.factor != 'undefined'?target.factor:null);
+	// set data to what command we are performing
+	global.hybridd.proc[processID].data = properties.command;
+	// handle the command
+	if (postdata == null) {
+		var success = false;
+	} else {
+		var success = true;
+		switch(properties.command[0]) {
+      case 'init':
+        // set asset fee for Lisk transactions
+        if(typeof postdata.fee!='undefined' && postdata.fee) {
+          global.hybridd.asset[target.name].fee = fromInt(postdata.fee,factor);
+        }
+      break;
+			case 'status':
+        // nicely cherrypick and reformat status data
+        var collage = {};
+        collage.module = 'lisk';
+        collage.synced = null;
+        collage.blocks = null;
+        collage.supply = null;
+        collage.difficulty = null;
+        collage.testmode = 0;
+        collage.version = (typeof postdata.liskC.version != 'undefined' ? String(postdata.liskC.version+' (build '+(typeof postdata.liskC.build != 'undefined'?postdata.liskC.build.rTrim("\n"):'?')+')') : null);
+        if(postdata.liskA != null) {
+          if(typeof postdata.liskA != 'undefined') {
+            collage.synced = (typeof postdata.liskA.blocks != 'undefined'	? (postdata.liskA.blocks ? 0 : 1) : null);
+            collage.blocks = (typeof postdata.liskA.height != 'undefined'	? postdata.liskA.height : null);
+            // ADD blocktime
+          }
+          if(typeof postdata.liskB != 'undefined') {
+            //collage.fee = (typeof postdata.liskB.fee != 'undefined'	? postdata.liskB.fee : null);
+            collage.supply = (typeof postdata.liskB.supply != 'undefined'	? postdata.liskB.supply : null);							
+            collage.difficulty = (typeof postdata.liskB.milestone != 'undefined' ? postdata.liskB.milestone : null);
+          }
+        }
+        postdata = collage;
+			break;
+			default:
+				success = false;		
+		}
+	}
+  // stop and send data to parent
+  scheduler.stop(processID,{err:(success?0:1),data:postdata});
+}
+
+// DEPRECATED: standard function for postprocessing the data of a sequential set of instructions
+function postOLD(properties) {
 	// decode our serialized properties
 	var processID = properties.processID
 	var procinfo = scheduler.procpart(properties.processID);
@@ -193,14 +231,6 @@ function post(properties) {
 					global.hybridd.proc[parentID].err = 1;
 				}		
 			break;
-      case 'deterministic':
-				global.hybridd.proc[prevproc].err = 1;
-        if(typeof postdata.success != 'undefined') {
-          if(postdata.success) {
-            global.hybridd.proc[prevproc].err = 0;
-          }
-        }
-      break;
 			case 'balance':
 				// if result is not a number, set the error flag!
 				global.hybridd.proc[prevproc].err = 1;
@@ -245,15 +275,15 @@ function post(properties) {
 				success = false;		
 		}
 	}
-  scheduler.stopproc(processID,{err:(success?1:0),data:postdata});
+  scheduler.stop(processID,{err:(success?1:0),data:postdata});
 	// default is to transfer the datafield of the last subprocess to the main process
 	if (success && !global.hybridd.proc[prevproc].err && typeof postdata != 'undefined') {
 		if(DEBUG) { console.log(' [D] sending postprocessing data to parent '+parentID); }
-    scheduler.stopproc(parentID,{err:0,data:postdata});
+    scheduler.stop(parentID,{err:0,data:postdata});
 	} else {
 		if(DEBUG) { console.log(' [D] error in '+prevproc+' during postprocessing for '+parentID); }
 		postdata = (typeof postdata.error!='undefined'?postdata.error:null);
-    scheduler.stopproc(parentID,{err:1,data:null});
+    scheduler.stop(parentID,{err:1,data:null});
 	}
 }
 
@@ -269,38 +299,37 @@ function link(properties) {
 	var method = command.shift();
 	var params = command.shift();
 	var queryurl = target.host+':'+target.port+mainpath+'/'+method;	
-  console.log(queryurl);
 	// launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
+  // FIX THIS! IT CAUSES MEMORY LEAKS! SEE NAD CODE FOR A GOOD EXAMPLE.
 	if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
 		var options_auth={user:target.user,password:target.pass};
-		restcoin = new Client(options_auth);
-	} else { restcoin = new Client(); }
+		restAPI = new Client(options_auth);
+	} else { restAPI = new Client(); }
   // do a GET or PUT/POST based on the command input
   var args = {};
   if(typeof params!='undefined') {
     if(typeof params=='string') { try { params = JSON.parse(params); } catch(e) {} }
-    //params.jsonrpc = '2.0';
-		//params.id = 0;
     var nethash = (typeof properties.nethash!='undefined'?properties.nethash:'');
     if(method.substr(0,4)=='api/') {
       args = {
-          headers:{'Content-Type':'application/json','version':'0.3.0','port':1,'nethash':properties.nethash},
+          headers:{'Content-Type':'application/json','version':'0.8.0','port':1,'nethash':nethash},
           data:JSON.stringify(params)
       }
-      var postresult = restcoin.put(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+      var postresult = restAPI.put(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
     } else {
       args = {
-          headers:{'Content-Type':'application/json','version':'0.3.0','port':1,'nethash':properties.nethash},
-          data:JSON.stringify({transaction:params})
+          headers:{'Content-Type':'application/json','version':'0.8.0','port':1,'nethash':nethash},
+          data:{'transaction':params}
       }
-      var postresult = restcoin.post(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+      // DEBUG: console.log(' ##### POST '+queryurl+' '+str(args)+' nh:'+nethash);
+      var postresult = restAPI.post(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
     }
   } else {
-      var postresult = restcoin.get(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+      var postresult = restAPI.get(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
   }
 	postresult.on('error', function(err){
     console.log(err);
-    scheduler.stopproc(processID,{err:1});
+    scheduler.stop(processID,{err:1});
 	});
 }
 
@@ -308,5 +337,25 @@ function restaction(properties) {
   var data = properties.data;
   if(data.code<0) { var err=1; } else { var err=data['code']; }
   try { data = JSON.parse(data); } catch(e) {}
-  scheduler.stopproc(properties.processID,{err:err,data:data});
+  scheduler.stop(properties.processID,{err:err,data:data});
+}
+
+
+
+// TESTING
+
+// standard function for postprocessing the data of a sequential set of instructions
+function delay(properties) {
+	// decode our serialized properties
+	var processID = properties.processID
+	var target = properties.target
+  var subprocesses=[];
+
+			subprocesses.push('time(0)');
+			subprocesses.push('wait(5000)');
+			subprocesses.push('wait(5000)');
+			subprocesses.push('wait(5000)');
+
+  // fire the Qrtz-language program into the subprocess queue
+  scheduler.fire(processID,subprocesses);
 }

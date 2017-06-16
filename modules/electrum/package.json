@@ -1,0 +1,10 @@
+{
+  "author": "Joachim de Koning",
+  "name": "modules-electrum",
+  "description": "electrum Internet of Coins module",
+  "version": "1",
+  "main": "./modules/electrum", 
+  "engines": {
+    "node": "*"
+  }
+}
