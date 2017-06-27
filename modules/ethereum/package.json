@@ -1,0 +1,10 @@
+{
+  "author": "Joachim de Koning",
+  "name": "modules-ethereum",
+  "description": "ethereum Internet of Coins module",
+  "version": "1",
+  "main": "./modules/ethereum", 
+  "engines": {
+    "node": "*"
+  }
+}
