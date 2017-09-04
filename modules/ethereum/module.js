@@ -45,6 +45,9 @@ function exec(properties) {
 	// handle standard cases here, and construct the sequential process list
 	switch(properties.command[0]) {
 		case 'init':
+      //
+      // https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_call
+      //
 			// set up init probe command to check if RPC and block explorer are responding and connected
 			subprocesses.push('func("ethereum","link",{target:'+str(target)+',command:["eth_gasPrice"]})');
 			subprocesses.push('func("ethereum","post",{target:'+str(target)+',command:["init"],data:data,data})');
@@ -117,7 +120,7 @@ function post(properties) {
 		switch(properties.command[0]) {
       case 'init':
         if(typeof postdata.result!='undefined' && postdata.result) {
-          global.hybridd.asset[target.name].fee = fromInt(lHex2Dec(postdata.result).times(25000),factor);
+          global.hybridd.asset[target.name].fee = fromInt(lHex2Dec(postdata.result).times(21000),factor);
         }
       break;
 			case 'status':

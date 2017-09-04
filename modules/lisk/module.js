@@ -10,9 +10,9 @@ var Client = require('../../lib/rest').Client;
 exports.init = init;
 exports.tick = tick;
 exports.exec = exec;
-exports.post = post;
 exports.stop = stop;
 exports.link = link;
+exports.post = post;
 
 exports.delay = delay; // for testing only!
 
@@ -310,15 +310,16 @@ function link(properties) {
   if(typeof params!='undefined') {
     if(typeof params=='string') { try { params = JSON.parse(params); } catch(e) {} }
     var nethash = (typeof properties.nethash!='undefined'?properties.nethash:'');
+    var version = '0.9.7';
     if(method.substr(0,4)=='api/') {
       args = {
-          headers:{'Content-Type':'application/json','version':'0.8.0','port':1,'nethash':nethash},
+          headers:{'Content-Type':'application/json','version':version,'port':1,'nethash':nethash},
           data:JSON.stringify(params)
       }
       var postresult = restAPI.put(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
     } else {
       args = {
-          headers:{'Content-Type':'application/json','version':'0.8.0','port':1,'nethash':nethash},
+          headers:{'Content-Type':'application/json','version':version,'port':1,'nethash':nethash},
           data:{'transaction':params}
       }
       // DEBUG: console.log(' ##### POST '+queryurl+' '+str(args)+' nh:'+nethash);

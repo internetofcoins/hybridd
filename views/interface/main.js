@@ -53,6 +53,8 @@ hy_content += addscript('./js/clipboard.js');       // copy-to-clipboard functio
 hy_content += '<script>';
 hy_content += 'svg={};';
 hy_content += addsvg('./svg/cogs.svg','cogs');
+hy_content += addsvg('./svg/logout.svg','logout');
+hy_content += '$("#topmenu-logout").html(svg[\'logout\']);';
 hy_content += '</script>';
 
 // load in the page elements *after* Javascript insertion
