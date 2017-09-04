@@ -14,7 +14,7 @@ hy_page += '<html><head>';
 // may need to include view-port code in header
 
 // title
-hy_page += '<title>Internet of Coins (v0.2)</title>';
+hy_page += '<title>Internet of Coins wallet</title>';
 hy_page += '<meta name="viewport" content="width=device-width, initial-scale=1.0" content="text/html;charset=UTF-8" />';
 
 // close header open body
