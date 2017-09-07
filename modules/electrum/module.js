@@ -45,6 +45,11 @@ function exec(properties) {
 	// handle standard cases here, and construct the sequential process list
 	switch(properties.command[0]) {
 		case 'init':
+      // set up REST API connection
+      if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
+        var options_auth={user:target.user,password:target.pass};
+        global.hybridd.asset[target.name].link = new Client(options_auth);
+      } else { global.hybridd.asset[target.name].link = new Client(); }    
 			// set up init probe command to check if RPC and block explorer are responding and connected
 			subprocesses.push('func("electrum","link",{target:'+str(target)+',command:["version"]})');
       // TODO: check block explorer here too!
@@ -147,12 +152,7 @@ function link(properties) {
 	// separate method and arguments
 	// launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
 	var queryurl = target.host+':'+target.port+mainpath;
-	if(DEBUG) { console.log(' [D] query: '+queryurl); }
-	
-	if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
-		var options_auth={user:target.user,password:target.pass};
-		restAPI = new Client(options_auth);
-	} else { restAPI = new Client(); }
+	// DEBUG: if(DEBUG) { console.log(' [D] query: '+queryurl); }
 	var method = command.shift();
 	var params = command.shift();
 	// validate the JSON data with a regex after the REST method path
@@ -166,6 +166,7 @@ function link(properties) {
 		headers:{"Content-Type": "application/json"} 
 	}
 	//if(DEBUG) { console.log(' [D] ARGS: '+str(args)); }
+  var restAPI = global.hybridd.asset[target.name].link;
 	var postresult = restAPI.post(queryurl, args,  function(data, response) { restaction({processID:processID,data:data}); });
 	postresult.on('error', function(err){
     scheduler.stop(processID,{err:1});

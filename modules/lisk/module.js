@@ -46,6 +46,11 @@ function exec(properties) {
 	// handle standard cases here, and construct the sequential process list
 	switch(properties.command[0]) {
 		case 'init':
+      // set up REST API connection
+      if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
+        var options_auth={user:target.user,password:target.pass};
+        global.hybridd.asset[target.name].link = new Client(options_auth);
+      } else { global.hybridd.asset[target.name].link = new Client(); }    
 			// set up init probe command to check if Altcoin RPC is responding and connected
 			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getStatus"]})');
 			subprocesses.push('func("lisk","post",{target:'+str(target)+',command:["init"],data:data,data})');
@@ -298,13 +303,8 @@ function link(properties) {
 	var mainpath = (typeof target.path == 'undefined'?'':'/'+target.path);
 	var method = command.shift();
 	var params = command.shift();
-	var queryurl = target.host+':'+target.port+mainpath+'/'+method;	
-	// launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
-  // FIX THIS! IT CAUSES MEMORY LEAKS! SEE NAD CODE FOR A GOOD EXAMPLE.
-	if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
-		var options_auth={user:target.user,password:target.pass};
-		restAPI = new Client(options_auth);
-	} else { restAPI = new Client(); }
+	var queryurl = target.host+':'+target.port+mainpath+'/'+method;
+  var restAPI = global.hybridd.asset[target.name].link;
   // do a GET or PUT/POST based on the command input
   var args = {};
   if(typeof params!='undefined') {

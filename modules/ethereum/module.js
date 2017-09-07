@@ -45,9 +45,11 @@ function exec(properties) {
 	// handle standard cases here, and construct the sequential process list
 	switch(properties.command[0]) {
 		case 'init':
-      //
-      // https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_call
-      //
+      // set up REST API connection
+      if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
+        var options_auth={user:target.user,password:target.pass};
+        global.hybridd.asset[target.name].link = new Client(options_auth);
+      } else { global.hybridd.asset[target.name].link = new Client(); }
 			// set up init probe command to check if RPC and block explorer are responding and connected
 			subprocesses.push('func("ethereum","link",{target:'+str(target)+',command:["eth_gasPrice"]})');
 			subprocesses.push('func("ethereum","post",{target:'+str(target)+',command:["init"],data:data,data})');
@@ -86,9 +88,13 @@ function exec(properties) {
       }
     break;
 		case 'unspent':
-      case 'unspent':
-        subprocesses.push('stop(0,{"unspents":[],"change":"0"})');      
-      break;
+      if(sourceaddr) {
+        subprocesses.push('func("ethereum","link",{target:'+str(target)+',command:["eth_getTransactionCount",["'+sourceaddr+'","pending"]]})');
+        subprocesses.push('stop(0,{"nonce":lHex2Dec(data.result)})');      
+      } else {
+        subprocesses.push('stop(1,"Error: missing address!")');
+      }
+    break;
       //if(sourceaddr) {
       //  subprocesses.push('func("blockexplorer","exec",{target:'+str( modules.getsource(mode) )+',command:["unspent","'+sourceaddr+'"'+(properties.command[2]?',"'+properties.command[2]+'"':'')+']})');
       //} else {
@@ -157,19 +163,14 @@ function link(properties) {
 	var params = command.shift();
 	var queryurl = target.host+':'+target.port+mainpath;	
 	// launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
-  // FIX THIS! IT CAN CAUSE MEMORY LEAKS! SEE NAD CODE FOR A GOOD EXAMPLE.
-	if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
-		var options_auth={user:target.user,password:target.pass};
-		restAPI = new Client(options_auth);
-	} else { restAPI = new Client(); }
   // do a GET or PUT/POST based on the command input
   var args = {};
-  //if(typeof params!='undefined') {
   if(typeof params=='string') { try { params = JSON.parse(params); } catch(e) {} }
   args = {
       headers:{'Content-Type':'application/json'},
       data:{"jsonrpc":"2.0","method":method,"params":params,"id":Math.floor(Math.random()*10000)}
   }
+  var restAPI = global.hybridd.asset[target.name].link;
   var postresult = restAPI.post(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
 	postresult.on('error', function(err){
     console.log(err);

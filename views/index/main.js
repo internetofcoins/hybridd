@@ -15,7 +15,7 @@ hy_page += '<html><head>';
 
 // title
 hy_page += '<title>Internet of Coins wallet</title>';
-hy_page += '<meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=2.0" content="text/html;charset=UTF-8" />';
+hy_page += '<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0" content="text/html;charset=UTF-8" />';
 
 // close header open body
 hy_page += '</head><body id="body">';
