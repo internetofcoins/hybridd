@@ -12,7 +12,7 @@ This repository hosts the Internet of Coins <i>hybridd</i> node system. Our code
 ```
 git clone https://github.com/internetofcoins/hybridd
 ```
-2. In the repository root, make a symbolic link to node with your system architecture.
+2. In the repository root, make a symbolic link to the correct node version for your system architecture (node32, node64 or nodeARM).
 ```
 cd hybridd
 ln -s node64 node
