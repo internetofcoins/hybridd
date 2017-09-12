@@ -36,6 +36,9 @@ hy_content += '<script>'+fs.readFileSync('./js/newaccount_B.js')+'</script>';
 // hex2base32 for account generator code
 hy_content += '<script>'+fs.readFileSync('../../lib/crypto/hex2base32.js')+'</script>';
 
+// hashDJB2 for account validation
+hy_content += '<script>'+fs.readFileSync('../../lib/crypto/hashDJB2.js')+'</script>';
+
 // encode hy_content using LZMA (file testing shows URL-safe coding uses 10% less kB)
 lzma_result = lzma.compressToEncodedURIComponent(hy_content);
 
