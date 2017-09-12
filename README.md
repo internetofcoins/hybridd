@@ -9,17 +9,18 @@ This repository hosts the Internet of Coins <i>hybridd</i> node system. Our code
 ## Usage
 
 1. Make sure you are running a GNU/Linux system.
-
+```
+git clone https://github.com/internetofcoins/hybridd
+```
 2. In the repository root, make a symbolic link to node with your system architecture.
 ```
+cd hybridd
 ln -s node64 node
 ```
 
 3. Run the <i>hybridd</i> node.
 ```
-git clone https://github.com/internetofcoins/hybridd
-cd hybridd
-./hybridd
+~/hybridd$ ./hybridd
 ```
 4. Open http://localhost:8080 to access the GUI wallet. (Make sure you are running the right daemons for coin support. Example: electrum for Bitcoin.)
 
