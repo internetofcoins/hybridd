@@ -9,6 +9,7 @@ hy_content = ''; // variable to hold package content
 
 // load in the style sheets
 hy_content += '<style>'+fs.readFileSync('./css/pure-min.css')+'</style>';
+hy_content += '<style>'+fs.readFileSync('./css/buttons.css')+'</style>';
 hy_content += '<style>'+fs.readFileSync('./css/login.css')+'</style>';
 hy_content += '<style>'+fs.readFileSync('./css/custom-alert.css')+'</style>';
 
@@ -29,6 +30,7 @@ hy_content += '<script>'+fs.readFileSync('../../lib/crypto/sjcl.js')+'</script>'
 
 // and finally the login action handler code
 hy_content += '<script>'+fs.readFileSync('./login.js')+'</script>';
+hy_content += '<script>'+fs.readFileSync('./login.ui.js')+'</script>';
 
 // new account generator code (body)
 hy_content += '<script>'+fs.readFileSync('./js/newaccount_B.js')+'</script>';

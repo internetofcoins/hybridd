@@ -1,0 +1,10 @@
+{
+  "id":"insight.btc",
+  "name":"Bitcoin Insight Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"bitcoin.insight",
+  "factor":8,
+  "host":["https://blockexplorer.com/api","https://www.localbitcoinschain.com/api","https://insight.bitpay.com/api"],
+  "cache":1000,
+  "throttle":3
+}

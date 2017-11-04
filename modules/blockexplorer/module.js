@@ -44,95 +44,95 @@ function exec(properties) {
 	var processID = properties.processID;
   var target = properties.target;
 	var mode  = (typeof target.mode!='undefined'?target.mode:null);
-	var type  = (typeof target.type!='undefined'?target.type:null);
 	var factor = (typeof target.factor != 'undefined'?target.factor:8);
   var command = properties.command;
-	var subprocesses = [];	
+	var subprocesses = [];
 	// set request to what command we are performing
 	global.hybridd.proc[processID].request = properties.command;
-	// handle standard cases here, and construct the sequential process list
-	switch(type) {
-    case 'blockr':
-      switch(command[0]) {
-        case 'init':
-          subprocesses.push('stop(1,"NOT YET SUPPORTED!")');
-        break;
-        case 'balance':
-          if(typeof command[1]!='undefined') {
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["address","balance","'+command[1]+'?confirmations=0"]})');
-            subprocesses.push('test((typeof data.data!="undefined" && typeof data.data.balance!="undefined" && !isNaN(data.data.balance)),2,1,data)')
-            subprocesses.push('stop(1,null)');
-            subprocesses.push('stop(0, padFloat(data.data.balance,'+factor+') )');            
-          } else {
-            subprocesses.push('stop(1,"Please specify an address!")');
-          }
-        break;
-        case 'unspent':
-          // example: http://btc.blockr.io/api/v1/address/unspent/
-          if(typeof command[1]!='undefined') {
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["address","unspent",'+str(command[1])+']})');
-            subprocesses.push('func("blockexplorer","post",{target:'+str(target)+',command:'+str(command)+',data:data})');
-          } else {
-            subprocesses.push('stop(1,"Please specify an address!")');
-          }
-        break;
-        default:
-          subprocesses.push('stop(1,"Source function not supported!")');
-      }
-    break;
-    case 'insight':
-      switch(properties.command[0]) {
-        case 'init':
-          subprocesses.push('stop(1,"NOT YET SUPPORTED!")');
-        break;
-        case 'balance':
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["addr",'+str(command[1])+',"balance"]})');
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["addr",'+str(command[1])+',"unconfirmedBalance"]})');
-            subprocesses.push('coll(2)');            
-            subprocesses.push('stop( (isNaN(data[0])||isNaN(data[1])?1:0), fromInt((data[0]+data[1]),'+factor+') )');
-        break;
-        case 'unspent':
-          // example: https://blockexplorer.com/api/addr/[:addr]/utxo
-          if(typeof command[1]!='undefined') {
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["addr",'+str(command[1])+',"utxo"]})');
-            subprocesses.push('func("blockexplorer","post",{target:'+str(target)+',command:'+str(command)+',data:data})');
-          } else {
-            subprocesses.push('stop(1,"Please specify an address!")');
-          }
-        break;
-        default:
-          subprocesses.push('stop(1,"Source function not supported!")');
-      }
-    break;
-    case 'abe':
-      switch(properties.command[0]) {
-        case 'init':
-          subprocesses.push('stop(1,"NOT YET SUPPORTED!")');
-        break;
-        case 'balance':
-          subprocesses.push('stop(1,"NOT YET SUPPORTED!")');
-          /*
-          request = 'POST';
-          if(command.shift()=='balance') {	// rewrite command for literal link
-            actionpath = 'addressbalance/'+command.shift();
-          }*/
-        break;
-        case 'unspent':
-          // example: http://explorer.litecoin.net/unspent/LYmpJZm1WrP5FSnxwkV2TTo5SkAF4Eha31
-          if(typeof command[1]!='undefined') {
-            subprocesses.push('func("blockexplorer","link",{target:'+str(target)+',command:["unspent",'+str(command[1])+'],nopath:true})');
-            subprocesses.push('func("blockexplorer","post",{target:'+str(target)+',command:'+str(command)+',data:data})');
-          } else {
-            subprocesses.push('stop(1,"Please specify an address!")');
-          }
-        break;
-        default:
-          subprocesses.push('stop(1,"Source function not supported!")');
-      }
-    break;
-		default:
-		 	subprocesses.push('stop(1,"Configured source type is not supported!")');
-	}
+  // initialization
+  if(command[0]==='init') {
+    // set up REST API connection
+    if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
+      var options_auth={user:target.user,password:target.pass};
+      global.hybridd.source[target.id].link = new Client(options_auth);
+    } else { global.hybridd.source[target.id].link = new Client(); }    
+    subprocesses.push('logs(1,"module blockexplorer: initialized '+target.id+'")');
+  } else {
+    // handle standard cases here, and construct the sequential process list
+    switch(mode.split('.')[1]) {
+      case 'blockr':
+        switch(command[0]) {
+          case 'balance':
+            if(typeof command[1]!='undefined') {
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["address/balance/'+command[1]+'?confirmations=0"]})');
+              subprocesses.push('test((typeof data.data!="undefined" && typeof data.data.balance!="undefined" && !isNaN(data.data.balance)),2,1,data)')
+              subprocesses.push('stop(1,null)');
+              subprocesses.push('stop(0, padFloat(data.data.balance,'+factor+') )');            
+            } else {
+              subprocesses.push('stop(1,"Please specify an address!")');
+            }
+          break;
+          case 'unspent':
+            // example: http://btc.blockr.io/api/v1/address/unspent/
+            if(typeof command[1]!='undefined') {
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["address/unspent/'+command[1]+'"]})');
+              subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
+            } else {
+              subprocesses.push('stop(1,"Please specify an address!")');
+            }
+          break;
+          default:
+            subprocesses.push('stop(1,"Source function not supported!")');
+        }
+      break;
+      case 'insight':
+        switch(properties.command[0]) {
+          case 'balance':
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/balance"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/unconfirmedBalance"]})');
+              subprocesses.push('coll(2)');            
+              subprocesses.push('stop( (isNaN(data[0])||isNaN(data[1])?1:0), fromInt((data[0]+data[1]),'+factor+') )');
+          break;
+          case 'unspent':
+            // example: https://blockexplorer.com/api/addr/[:addr]/utxo
+            if(typeof command[1]!='undefined') {
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/utxo"]})');
+              subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
+            } else {
+              subprocesses.push('stop(1,"Please specify an address!")');
+            }
+          break;
+          default:
+            subprocesses.push('stop(1,"Source function not supported!")');
+        }
+      break;
+      case 'abe':
+        switch(properties.command[0]) {
+          case 'balance':
+            subprocesses.push('stop(1,"NOT YET SUPPORTED!")');
+            /*
+            request = 'POST';
+            if(command.shift()=='balance') {	// rewrite command for literal link
+              actionpath = 'addressbalance/'+command.shift();
+            }*/
+          break;
+          case 'unspent':
+            // example: http://explorer.litecoin.net/unspent/LYmpJZm1WrP5FSnxwkV2TTo5SkAF4Eha31
+            if(typeof command[1]!='undefined') {
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["unspent/'+jstr(command[1])+'"]})');
+              subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
+            } else {
+              subprocesses.push('stop(1,"Please specify an address!")');
+            }
+          break;
+          default:
+            subprocesses.push('stop(1,"Source function not supported!")');
+        }
+      break;
+      default:
+        subprocesses.push('stop(1,"Configured source type is not supported!")');
+    }
+  }
   // fire the Qrtz-language program into the subprocess queue
   scheduler.fire(processID,subprocesses);  
 }
@@ -142,16 +142,16 @@ function post(properties) {
 	// decode our serialized properties
 	var processID = properties.processID;
 	var target = properties.target;
-	var type  = target.type;
+	var mode  = target.mode;
 	var factor = (typeof target.factor != 'undefined'?target.factor:8);
-	var postdata = properties.data;
-	// DEPRECATED? - var factor = (typeof properties.factor != 'undefined'?properties.factor:12);
+  // first do a rough validation of the data
+  var postdata = properties.data;
 	// set data to what command we are performing
 	global.hybridd.proc[processID].data = properties.command;
 	// handle the command
   var result = null;
   var success = true;
-  switch(type) {
+  switch(mode.split('.')[1]) {
     case 'blockr':
       switch(properties.command[0]) {
         case 'unspent':
@@ -245,75 +245,60 @@ function link(properties) {
 	var processID = properties.processID;
 	var target = properties.target;
 	var mode = target.mode;
-	var type = target.type;
-  var request = (properties.request!='undefined' ?properties.request:'GET');
-  var nopath = (properties.nopath!='undefined' && properties.nopath?true:false);
+  var type = 'GET'; // for now everything is GET
+  //var nopath = (properties.nopath!='undefined' && properties.nopath?true:false);
 	var command = properties.command;
-  console.log(' [.] module blockexplorer: sending '+mode+' query for ['+target.name+'] -> '+command.join(' '));
-	var queryurl = target.host+':'+target.port+'/';
-  if(!nopath) {
-    queryurl = queryurl + (typeof target.path != 'undefined' && target.path?target.path+'/':'');
-  }
+  console.log(' [.] module blockexplorer: sending query ['+target.id+'] -> '+command.join(' '));
+
+  var upath = command.shift();
+	var params = command.shift();
+  var args = {};
+
 	if(DEBUG) { console.log(' [D] query to: '+queryurl); }
-		// WITH AUTH: launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
-	//var options_auth={user:global.hybridd.asset[asset].user,password:global.hybridd.asset[asset].pass};
-	//restapi = new Client(options_auth);
-	// WITHOUT AUTH: launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
-	restapi = new Client();  
-  if(request=='POST') {
-    // validate the JSON data with a regex after the REST method path
-    var args = {
-        data: {
-            "method": null,
-            "params": functions.JSONvalid(command),
-            "jsonrpc": "2.0",
-            "id": 0
-          },
-        headers:{"Content-Type": "application/json"} 
-    }
-    if(DEBUG) { console.log(' [D] POST query: '+queryurl); }
-    var postresult = restapi.post(queryurl, args,  function(data, response) {
-                var result = validate({type:type,data:data});								
-                // if(DEBUG) { console.log(' [D] result data: '+data); }
-                // stop and send data to parent
-                scheduler.stop(processID,{err:result.err,data:result.data});                
-             });
-  } else {
-    // validate the JSON data with a regex after the REST method path
-    var	args = { headers:{"Content-Type": "text/html"} }
-    queryurl = queryurl+command.join('/'); //.replace(/'/gi,'"');
-    if(DEBUG) { console.log(' [D] GET query: '+queryurl); }
-    var postresult = restapi.get(queryurl, args,  function(data, response) {
-                var result = validate({type:type,data:data});								
-                // if(DEBUG) { console.log(' [D] result data: '+data); }
-                // stop and send data to parent
-                scheduler.stop(processID,{err:result.err,data:result.data});                
-             });
-  }
-  postresult.on('error', function(err){
-    // stop and send data to parent
-    scheduler.stop(processID,{err:1,data:'Rest API error!'});
-    if(DEBUG) { console.log(' [D] result error: '+err); }
-  });  
+  // if POST -- FIXME
+  /* var args = {
+      data: {
+          "method": null,
+          "params": command,
+          "jsonrpc": "2.0",
+          "id": 0
+        },
+      headers:{"Content-Type": "application/json"},
+      path:command
+  }*/
+  var args = {
+      headers:{"Content-Type": "application/json"},
+      path:upath
+  }  
+  // construct the APIqueue object
+  APIqueue.add({ 'method':type,
+                 'link':'source["'+target.id+'"]',  // make sure APIqueue can use initialized API link
+                 'host':target.host,
+                 'args':args,
+                 'throttle':target.throttle,
+                 'pid':processID,
+                 'target':target.id });
+
 }
 
+/* DEPRECATED -- FIXME!
 function validate(properties) {
   type = properties.type;
   data = properties.data;
   var err=1;
   switch(type) {
     case 'blockr':
-      if(typeof data.status!='undefined' && data.status=='success') { err=0; }
+      if(typeof data.status!=='undefined' && data.status==='success') { err=0; }
     break;
     case 'insight':
-      if(typeof data!='undefined' && typeof data=='string') {
+      if(typeof data!=='undefined' && typeof data==='string') {
         try { data = JSON.parse(data); } catch(e) { data = null; }
         if(typeof data=='array' && data.length>0) { err=0; }
       }
     break;
     case 'abe':
-      if(typeof data!='undefined') {
-        if(typeof data=='string' && data.substr(0,32).indexOf("<html")>-1) {
+      if(typeof data!=='undefined') {
+        if(typeof data==='string' && data.subjstr(0,32).indexOf("<html")>-1) {
           err=1;
         } else {
           try { data = JSON.parse(data); } catch(e) { data = null; }
@@ -324,38 +309,4 @@ function validate(properties) {
   }
   return {err:err,data:data};
 }
-
-// helper functions
-function authconnect(properties) {
-  var source = properties.source;
-  var key = properties.key;
-  // TODO
-	if (module.busy) {
-		// only allow one REST connection at a time
-		setTimeout(function(){authconnect(source,key)},3000);
-	} else {
-		module.busy = true;			
-		//if(global.hybridd.source[source].module == 'blockexplorerapi') {
-		//}
-
-		// configure basic http auth for every request
-		var blckexpl = new Client();
-		var args = {
-			  data: {},
-			headers:{"Content-Type": "application/text"}
-		}
-		var startdate = new Date();
-		var postresult = blckexpl.get(global.hybridd.source[source][key].host+':'+global.hybridd.source[source][key].port+global.hybridd.source[source][key].path+'/getdifficulty', args,  function(data, response) {
-								var alivedate = new Date();
-								if(!global.hybridd.source[source][key].ping) { console.log(' [i] module blockexplorerapi: connected to ['+source+']['+key+'] host '+global.hybridd.source[source][key].host+':'+global.hybridd.source[source][key].port); }
-								global.hybridd.source[source][key].ping = alivedate-startdate;
-								global.hybridd.source[source][key].alive = functions.timestamp(alivedate);
-								module.busy=false;
-							});
-		postresult.on('error', function(err){
-			console.log(' [!] module blockexplorerapi: failed connection to ['+source+']['+key+'] host '+global.hybridd.source[source][key].host+':'+global.hybridd.source[source][key].port);
-			global.hybridd.source[source][key].ping = false;
-			module.busy=false;
-		});
-	}
-}
+*/

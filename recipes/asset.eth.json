@@ -1,0 +1,10 @@
+{
+  "symbol":"eth",
+  "name":"Ethereum",
+  "module":"ethereum",
+  "mode":"ethereum.main",
+  "factor":18,
+  "host":["https://mainnet.infura.io/","https://api.myetherapi.com/eth","https://mainnet.infura.io/metamask"],
+  "cache":15000,
+  "throttle":5
+}

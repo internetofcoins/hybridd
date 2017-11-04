@@ -1,0 +1,10 @@
+{
+  "id":"insight.bch",
+  "name":"Bitcoin Cash Insight Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"bitcoincash.insight",
+  "factor":8,
+  "host":["https://bch-insight.bitpay.com/api","https://bch-bitcore2.trezor.io/api"],
+  "cache":1000,
+  "throttle":2
+}

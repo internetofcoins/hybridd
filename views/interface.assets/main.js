@@ -17,6 +17,7 @@ hy_content = ''; // variable to hold package content
 hy_content += fs.readFileSync('./'+viewname+'.html');
 hy_content += '<script>';
 hy_content += fs.readFileSync('./'+viewname+'.js');
+hy_content += fs.readFileSync('./'+viewname+'.ui.js');
 hy_content += '</script>';
 
 // encode hy_content using LZMA (file testing shows URL-safe coding uses 10% less kB)

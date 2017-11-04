@@ -26,11 +26,14 @@ hy_content += '<style>';
 hy_content += fs.readFileSync('./css/spinner.css');		// Spinner for loading screens in CSS
 // DEPRECATED: already included in login -> hy_content += fs.readFileSync('./css/purecss.css');		// PureCSS
 hy_content += fs.readFileSync('./css/modal.css');		// CSS based modal boxes
-hy_content += fs.readFileSync('./css/style.css');		// custom styling for Internet of Coins
+hy_content += fs.readFileSync('./css/base.css');		// custom styling for Internet of Coins, base (mobile)
+hy_content += fs.readFileSync('./css/600up.css');		// custom styling for Internet of Coins, tablet portrait
+hy_content += fs.readFileSync('./css/900up.css');		// custom styling for Internet of Coins, tablet landscape
+hy_content += fs.readFileSync('./css/1200up.css');		// custom styling for Internet of Coins, desktop
+hy_content += fs.readFileSync('./css/1800up.css');		// custom styling for Internet of Coins, big desktop
 hy_content += '</style>';
 
 // JS
-//hy_content += addscript('../../lib/underscore.js');	// underscore library
 hy_content += addscript('../../lib/crypto/urlbase64.js');	// URL safe base 64 encoding
 hy_content += addscript('../../lib/crypto/decimal-light.js');	// arbitrary length decimals
 hy_content += addscript('../../lib/crypto/hex2dec.js');	// arbitrary length decimals
@@ -49,11 +52,17 @@ hy_content += '</script>';
 
 hy_content += addscript('./js/modal.js');           // pretty modal boxes
 hy_content += addscript('./js/clipboard.js');       // copy-to-clipboard functionality
+hy_content += addscript('./js/qrcode.js');          // create QR-code functionality
+hy_content += addscript('./js/storage.js');         // browser-side storage (localforage)
+hy_content += addscript('./js/transaction.js');     // deterministic transaction generator
+
 // SVG
 hy_content += '<script>';
 hy_content += 'svg={};';
 hy_content += addsvg('./svg/cogs.svg','cogs');
+hy_content += addsvg('./svg/user.svg','user');
 hy_content += addsvg('./svg/logout.svg','logout');
+hy_content += '$("#user-icon").html(svg[\'user\']);';
 hy_content += '$("#topmenu-logout").html(svg[\'logout\']);';
 hy_content += '</script>';
 

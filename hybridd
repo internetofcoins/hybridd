@@ -10,7 +10,6 @@ if [ -z "$@" ]; then
 	echo "Starting hybridd..."
 	echo " [i] using node executable $NODEINST"
 	node hybridd.js
-	#node ../node_modules/run/run.js hybridd.js
 	echo
 	echo "Stopped hybridd."
 	echo

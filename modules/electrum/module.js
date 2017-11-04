@@ -48,18 +48,18 @@ function exec(properties) {
       // set up REST API connection
       if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
         var options_auth={user:target.user,password:target.pass};
-        global.hybridd.asset[target.name].link = new Client(options_auth);
-      } else { global.hybridd.asset[target.name].link = new Client(); }    
+        global.hybridd.asset[target.symbol].link = new Client(options_auth);
+      } else { global.hybridd.asset[target.symbol].link = new Client(); }    
 			// set up init probe command to check if RPC and block explorer are responding and connected
-			subprocesses.push('func("electrum","link",{target:'+str(target)+',command:["version"]})');
+			subprocesses.push('func("electrum","link",{target:'+jstr(target)+',command:["version"]})');
       // TODO: check block explorer here too!
       subprocesses.push('pass( (data != null && typeof data.result=="string" && data.result.indexOf(".")>-1 ? 1 : 0) )');      
-      subprocesses.push('logs(1,"module electrum: "+(data?"connected":"failed connection")+" to ['+target.name+'] host '+target.host+':'+target.port+'")');      
+      subprocesses.push('logs(1,"module electrum: "+(data?"connected":"failed connection")+" to ['+target.symbol+'] host '+target.host+'")');      
 		break;
 		case 'status':
 			// set up init probe command to check if Altcoin RPC is responding and connected
-			subprocesses.push('func("electrum","link",{target:'+str(target)+',command:["version"]})');
-			subprocesses.push('func("electrum","post",{target:'+str(target)+',command:["status"],data:data})');
+			subprocesses.push('func("electrum","link",{target:'+jstr(target)+',command:["version"]})');
+			subprocesses.push('func("electrum","post",{target:'+jstr(target)+',command:["status"],data:data})');
 		break;
 		case 'factor':
       // directly return factor, post-processing not required!
@@ -71,7 +71,7 @@ function exec(properties) {
 		break;
 		case 'balance':
       if(sourceaddr) {
-        subprocesses.push('func("electrum","link",{target:'+str(target)+',command:["getaddressbalance",["'+sourceaddr+'"]]})'); // send balance query
+        subprocesses.push('func("electrum","link",{target:'+jstr(target)+',command:["getaddressbalance",["'+sourceaddr+'"]]})'); // send balance query
         subprocesses.push('stop((data!=null && typeof data.result!="undefined" && typeof data.result.confirmed!="undefined"?0:1),(data!=null && typeof data.result!="undefined" && typeof data.result.confirmed!="undefined"?fromInt(toInt(data.result.confirmed,'+factor+').plus(toInt(data.result.unconfirmed,'+factor+')),'+factor+'):null))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
@@ -80,7 +80,7 @@ function exec(properties) {
 		case 'push':
       var deterministic_script = (typeof properties.command[1] != 'undefined'?properties.command[1]:false);
       if(deterministic_script) {
-        subprocesses.push('func("electrum","link",{target:'+str(target)+',command:["broadcast",["'+deterministic_script+'"]]})');
+        subprocesses.push('func("electrum","link",{target:'+jstr(target)+',command:["broadcast",["'+deterministic_script+'"]]})');
         // example: {"jsonrpc":"2.0","result":[true,"b4a8d3939e9ee75221e5453d52b27763f3de51b0ffa7670e68b7f8d420f88e49"],"id":0}
         subprocesses.push('stop((typeof data.result[0]!="undefined" && data.result[0]===true && data.result[1]!="undefined"?0:1),(typeof data.result[1]!="undefined"?data.result[1]:null))');
       } else {
@@ -89,7 +89,7 @@ function exec(properties) {
     break;
 		case 'unspent':
       if(sourceaddr) {
-        subprocesses.push('func("blockexplorer","exec",{target:'+str( modules.getsource(mode) )+',command:["unspent","'+sourceaddr+'"'+(properties.command[2]?',"'+properties.command[2]+'"':'')+']})');
+        subprocesses.push('func("blockexplorer","exec",{target:'+jstr( modules.getsource(mode) )+',command:["unspent","'+sourceaddr+'"'+(properties.command[2]?',"'+properties.command[2]+'"':'')+']})');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
       }
@@ -140,43 +140,31 @@ function post(properties) {
 
 // data returned by this connector is stored in a process superglobal -> global.hybridd.process[processID]
 function link(properties) {
-	// decode our serialized properties
-	var processID = properties.processID;
 	var target = properties.target;
+  var base = target.symbol.split('.')[0];     // in case of token fallback to base asset  
+	var processID = properties.processID;
 	var command = properties.command;
-	if(DEBUG) { console.log(' [D] module electrum: sending REST call to ['+target.name+'] -> '+str(command)); }
-	// separate method and arguments
-	if(typeof target.path == 'undefined') { target.path = ''; }
-	var mainpath = '/'+target.path;
-	var args = {};
-	// separate method and arguments
-	// launch the asynchronous rest functions and store result in global.hybridd.proc[processID]
-	var queryurl = target.host+':'+target.port+mainpath;
-	// DEBUG: if(DEBUG) { console.log(' [D] query: '+queryurl); }
+	if(DEBUG) { console.log(' [D] module electrum: sending REST call for ['+target.symbol+'] -> '+jstr(command)); }
+  // separate method and arguments
 	var method = command.shift();
 	var params = command.shift();
 	// validate the JSON data with a regex after the REST method path
 	var args = {
-		  data: {
-				  "method": method,
-				  "params": params,
-				  "jsonrpc": "2.0",
-				  "id": 0
-				},
-		headers:{"Content-Type": "application/json"} 
+		headers:{"Content-Type": "application/json"},
+    data: {
+        "method": method,
+        "params": params,
+        "jsonrpc": "2.0",
+        "id": 0
+      }
 	}
-	//if(DEBUG) { console.log(' [D] ARGS: '+str(args)); }
-  var restAPI = global.hybridd.asset[target.name].link;
-	var postresult = restAPI.post(queryurl, args,  function(data, response) { restaction({processID:processID,data:data}); });
-	postresult.on('error', function(err){
-    scheduler.stop(processID,{err:1});
-	});
+  // construct the APIqueue object
+  APIqueue.add({ 'method':'POST',
+                 'link':'asset["'+base+'"]',  // make sure APIqueue can use initialized API link
+                 'host':(typeof target.host!=='undefined'?target.host:global.hybridd.asset[base].host),  // in case of token fallback to base asset hostname
+                 'args':args,
+                 'throttle':(typeof target.throttle!=='undefined'?target.throttle:global.hybridd.asset[base].throttle),  // in case of token fallback to base asset throttle
+                 'pid':processID,
+                 'target':target.symbol });
 }    
-
-function restaction(properties) {
-  var data = properties.data;
-  if(data.code<0) { var err=1; } else { var err=data['code']; }
-  try { data = JSON.parse(data); } catch(e) {}
-  scheduler.stop(properties.processID,{err:err,data:data});
-}
 

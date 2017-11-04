@@ -8,21 +8,25 @@ This repository hosts the Internet of Coins <i>hybridd</i> node system. Our code
 
 ## Usage
 
-1. Make sure you are running a GNU/Linux system.
+1. Make sure you are running a GNU/Linux system. Clone the hybridd repository.
 ```
 git clone https://github.com/internetofcoins/hybridd
 ```
-2. In the repository root, make a symbolic link to the correct node version for your system architecture (node32, node64 or nodeARM).
+2. Clone the nodejs-runtime repository.
+```
+git clone https://github.com/internetofcoins/nodejs-runtime/
+```
+3. In the hybridd repository root, make a symbolic link to the correct node version for your system architecture (node32, node64 or nodeARM).
 ```
 cd hybridd
-ln -s node64 node
+ln -s ../nodejs-runtime/x86_64 node
 ```
 
 3. Run the <i>hybridd</i> node.
 ```
 ~/hybridd$ ./hybridd
 ```
-4. Open http://localhost:8080 to access the GUI wallet. (Make sure you are running the right daemons for coin support. Example: electrum for Bitcoin.)
+4. Open http://localhost:8080 to access the GUI wallet. (Make sure you are running the right daemons for coin support. Example: electrum for Bitcoin, which is run using: <i>electrum daemon start</i>.)
 
 5. Open http://localhost:1111 to access the REST API. (We currently use only GET functions for ease of use.)
 
@@ -51,7 +55,7 @@ For additional information please visit: https://internetofcoins.org
  This <i>hybridd</i> prototype hooks in modules that interface to a few cryptocurrencies. At the moment mostly interesting for tech enthousiasts to experiment with.
  
  <i>Can I use my own version of NodeJS?</i>
- We have included a 32-bit and 64-bit version of NodeJS to make things work out of the box, but you can certainly use your own. Please amend the symbolic link in the root of this repository if necessary.
+ We have included a 32-bit, 64-bit and ARMv7 version of NodeJS to make things work out of the box, but you can certainly use your own. Please amend the symbolic link in the root of this repository if necessary, or install NodeJS on your system.
 
  <i>What if I get an error?</i>
  Make sure you have correctly configured <b>hybridd.conf</b>. If this does not solve your problem, feel free to share the issue with us.
@@ -69,7 +73,7 @@ This work is licensed under the GNU GPLv3 license. (See the LICENSE file in the 
 
 Copyright (c) 2014-2017 Internet of Coins
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 

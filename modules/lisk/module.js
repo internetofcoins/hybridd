@@ -49,19 +49,19 @@ function exec(properties) {
       // set up REST API connection
       if(typeof target.user != 'undefined' && typeof target.pass != 'undefined') {
         var options_auth={user:target.user,password:target.pass};
-        global.hybridd.asset[target.name].link = new Client(options_auth);
-      } else { global.hybridd.asset[target.name].link = new Client(); }    
+        global.hybridd.asset[target.symbol].link = new Client(options_auth);
+      } else { global.hybridd.asset[target.symbol].link = new Client(); }    
 			// set up init probe command to check if Altcoin RPC is responding and connected
-			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getStatus"]})');
-			subprocesses.push('func("lisk","post",{target:'+str(target)+',command:["init"],data:data,data})');
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getStatus"]})');
+			subprocesses.push('func("lisk","post",{target:'+jstr(target)+',command:["init"],data:data,data})');
       subprocesses.push('pass( (data != null && typeof data.success!="undefined" && data.success ? 1 : 0) )');      
-      subprocesses.push('logs(1,"module lisk: "+(data?"connected":"failed connection")+" to ['+target.name+'] host '+target.host+':'+target.port+'",data)');      
+      subprocesses.push('logs(1,"module lisk: "+(data?"connected":"failed connection")+" to ['+target.symbol+'] host '+target.host+'",data)');      
 		break;
 		case 'test':
       subprocesses.push('time(0)');
 			subprocesses.push('wait(2000)');
 			subprocesses.push('wait(2000)');
-			subprocesses.push('func("lisk","delay",{target:'+str(target)+'})');
+			subprocesses.push('func("lisk","delay",{target:'+jstr(target)+'})');
 			subprocesses.push('wait(2000)');
 			subprocesses.push('wait(2000)');
 			subprocesses.push('wait(8000)');
@@ -69,12 +69,12 @@ function exec(properties) {
 		break;
 		case 'status':
 			// set up init probe command to check if Altcoin RPC is responding and connected
-			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/loader/status/sync"]})'); // get sync status
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/loader/status/sync"]})'); // get sync status
       subprocesses.push('poke("liskA",data)');	                                                            // store the resulting data for post-process collage
-			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getStatus"]})');   // get milestone / difficulty
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getStatus"]})');   // get milestone / difficulty
       subprocesses.push('poke("liskB",data)');	                                                            // store the resulting data for post-process collage
-			subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/peers/version"]})');      // get version
-			subprocesses.push('func("lisk","post",{target:'+str(target)+',command:["status"],data:{liskA:peek("liskA"),liskB:peek("liskB"),liskC:data}})');       // post process the data
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/peers/version"]})');      // get version
+			subprocesses.push('func("lisk","post",{target:'+jstr(target)+',command:["status"],data:{liskA:peek("liskA"),liskB:peek("liskB"),liskC:data}})');       // post process the data
 		break;    
 		case 'factor':
       // directly relay factor, post-processing not required!
@@ -87,8 +87,8 @@ function exec(properties) {
     case 'balance':
       // define the source address/wallet
       var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'');
-      if(sourceaddr) {     
-        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
+      if(sourceaddr) {
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
         subprocesses.push('stop((typeof data.balance!="undefined"?0:1),fromInt(data.balance,'+factor+'))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
@@ -97,8 +97,8 @@ function exec(properties) {
 		case 'push':
       var deterministic_script = (typeof properties.command[1] != 'undefined'?properties.command[1]:false);
       if(deterministic_script && typeof deterministic_script=='string') {
-        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:["api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
-        subprocesses.push('func("lisk","link",{target:'+str(target)+',command:'+str(['peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:'+jstr(['peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
         subprocesses.push('stop((typeof data.success!="undefined" && data.success?0:1),(typeof data.transactionId!="undefined"?functions.clean(data.transactionId):"Transaction error or bad nethash!"))'); // shoot deterministic script object to peer node
       } else {
         subprocesses.push('stop(1,"Missing or badly formed deterministic transaction!")');
@@ -118,7 +118,7 @@ function exec(properties) {
       var params = 'recipientId='+sourceaddr+limit+offset+'&orderBy=timestamp:desc';
       command = ['api/transactions?'+params];
       subprocesses.push('poke("sourceaddr","'+sourceaddr+'")');	// store the resulting data for post-process collage
-      subprocesses.push('func("lisk","link",'+str({target,command})+')');
+      subprocesses.push('func("lisk","link",'+jstr({target,command})+')');
 		break;
 		default:
 		 	subprocesses.push('stop(1,"Asset function not supported!")');
@@ -145,7 +145,7 @@ function post(properties) {
       case 'init':
         // set asset fee for Lisk transactions
         if(typeof postdata.fee!='undefined' && postdata.fee) {
-          global.hybridd.asset[target.name].fee = fromInt(postdata.fee,factor);
+          global.hybridd.asset[target.symbol].fee = fromInt(postdata.fee,factor);
         }
       break;
 			case 'status':
@@ -229,10 +229,10 @@ function postOLD(properties) {
 					postdata = collage;
 					// on init, report back to stdout
 					if(properties.command[1] == 'init') {
-						console.log(' [i] module lisk: connected to ['+target.name+'] host '+target.host+':'+target.port);
+						console.log(' [i] module lisk: connected to ['+target.symbol+'] host '+target.host+':'+target.port);
 					}
 				} else {
-					console.log(' [!] module lisk: failed connection to ['+target.name+'] host '+target.host+':'+target.port);
+					console.log(' [!] module lisk: failed connection to ['+target.symbol+'] host '+target.host+':'+target.port);
 					global.hybridd.proc[parentID].err = 1;
 				}		
 			break;
@@ -294,53 +294,54 @@ function postOLD(properties) {
 
 // data returned by this connector is stored in a process superglobal -> global.hybridd.process[processID]
 function link(properties) {
-	// decode our serialized properties
-	var processID = properties.processID;
 	var target = properties.target;
+  var base = target.symbol.split('.')[0];     // in case of token fallback to base asset
+	var processID = properties.processID;
 	var command = properties.command;
-	if(DEBUG) { console.log(' [D] module lisk: sending REST call to ['+target.name+'] -> '+JSON.stringify(command)); }
-	// separate method and arguments
-	var mainpath = (typeof target.path == 'undefined'?'':'/'+target.path);
-	var method = command.shift();
+	if(DEBUG) { console.log(' [D] module lisk: sending REST call for ['+target.symbol+'] -> '+JSON.stringify(command)); }
+	// separate path and arguments
+	var upath = command.shift();
 	var params = command.shift();
-	var queryurl = target.host+':'+target.port+mainpath+'/'+method;
-  var restAPI = global.hybridd.asset[target.name].link;
-  // do a GET or PUT/POST based on the command input
   var args = {};
-  if(typeof params!='undefined') {
-    if(typeof params=='string') { try { params = JSON.parse(params); } catch(e) {} }
+  // do a GET or PUT/POST based on the command input
+  var type;
+  if(typeof params!=='undefined') {
+    if(typeof params==='string') { try { params = JSON.parse(params); } catch(e) {} }
     var nethash = (typeof properties.nethash!='undefined'?properties.nethash:'');
-    var version = '0.9.7';
-    if(method.substr(0,4)=='api/') {
+    var version = '0.9.9';
+    if(upath.substr(0,4)=='api/') {
+      type='PUT';
       args = {
           headers:{'Content-Type':'application/json','version':version,'port':1,'nethash':nethash},
-          data:JSON.stringify(params)
+          data:JSON.stringify(params),
+          path:upath
       }
-      var postresult = restAPI.put(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+      //var postresult = restAPI.put(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
     } else {
+      type='POST';
       args = {
           headers:{'Content-Type':'application/json','version':version,'port':1,'nethash':nethash},
-          data:{'transaction':params}
+          data:{'transaction':params},
+          path:upath
       }
-      // DEBUG: console.log(' ##### POST '+queryurl+' '+str(args)+' nh:'+nethash);
-      var postresult = restAPI.post(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+      // DEBUG: console.log(' ##### POST '+queryurl+' '+jstr(args)+' nh:'+nethash);
+      //var postresult = restAPI.post(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
     }
   } else {
-      var postresult = restAPI.get(queryurl,args,function(data,response){restaction({processID:processID,data:data});});
+    type = 'GET';
+    args = { path:upath }
   }
-	postresult.on('error', function(err){
-    console.log(err);
-    scheduler.stop(processID,{err:1});
-	});
-}
+  
+  // construct the APIqueue object
+  APIqueue.add({ 'method':type,
+                 'link':'asset["'+base+'"]',  // make sure APIqueue can use initialized API link
+                 'host':(typeof target.host!=='undefined'?target.host:global.hybridd.asset[base].host),  // in case of token fallback to base asset hostname
+                 'args':args,
+                 'throttle':(typeof target.throttle!=='undefined'?target.throttle:global.hybridd.asset[base].throttle),  // in case of token fallback to base asset throttle
+                 'pid':processID,
+                 'target':target.symbol });  
 
-function restaction(properties) {
-  var data = properties.data;
-  if(data.code<0) { var err=1; } else { var err=data['code']; }
-  try { data = JSON.parse(data); } catch(e) {}
-  scheduler.stop(properties.processID,{err:err,data:data});
 }
-
 
 
 // TESTING
