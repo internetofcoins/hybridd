@@ -1,9 +1,0 @@
-{
-    "symbol":"eth.qau",
-    "name":"Quantum",
-    "module":"ethereum",
-    "mode":"ethereum.token",
-    "contract":"0x671AbBe5CE652491985342e85428EB1b07bC6c64",
-    "originator":"0xd1C4fdBDaDcF9c9993df37c86B84526BeEC9FadB",
-    "factor":8
-}
