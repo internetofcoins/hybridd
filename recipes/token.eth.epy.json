@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.epy",
+    "name":"Emphy",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x50Ee674689d75C0f88E8f83cfE8c4B69E8fd590D",
+    "originator":"0x1D1C9F70A68c129096D8181529041843e8bC1a30",
+    "factor":8
+}

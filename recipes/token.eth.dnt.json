@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dnt",
+    "name":"district0x",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0AbdAce70D3790235af448C88547603b945604ea",
+    "originator":"0x395ABb8B97268480229e6c3784a545dAEe325A83",
+    "factor":18
+}

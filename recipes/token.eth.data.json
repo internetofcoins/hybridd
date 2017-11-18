@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.data",
+    "name":"Streamr DATAcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
+    "originator":"0x999A8eE4d83BD5ad5554E5A4ed8E0422620C9B6F",
+    "factor":18
+}
