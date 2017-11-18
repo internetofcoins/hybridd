@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.swt",
+    "name":"Swarm City",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB9e7F8568e08d5659f5D29C4997173d84CdF2607",
+    "originator":"0x1DBA1131000664b884A1Ba238464159892252D3a",
+    "factor":18
+}

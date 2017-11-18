@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ppt",
+    "name":"Populous",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a",
+    "originator":"0x9cC9c3de8e710781983a65b90B7efEaaD2D3D7D8",
+    "factor":8
+}

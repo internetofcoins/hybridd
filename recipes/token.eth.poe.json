@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.poe",
+    "name":"Po.et",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0e0989b1f9B8A38983c2BA8053269Ca62Ec9B195",
+    "originator":"0x67d8e69b4b58822f7e7DE2FE08ace2b019F209BB",
+    "factor":8
+}

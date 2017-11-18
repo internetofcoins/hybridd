@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sdrn",
+    "name":"Senderon",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x73B534fb6F07381a29a60B01eed5ae57D4EE24D7",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

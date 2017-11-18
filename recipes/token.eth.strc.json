@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.strc",
+    "name":"StarCredits",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x46492473755e8dF960F8034877F61732D718CE96",
+    "originator":"0x2700C695B8126D3ed4422301E77Af7b7e0711AD7",
+    "factor":8
+}

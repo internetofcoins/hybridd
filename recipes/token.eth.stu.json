@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.stu",
+    "name":"bitJob",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0371A82e4A9d0A4312f3ee2Ac9c6958512891372",
+    "originator":"0x7CA63aa7BF5BD6f51cb5a5c28AEF6AC94e16bE2A",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ptoy",
+    "name":"Patientory",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8Ae4BF2C33a8e667de34B54938B0ccD03Eb8CC06",
+    "originator":"0xe6B645a707005Bb4086fA1E366fB82D59256f225",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.veri",
+    "name":"Veritaseum",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
+    "originator":"0x44CAb6F6DC7045FD4AcD1d0f3d09Fc7a83004bd3",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rex",
+    "name":"REX",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf05a9382A4C3F29E2784502754293D88b835109C",
+    "originator":"0x8d90AD45D23983CBB4D331B8291cEeaE5aea40E5",
+    "factor":18
+}

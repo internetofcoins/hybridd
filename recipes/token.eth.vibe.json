@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.vibe",
+    "name":"VIBE",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xe8Ff5C9c75dEb346acAc493C463C8950Be03Dfba",
+    "originator":"0xFC1CCdcA6b4670516504409341A31e444FF6f43F",
+    "factor":18
+}

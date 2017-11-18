@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.real",
+    "name":"Real Estate Asset Ledger",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x9214eC02CB71CbA0ADA6896b8dA260736a67ab10",
+    "originator":"0x42D5A7782051ad8785Fb7360A445c794DA2c3AFa",
+    "factor":18
+}

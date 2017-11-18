@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.salt",
+    "name":"Salt",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4156D3342D5c385a87D264F90653733592000581",
+    "originator":"0x5d239fB4d8767745bE329d38703CdF4094858766",
+    "factor":8
+}

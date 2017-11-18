@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sur",
+    "name":"Suretly",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xe120c1ECBfdFeA7F0A8f0Ee30063491E8c26fedf",
+    "originator":"0x209a76017AD53c810A9552AD29382904665E7F8d",
+    "factor":8
+}

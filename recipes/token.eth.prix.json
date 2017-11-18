@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.prix",
+    "name":"Privatix",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x3ADfc4999F77D04c8341BAC5F3A76f58DfF5B37A",
+    "originator":"0xEC203Ddb210458Df139D02A62baf49CA36a0B8d9",
+    "factor":8
+}

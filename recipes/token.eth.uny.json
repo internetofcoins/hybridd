@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.uny",
+    "name":"Unity Ingot",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1a986F1659e11E2AE7CC6543F307bAE5cDe1C761",
+    "originator":"0x0B575858Fb8e9D3e69A67CFb7994784C52590FfF",
+    "factor":2
+}

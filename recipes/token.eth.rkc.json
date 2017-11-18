@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rkc",
+    "name":"Royal Kingdom Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6cCB56947eA1d6eFdc81ACfbAcd8263DDFa9b202",
+    "originator":"0x4Ce73b5f65Eb59c8F740373D557A6bcBf723B279",
+    "factor":18
+}

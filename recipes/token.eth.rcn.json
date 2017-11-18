@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rcn",
+    "name":"Ripio Credit Network",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+    "originator":"0xF8d81eB6c765397eCFADc3B396715267bB41F241",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tkn",
+    "name":"TokenCard",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
+    "originator":"0x18b0dF2d9480357492270769d7dF1B640ee6648D",
+    "factor":8
+}

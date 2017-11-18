@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.snm",
+    "name":"SONM",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x983F6d60db79ea8cA4eB9968C6aFf8cfA04B3c63",
+    "originator":"0x93025150b13Eb744D51d927549a30630912E8Fe8",
+    "factor":18
+}

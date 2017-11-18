@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.riya",
+    "name":"Etheriya",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0b1724cc9FDA0186911EF6a75949e9c0d3F0f2F3",
+    "originator":"0xEfdD9035103B73cf8B2F6A0a3ec8fa41C37D8977",
+    "factor":8
+}

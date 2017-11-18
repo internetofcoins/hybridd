@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.wild",
+    "name":"Wild Crypto",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xD3C00772B24D997A812249ca637a921e81357701",
+    "originator":"0xB1576a6a8cb5d1e03ee6dfc01f30c35ed1275d6c",
+    "factor":18
+}

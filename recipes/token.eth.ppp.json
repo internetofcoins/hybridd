@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ppp",
+    "name":"PayPie",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xc42209aCcC14029c1012fB5680D95fBd6036E2a0",
+    "originator":"0x853A3F142430658A32f75A0dc891b98BF4bDF5c1",
+    "factor":18
+}

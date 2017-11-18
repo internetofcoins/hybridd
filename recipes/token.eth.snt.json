@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.snt",
+    "name":"Status",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
+    "originator":"0x6B9EF02657339310E28a7A9D4B5f25F7c1F68d61",
+    "factor":18
+}

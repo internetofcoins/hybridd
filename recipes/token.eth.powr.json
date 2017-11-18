@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.powr",
+    "name":"PowerLedger",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
+    "originator":"0x988bC23c1941C56eac65e3F9Dc68Be9cb3770953",
+    "factor":6
+}

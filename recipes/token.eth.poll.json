@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.poll",
+    "name":"ClearPoll",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9",
+    "originator":"0xe8afB388996ACF1BADF63dD740F4DbBdBf39a10b",
+    "factor":18
+}

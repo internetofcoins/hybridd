@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sss",
+    "name":"Sharechain",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7d3E7D41DA367b4FDCe7CBE06502B13294Deb758",
+    "originator":"0xF681FAbdc90341F40333F120771ca7Eee942e05C",
+    "factor":8
+}

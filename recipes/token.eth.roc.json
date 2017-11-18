@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.roc",
+    "name":"Rasputin Online Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1BcBc54166F6bA149934870b60506199b6C9dB6D",
+    "originator":"0x24BDa83cF3ed52530f2842Bc0cA4D98280C6Be29",
+    "factor":10
+}

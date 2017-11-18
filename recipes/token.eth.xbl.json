@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.xbl",
+    "name":"Billionaire Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x49AeC0752E68D0282Db544C677f6BA407BA17ED7",
+    "originator":"0xE2B4f00590A18E36480E11EEDe2563bc6916a7A4",
+    "factor":18
+}

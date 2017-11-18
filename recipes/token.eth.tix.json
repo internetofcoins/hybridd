@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tix",
+    "name":"Blocktix",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xEa1f346faF023F974Eb5adaf088BbCdf02d761F4",
+    "originator":"0x00E0689e16232945F97C27BdE102A054E2108670",
+    "factor":18
+}

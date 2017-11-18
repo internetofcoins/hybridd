@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.qrl",
+    "name":"Quantum Resistant Ledger",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x697beac28B09E122C4332D163985e8a73121b97F",
+    "originator":"0x584eBC1A41fea2854C7A90d45Bb8F253EC7e02A6",
+    "factor":8
+}

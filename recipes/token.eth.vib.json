@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.vib",
+    "name":"Viberate",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2C974B2d0BA1716E644c1FC59982a89DDD2fF724",
+    "originator":"0x007a8e994A2A1A6Ee83Ab736Ab94B8CD77EE3DFC",
+    "factor":18
+}

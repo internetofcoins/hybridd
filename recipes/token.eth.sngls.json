@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sngls",
+    "name":"SingularDTV",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009",
+    "originator":"0x0860DF0aeB7FDD29c6Da4dbC7AAED0da59325DDD",
+    "factor":0
+}

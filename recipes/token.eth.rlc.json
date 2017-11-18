@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rlc",
+    "name":"iExec RLC",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x607F4C5BB672230e8672085532f7e901544a7375",
+    "originator":"0x9ED07B5DB7dAD3C9a0baA3E320E68Ce779063249",
+    "factor":9
+}

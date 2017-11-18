@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tkr",
+    "name":"CryptoInsight",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB45a50545bEEAB73F38F31E5973768C421805E5E",
+    "originator":"0xacB44b81dAbBb6d1AF48A1b5a9DEb881E6Ebe713",
+    "factor":18
+}

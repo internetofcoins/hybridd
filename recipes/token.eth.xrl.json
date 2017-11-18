@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.xrl",
+    "name":"Rialto",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB24754bE79281553dc1adC160ddF5Cd9b74361a4",
+    "originator":"0xe49B91D0a956356501fCBbaD3B488ee052102Aa8",
+    "factor":9
+}
