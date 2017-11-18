@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ebch",
+    "name":"eBitcoinCash",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xaFC39788c51f0c1Ff7B55317f3e70299e521Fff6",
+    "originator":"0x178e6F18EFd62b5886cfb295F95C3f6152f95Ba5",
+    "factor":8
+}

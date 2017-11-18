@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cfi",
+    "name":"Cofound.it",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x12FEF5e57bF45873Cd9B62E9DBd7BFb99e32D73e",
+    "originator":"0xAA5eBf67C0CEf65CAA7d650d902467dd6605381f",
+    "factor":18
+}

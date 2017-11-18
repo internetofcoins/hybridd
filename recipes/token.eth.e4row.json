@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.e4row",
+    "name":"E4ROW",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xCe5c603C78d047Ef43032E96b5B785324f753a4F",
+    "originator":"0xff9f64Abe5D9eA11E3f2617C0715D6e0f0bE175d",
+    "factor":2
+}

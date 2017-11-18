@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.evx",
+    "name":"Everex",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf3Db5Fa2C66B7aF3Eb0C0b782510816cbe4813b8",
+    "originator":"0xC69075Eca402DA09a4603433fe1F141E3De1917F",
+    "factor":4
+}

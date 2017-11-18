@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.amb",
+    "name":"Amber",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE",
+    "originator":"0x08fc9307E928076062460A0c4Db0d2461591ED71",
+    "factor":18
+}

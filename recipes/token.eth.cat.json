@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cat",
+    "name":"BlockCAT",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8",
+    "originator":"0x00f7d5C1435b927D305a45eD2522076671dED22E",
+    "factor":18
+}

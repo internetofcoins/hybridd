@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ereal",
+    "name":"eREAL",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x15f173b7aca7Cd4a01d6f8360e65fb4491d270C1",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

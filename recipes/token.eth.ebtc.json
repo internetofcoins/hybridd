@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ebtc",
+    "name":"eBitcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xeB7C20027172E5d143fB030d50f91Cece2D1485D",
+    "originator":"0xc6B1c13791eaD0DcDfE30bF2DD8fDE6F5FaCe591",
+    "factor":8
+}

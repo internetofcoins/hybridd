@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bet",
+    "name":"DAO.Casino",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8aA33A7899FCC8eA5fBe6A608A109c3893A1B8b2",
+    "originator":"0x000001f568875F378Bf6d170B790967FE429C81A",
+    "factor":18
+}

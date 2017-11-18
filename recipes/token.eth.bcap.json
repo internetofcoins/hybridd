@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bcap",
+    "name":"Blockchain Capital",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xFf3519eeeEA3e76F1F699CCcE5E23ee0bdDa41aC",
+    "originator":"0x2ae1C96f1E85AFb268D1d822F0c15604a0DBDE8B",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dalc",
+    "name":"Dalecoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x07D9e49Ea402194bf48A8276dAfB16E4eD633317",
+    "originator":"0x6A15c7B49e8c49591D38dbd0C5808765ed94528F",
+    "factor":8
+}

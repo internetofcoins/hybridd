@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.arn",
+    "name":"Aeron",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xBA5F11b16B155792Cf3B2E6880E8706859A8AEB6",
+    "originator":"0x0d80E86f5855aFfAEa85bc424066C0F9cE1E40ad",
+    "factor":8
+}

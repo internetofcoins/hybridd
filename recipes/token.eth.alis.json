@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.alis",
+    "name":"Alis",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xEA610B1153477720748DC13ED378003941d84fAB",
+    "originator":"0xeb31a3E0D93Cb2C89eDD68D57710361d76Ce5bF1",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.10mt",
+    "name":"10M Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE701CD3329057AeA9D54300DdD05e41b8D74727A",
+    "originator":"0x619C756e432C134B4CEDcDEfA9a2755ef343402b",
+    "factor":10
+}

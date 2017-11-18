@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.credo",
+    "name":"Credo",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4E0603e2A27A30480E5e3a4Fe548e29EF12F64bE",
+    "originator":"0x8dDC86C1a0b5ee77C684baB25FC8Bbe1DB8aA11b",
+    "factor":18
+}

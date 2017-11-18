@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dent",
+    "name":"Dent",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x3597bfD533a99c9aa083587B074434E61Eb0A258",
+    "originator":"0xf9E42ad2E8a5a1Ed07F5c3d7dfc2ca415db0fde6",
+    "factor":8
+}

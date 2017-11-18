@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.btcm",
+    "name":"BTCMoon",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xA9Aad2dC3a8315caeee5F458B1d8EDc31D8467BD",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

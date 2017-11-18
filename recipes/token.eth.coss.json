@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.coss",
+    "name":"COSS",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x65292EeadF1426Cd2dF1C4793a3d7519f253913b",
+    "originator":"0x0D6B5A54F940BF3D52E438CaB785981aAeFDf40C",
+    "factor":18
+}

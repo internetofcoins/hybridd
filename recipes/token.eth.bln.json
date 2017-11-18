@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bln",
+    "name":"Bolenum",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xCA29db4221c111888a7e80b12eAc8a266Da3Ee0d",
+    "originator":"0xcc3bfB63bCcEe5d353627C9c34443d5f9257919c",
+    "factor":18
+}

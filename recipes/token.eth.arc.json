@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.arc",
+    "name":"Arcade Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xAc709FcB44a43c35F0DA4e3163b117A17F3770f5",
+    "originator":"0x5f23aCDd1e87112B5fE143509d74dED22b6E59B3",
+    "factor":18
+}

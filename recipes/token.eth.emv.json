@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.emv",
+    "name":"Ethereum Movie Venture",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB802b24E0637c2B87D2E8b7784C055BBE921011a",
+    "originator":"0x83A394bd343bbF98c5abBad158FaAd0Fb73E2E19",
+    "factor":2
+}

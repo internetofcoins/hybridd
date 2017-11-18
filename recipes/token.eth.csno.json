@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.csno",
+    "name":"BitDice",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x29D75277aC7F0335b2165D0895E8725cbF658d73",
+    "originator":"0xB6a2dc96c6EFc17Ed1815aAF82f53fFa6305161b",
+    "factor":8
+}

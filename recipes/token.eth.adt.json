@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.adt",
+    "name":"adToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xD0D6D6C5Fe4a677D343cC433536BB717bAe167dD",
+    "originator":"0x5678bcea6d6f33F645dCa8C8C9B7d8d5cAF0A2B1",
+    "factor":9
+}

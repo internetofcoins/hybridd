@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.elix",
+    "name":"Elixir",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xc8C6A31A4A806d3710A7B38b7B296D2fABCCDBA8",
+    "originator":"0x85196Da9269B24bDf5FfD2624ABB387fcA05382B",
+    "factor":18
+}

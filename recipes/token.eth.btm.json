@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.btm",
+    "name":"Bytom",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xcB97e65F07DA24D46BcDD078EBebd7C6E6E3d750",
+    "originator":"0x003069c3CB92edBCD91F99774b405cbfE3b8D481",
+    "factor":8
+}

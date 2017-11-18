@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ant",
+    "name":"Aragon",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x960b236A07cf122663c4303350609A66A7B288C0",
+    "originator":"0x7f478213dD4A4df6016922aA47b860f0Bdf50075",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ddf",
+    "name":"DigitalDevelopersFund",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xcC4eF9EEAF656aC1a2Ab886743E98e97E090ed38",
+    "originator":"0x31EFd75bc0b5fbafc6015Bd50590f4fDab6a3F22",
+    "factor":18
+}

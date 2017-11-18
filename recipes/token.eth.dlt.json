@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dlt",
+    "name":"Agrello",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x07e3c70653548B04f0A75970C1F81B4CBbFB606f",
+    "originator":"0x3e2C6A3b6861d84D98753A2C9fa4f96c65C2Ea4f",
+    "factor":18
+}

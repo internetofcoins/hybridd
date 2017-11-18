@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.avt",
+    "name":"Aventus",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0d88eD6E74bbFD96B831231638b66C05571e824F",
+    "originator":"0x8b7B6C61238088593BF75eEC8FBF58D0a615d30c",
+    "factor":18
+}

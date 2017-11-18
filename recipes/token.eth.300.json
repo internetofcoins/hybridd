@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.300",
+    "name":"300 Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xaEc98A708810414878c3BCDF46Aad31dEd4a4557",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

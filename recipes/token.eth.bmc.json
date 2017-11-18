@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bmc",
+    "name":"Blackmoon Crypto",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xDf6Ef343350780BF8C3410BF062e0C015B1DD671",
+    "originator":"0xf0f8C14a1A6202e89e61F514bB958433fC227F53",
+    "factor":8
+}

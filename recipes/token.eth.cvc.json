@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cvc",
+    "name":"Civic",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
+    "originator":"0x1EA119b57ea945A73Ee55A3274f8DC36035774Bc",
+    "factor":8
+}

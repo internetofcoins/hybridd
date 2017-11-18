@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.blx",
+    "name":"Blockchain Index",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE5a7c12972f3bbFe70ed29521C8949b8Af6a0970",
+    "originator":"0x00D04AFD887256911c04ba4aD8A0B222db98118C",
+    "factor":18
+}
