@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.good",
+    "name":"Goodomy",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xaE616e72D3d89e847f74E8ace41Ca68bbF56af79",
+    "originator":"0x00d59A8F4E279d76389e5923b05B73296a902535",
+    "factor":6
+}

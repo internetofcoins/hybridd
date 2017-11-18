@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.hat",
+    "name":"Hawala.Today",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xc3972Ac283B3a7A56125674631a5C254f7f373CF",
+    "originator":"0x86628Ab58266875833E881D29af0F9D48AA07D6C",
+    "factor":12
+}

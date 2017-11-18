@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.plr",
+    "name":"Pillar",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xe3818504c1B32bF1557b16C238B2E01Fd3149C17",
+    "originator":"0xB54e04007682780aBC1c6Ad607088d9346d11A46",
+    "factor":18
+}

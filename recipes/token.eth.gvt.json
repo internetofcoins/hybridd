@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.gvt",
+    "name":"Genesis Vision",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x103c3A209da59d3E7C4A89307e66521e081CFDF0",
+    "originator":"0x4E9547D1A1154Ee0451F063c253AD8DC39d5384c",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fuck",
+    "name":"FuckToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xAb16E0d25c06CB376259cc18C1de4ACA57605589",
+    "originator":"0x5cb8A6440469eF1C632A50FA796f4A631D5798A2",
+    "factor":4
+}

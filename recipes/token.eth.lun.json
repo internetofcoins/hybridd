@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.lun",
+    "name":"Lunyr",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xfa05A73FfE78ef8f1a739473e462c54bae6567D9",
+    "originator":"0x00aF63755982B0107F6a7489af91A5dB3B55aDD4",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.kick",
+    "name":"KickCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x27695E09149AdC738A978e9A678F99E4c39e9eb9",
+    "originator":"0x5031129A4a1C0Eaa0B98f989F9f3087C9A236451",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.hbt",
+    "name":"Hubii Network",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xDd6C68bb32462e01705011a4e2Ad1a60740f217F",
+    "originator":"0xB9aac097F4DADcD6F06761EB470346415eF28D5A",
+    "factor":15
+}

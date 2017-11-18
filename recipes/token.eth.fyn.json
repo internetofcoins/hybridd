@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fyn",
+    "name":"FundYourselfNow",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x88FCFBc22C6d3dBaa25aF478C578978339BDe77a",
+    "originator":"0xCF518AaD13F11c7Aa4cd8F1aFA0cE1f00e2B9f29",
+    "factor":18
+}

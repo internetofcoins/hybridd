@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.itt",
+    "name":"Intelligent Trading Tech",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0aeF06DcCCC531e581f0440059E6FfCC206039EE",
+    "originator":"0xf862453fe906A9BBeBFa686D65bea38e10373a1B",
+    "factor":8
+}

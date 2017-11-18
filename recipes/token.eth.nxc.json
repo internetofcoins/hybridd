@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.nxc",
+    "name":"Nexium",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x45e42D659D9f9466cD5DF622506033145a9b89Bc",
+    "originator":"0xE022CD6bF97b1D4319de299d0a654162040112c2",
+    "factor":3
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.exrn",
+    "name":"EXRNchain",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xe469c4473af82217B30CF17b10BcDb6C8c796e75",
+    "originator":"0x88178587Ed0fa9C2a8fA73786a4cF2589E20a2cd",
+    "factor":0
+}

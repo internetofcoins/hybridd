@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pix",
+    "name":"Lampix",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8eFFd494eB698cc399AF6231fCcd39E08fd20B15",
+    "originator":"0x0066222017Fffa99158Baa57D4977BE7F8dDF67B",
+    "factor":0
+}

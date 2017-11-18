@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.oax",
+    "name":"OpenANX",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x701C244b988a513c945973dEFA05de933b23Fe1D",
+    "originator":"0xa0C81E7BCA6B95B6Cb1D6d4E5dB744228ED6F5c1",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.net",
+    "name":"Nimiq",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xcfb98637bcae43C13323EAa1731cED2B716962fD",
+    "originator":"0xa68493f7a5563bD09194446031432f1B9C81E70b",
+    "factor":18
+}

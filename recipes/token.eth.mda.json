@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mda",
+    "name":"Moeda Loyalty Points",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x51DB5Ad35C671a87207d88fC11d593AC0C8415bd",
+    "originator":"0x2f37be861699b6127881693010596B4bDD146f5e",
+    "factor":18
+}

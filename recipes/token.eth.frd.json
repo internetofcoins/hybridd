@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.frd",
+    "name":"Farad",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0ABeFb7611Cb3A01EA3FaD85f33C3C934F8e2cF4",
+    "originator":"0x4ed911c04316649536F82E84eAA5A84342c894ca",
+    "factor":18
+}

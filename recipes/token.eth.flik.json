@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.flik",
+    "name":"FLiK",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x17fD666fa0784885fa1AFEc8AC624d9b7e72B752",
+    "originator":"0x7536b25A00f81c699B08728F939930282B6D49E8",
+    "factor":14
+}

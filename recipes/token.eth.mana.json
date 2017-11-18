@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mana",
+    "name":"Decentraland",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+    "originator":"0xA66d83716c7CFE425B44D0f7ef92dE263468fb3d",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mci",
+    "name":"Musiconomi",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x138A8752093F4f9a79AaeDF48d4B9248fab93c9C",
+    "originator":"0x85AFFc8CF16B792015ea4D7313BEe64E00b3075b",
+    "factor":18
+}

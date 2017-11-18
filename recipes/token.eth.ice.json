@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ice",
+    "name":"iDice",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5a84969bb663fb64F6d015DcF9F622Aedc796750",
+    "originator":"0x00269dB352c0065e924fd133Da30fE3809086b76",
+    "factor":18
+}

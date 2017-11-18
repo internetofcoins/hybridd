@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ndao",
+    "name":"NeuroDAO",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xCC97eBb7c5a7D97db32fb23A23fe516575C5e10a",
+    "originator":"0x66f03d10c4Fb21E8e6ec323612d32Ee67DaAf73F",
+    "factor":0
+}

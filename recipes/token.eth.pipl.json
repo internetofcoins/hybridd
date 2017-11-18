@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pipl",
+    "name":"PiplCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE64509F0bf07ce2d29A7eF19A8A9bc065477C1B4",
+    "originator":"0xE55201ab7db0Da2A09CFC67e2101F396089395F6",
+    "factor":8
+}

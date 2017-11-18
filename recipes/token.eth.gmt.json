@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.gmt",
+    "name":"Mercury Protocol",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xb3Bd49E28f8F832b8d1E246106991e546c323502",
+    "originator":"0x85C762C235B2FD8Df2038e3Bd4691f295EA2fE91",
+    "factor":18
+}

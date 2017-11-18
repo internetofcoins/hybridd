@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mgo",
+    "name":"MobileGo",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x40395044Ac3c0C57051906dA938B54BD6557F212",
+    "originator":"0xeD5eCa2D2B341Ba7EaA93273557F2b56b74F5107",
+    "factor":8
+}

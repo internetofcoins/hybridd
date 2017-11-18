@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.nmr",
+    "name":"Numeraire",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
+    "originator":"0x9608010323eD882a38eDe9211D7691102b4F0Ba0",
+    "factor":18
+}

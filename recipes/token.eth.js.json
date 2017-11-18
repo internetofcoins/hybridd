@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.js",
+    "name":"JavaScript Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5046E860ff274fb8c66106B0Ffb8155849fB0787",
+    "originator":"0x8A75Ff000589d114288fa6B7CA9FE51B9FB69283",
+    "factor":8
+}

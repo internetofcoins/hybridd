@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.icn",
+    "name":"ICONOMI",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x888666CA69E0f178DED6D75b5726Cee99A87D698",
+    "originator":"0x81C4825Fd6B62E88D9218dEfC933C38526c1fcD0",
+    "factor":18
+}

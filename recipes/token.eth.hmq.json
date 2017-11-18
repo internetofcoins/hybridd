@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.hmq",
+    "name":"Humaniq",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xcbCC0F036ED4788F63FC0fEE32873d6A7487b908",
+    "originator":"0xC890B1f532e674977DFDb791caFaee898dFA9671",
+    "factor":8
+}

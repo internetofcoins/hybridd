@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fap",
+    "name":"FAPcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6467882316dc6e206FEef05fBa6deaA69277f155",
+    "originator":"0x953ebf6C38C58C934D58b9b17d8f9D0F121218BB",
+    "factor":18
+}

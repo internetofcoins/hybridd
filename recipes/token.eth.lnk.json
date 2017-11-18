@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.lnk",
+    "name":"Link Platform",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE2E6D4BE086c6938B53B22144855eef674281639",
+    "originator":"0x123456793b94455B0371f1e21b62c766F3a659d8",
+    "factor":18
+}

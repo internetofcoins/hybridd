@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.jet",
+    "name":"Jetcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8727c112C712c4a03371AC87a74dD6aB104Af768",
+    "originator":"0x00062bE45B5415268E5c9AB0d547472cBb38A7D4",
+    "factor":18
+}
