@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.etbs",
+    "name":"Ethbits",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1B9743f556D65e757c4c650B4555bAF354cB8bd3",
+    "originator":"0xf8536CA7a25CBF70DF754fA310079aDa4c6114C2",
+    "factor":12
+}

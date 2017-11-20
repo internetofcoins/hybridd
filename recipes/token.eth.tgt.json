@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tgt",
+    "name":"Target Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xAc3Da587eac229C9896D919aBC235CA4Fd7f72c1",
+    "originator":"0x2aEd738cb067cd336de8Fa96D3F041494EF018eA",
+    "factor":1
+}

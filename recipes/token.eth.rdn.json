@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rdn",
+    "name":"Raiden Network Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
+    "originator":"0x000F4e7bcc75469aa5c86673eb915dB30d267200",
+    "factor":18
+}

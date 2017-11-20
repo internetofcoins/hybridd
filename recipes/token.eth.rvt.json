@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rvt",
+    "name":"Rivetz",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x3d1BA9be9f66B8ee101911bC36D3fB562eaC2244",
+    "originator":"0x23C5f33Eedd5DEB772Dc14C1283B436F923326a9",
+    "factor":18
+}

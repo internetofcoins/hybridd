@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ctx",
+    "name":"CarTaxi Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x662aBcAd0b7f345AB7FfB1b1fbb9Df7894f18e66",
+    "originator":"0x77CeFf4173a56cd22b6184Fa59c668B364aE55B8",
+    "factor":18
+}

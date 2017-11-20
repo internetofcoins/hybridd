@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mco",
+    "name":"Monaco",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d",
+    "originator":"0x51b9311eB6eC8beb049DAFeAFE389eE2818B1B20",
+    "factor":8
+}

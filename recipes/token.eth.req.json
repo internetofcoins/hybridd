@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.req",
+    "name":"Request Network",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
+    "originator":"0x97208Bf5dC25e6FD4719cfc2A3C1D1A59a974c3b",
+    "factor":18
+}

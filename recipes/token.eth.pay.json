@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pay",
+    "name":"TenX",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB97048628DB6B661D4C2aA833e95Dbe1A905B280",
+    "originator":"0xd43D09Ec1bC5e57C8F3D0c64020d403b04c7f783",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.gnt",
+    "name":"Golem",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "originator":"0x42c8fCbc73D625F1d258a32915B6A573095DE93D",
+    "factor":18
+}

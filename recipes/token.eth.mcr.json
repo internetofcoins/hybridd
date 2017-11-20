@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mcr",
+    "name":"Macro",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7E9e99f059BB84298332b63be6F882a73120b9FB",
+    "originator":"0x4eb5a8A0e9e5d3e4B9a5289328a3c0A1b53b9Fa7",
+    "factor":8
+}

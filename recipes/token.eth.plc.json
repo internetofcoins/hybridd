@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.plc",
+    "name":"PlusCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0835ecd15DdF08d4786304d71b4672dC5C40F011",
+    "originator":"0xf32eecBf2545B2b1cc83a86676F2376A34f3DA50",
+    "factor":18
+}

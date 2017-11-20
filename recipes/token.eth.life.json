@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.life",
+    "name":"LIFE Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xfF18DBc487b4c2E3222d115952bABfDa8BA52F5F",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

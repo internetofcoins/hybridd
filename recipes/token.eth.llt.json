@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.llt",
+    "name":"LLToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6D5caC36c1AE39f41d52393b7a425d0A610ad9f2",
+    "originator":"0xF60428d2a287Ab7F136c26a9603E753387dCa91F",
+    "factor":8
+}

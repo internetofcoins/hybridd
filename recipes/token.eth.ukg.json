@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ukg",
+    "name":"Unikoin Gold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x24692791Bc444c5Cd0b81e3CBCaba4b04Acd1F3B",
+    "originator":"0x00f4EFe2f782d369AC5fF6112202b48C77A0BbB2",
+    "factor":18
+}

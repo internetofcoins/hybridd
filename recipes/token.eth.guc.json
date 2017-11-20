@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.guc",
+    "name":"GoldUnionCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xfd399192a8dc99aAD26052BE7DB95ffACc17F11c",
+    "originator":"0x4676Ce852258c6b67AEd0e2e2bc2fcF4159b4D2f",
+    "factor":16
+}

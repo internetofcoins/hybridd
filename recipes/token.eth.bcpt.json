@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bcpt",
+    "name":"BlockMason Credit Protocol",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
+    "originator":"0x255d597951300a913d5E327C6E92dDc05923fEBE",
+    "factor":18
+}

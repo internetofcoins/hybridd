@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pos",
+    "name":"PoSToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xEe609fE292128Cad03b786DBb9Bc2634Ccdbe7fC",
+    "originator":"0x460fb14a5AEd6f57290E89f4680b8Dd4822D7591",
+    "factor":18
+}

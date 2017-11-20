@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.eltc2",
+    "name":"eLTC",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7e9d62E1FF4e34096F91Ee0153222Ab81F7184F0",
+    "originator":"0x6849baB945E4551946AA48d1932d7f36FC6F648D",
+    "factor":8
+}

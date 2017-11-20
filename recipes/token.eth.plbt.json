@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.plbt",
+    "name":"Polybius",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02",
+    "originator":"0x1Ff21eCa1c3ba96ed53783aB9C92FfbF77862584",
+    "factor":6
+}

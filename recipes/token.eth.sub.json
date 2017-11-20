@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sub",
+    "name":"Substratum",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x12480E24eb5bec1a9D4369CaB6a80caD3c0A377A",
+    "originator":"0xAF518d65F84E4695A4DA0450eC02C1248F56B668",
+    "factor":2
+}

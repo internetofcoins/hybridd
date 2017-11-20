@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pgl",
+    "name":"Prospectors gold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x089A6D83282Fb8988A656189F1E7A73FA6C1caC2",
+    "originator":"0xD2D641977D21a1dc7758EB619dD5960423ade86E",
+    "factor":18
+}

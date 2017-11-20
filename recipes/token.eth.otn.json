@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.otn",
+    "name":"Open Trading Network",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x881Ef48211982D01E2CB7092C915E647Cd40D85C",
+    "originator":"0x394F8E6B2B61928665dCB92EDB4B267A108f16cC",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tie",
+    "name":"TIES Network",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x999967E2Ec8A74B7c8E9dB19E039d920B31d39D0",
+    "originator":"0x00EaDC3CF4F4791a9E64d6E7e476236b8dB096AB",
+    "factor":18
+}

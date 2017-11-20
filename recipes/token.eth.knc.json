@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.knc",
+    "name":"Kyber Network Crystal",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+    "originator":"0xd6Cd31F283d24cfb442cBA1Bcf42290c07C15792",
+    "factor":18
+}

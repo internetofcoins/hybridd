@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.skin",
+    "name":"SkinCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2bDC0D42996017fCe214b21607a515DA41A9E0C5",
+    "originator":"0x6f2010D0FBaf8B7Dbc13eE7252FF8594A2Be3C51",
+    "factor":6
+}

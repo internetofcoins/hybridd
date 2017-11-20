@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ibtc",
+    "name":"iBTC",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x90c88CCd74e57e016acaE8aD1EAA12ECf4C06F33",
+    "originator":"0x9e5135649CEC87d01c084E4f040eF32d22A1d4c8",
+    "factor":18
+}

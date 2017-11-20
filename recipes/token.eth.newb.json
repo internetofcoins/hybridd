@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.newb",
+    "name":"Newbium",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x814964b1bceAf24e26296D031EaDf134a2Ca4105",
+    "originator":"0xc9D7fEC9889690bBff0A0Df758D13e5A55dd7822",
+    "factor":0
+}

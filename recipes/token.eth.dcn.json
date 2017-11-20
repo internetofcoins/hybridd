@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dcn",
+    "name":"Dentacoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
+    "originator":"0xc99f67433019D1DA18C311e767FAa2b8EC250886",
+    "factor":0
+}

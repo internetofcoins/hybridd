@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.scl",
+    "name":"Social",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xd7631787B4dCc87b1254cfd1e5cE48e96823dEe8",
+    "originator":"0x3cAf983aCCccc2551195e0809B7824DA6FDe4EC8",
+    "factor":8
+}

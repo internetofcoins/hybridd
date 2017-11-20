@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.grx",
+    "name":"GOLD Reward Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x219218f117DC9348b358b8471c55A073E5e0dA0b",
+    "originator":"0x71F8ABA5AcCe0db1156DE4d4896ED3364f487A65",
+    "factor":18
+}

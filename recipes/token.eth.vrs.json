@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.vrs",
+    "name":"Veros",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xeDBaF3c5100302dCddA53269322f3730b1F0416d",
+    "originator":"0xACB0C84DbCa1d25Fe97D5513456b926AbD758dBe",
+    "factor":5
+}

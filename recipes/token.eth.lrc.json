@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.lrc",
+    "name":"Loopring",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xEF68e7C694F40c8202821eDF525dE3782458639f",
+    "originator":"0xD2c4070A3563b0adFEF2E6e0a604017F1c2aC3DF",
+    "factor":18
+}

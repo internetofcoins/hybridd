@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.grid",
+    "name":"Grid+",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD",
+    "originator":"0x94DC1Cf66C8Fd62eF3BD7dA53f47423862839823",
+    "factor":12
+}

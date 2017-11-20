@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.myst",
+    "name":"Mysterium",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xa645264C5603E96c3b0B078cdab68733794B0A71",
+    "originator":"0x715E2E7c33De2F101442560f227A7D121A9889A6",
+    "factor":8
+}

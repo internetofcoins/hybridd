@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fuel",
+    "name":"Etherparty",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xEA38eAa3C86c8F9B751533Ba2E562deb9acDED40",
+    "originator":"0x313623af04f254B543b1d1344A1E9F200DBB19F5",
+    "factor":18
+}

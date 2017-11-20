@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.snc",
+    "name":"SunContract",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404",
+    "originator":"0x002362c343061FEF2b99d1A8f7c6AEAFE54061Af",
+    "factor":18
+}

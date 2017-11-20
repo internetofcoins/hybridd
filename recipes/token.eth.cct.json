@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cct",
+    "name":"Crystal Clear",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x336F646F87D9f6bC6Ed42Dd46E8b3fD9DbD15C22",
+    "originator":"0x217C552e79d6000bE33e3fb58091De2cD12bd474",
+    "factor":18
+}

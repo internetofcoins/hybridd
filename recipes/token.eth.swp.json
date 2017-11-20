@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.swp",
+    "name":"Swapcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4b35e0AB998Ebe8414871c13cf778F9D0Bbdf609",
+    "originator":"0x381E245F268227A7b73A9f9C82137fE2ce54f9FB",
+    "factor":18
+}

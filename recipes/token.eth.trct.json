@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.trct",
+    "name":"Tracto",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x30ceCB5461A449A90081F5a5F55db4e048397BAB",
+    "originator":"0xf7b2CCc8868E9A0FC847e8C70Ae999c22B82F10f",
+    "factor":8
+}

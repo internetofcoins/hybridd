@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bqx",
+    "name":"Bitquence",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5Af2Be193a6ABCa9c8817001F45744777Db30756",
+    "originator":"0x1E10231145C0b670e9eE5A7f5B47172AFA3B6186",
+    "factor":8
+}

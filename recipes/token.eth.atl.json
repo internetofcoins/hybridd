@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.atl",
+    "name":"ATLANT",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05",
+    "originator":"0xF46ede17c0bAb20d87Cd079a2632f71433A407b9",
+    "factor":18
+}

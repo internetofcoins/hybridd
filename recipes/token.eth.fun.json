@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fun",
+    "name":"FunFair",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+    "originator":"0x50b26685BC788E164d940F0a73770F4B9196B052",
+    "factor":8
+}

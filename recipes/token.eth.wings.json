@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.wings",
+    "name":"Wings",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x667088b212ce3d06a1b553a7221E1fD19000d9aF",
+    "originator":"0x00D5B76A4DC21e4e99e90856509Da53BD0F3ec95",
+    "factor":18
+}

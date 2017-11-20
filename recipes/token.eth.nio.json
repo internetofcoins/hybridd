@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.nio",
+    "name":"Autonio",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5554e04e76533E1d14c52f05beEF6c9d329E1E30",
+    "originator":"0x952B3cBA812321A10E49E1c86132e701b54fA7e0",
+    "factor":0
+}

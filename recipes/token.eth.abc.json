@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.abc",
+    "name":"Alphabit",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x036407F23D5E1C1486F7488332CF54bf06E5F09F",
+    "originator":"0xd418Fcb33ae1a41BDC34D257A228Ea9CB7C8fd03",
+    "factor":18
+}

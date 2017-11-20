@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.drp",
+    "name":"DCORP",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x621d78f2EF2fd937BFca696CabaF9A779F59B3Ed",
+    "originator":"0x3cAf983aCCccc2551195e0809B7824DA6FDe4EC8",
+    "factor":2
+}

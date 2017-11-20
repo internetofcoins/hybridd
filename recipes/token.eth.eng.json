@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.eng",
+    "name":"Enigma",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf0Ee6b27b759C9893Ce4f094b49ad28fd15A23e4",
+    "originator":"0xdee730D53EbC2447894885B84E12d66E661AFCf9",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ntc",
+    "name":"Natcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8d5A69dc82a47594881256F2eef81770274fA30f",
+    "originator":"0xc0b1409A5c1a287250A3E974583d00A0010040E7",
+    "factor":18
+}

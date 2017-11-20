@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.nas",
+    "name":"Nebulas Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5d65D971895Edc438f465c17DB6992698a52318D",
+    "originator":"0x089731260B16eAb0b941Cc060ad078FbcDA64986",
+    "factor":18
+}

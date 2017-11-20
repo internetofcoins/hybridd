@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sisa",
+    "name":"SISA",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xA0aa85b54F8A7b09C845F13a09172B08925f3d54",
+    "originator":"0x0082EC977D3314B573FF00269c24b66ac1bDbAA5",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.egas",
+    "name":"ETHGAS",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8BBf4dD0f11B3a535660fD7fCB7158DaEBd3a17E",
+    "originator":"0x4A5CC0d6afF96269CE43A73DBF5d02f4846F20D4",
+    "factor":8
+}

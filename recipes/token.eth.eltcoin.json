@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.eltcoin",
+    "name":"ELTCOIN",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x44197A4c44D6A059297cAf6be4F7e172BD56Caaf",
+    "originator":"0xdcBd3b5605A525f12819958E0Cb02941C539EAb6",
+    "factor":8
+}

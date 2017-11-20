@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mne",
+    "name":"Minereum",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1a95B271B0535D15fa49932Daba31BA612b52946",
+    "originator":"0x32D09BeC6f29581008F87eAB16Ee46a01AD9617B",
+    "factor":8
+}

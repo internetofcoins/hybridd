@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ebet",
+    "name":"EthBet",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7D5Edcd23dAa3fB94317D32aE253eE1Af08Ba14d",
+    "originator":"0x00C8357EeBbA2021eE4d8cBd2946145bcC7aA2fB",
+    "factor":2
+}

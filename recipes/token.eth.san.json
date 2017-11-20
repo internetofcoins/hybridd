@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.san",
+    "name":"Santiment Network Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
+    "originator":"0x008cdC9b89AD677CEf7F2C055efC97d3606a50Bd",
+    "factor":18
+}

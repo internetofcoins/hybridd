@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.qvt",
+    "name":"Qvolta",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x1183F92A5624D68e85FFB9170F16BF0443B4c242",
+    "originator":"0x00fEE5170c113e84ac05742D4afF6408d1CF46Bb",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.pst",
+    "name":"Primas",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE3feDAeCD47aa8EAb6b23227b0eE56F092C967a9",
+    "originator":"0x78C9e2ffB1bEfEE4d80d962aAeDd76E5D6e3F626",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.eusd",
+    "name":"eUSD",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x87611cA3403a3878DfEf0da2a786e209AbfC1Eff",
+    "originator":"0x39c8534514dB3F84E3671e8E554e65Cd6EC0c2dE",
+    "factor":8
+}

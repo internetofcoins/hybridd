@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.blue",
+    "name":"Ethereum blue",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x539EfE69bCDd21a83eFD9122571a64CC25e0282b",
+    "originator":"0x00b0B08C21D9a80315FF71037c7F7FC6324897C1",
+    "factor":8
+}

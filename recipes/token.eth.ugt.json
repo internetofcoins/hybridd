@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ugt",
+    "name":"UG Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x43eE79e379e7b78D871100ed696e803E7893b644",
+    "originator":"0x2946c05CF464EbD0cCa96ece1926Cc570d02459E",
+    "factor":18
+}

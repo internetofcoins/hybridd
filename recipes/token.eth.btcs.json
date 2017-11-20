@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.btcs",
+    "name":"Bitcoin Silver",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xd96b9fd7586d9Ea24C950d24399be4fB65372FDD",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

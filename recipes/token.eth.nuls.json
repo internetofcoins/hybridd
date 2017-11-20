@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.nuls",
+    "name":"Nuls",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB91318F35Bdb262E9423Bc7c7c2A3A93DD93C92C",
+    "originator":"0xEA004d8261458b853F772924FE7B2d3D332b8035",
+    "factor":18
+}

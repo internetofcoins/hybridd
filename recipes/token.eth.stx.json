@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.stx",
+    "name":"Stox",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45",
+    "originator":"0xAf773CB251D81178a611BA74e279BbaDdCe560C2",
+    "factor":18
+}

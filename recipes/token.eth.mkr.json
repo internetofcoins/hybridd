@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mkr",
+    "name":"Maker",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xC66eA802717bFb9833400264Dd12c2bCeAa34a6d",
+    "originator":"0x12bcc9dafFDA452b6c4b0A1571360925a64FcC79",
+    "factor":18
+}

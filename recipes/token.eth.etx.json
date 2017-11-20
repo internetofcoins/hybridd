@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.etx",
+    "name":"Etherx",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x11025bAcDbF00e033880c95262bF501a62235F2E",
+    "originator":"0xcB639418cd9312ed66349E60C79AABbc811D7797",
+    "factor":16
+}

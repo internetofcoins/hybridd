@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.link",
+    "name":"ChainLink",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "originator":"0xf55037738604FDDFC4043D12F25124E94D7D1780",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ecash",
+    "name":"Ethereum Cash",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5D21eF5f25a985380B65c8e943A0082fEDa0Db84",
+    "originator":"0x01C59f76757845671efCFACB80bd6eF7C0dC28f4",
+    "factor":18
+}

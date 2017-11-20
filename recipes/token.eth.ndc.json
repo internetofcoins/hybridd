@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ndc",
+    "name":"NEVERDIE",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xA54ddC7B3CcE7FC8b1E3Fa0256D0DB80D2c10970",
+    "originator":"0xA8C12Ef6a3Fc69Fe4E0Eb9966Adf8cb31cf04033",
+    "factor":18
+}

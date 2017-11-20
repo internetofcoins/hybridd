@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rhoc",
+    "name":"RChain",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x168296bb09e24A88805CB9c33356536B980D3fC5",
+    "originator":"0xe17C20292b2F1b0Ff887Dc32A73C259Fae25f03B",
+    "factor":8
+}

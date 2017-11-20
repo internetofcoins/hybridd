@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.edg",
+    "name":"Edgeless",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x08711D3B02C8758F2FB3ab4e80228418a7F8e39c",
+    "originator":"0x5EB7ebBB15bDd2BE5B4e37009a42b1deE95638aF",
+    "factor":0
+}

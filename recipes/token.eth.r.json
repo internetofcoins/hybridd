@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.r",
+    "name":"Revain",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x48f775EFBE4F5EcE6e0DF2f7b5932dF56823B990",
+    "originator":"0xCc7888A7Fc1f96aE9BD740D9Ae8D3E2ECa2FB15d",
+    "factor":0
+}

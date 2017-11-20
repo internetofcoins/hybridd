@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ctr",
+    "name":"Centra",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x96A65609a7B84E8842732DEB08f56C3E21aC6f8a",
+    "originator":"0x387792f7d2AA6e7Fa1312261cF36F5F6f6b97c00",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.zcg",
+    "name":"ZCash Gold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x180e5087935A94Fd5bbAb00fD2249C5bE0473381",
+    "originator":"0x2C6C4bd500010df331AE45108bfb5CA468fD62b5",
+    "factor":8
+}

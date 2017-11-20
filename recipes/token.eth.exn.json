@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.exn",
+    "name":"ExchangeN",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0766e79A6fD74469733e8330b3b461C0320fF059",
+    "originator":"0xc2c2ccC0fC1dbAa23cb5C98dC1386Ef24877d7B6",
+    "factor":18
+}

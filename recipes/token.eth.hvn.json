@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.hvn",
+    "name":"Hive",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xC0Eb85285d83217CD7c891702bcbC0FC401E2D9D",
+    "originator":"0xDb969FeBE87e23d6D64b918d01B5529310511c47",
+    "factor":8
+}

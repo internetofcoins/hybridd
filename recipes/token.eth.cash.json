@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cash",
+    "name":"Cash Poker Pro",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xA8F93FAee440644F89059a2c88bdC9BF3Be5e2ea",
+    "originator":"0x5B3B319e64d5761bF3595FD12f0ab0f331cBB818",
+    "factor":18
+}

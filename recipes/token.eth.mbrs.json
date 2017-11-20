@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.mbrs",
+    "name":"Embers",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x386467F1f3ddbE832448650418311a479EECFC57",
+    "originator":"0x9B73149133c7D34A50b6b078D1244961e3C39768",
+    "factor":0
+}

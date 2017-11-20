@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ltg",
+    "name":"LiteCoin Gold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0879e0c9822b75f31f0b0eD2A30BE9F484a57C2F",
+    "originator":"0x17653E7d4F87dD600D7abDaFd17BAf6D97A76f06",
+    "factor":0
+}

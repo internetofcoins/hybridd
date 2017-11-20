@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.time",
+    "name":"Chronobank",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6531f133e6DeeBe7F2dcE5A0441aA7ef330B4e53",
+    "originator":"0x28A44f49b940B3875f882d08487D16295FB8Bc09",
+    "factor":8
+}

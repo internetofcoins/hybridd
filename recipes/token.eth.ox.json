@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ox",
+    "name":"OX Fina",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x65A15014964F2102Ff58647e16a16a6B9E14bCF6",
+    "originator":"0x30ba5F8fCD3181F785CA6F947EB66485c9A33C90",
+    "factor":3
+}

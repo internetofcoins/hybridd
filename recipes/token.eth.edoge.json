@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.edoge",
+    "name":"EtherDoge",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8a7b7B9B2f7d0c63F66171721339705A6188a7D5",
+    "originator":"0xE36c0B6f8E8460c998453b802EF0aF5d68B38f68",
+    "factor":18
+}

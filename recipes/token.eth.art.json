@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.art",
+    "name":"Maecenas",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xfec0cF7fE078a500abf15F1284958F22049c2C7e",
+    "originator":"0x2236705fC1bf16bD2e3EB065F4233B5ccdBfBcfD",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.sift",
+    "name":"Smart Investment Fund Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x8a187D5285d316bcBC9ADafc08b51d70a0d8e000",
+    "originator":"0x41b17F4F6Ad997a67b23f2AA3c1aCd3F8dd2e4D2",
+    "factor":0
+}

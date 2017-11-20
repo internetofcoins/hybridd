@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.hst",
+    "name":"Decision Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x554C20B7c486beeE439277b4540A434566dC4C02",
+    "originator":"0xbD2ED3E85faa3433c068c7B3f9C8C7d839CE88d7",
+    "factor":18
+}

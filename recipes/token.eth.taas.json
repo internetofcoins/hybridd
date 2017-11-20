@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.taas",
+    "name":"Taas",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE7775A6e9Bcf904eb39DA2b68c5efb4F9360e08C",
+    "originator":"0x1Ff21eCa1c3ba96ed53783aB9C92FfbF77862584",
+    "factor":6
+}

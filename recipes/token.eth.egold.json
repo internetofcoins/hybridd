@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.egold",
+    "name":"eGold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6025F65f6b2f93d8eD1efeDc752acfd4bdbCec3E",
+    "originator":"0x9e5135649CEC87d01c084E4f040eF32d22A1d4c8",
+    "factor":18
+}

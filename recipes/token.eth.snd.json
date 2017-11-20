@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.snd",
+    "name":"Sand Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf333b2Ace992ac2bBD8798bF57Bc65a06184afBa",
+    "originator":"0x01949a773DE41Cb4Ee6F632588Ca18203e9d4dcd",
+    "factor":0
+}

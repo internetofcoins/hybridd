@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rep",
+    "name":"Augur",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6",
+    "originator":"0x7E614ec62cFD5761F20A9c5a2FE2Bc0Ac7431918",
+    "factor":18
+}

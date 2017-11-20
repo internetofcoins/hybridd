@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.uet",
+    "name":"Useless Ethereum Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x27f706edde3aD952EF647Dd67E24e38CD0803DD6",
+    "originator":"0x00d0fd20924037C2B182d0aA0B139434A0b1A081",
+    "factor":18
+}

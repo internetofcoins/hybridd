@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.vsl",
+    "name":"vSlice",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5c543e7AE0A1104f78406C340E9C64FD9fCE5170",
+    "originator":"0xbd86Fc80fdc7CB7E5635FB7Fb7129b2f557a38d9",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.xpa",
+    "name":"XPlay",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x90528aeb3a2B736B780fD1B6C478bB7E1d643170",
+    "originator":"0x82fCc87210e8A2836465229ff04f58ed7cBa0a67",
+    "factor":18
+}

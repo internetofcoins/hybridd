@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.icos",
+    "name":"ICOS",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x014B50466590340D41307Cc54DCee990c8D58aa8",
+    "originator":"0x47284536f60cA404106c399176D4f3eE8fa6fD57",
+    "factor":6
+}

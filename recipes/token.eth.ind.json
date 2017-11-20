@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ind",
+    "name":"Indorse Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf8e386EDa857484f5a12e4B5DAa9984E06E73705",
+    "originator":"0x0006B2C810f77F28aA30eEB6508Af12730b87370",
+    "factor":18
+}

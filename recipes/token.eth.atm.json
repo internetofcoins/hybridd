@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.atm",
+    "name":"ATMChain",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x9B11EFcAAA1890f6eE52C6bB7CF8153aC5d74139",
+    "originator":"0x02FC5A71E8917C23c66F668B42F3544cde88F1bC",
+    "factor":8
+}

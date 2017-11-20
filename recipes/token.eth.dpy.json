@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dpy",
+    "name":"Delphy",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6C2adC2073994fb2CCC5032cC2906Fa221e9B391",
+    "originator":"0x5f38C21fdbd33c167D81267b9DcaCd9fB0118cB7",
+    "factor":18
+}

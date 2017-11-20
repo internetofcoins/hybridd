@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cdt",
+    "name":"CoinDash",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2Fe6AB85EBbf7776feE46d191eE4cEA322CeCf51",
+    "originator":"0x7BabEa4724dcb14B52Cf255cEba2F3e70a0B60f9",
+    "factor":18
+}

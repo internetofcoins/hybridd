@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.iqt",
+    "name":"iQuant",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x51ee82641Ac238BDe34B9859f98F5F311d6E4954",
+    "originator":"0x29Ff6ef9A1ed65D7BEc83E15684f2D31ece5F498",
+    "factor":8
+}

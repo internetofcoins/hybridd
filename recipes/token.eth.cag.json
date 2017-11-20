@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cag",
+    "name":"Change",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7d4b8Cce0591C9044a22ee543533b72E976E36C3",
+    "originator":"0x78E0743B2cC9967BaC4643D559A027FA53F6BC88",
+    "factor":18
+}

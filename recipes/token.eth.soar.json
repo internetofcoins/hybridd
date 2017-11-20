@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.soar",
+    "name":"Soarcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xD65960FAcb8E4a2dFcb2C2212cb2e44a02e2a57E",
+    "originator":"0x4Bce8E9850254A86a1988E2dA79e41Bc6793640d",
+    "factor":6
+}

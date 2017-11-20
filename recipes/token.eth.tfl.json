@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.tfl",
+    "name":"TrueFlip",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xa7f976C360ebBeD4465c2855684D1AAE5271eFa9",
+    "originator":"0xB46C44FaCc34C1475124152404832f797da08C94",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.myb",
+    "name":"MyBit Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x94298F1e0Ab2DFaD6eEFfB1426846a3c29D98090",
+    "originator":"0x6e0eC952e49212F2e2E2f94FEdaa84f5C044acef",
+    "factor":8
+}

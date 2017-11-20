@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.icx",
+    "name":"ICON",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xb5A5F22694352C15B00323844aD545ABb2B11028",
+    "originator":"0xE16fd9B95758fe8f3A478EF9B750A64513bF2E80",
+    "factor":18
+}

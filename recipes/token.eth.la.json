@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.la",
+    "name":"LAToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xE50365f5D679CB98a1dd62D6F6e58e59321BcdDf",
+    "originator":"0xE1d46BDF3c8d3C140B3961F4969E830675dB99F7",
+    "factor":18
+}

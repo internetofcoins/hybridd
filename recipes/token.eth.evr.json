@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.evr",
+    "name":"Everus",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x3137619705b5fc22a3048989F983905e456b59Ab",
+    "originator":"0x3889Dd62CeA1f21c88D21b63d9eF893B940A4238",
+    "factor":8
+}

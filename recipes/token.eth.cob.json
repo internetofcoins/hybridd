@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cob",
+    "name":"Cobinhood",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xb2F7EB1f2c37645bE61d73953035360e768D81E6",
+    "originator":"0x1667C5c1b15df4eDD64ADe7c96f2165e97c6577e",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ixt",
+    "name":"iXledger",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xfcA47962D45ADFdfd1Ab2D972315dB4ce7CCf094",
+    "originator":"0xca4BfEBd31B44D310EFaA50f774BBf2B7954DB9F",
+    "factor":8
+}

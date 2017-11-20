@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dbet",
+    "name":"DecentBet",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x540449E4D172cd9491c76320440cD74933d5691a",
+    "originator":"0x818E6a1CDCcc7dB87E991d979AA8d3eec199b868",
+    "factor":18
+}

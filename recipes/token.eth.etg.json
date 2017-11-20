@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.etg",
+    "name":"Ethereum Gold",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x28c8d01FF633eA9Cd8fc6a451D7457889E698de6",
+    "originator":"0xE913aeF983e84ED90F340FF533CE39668F45A0F6",
+    "factor":0
+}

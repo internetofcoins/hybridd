@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dovu",
+    "name":"Dovu",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xac3211a5025414Af2866FF09c23FC18bc97e79b1",
+    "originator":"0x6699eD0AfC9761aFF5B7DbE08352fC0C8616Ca31",
+    "factor":18
+}

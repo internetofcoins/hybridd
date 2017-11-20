@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fc",
+    "name":"Facecoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xe6923E9b56Db1EeD1c9f430Ea761DA7565e260Fe",
+    "originator":"0x1AAb0b6b167488085C7EE62d7930a4cD97E30495",
+    "factor":2
+}

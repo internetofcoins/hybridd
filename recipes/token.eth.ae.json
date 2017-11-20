@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ae",
+    "name":"Aeternity",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5CA9a71B1d01849C0a95490Cc00559717fCF0D1d",
+    "originator":"0x679B7e3E3847184fCB0244196cb7b4Db3a5b27bB",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.astro",
+    "name":"Astro",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7B22938ca841aA392C93dBB7f4c42178E3d65E88",
+    "originator":"0x9C130D47271261d3FfC86EB9204C43959e2De5dF",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.btcred",
+    "name":"Bitcoin Red",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x6Aac8CB9861E42bf8259F5AbDC6aE3Ae89909E11",
+    "originator":"0xB6B49870d75b5B1336456C2FCE5034E242F54830",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.erc20",
+    "name":"ERC20",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x26D5Bd2dfEDa983ECD6c39899e69DAE6431Dffbb",
+    "originator":"0x9AABC792478ca988c45d2C762c5e4265cb5bE39c",
+    "factor":18
+}

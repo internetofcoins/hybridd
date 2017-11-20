@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.drt",
+    "name":"DomRaider",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x9AF4f26941677C706cfEcf6D3379FF01bB85D5Ab",
+    "originator":"0xE5019CF5877D1ab84222AbF63595bD5d0C357813",
+    "factor":8
+}

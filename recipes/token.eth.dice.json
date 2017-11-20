@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.dice",
+    "name":"Etheroll",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2e071D2966Aa7D8dECB1005885bA1977D6038A65",
+    "originator":"0x73F0ed546Cd7893ABc5e04284B68522602603dD4",
+    "factor":16
+}

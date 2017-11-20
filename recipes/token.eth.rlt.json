@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.rlt",
+    "name":"RouletteToken",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xcCeD5B8288086BE8c38E23567e684C3740be4D48",
+    "originator":"0x6D28515bF27529843F14Dc75cc7EE95a4783e3A1",
+    "factor":10
+}

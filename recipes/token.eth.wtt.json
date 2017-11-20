@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.wtt",
+    "name":"Giga Watt Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x84119cb33E8F590D75c2D6Ea4e6B0741a7494EDA",
+    "originator":"0xAd8b03BB5576f31Ff3fD29ebdA4D5d920a5EAFC9",
+    "factor":0
+}

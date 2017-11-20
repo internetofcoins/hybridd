@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.gup",
+    "name":"Matchpool",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xf7B098298f7C69Fc14610bf71d5e02c60792894C",
+    "originator":"0xE05CeDD2838E4e1d99B539D8C768D6EF2a10F729",
+    "factor":3
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.opt",
+    "name":"Opus",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4355fC160f74328f9b383dF2EC589bB3dFd82Ba0",
+    "originator":"0xA3769fC9167420A17b9e39ABEb2e9c6F2a5691fB",
+    "factor":18
+}

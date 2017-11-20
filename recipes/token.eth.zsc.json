@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.zsc",
+    "name":"ZeusShieldCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63",
+    "originator":"0xc3A607022802b04104b61D4741e002F405C13f65",
+    "factor":18
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.fxe",
+    "name":"FuturXe",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x9653cFd0865ad8313BEA2f0C2EC0584BFd05115B",
+    "originator":"0x0dB364E9f67Be3166FE4dce5C1473d15345Fe2BB",
+    "factor":8
+}

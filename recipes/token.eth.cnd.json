@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.cnd",
+    "name":"Cindicator",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xd4c435F5B09F855C3317c8524Cb1F586E42795fa",
+    "originator":"0x00677d06f75A0581262BACb3De91e1283309772d",
+    "factor":18
+}

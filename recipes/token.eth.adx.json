@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.adx",
+    "name":"AdEx",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x4470BB87d77b963A013DB939BE332f927f2b992e",
+    "originator":"0x8F493C12c4F5FF5Fd510549E1e28EA3dD101E850",
+    "factor":4
+}

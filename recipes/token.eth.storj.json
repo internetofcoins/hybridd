@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.storj",
+    "name":"Storj",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
+    "originator":"0x00f6bF3c5033e944FeDdb3dC8ffB4d47AF17ef0b",
+    "factor":8
+}

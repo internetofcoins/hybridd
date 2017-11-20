@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.plu",
+    "name":"Pluton",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xD8912C10681D8B21Fd3742244f44658dBA12264E",
+    "originator":"0x04cAC93A2894aE801163040dF4c5380AFaBcF9B5",
+    "factor":18
+}

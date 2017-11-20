@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.orme",
+    "name":"Ormeus Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x516E5436bAfdc11083654DE7Bb9b95382d08d5DE",
+    "originator":"0xa0dB2117C0418542F3143d7dcf77E836b47ce2BD",
+    "factor":8
+}

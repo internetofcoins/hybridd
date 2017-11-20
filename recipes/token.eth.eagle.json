@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.eagle",
+    "name":"EagleCoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x994f0DffdbaE0BbF09b652D6f11A493fd33F42B9",
+    "originator":"0x17bE33Fa1a6a6F5B6424A9320C6Eb7703841C70E",
+    "factor":18
+}

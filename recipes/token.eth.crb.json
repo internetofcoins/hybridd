@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.crb",
+    "name":"Creditbit",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xAef38fBFBF932D1AeF3B808Bc8fBd8Cd8E1f8BC5",
+    "originator":"0x1Ec95F76159205ee56e2Cde4918BCABe87448eD2",
+    "factor":8
+}

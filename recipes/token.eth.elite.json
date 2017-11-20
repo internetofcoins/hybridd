@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.elite",
+    "name":"Ethereum Lite",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x0A76aad21948eA1ef447D26DEe91a54370E151e0",
+    "originator":"0x15894Ccc11aB2cbe0f4aE016AE85fb77718ac397",
+    "factor":18
+}

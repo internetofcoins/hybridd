@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.adst",
+    "name":"AdShares",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x422866a8F0b032c5cf1DfBDEf31A20F4509562b0",
+    "originator":"0x30f85436C58826C47dDaA035b8b5023D59C09f67",
+    "factor":0
+}

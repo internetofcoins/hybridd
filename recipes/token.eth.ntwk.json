@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ntwk",
+    "name":"Network Token",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2233799Ee2683d75dfefAcbCd2A26c78D34b470d",
+    "originator":"0x92C5d6898ABbD58E388aa94C816d4d17387A8859",
+    "factor":18
+}

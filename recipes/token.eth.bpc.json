@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bpc",
+    "name":"Bitpark Coin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xF3d29Fb98D2DC5E78c87198DEEF99377345fD6F1",
+    "originator":"0xE9563544310129602064E0AC4efa3F5fFee17Bc3",
+    "factor":8
+}

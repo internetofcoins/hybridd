@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.inxt",
+    "name":"Internxt",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xa8006C4ca56F24d6836727D106349320dB7fEF82",
+    "originator":"0x38cECcbE1c2D7d8D67f365b13D813700D045aCDf",
+    "factor":8
+}

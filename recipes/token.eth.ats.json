@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ats",
+    "name":"Authorship",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x2dAEE1AA61D60A252DC80564499A69802853583A",
+    "originator":"0xEc726C89D93aB212c68e2e72D9F5c9dE6B58Cb32",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ift",
+    "name":"InvestFeed",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x7654915A1b82D6D2D0AFc37c52Af556eA8983c7E",
+    "originator":"0x72Bbe344986351A0C4E899D655E81DE8f64E9794",
+    "factor":18
+}

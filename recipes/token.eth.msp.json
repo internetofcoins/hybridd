@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.msp",
+    "name":"Mothership",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x68AA3F232dA9bdC2343465545794ef3eEa5209BD",
+    "originator":"0x0098530e5F48D3dd62cf654A547B6B55be4d4D10",
+    "factor":18
+}

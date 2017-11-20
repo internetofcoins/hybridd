@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.bq",
+    "name":"bitqy",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xF0f8B0B8DBB1124261FC8d778E2287e3Fd2Cf4f5",
+    "originator":"0xcd706026B1B9Af1E3972013E9fE4B344b3fA3d5a",
+    "factor":3
+}

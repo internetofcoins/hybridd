@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ebit",
+    "name":"eBIT",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xdb45FAeCa61C70E271BFfeAf66162Fa68a1c4def",
+    "originator":"0xA18549C53ab7e81B1c9078aa746fB6E79aE80551",
+    "factor":0
+}

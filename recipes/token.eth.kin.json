@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.kin",
+    "name":"Kin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5",
+    "originator":"0x8BfE5EbB128eE82F4BA80f56bb32409CC87bC6fb",
+    "factor":18
+}
