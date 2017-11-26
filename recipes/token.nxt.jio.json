@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.jio",
+    "name":"JIO Token",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15874060122562671369",
+    "originator":"NXT-KQBE-2WCA-B456-DJHZD",
+    "factor":4
+}
