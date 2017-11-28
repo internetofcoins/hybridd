@@ -1,0 +1,10 @@
+{
+    "symbol":"ark",
+    "name":"Ark",
+    "module":"lisk",
+    "mode":"lisk",
+    "factor":8,
+    "host":["https://arkecosystem.github.io/ark-lite-wallet/app/"],
+    "cache":15000,
+    "throttle":5
+}
