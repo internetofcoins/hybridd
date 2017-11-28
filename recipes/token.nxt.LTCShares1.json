@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.LTCShares1",
+    "name":"LTCShares1",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"1880981835666625554",
+    "originator":"NXT-5C45-E8JS-AC42-7KMSQ",
+    "factor":1
+}

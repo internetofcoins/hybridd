@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NEMgold",
+    "name":"NEMgold",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"4280260188071460715",
+    "originator":"NXT-JKCL-N9PV-77XE-H5CLX",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.LTC",
+    "name":"LTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"6952492416469182066",
+    "originator":"NXT-WNWS-DV7D-TDU5-2SKHN",
+    "factor":8
+}

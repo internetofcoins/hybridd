@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.MoorCoins",
+    "name":"MoorCoins",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9228225666259140016",
+    "originator":"NXT-AYSK-Z9MQ-C6ZF-CSZJJ",
+    "factor":4
+}

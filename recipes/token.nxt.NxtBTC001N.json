@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NxtBTC001N",
+    "name":"NxtBTC001N",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5751857328117139918",
+    "originator":"NXT-CETE-TJ35-3W6Q-GRMTM",
+    "factor":0
+}

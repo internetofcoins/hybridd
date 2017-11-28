@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NXTinvest",
+    "name":"NXTinvest",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"18398901069462796384",
+    "originator":"NXT-AUZN-49QL-6TUZ-FUJED",
+    "factor":4
+}

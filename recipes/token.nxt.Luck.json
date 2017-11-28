@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Luck",
+    "name":"Luck",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8119221698734856142",
+    "originator":"NXT-PUNP-LNDY-BDCH-29222",
+    "factor":1
+}

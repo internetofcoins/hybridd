@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NobleNXT",
+    "name":"NobleNXT",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"6780060819348751348",
+    "originator":"NXT-LSM7-9TLV-TZPB-FLB5T",
+    "factor":2
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NXTEUR",
+    "name":"NXTEUR",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10529980301867068563",
+    "originator":"NXT-SBSP-BPHH-E7BR-9USXU",
+    "factor":2
+}
