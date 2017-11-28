@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Asset-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Symbols" transform="translate(-150.000000, -181.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="power_settings_new" transform="translate(150.000000, 181.000000)">
+                <path d="M14.813,2.156 C16.735,3.797 18.001,6.281 18.001,9 C18.001,13.969 13.97,18 9.001,18 C4.032,18 0.001,13.969 0.001,9 C0.001,6.281 1.267,3.797 3.189,2.156 L4.595,3.562 C3.048,4.828 2.017,6.796 2.017,9 C2.017,12.891 5.111,15.984 9.001,15.984 C12.891,15.984 15.985,12.89 15.985,9 C15.985,6.797 15.001,4.875 13.407,3.609 L14.813,2.156 Z M9.984,0 L9.984,9.984 L8.015,9.984 L8.015,0 L9.984,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
 
-<svg
+<!--<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -36,4 +44,4 @@
        id="path4147"
        inkscape:connector-curvature="0" />
   </g>
-</svg>
+</svg>-->

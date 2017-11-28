@@ -1,34 +1,62 @@
 <div class="databox dashboard-balances wide">
-	<h2>Top Balances</h2>
+  <div class="databox-header">
+		<h2>Starred assets</h2>
+		<!--<div class="manage-button">
+	  	  <a onclick='manage_favourites();' href="#manage-favourites" role="button" data-toggle="modal"><span class="manage-icon"></span>Manage</a>
+		</div>-->
+	</div>
 	<div class="data" style="text-align: center;">
 		<div class="spinner"><div class="spinner-loader">...</div></div>
 	</div>
 </div>
 
 <div class="databox dashboard-transactions">
-	<h2>Transactions</h2>
+	<div class="databox-header">
+		<h2>Transactions</h2>
+	</div>
 	<div class="data">
 		<div class="spinner"><div class="spinner-loader">...</div></div>
 	</div>
 </div>
 
 <div class="databox dashboard-trade">
-	<h2>Trade</h2>
+	<div class="databox-header">
+		<h2>Trade</h2>
+	</div>
 	<div class="data">
 		<div class="spinner"><div class="spinner-loader">...</div></div>
 	</div>
 </div>
 
 <div class="databox dashboard-chat">
-	<h2>Chat</h2>
+	<div class="databox-header">
+		<h2>Chat</h2>
+	</div>
 	<div class="data">
 		<div class="spinner"><div class="spinner-loader">...</div></div>
 	</div>
 </div>
 
 <div class="databox dashboard-apps">
-	<h2>Apps</h2>
+	<div class="databox-header">
+		<h2>Apps</h2>
+	</div>
 	<div class="data">
 		<div class="spinner"><div class="spinner-loader">...</div></div>
+	</div>
+</div>
+
+<!-- modals -->
+<div id="manage-favourites" class="modal hide fade wide" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h2 id="ModalLabel">Manage starred assets</h2>
+		</div>
+		<div class="modal-body">
+			<div class="data"></div>
+		</div>
+		<div class="modal-footer">
+			<button class="pure-button pure-button-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
+		</div>
 	</div>
 </div>

@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.xnn",
+  "name":"XenonNetwork",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0xab95E915c123fdEd5BDfB6325e35ef5515F1EA69",
+  "originator":"0x31882E76F380e20b59135851EB6dA43807656Bed",  
+  "factor":18
+}

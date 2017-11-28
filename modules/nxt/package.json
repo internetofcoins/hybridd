@@ -1,0 +1,10 @@
+{
+  "author": "Joachim de Koning",
+  "name": "modules-nxt",
+  "description": "NXT Internet of Coins module",
+  "version": "1",
+  "main": "./modules/nxt", 
+  "engines": {
+    "node": "*"
+  }
+}

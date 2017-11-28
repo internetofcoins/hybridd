@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <g id="Asset-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Symbols" transform="translate(-269.000000, -143.000000)" fill-rule="nonzero">
+            <g id="star_border" transform="translate(269.000000, 143.000000)">
+                <path d="M10,13.422 L13.75,15.672 L12.766,11.406 L16.094,8.5 L11.688,8.125 L10,4.094 L8.312,8.125 L3.906,8.5 L7.234,11.406 L6.25,15.672 L10,13.422 Z M19.984,7.234 L14.546,11.968 L16.187,18.999 L9.999,15.249 L3.811,18.999 L5.452,11.968 L0.014,7.234 L7.186,6.625 L9.999,0.016 L12.812,6.625 L19.984,7.234 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
