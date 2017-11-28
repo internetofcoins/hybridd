@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.PTrading",
+    "name":"PTrading",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15002658053170433869",
+    "originator":"NXT-5M3X-KDNJ-CEGB-E6TT4",
+    "factor":4
+}

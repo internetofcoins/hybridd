@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.OpenFund",
+    "name":"OpenFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11827592488608861208",
+    "originator":"NXT-L6JJ-QQ2X-X8FK-CQ43F",
+    "factor":4
+}

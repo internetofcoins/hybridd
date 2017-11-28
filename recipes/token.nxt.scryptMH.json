@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.scryptMH",
+    "name":"scryptMH",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7718804113170725965",
+    "originator":"NXT-9SYB-C2GF-JA2X-2R4S3",
+    "factor":2
+}

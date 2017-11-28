@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ShortBTCD",
+    "name":"ShortBTCD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3267494002243225342",
+    "originator":"NXT-G2CG-FR9J-NMX5-CR9KQ",
+    "factor":0
+}

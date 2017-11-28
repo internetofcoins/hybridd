@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ShortBTC",
+    "name":"ShortBTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3787581779795626420",
+    "originator":"NXT-G2CG-FR9J-NMX5-CR9KQ",
+    "factor":0
+}

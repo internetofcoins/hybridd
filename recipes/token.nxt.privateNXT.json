@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.privateNXT",
+    "name":"privateNXT",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8149788036721522865",
+    "originator":"NXT-KKNV-8EPK-W2S4-96VTK",
+    "factor":2
+}

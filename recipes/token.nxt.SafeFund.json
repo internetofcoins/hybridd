@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SafeFund",
+    "name":"SafeFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7094901870200647087",
+    "originator":"NXT-QBZL-UJVR-DX77-8NBEE",
+    "factor":5
+}

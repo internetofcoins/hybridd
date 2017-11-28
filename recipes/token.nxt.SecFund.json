@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SecFund",
+    "name":"SecFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9125535795764729261",
+    "originator":"NXT-CTSG-H83X-7R8E-6EFFP",
+    "factor":0
+}

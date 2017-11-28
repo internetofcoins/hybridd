@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ScryptMine",
+    "name":"ScryptMine",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14489997878690843945",
+    "originator":"NXT-YBH9-BHZX-8N23-79F8S",
+    "factor":2
+}

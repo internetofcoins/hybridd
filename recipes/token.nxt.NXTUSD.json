@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NXTUSD",
+    "name":"NXTUSD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"1938368828495773639",
+    "originator":"NXT-9PHL-3CDU-XZLG-DGU65",
+    "factor":2
+}

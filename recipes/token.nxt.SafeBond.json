@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SafeBond",
+    "name":"SafeBond",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"1099909785786473673",
+    "originator":"NXT-S999-5KYR-L29L-A89HR",
+    "factor":2
+}
