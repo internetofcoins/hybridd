@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.GOLD",
+    "name":"GOLD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"13826431730869363225",
+    "originator":"NXT-J592-E74L-UVSQ-ALXW3",
+    "factor":8
+}

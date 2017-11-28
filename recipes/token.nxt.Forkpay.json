@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Forkpay",
+    "name":"Forkpay",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"4244599378927106120",
+    "originator":"NXT-Y8FL-UJCB-R25H-23BT2",
+    "factor":2
+}

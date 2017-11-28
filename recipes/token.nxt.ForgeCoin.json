@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ForgeCoin",
+    "name":"ForgeCoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5934798443252900551",
+    "originator":"NXT-7PHS-2VHM-U5WP-BTFZD",
+    "factor":3
+}

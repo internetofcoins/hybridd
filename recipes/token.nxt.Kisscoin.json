@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Kisscoin",
+    "name":"Kisscoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12764573703623177516",
+    "originator":"NXT-TDNB-DXY3-B6Z7-2LKKJ",
+    "factor":3
+}

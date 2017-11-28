@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.IOTACOIN",
+    "name":"IOTACOIN",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"6229753502266729966",
+    "originator":"NXT-7WS4-K456-3LF4-FYDFP",
+    "factor":3
+}

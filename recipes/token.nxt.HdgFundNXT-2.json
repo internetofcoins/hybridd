@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.HdgFundNXT-2",
+    "name":"HdgFundNXT",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5111771963845655207",
+    "originator":"NXT-CKL3-G77Y-6LFW-H7XHC",
+    "factor":2
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.LendMe",
+    "name":"LendMe",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7263648446645703429",
+    "originator":"NXT-DF5M-QQUG-3MXA-FMB29",
+    "factor":4
+}

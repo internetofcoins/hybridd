@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.FunBotV1",
+    "name":"FunBotV1",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"502090591603781088",
+    "originator":"NXT-XKFE-4HSX-97DG-8BX6J",
+    "factor":4
+}
