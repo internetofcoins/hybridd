@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BTCDdev",
+    "name":"BTCDdev",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15131486578879082754",
+    "originator":"NXT-MRBN-8DFH-PFMK-A4DBM",
+    "factor":2
+}

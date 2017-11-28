@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CEVLfund",
+    "name":"CEVLfund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11245550485524882638",
+    "originator":"NXT-V5BQ-DYFY-5NGT-79W7N",
+    "factor":2
+}

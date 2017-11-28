@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.1000FIM",
+    "name":"1000FIM",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12404894802398759379",
+    "originator":"NXT-M667-6GVL-3JNZ-GRN96",
+    "factor":3
+}

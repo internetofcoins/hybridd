@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.AGBSTAKE",
+    "name":"AGBSTAKE",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"16579042619236898628",
+    "originator":"NXT-KFBV-JNXL-NJ8V-272Z8",
+    "factor":2
+}

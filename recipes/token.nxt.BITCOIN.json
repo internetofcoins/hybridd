@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BITCOIN",
+    "name":"BITCOIN",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9988612179600566885",
+    "originator":"NXT-J592-E74L-UVSQ-ALXW3",
+    "factor":8
+}

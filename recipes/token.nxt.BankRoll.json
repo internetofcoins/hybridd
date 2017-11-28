@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BankRoll",
+    "name":"BankRoll",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"16159458497017130222",
+    "originator":"NXT-2DRD-6HVM-C3XX-BDRBF",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BTCClicks",
+    "name":"BTCClicks",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"16043688416616433798",
+    "originator":"NXT-LVG6-5CU6-QYHT-4MD8M",
+    "factor":4
+}

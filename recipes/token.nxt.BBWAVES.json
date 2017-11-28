@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BBWAVES",
+    "name":"BBWAVES",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10335049270708895574",
+    "originator":"NXT-9HP3-8QJW-NY3Y-9QLLZ",
+    "factor":2
+}

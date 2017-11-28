@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BTCBR",
+    "name":"BTCBR",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9515586733978661635",
+    "originator":"NXT-2DRD-6HVM-C3XX-BDRBF",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BBLoan",
+    "name":"BBLoan",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"4089360284229218751",
+    "originator":"NXT-49RS-C6BQ-7ZCQ-7HGQQ",
+    "factor":3
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BitVestor",
+    "name":"BitVestor",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10463718940725973072",
+    "originator":"NXT-W932-MWXN-42D3-FP6RA",
+    "factor":1
+}

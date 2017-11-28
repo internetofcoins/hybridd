@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CFSAsset",
+    "name":"CFSAsset",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8095191343671757672",
+    "originator":"NXT-VPPC-P3F3-Y9L2-GFL36",
+    "factor":0
+}

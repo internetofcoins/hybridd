@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BITASSET",
+    "name":"BITASSET",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"406279775282082718",
+    "originator":"NXT-M5SY-4XJ5-PCUM-FRRHL",
+    "factor":2
+}
