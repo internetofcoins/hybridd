@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.USDbitfnx",
+    "name":"USDbitfnx",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10294386916428132892",
+    "originator":"NXT-BQK9-UDGP-2Q97-49H3L",
+    "factor":2
+}

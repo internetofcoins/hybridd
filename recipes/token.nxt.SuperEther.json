@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SuperEther",
+    "name":"SuperEther",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"17707493498005633135",
+    "originator":"NXT-MRBN-8DFH-PFMK-A4DBM",
+    "factor":4
+}

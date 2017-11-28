@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.TTBTC",
+    "name":"TTBTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5764190661047275592",
+    "originator":"NXT-DP63-ZQX9-6LQX-5P9XB",
+    "factor":0
+}

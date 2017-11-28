@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SP500",
+    "name":"SP500",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15579332261195321949",
+    "originator":"NXT-ZQTX-RB98-XN9C-8GYGX",
+    "factor":2
+}

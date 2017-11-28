@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.xbtc",
+    "name":"xbtc",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15253689248273381061",
+    "originator":"NXT-3Y7Y-A8RA-5GXC-3AYP9",
+    "factor":4
+}

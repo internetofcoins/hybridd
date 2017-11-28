@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.superBTC",
+    "name":"superBTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12659653638116877017",
+    "originator":"NXT-8RQH-HFUP-3AJ9-E2DB9",
+    "factor":8
+}

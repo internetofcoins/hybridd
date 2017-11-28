@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.USDPlus",
+    "name":"USDPlus",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"426058338514204629",
+    "originator":"NXT-Y8Q9-UQYC-ADXA-C5N2J",
+    "factor":2
+}
