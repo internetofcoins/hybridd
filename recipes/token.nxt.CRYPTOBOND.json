@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CRYPTOBOND",
+    "name":"CRYPTOBOND",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5277825014714996655",
+    "originator":"NXT-A238-6UY9-GEXF-7PCZW",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DUMPcoin",
+    "name":"DUMPcoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7785293374449713474",
+    "originator":"NXT-HWPG-NKH3-ACBS-BNS4G",
+    "factor":0
+}

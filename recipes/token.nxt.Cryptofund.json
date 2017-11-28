@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Cryptofund",
+    "name":"Cryptofund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5562590132594876791",
+    "originator":"NXT-Y8FL-UJCB-R25H-23BT2",
+    "factor":0
+}

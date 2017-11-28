@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ChinaCNY",
+    "name":"ChinaCNY",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3331546410849496495",
+    "originator":"NXT-C8CV-5BWF-URH9-6G8VB",
+    "factor":3
+}

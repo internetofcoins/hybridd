@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CoinoUSD",
+    "name":"CoinoUSD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12982485703607823902",
+    "originator":"NXT-6MVF-XTDR-MDTK-DPHEU",
+    "factor":2
+}

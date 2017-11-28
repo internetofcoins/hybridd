@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DGEX",
+    "name":"DGEX",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3679685800012766390",
+    "originator":"NXT-ESC4-WUDS-ATPL-C6W7P",
+    "factor":2
+}

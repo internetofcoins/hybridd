@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DJIA",
+    "name":"DJIA",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12562876620599701963",
+    "originator":"NXT-ZQTX-RB98-XN9C-8GYGX",
+    "factor":2
+}

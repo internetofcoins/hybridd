@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DAVIDCOIN",
+    "name":"DAVIDCOIN",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5244459577529595740",
+    "originator":"NXT-S9B3-NK6E-ST4S-DE4W2",
+    "factor":8
+}

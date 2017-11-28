@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DesertPay",
+    "name":"DesertPay",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10172629088724238972",
+    "originator":"NXT-5AHM-NAZL-ZF9L-DMZPR",
+    "factor":2
+}

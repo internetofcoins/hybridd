@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CoinJungle",
+    "name":"CoinJungle",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3810547481794392315",
+    "originator":"NXT-BVPC-SN6Z-MDHB-D5ZKK",
+    "factor":0
+}

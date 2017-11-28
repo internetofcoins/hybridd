@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DotpayCNY",
+    "name":"DotpayCNY",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8421424071013119320",
+    "originator":"NXT-2D5V-6EQ2-3ED8-G4J9J",
+    "factor":3
+}

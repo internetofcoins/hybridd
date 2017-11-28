@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CryptoZin",
+    "name":"CryptoZin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8300433784910391470",
+    "originator":"NXT-N53Y-6D8X-N8C5-5MCJ7",
+    "factor":3
+}
