@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstFolio",
+    "name":"BurstFolio",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13835163208059770130",
+    "originator":"BURST-B97Z-MC2D-K4BT-ANTB5",
+    "factor":0
+}

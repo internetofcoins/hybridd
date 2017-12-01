@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ByteEMini",
+    "name":"ByteEMini",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"639537212154320",
+    "originator":"BURST-N8KB-DKKW-9C4W-AF289",
+    "factor":0
+}

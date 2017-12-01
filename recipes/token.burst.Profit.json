@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Profit",
+    "name":"Profit",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11979050138788306231",
+    "originator":"BURST-KNQ2-KG3G-LGGN-8UZC2",
+    "factor":1
+}

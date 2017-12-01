@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.deal",
+    "name":"deal",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14392999984970697331",
+    "originator":"BURST-KNQ2-KG3G-LGGN-8UZC2",
+    "factor":0
+}

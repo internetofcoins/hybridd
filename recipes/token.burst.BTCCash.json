@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BTCCash",
+    "name":"BTCCash",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"10071080214837377826",
+    "originator":"BURST-LF94-B5SR-7QZY-E6QCQ",
+    "factor":2
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.SMIC",
+    "name":"SMIC",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"6697794905457854420",
+    "originator":"BURST-L47J-TKLH-7D4N-HC7UF",
+    "factor":4
+}

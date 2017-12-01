@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.MiningFarm",
+    "name":"MiningFarm",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"6454143064454842911",
+    "originator":"BURST-XRLK-U48M-MEBS-4NBH3",
+    "factor":0
+}

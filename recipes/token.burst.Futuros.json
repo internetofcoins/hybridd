@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Futuros",
+    "name":"Futuros",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"1605211475111316015",
+    "originator":"BURST-82J9-MGRS-4WJY-6942D",
+    "factor":1
+}

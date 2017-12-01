@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.2GoodAsset",
+    "name":"2GoodAsset",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3537636055215115561",
+    "originator":"BURST-WYEL-9XPF-4XZ6-ES6J8",
+    "factor":2
+}

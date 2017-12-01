@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.KMining",
+    "name":"KMining",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9886958804253134013",
+    "originator":"BURST-G2EZ-77LQ-QFS9-3NZ85",
+    "factor":0
+}

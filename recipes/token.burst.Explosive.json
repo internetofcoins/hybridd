@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Explosive",
+    "name":"Explosive",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13430408307535451875",
+    "originator":"BURST-P97L-62M4-HYXJ-5FSU8",
+    "factor":1
+}

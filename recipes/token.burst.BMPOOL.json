@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BMPOOL",
+    "name":"BMPOOL",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11375670541237055652",
+    "originator":"BURST-SKL3-ACW8-DBN6-5M8VM",
+    "factor":0
+}

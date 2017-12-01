@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.MONSTER",
+    "name":"MONSTER",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"721234250272725166",
+    "originator":"BURST-BQFZ-244Y-GLFM-GVG28",
+    "factor":0
+}

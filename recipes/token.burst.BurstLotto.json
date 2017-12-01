@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstLotto",
+    "name":"BurstLotto",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13832961572592346169",
+    "originator":"BURST-WNQE-ALSP-SNE7-87UX2",
+    "factor":0
+}

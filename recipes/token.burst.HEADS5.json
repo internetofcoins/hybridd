@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.HEADS5",
+    "name":"HEADS5",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15548552188412289183",
+    "originator":"BURST-FND2-K33B-ZJ43-HJ88Z",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Insurance",
+    "name":"Insurance",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8537747233248277524",
+    "originator":"BURST-T8EC-KRMC-MR8J-G4XJZ",
+    "factor":0
+}

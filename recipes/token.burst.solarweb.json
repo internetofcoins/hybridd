@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.solarweb",
+    "name":"solarweb",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"10625663918513077003",
+    "originator":"BURST-EU72-QY5G-7ST7-F7W4H",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Minero200",
+    "name":"Minero200",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8140956823699307160",
+    "originator":"BURST-CFJG-3WU2-CM9X-HC4UR",
+    "factor":4
+}

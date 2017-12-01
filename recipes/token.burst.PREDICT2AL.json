@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.PREDICT2AL",
+    "name":"PREDICT2AL",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11955450808357081474",
+    "originator":"BURST-X9QF-LYBM-JYXN-82MMN",
+    "factor":0
+}

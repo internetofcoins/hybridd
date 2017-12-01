@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Margin",
+    "name":"Margin",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"12352013921347055881",
+    "originator":"BURST-SLBL-G3TG-QQRW-35TAN",
+    "factor":1
+}

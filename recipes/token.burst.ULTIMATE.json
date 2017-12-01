@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ULTIMATE",
+    "name":"ULTIMATE",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"7783094797422108015",
+    "originator":"BURST-TECH-T3MS-CYLU-BKFW9",
+    "factor":1
+}

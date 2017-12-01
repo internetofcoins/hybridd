@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.PetaByte",
+    "name":"PetaByte",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14668748687827404894",
+    "originator":"BURST-G5Y2-DF78-Q27R-EBGUK",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.StupTrade",
+    "name":"StupTrade",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13357329997286365796",
+    "originator":"BURST-FKLY-5LRC-TBJF-CQBP9",
+    "factor":0
+}

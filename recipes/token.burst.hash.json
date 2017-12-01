@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.hash",
+    "name":"hash",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18119229184320918134",
+    "originator":"BURST-4PFU-SPUL-327R-63KYJ",
+    "factor":4
+}

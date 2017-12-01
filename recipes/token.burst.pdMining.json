@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.pdMining",
+    "name":"pdMining",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4398045642972398121",
+    "originator":"BURST-V22U-GXVF-353N-9F2EL",
+    "factor":0
+}

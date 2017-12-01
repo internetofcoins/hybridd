@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.500k",
+    "name":"500k",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"12427301476308139534",
+    "originator":"BURST-LV46-2AYJ-ZYRH-72ADB",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.JACKPOT",
+    "name":"JACKPOT",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14847412032004314862",
+    "originator":"BURST-XSN4-LUCK-DESK-8K2NQ",
+    "factor":0
+}

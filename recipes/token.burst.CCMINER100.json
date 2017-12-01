@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.CCMINER100",
+    "name":"CCMINER100",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4496198869167276848",
+    "originator":"BURST-6BH8-2UBM-QQQT-BQJLG",
+    "factor":0
+}

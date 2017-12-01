@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.YASA",
+    "name":"YASA",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"12143106865567593139",
+    "originator":"BURST-73VC-7KDZ-PJWY-D4PGV",
+    "factor":0
+}

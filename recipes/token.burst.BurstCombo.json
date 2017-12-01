@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstCombo",
+    "name":"BurstCombo",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3558383635212006927",
+    "originator":"BURST-8Q7P-TYJT-HV3E-BGZWS",
+    "factor":2
+}

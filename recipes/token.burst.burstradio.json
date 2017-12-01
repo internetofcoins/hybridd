@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.burstradio",
+    "name":"burstradio",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14617628407773995865",
+    "originator":"BURST-P5WG-K9GK-F4FV-7WRB8",
+    "factor":0
+}

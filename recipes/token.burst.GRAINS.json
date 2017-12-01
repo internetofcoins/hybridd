@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.GRAINS",
+    "name":"GRAINS",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9886697806456011179",
+    "originator":"BURST-KZQV-7L7K-89K6-HXFGP",
+    "factor":0
+}

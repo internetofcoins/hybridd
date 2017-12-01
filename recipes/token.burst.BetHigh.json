@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BetHigh",
+    "name":"BetHigh",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8898207681276582192",
+    "originator":"BURST-W29T-RNKG-AY9F-ECN6W",
+    "factor":0
+}

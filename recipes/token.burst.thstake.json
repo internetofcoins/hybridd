@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.thstake",
+    "name":"thstake",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18176646582737130927",
+    "originator":"BURST-Q94J-49K3-RTGF-CJSYR",
+    "factor":0
+}

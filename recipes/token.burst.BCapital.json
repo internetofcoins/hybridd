@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BCapital",
+    "name":"BCapital",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11657505881616038798",
+    "originator":"BURST-678P-2EXR-GN4X-4DT9P",
+    "factor":0
+}

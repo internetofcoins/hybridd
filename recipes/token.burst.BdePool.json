@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BdePool",
+    "name":"BdePool",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3101115594843807035",
+    "originator":"BURST-V3K2-QPEN-3KSF-DLXW5",
+    "factor":0
+}

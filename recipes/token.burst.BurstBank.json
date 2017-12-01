@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstBank",
+    "name":"BurstBank",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15790499215652851079",
+    "originator":"BURST-YVVF-WE7N-LSY7-5GGZ9",
+    "factor":0
+}
