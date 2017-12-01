@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.COINFARM",
+    "name":"COINFARM",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"13689583429348406098",
+    "originator":"NXT-YNVQ-ALF7-U9SN-EA8H9",
+    "factor":0
+}

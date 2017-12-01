@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.EURUSD",
+    "name":"EURUSD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9441055548364232232",
+    "originator":"NXT-ZQTX-RB98-XN9C-8GYGX",
+    "factor":5
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Barter",
+    "name":"Barter",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5634226673543878063",
+    "originator":"NXT-2TPQ-DKDF-HSJJ-5VC2Z",
+    "factor":8
+}

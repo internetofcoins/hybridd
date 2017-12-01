@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BBTEZOS",
+    "name":"BBTEZOS",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5394027503434756372",
+    "originator":"NXT-9HP3-8QJW-NY3Y-9QLLZ",
+    "factor":2
+}

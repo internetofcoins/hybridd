@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DraBond",
+    "name":"DraBond",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14745980869590875402",
+    "originator":"NXT-2AVQ-RFVZ-D7BJ-DRDXL",
+    "factor":8
+}

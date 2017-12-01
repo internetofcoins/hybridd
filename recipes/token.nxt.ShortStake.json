@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ShortStake",
+    "name":"ShortStake",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14001085242518279646",
+    "originator":"NXT-D7WC-SKR6-F2EC-7VUXL",
+    "factor":1
+}

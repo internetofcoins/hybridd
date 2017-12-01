@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.PayHash",
+    "name":"PayHash",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11691953584176240762",
+    "originator":"NXT-5YGL-U3PW-962B-5DQNN",
+    "factor":3
+}

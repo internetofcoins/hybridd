@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Barter-2",
+    "name":"Barter",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8975474920402627041",
+    "originator":"NXT-PTAV-JBPD-9QZ3-D52VR",
+    "factor":2
+}

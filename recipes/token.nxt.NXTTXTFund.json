@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NXTTXTFund",
+    "name":"NXTTXTFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15354079498364983892",
+    "originator":"NXT-UNDA-EHYP-ES2G-D7CRS",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NxtForexSA",
+    "name":"NxtForexSA",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8746471047938197850",
+    "originator":"NXT-MMCG-89ES-NETA-GMPR3",
+    "factor":3
+}

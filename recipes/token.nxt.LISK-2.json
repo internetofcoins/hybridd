@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.LISK-2",
+    "name":"LISK",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14738107721483067493",
+    "originator":"NXT-CCVF-F3LV-FZCS-EB3LR",
+    "factor":3
+}

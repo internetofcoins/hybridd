@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NXTADFUND",
+    "name":"NXTADFUND",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9555217055765586369",
+    "originator":"NXT-DNHQ-D5EH-ZZ3H-CRSRQ",
+    "factor":4
+}

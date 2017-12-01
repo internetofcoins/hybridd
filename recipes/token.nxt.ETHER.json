@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ETHER",
+    "name":"ETHER",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8523222332171857458",
+    "originator":"NXT-J592-E74L-UVSQ-ALXW3",
+    "factor":8
+}

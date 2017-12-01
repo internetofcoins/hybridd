@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BTC",
+    "name":"BTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8353969862517684064",
+    "originator":"NXT-P3PK-M7XT-CUUS-9WM97",
+    "factor":8
+}

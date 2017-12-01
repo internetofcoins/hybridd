@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.GSAShare",
+    "name":"GSAShare",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14666012085275242993",
+    "originator":"NXT-USZP-BVGH-WJZH-65BGA",
+    "factor":2
+}

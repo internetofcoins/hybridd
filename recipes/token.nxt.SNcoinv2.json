@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SNcoinv2",
+    "name":"SNcoinv2",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7702851144050777256",
+    "originator":"NXT-9TM7-KQNG-6GWV-ECHKP",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.PokeCoin",
+    "name":"PokeCoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14446060003153929192",
+    "originator":"NXT-EAVL-EWCR-EPYY-2F3BK",
+    "factor":2
+}

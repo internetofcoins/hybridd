@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.CryptoCoin",
+    "name":"CryptoCoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"615502203617265072",
+    "originator":"NXT-CFAC-YVL9-BZKT-A294B",
+    "factor":2
+}

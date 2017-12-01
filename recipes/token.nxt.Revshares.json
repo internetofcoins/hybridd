@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Revshares",
+    "name":"Revshares",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"13027325887377065635",
+    "originator":"NXT-EC4J-K9BU-38E3-7VXMR",
+    "factor":2
+}

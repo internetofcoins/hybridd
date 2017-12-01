@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Asset1234",
+    "name":"Asset1234",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"18389414818279410124",
+    "originator":"NXT-E59W-5LVC-L4FW-8ALJH",
+    "factor":4
+}

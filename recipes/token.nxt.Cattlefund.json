@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Cattlefund",
+    "name":"Cattlefund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"2905031865860458160",
+    "originator":"NXT-597B-F84M-DJJG-9NT9A",
+    "factor":2
+}

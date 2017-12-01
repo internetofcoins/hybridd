@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Litecoin",
+    "name":"Litecoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9545582885005657403",
+    "originator":"NXT-T7WF-CHQ3-A473-8H36F",
+    "factor":8
+}

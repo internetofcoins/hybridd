@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NxtLottery",
+    "name":"NxtLottery",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11077445197420283494",
+    "originator":"NXT-6DRZ-RPUC-3EUF-6G5PF",
+    "factor":1
+}

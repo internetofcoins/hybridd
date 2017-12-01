@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.TXTCoinNow",
+    "name":"TXTCoinNow",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"17874206509705745796",
+    "originator":"NXT-UNDA-EHYP-ES2G-D7CRS",
+    "factor":0
+}

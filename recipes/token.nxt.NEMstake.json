@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NEMstake",
+    "name":"NEMstake",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"12465186738101000735",
+    "originator":"NXT-J62B-CNAR-34YW-4RCFN",
+    "factor":1
+}

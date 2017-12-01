@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.HyipShare",
+    "name":"HyipShare",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8913584268734517592",
+    "originator":"NXT-9EL7-8P3Z-9RSZ-FCHW8",
+    "factor":2
+}

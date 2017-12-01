@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ERNUSfund",
+    "name":"ERNUSfund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5541148062433532400",
+    "originator":"NXT-GPZ3-5JA2-N2ZM-GU7N8",
+    "factor":8
+}

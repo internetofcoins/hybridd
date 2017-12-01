@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.DailyTrade",
+    "name":"DailyTrade",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"18198254847979167603",
+    "originator":"NXT-PFBN-NBW2-E3B7-G3MHM",
+    "factor":0
+}

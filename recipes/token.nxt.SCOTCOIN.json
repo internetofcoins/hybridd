@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SCOTCOIN",
+    "name":"SCOTCOIN",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15722685899150288575",
+    "originator":"NXT-2Z8J-E46V-RYPW-6ZBRP",
+    "factor":6
+}

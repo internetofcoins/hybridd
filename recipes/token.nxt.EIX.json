@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.EIX",
+    "name":"EIX",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5056017329645101426",
+    "originator":"NXT-UK7N-EL7S-VS6K-5WD5Z",
+    "factor":2
+}

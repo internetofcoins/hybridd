@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Gurucoin",
+    "name":"Gurucoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"17525539581352488995",
+    "originator":"NXT-B5JC-93BQ-NYE3-AWX4U",
+    "factor":0
+}

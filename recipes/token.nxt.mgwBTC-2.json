@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.mgwBTC-2",
+    "name":"mgwBTC",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"4551058913252105307",
+    "originator":"NXT-JXRD-GKMR-WD9Y-83CK7",
+    "factor":8
+}

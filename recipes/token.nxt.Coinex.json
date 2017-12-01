@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Coinex",
+    "name":"Coinex",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"5922427150250194038",
+    "originator":"NXT-XBVF-49V3-UYUS-2AZMQ",
+    "factor":0
+}

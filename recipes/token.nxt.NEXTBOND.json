@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NEXTBOND",
+    "name":"NEXTBOND",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7105354913147670050",
+    "originator":"NXT-ESXQ-5QFC-ARPP-HG2C7",
+    "factor":8
+}

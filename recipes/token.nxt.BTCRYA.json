@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BTCRYA",
+    "name":"BTCRYA",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"8054707504116210047",
+    "originator":"NXT-LRH7-J4RL-94F3-5WBEB",
+    "factor":8
+}

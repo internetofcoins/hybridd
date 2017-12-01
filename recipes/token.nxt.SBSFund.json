@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SBSFund",
+    "name":"SBSFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"9754839894053908535",
+    "originator":"NXT-TS4U-Q9X7-SPFS-2YBPJ",
+    "factor":4
+}

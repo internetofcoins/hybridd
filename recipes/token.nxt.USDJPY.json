@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.USDJPY",
+    "name":"USDJPY",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"537399773615937403",
+    "originator":"NXT-ZQTX-RB98-XN9C-8GYGX",
+    "factor":3
+}

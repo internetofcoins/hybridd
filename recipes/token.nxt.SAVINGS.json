@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.SAVINGS",
+    "name":"SAVINGS",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11516842492336669715",
+    "originator":"NXT-JVS4-EXHY-ZKKG-BC6MW",
+    "factor":5
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.MPFiatGate",
+    "name":"MPFiatGate",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"11028155454127307466",
+    "originator":"NXT-9H6X-X7HA-99NW-7JUFN",
+    "factor":0
+}

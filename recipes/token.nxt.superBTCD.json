@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.superBTCD",
+    "name":"superBTCD",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"6918149200730574743",
+    "originator":"NXT-8RQH-HFUP-3AJ9-E2DB9",
+    "factor":4
+}

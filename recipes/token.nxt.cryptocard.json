@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.cryptocard",
+    "name":"cryptocard",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"7110939398145553585",
+    "originator":"NXT-KKNV-8EPK-W2S4-96VTK",
+    "factor":0
+}

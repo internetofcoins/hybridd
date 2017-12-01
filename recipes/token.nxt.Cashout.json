@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.Cashout",
+    "name":"Cashout",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"2202974811233535048",
+    "originator":"NXT-5SGM-TSS9-YQN2-D78QB",
+    "factor":6
+}

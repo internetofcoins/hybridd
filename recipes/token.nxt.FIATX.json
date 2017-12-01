@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.FIATX",
+    "name":"FIATX",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"17564603521990838332",
+    "originator":"NXT-T4BJ-M2B6-9LHP-8YG77",
+    "factor":0
+}

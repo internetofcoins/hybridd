@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.fee",
+    "name":"fee",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"4707582580484683230",
+    "originator":"NXT-KTRA-RCBM-8LKU-8AHV5",
+    "factor":6
+}

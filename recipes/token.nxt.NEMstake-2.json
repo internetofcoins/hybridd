@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.NEMstake-2",
+    "name":"NEMstake",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"16349551126838875261",
+    "originator":"NXT-BLWC-SCPJ-R3PS-2YSS7",
+    "factor":1
+}

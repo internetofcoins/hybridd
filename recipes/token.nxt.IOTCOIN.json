@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.IOTCOIN",
+    "name":"IOTCOIN",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"10234579221778800123",
+    "originator":"NXT-JDAD-PQ4J-LMHA-29QGG",
+    "factor":0
+}

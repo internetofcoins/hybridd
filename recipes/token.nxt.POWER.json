@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.POWER",
+    "name":"POWER",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"15466162052630491391",
+    "originator":"NXT-SZSX-B3J2-DTJB-2EEWH",
+    "factor":5
+}

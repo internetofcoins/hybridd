@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.PAWNCASH",
+    "name":"PAWNCASH",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"14512229226887084105",
+    "originator":"NXT-5SGM-TSS9-YQN2-D78QB",
+    "factor":6
+}

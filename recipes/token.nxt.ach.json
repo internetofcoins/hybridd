@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.ach",
+    "name":"ach",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"6789385243274909976",
+    "originator":"NXT-V9ND-E489-AXUL-5HH5Q",
+    "factor":0
+}
