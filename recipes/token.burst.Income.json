@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Income",
+    "name":"Income",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11188744773544606055",
+    "originator":"BURST-XCJ9-Z5H2-MVKM-HA8EP",
+    "factor":0
+}

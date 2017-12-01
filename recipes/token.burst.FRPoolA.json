@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.FRPoolA",
+    "name":"FRPoolA",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17677804299777005904",
+    "originator":"BURST-RGSF-X5BD-FBPR-2ZM63",
+    "factor":2
+}

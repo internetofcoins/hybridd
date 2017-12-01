@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.MTMreload",
+    "name":"MTMreload",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8796872986592545082",
+    "originator":"BURST-5ANP-LRWY-77B8-2F72Y",
+    "factor":4
+}

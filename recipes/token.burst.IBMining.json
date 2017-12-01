@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.IBMining",
+    "name":"IBMining",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18006693763131799115",
+    "originator":"BURST-WGF2-7BDU-XSCG-998Y4",
+    "factor":0
+}

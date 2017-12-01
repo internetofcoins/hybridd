@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.PJSTAKES",
+    "name":"PJSTAKES",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"1201697671265907072",
+    "originator":"BURST-8UTY-7PGP-7N3A-BF5V4",
+    "factor":0
+}

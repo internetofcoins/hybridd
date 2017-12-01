@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Energizer",
+    "name":"Energizer",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3855145173095950761",
+    "originator":"BURST-NEPQ-XZ4Z-LWRT-H3TR3",
+    "factor":0
+}

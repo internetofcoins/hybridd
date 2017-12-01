@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.PREPH",
+    "name":"PREPH",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4373779539774487407",
+    "originator":"BURST-GC5N-HHD8-F5LD-BJFN3",
+    "factor":0
+}

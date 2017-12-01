@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.GoldDigger",
+    "name":"GoldDigger",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18314960872730642604",
+    "originator":"BURST-PJFM-PP6Y-QMV3-AF9YV",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.FocusMine",
+    "name":"FocusMine",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18037940387919656370",
+    "originator":"BURST-MCW6-T7K6-B68K-FCPGG",
+    "factor":0
+}

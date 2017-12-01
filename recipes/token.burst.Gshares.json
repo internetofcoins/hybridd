@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Gshares",
+    "name":"Gshares",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9258498245922932754",
+    "originator":"BURST-U4NP-YKQU-27AP-C4CCJ",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.HardInvest",
+    "name":"HardInvest",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15295227971848272658",
+    "originator":"BURST-T7BK-USTG-KVKC-D2RDL",
+    "factor":1
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.kMineHodl",
+    "name":"kMineHodl",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"1602298782324578434",
+    "originator":"BURST-V5B3-K8F2-8RTC-FCKQM",
+    "factor":2
+}
