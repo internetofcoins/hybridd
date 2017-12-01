@@ -96,7 +96,7 @@ function exec(properties) {
       if(sourceaddr) {
         if(!isToken(target.symbol)) {
           subprocesses.push('func("nxt","link",{target:'+jstr(target)+',command:["getBalance",["account='+sourceaddr+'"]]})'); // send balance query
-          subprocesses.push('stop((data!==null && typeof data.unconfirmedBalanceNQT!=="undefined"?0:1),(data!==null && typeof data.unconfirmedBalanceNQT!=="undefined"? padFloat( fromInt(data.unconfirmedBalanceNQT,'+factor+'),'+factor+') :null))');
+          subprocesses.push('stop((data!==null && ((typeof data.errorCode!=="undefined" && data.errorCode==5)|| typeof data.unconfirmedBalanceNQT!=="undefined")?0:1),(data!==null && typeof data.unconfirmedBalanceNQT!=="undefined"? padFloat( fromInt(data.unconfirmedBalanceNQT,'+factor+'),'+factor+') : ((data!==null && (typeof data.errorCode!=="undefined" && data.errorCode==5))?0:null) ))');
         } else {
           subprocesses.push('func("nxt","link",{target:'+jstr(target)+',command:["getAccount",["account='+sourceaddr+'","includeAssets=true","includeCurrencies=true"]]})'); // send balance query
           subprocesses.push('func("nxt","post",{target:'+jstr(target)+',command:["balance"],data:data})');

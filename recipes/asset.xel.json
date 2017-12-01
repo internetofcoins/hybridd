@@ -1,0 +1,11 @@
+{
+    "symbol":"xel",
+    "name":"Elastic",
+    "module":"nxt",
+    "mode":"nxt.elastic",
+    "factor":8,
+    "fee":0.1,
+    "host":["https://wallet.elasticexplorer.org/nxt","https://wallet.elastic.pw/nxt"],
+    "cache":15000,
+    "throttle":5
+}

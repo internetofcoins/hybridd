@@ -1,0 +1,10 @@
+{
+    "symbol":"burst",
+    "name":"Burst",
+    "module":"nxt",
+    "mode":"nxt.burst",
+    "factor":8,
+    "host":["https://wallet1.burst-team.us:2083/burst","https://wallet.burst.cryptoguru.org:8125/burst","https://wallet2.burst-team.us:2083/burst"],
+    "cache":15000,
+    "throttle":5
+}
