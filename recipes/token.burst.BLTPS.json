@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BLTPS",
+    "name":"BLTPS",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"12588513172055458075",
+    "originator":"BURST-NUS9-59KB-RFMB-BYGUE",
+    "factor":6
+}

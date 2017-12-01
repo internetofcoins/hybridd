@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.btcdragon",
+    "name":"btcdragon",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"1892701762360056549",
+    "originator":"BURST-UDDD-WL3V-DLAJ-CV9K5",
+    "factor":2
+}

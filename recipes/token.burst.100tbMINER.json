@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.100tbMINER",
+    "name":"100tbMINER",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"7687485658573560785",
+    "originator":"BURST-X3VP-NRRB-2G2M-59KRA",
+    "factor":4
+}

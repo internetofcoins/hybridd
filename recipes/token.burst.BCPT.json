@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BCPT",
+    "name":"BCPT",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"12791182347560578640",
+    "originator":"BURST-8E8K-WQ2F-ZDZ5-FQWHX",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.burstvest",
+    "name":"burstvest",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9942303089158877431",
+    "originator":"BURST-TX7W-YTB2-EZY7-APA7J",
+    "factor":2
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstGrow",
+    "name":"BurstGrow",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17295286510783838993",
+    "originator":"BURST-VHJA-QEFD-GJUF-EQ93A",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Burst3000",
+    "name":"Burst3000",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13134120338186134981",
+    "originator":"BURST-5X76-52G2-HVKY-4B36A",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Buyback",
+    "name":"Buyback",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15960505094502212264",
+    "originator":"BURST-FETT-MTXW-TM3A-74H7R",
+    "factor":0
+}

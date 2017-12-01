@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.bcard2",
+    "name":"bcard2",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"16638626464928840929",
+    "originator":"BURST-4E4A-9C7G-N5FW-H5NBU",
+    "factor":0
+}

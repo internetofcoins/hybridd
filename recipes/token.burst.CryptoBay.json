@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.CryptoBay",
+    "name":"CryptoBay",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"5357759978980979581",
+    "originator":"BURST-4MSG-7YLC-EE9C-8VJUS",
+    "factor":8
+}

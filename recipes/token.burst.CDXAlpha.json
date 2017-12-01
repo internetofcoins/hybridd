@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.CDXAlpha",
+    "name":"CDXAlpha",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"6025080697156639929",
+    "originator":"BURST-X9QF-LYBM-JYXN-82MMN",
+    "factor":0
+}

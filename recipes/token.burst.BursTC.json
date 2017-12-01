@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BursTC",
+    "name":"BursTC",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4599219351354972896",
+    "originator":"BURST-HMMW-8LEJ-3GWF-53628",
+    "factor":8
+}

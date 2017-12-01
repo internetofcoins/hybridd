@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.BurstFund-2",
+    "name":"BurstFund",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"673530795527425458",
+    "originator":"BURST-H2ZW-3H4D-RJBS-FCVGV",
+    "factor":2
+}

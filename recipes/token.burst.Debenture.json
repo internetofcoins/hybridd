@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Debenture",
+    "name":"Debenture",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17164677442585110887",
+    "originator":"BURST-KTRA-RCBM-8LKU-8AHV5",
+    "factor":4
+}
