@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ccm100",
+    "name":"CCMiner",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"5255893438014874161",
+    "originator":"BURST-PDKW-PAMA-Q6AM-AMYMT",
+    "factor":8
+}

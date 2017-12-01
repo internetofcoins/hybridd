@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.snake",
+    "name":"SnakeEyes",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15582693451220660615",
+    "originator":"BURST-CASN-VZRM-ZX9R-66HEG",
+    "factor":8
+}
