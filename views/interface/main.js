@@ -50,6 +50,7 @@ hy_content += '}'+"\n";
 hy_content += fs.readFileSync('./js/topmenuset.js');	  // resets state of top menu
 hy_content += '</script>';
 
+hy_content += addscript('./js/sha256.js');          // fast SHA256 hashing
 hy_content += addscript('./js/modal.js');           // pretty modal boxes
 hy_content += addscript('./js/clipboard.js');       // copy-to-clipboard functionality
 hy_content += addscript('./js/qrcode.js');          // create QR-code functionality
