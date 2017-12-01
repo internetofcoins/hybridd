@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.WorldMine",
+    "name":"WorldMine",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11783342878931880450",
+    "originator":"BURST-2EEC-HQ6X-X4ME-AUF7V",
+    "factor":0
+}

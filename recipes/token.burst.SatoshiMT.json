@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.SatoshiMT",
+    "name":"SatoshiMT",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"10862584318230501086",
+    "originator":"BURST-VX6R-BJXQ-XNPL-G2SGG",
+    "factor":1
+}

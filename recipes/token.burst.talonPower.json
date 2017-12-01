@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.talonPower",
+    "name":"talonPower",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14415315997266230153",
+    "originator":"BURST-U54J-D65S-LA88-GXBC3",
+    "factor":4
+}

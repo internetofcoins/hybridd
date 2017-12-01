@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Supreme",
+    "name":"Supreme",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8686176194630998128",
+    "originator":"BURST-WU9F-RT7A-FJB2-CDVJL",
+    "factor":8
+}

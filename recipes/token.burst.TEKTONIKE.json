@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TEKTONIKE",
+    "name":"TEKTONIKE",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"1231812944272348986",
+    "originator":"BURST-EFPL-6MYS-SY2V-2ATZP",
+    "factor":8
+}

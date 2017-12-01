@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.UMine",
+    "name":"UMine",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"6089346893590129860",
+    "originator":"BURST-7PLA-UBGS-K4XS-DBFZZ",
+    "factor":1
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TestAsset",
+    "name":"TestAsset",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13121531462532881593",
+    "originator":"BURST-PC4J-ETQQ-VYHC-BPYHP",
+    "factor":3
+}

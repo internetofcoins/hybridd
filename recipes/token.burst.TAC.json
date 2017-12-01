@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TAC",
+    "name":"TAC",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"16244476365864733710",
+    "originator":"BURST-UC7L-T7SW-395M-FKX7N",
+    "factor":4
+}

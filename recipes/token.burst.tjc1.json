@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.tjc1",
+    "name":"tjc1",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3185467604264340702",
+    "originator":"BURST-58NT-VALJ-4ZUL-G7ERZ",
+    "factor":8
+}

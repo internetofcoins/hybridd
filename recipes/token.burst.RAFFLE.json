@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.RAFFLE",
+    "name":"RAFFLE",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3509939581101213262",
+    "originator":"BURST-JM3M-MHWM-UVQ6-DSN3Q",
+    "factor":1
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ZoomDice",
+    "name":"ZoomDice",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17568259922712783315",
+    "originator":"BURST-553A-HSCG-G7PN-3PM8M",
+    "factor":2
+}
