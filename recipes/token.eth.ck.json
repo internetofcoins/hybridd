@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.ck",
+    "name":"CryptoKitties",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
+    "originator":"0xba52c75764d6F594735dc735Be7F1830CDf58dDf",
+    "factor":0
+}
