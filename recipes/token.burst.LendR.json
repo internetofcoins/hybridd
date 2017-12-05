@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.LendR",
+    "name":"LendR",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"7334806072668361028",
+    "originator":"BURST-A62H-K6KT-XAPB-EBTBB",
+    "factor":1
+}

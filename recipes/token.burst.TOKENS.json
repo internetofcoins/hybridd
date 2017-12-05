@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TOKENS",
+    "name":"TOKENS",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9039657658071420862",
+    "originator":"BURST-KZQV-7L7K-89K6-HXFGP",
+    "factor":6
+}

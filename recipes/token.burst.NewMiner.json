@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.NewMiner",
+    "name":"NewMiner",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8776870561463226621",
+    "originator":"BURST-GR4B-6YJZ-R82G-6MB25",
+    "factor":1
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Asset",
+    "name":"Asset",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"7680550370207558962",
+    "originator":"BURST-Q4TR-YKRW-6RAN-EDBC8",
+    "factor":0
+}

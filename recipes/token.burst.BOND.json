@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BOND",
+    "name":"BOND",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"2523433759672798405",
+    "originator":"BURST-KNK5-BXFG-RAVU-AXN4W",
+    "factor":7
+}

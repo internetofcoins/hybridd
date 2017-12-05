@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.QOIN",
+    "name":"QOIN",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17166199110338114557",
+    "originator":"BURST-KV4L-CFEK-9LEH-CY7EV",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstCoin",
+    "name":"BurstCoin",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8184496029738894662",
+    "originator":"BURST-QD9G-BM9A-R5J5-E7XZK",
+    "factor":0
+}

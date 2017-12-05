@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstErupt",
+    "name":"BurstErupt",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18366665938269639766",
+    "originator":"BURST-L5Q6-ATUR-QP7B-ADBRS",
+    "factor":0
+}

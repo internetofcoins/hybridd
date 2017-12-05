@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ROAsset",
+    "name":"ROAsset",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"14242189811399012986",
+    "originator":"BURST-FEES-N69H-EN7Z-A9MM5",
+    "factor":1
+}

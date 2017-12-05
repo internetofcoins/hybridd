@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TAILS1",
+    "name":"TAILS1",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18101550250323881184",
+    "originator":"BURST-L937-BDB6-7YRU-7RMEV",
+    "factor":0
+}

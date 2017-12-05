@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.FMining",
+    "name":"FMining",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"6562925618197436139",
+    "originator":"BURST-CLUB-QPEN-HYXH-GUS2S",
+    "factor":4
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.assetmine",
+    "name":"assetmine",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8788580230271293840",
+    "originator":"BURST-USNH-DUG5-YYTW-EXPKA",
+    "factor":0
+}

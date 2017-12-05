@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.LottoMine1",
+    "name":"LottoMine1",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3846814414745711162",
+    "originator":"BURST-6KSU-WLBR-K9AR-6RXEN",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.valorbit",
+    "name":"valorbit",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11502277056018400280",
+    "originator":"BURST-PD2A-NRKB-WEFH-HQ2ZF",
+    "factor":0
+}

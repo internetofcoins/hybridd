@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ATAssets",
+    "name":"ATAssets",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"9816832562606350214",
+    "originator":"BURST-ANZR-96U8-AH8U-C6J3J",
+    "factor":0
+}

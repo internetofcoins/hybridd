@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.HalogenV1",
+    "name":"HalogenV1",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11867939260933214548",
+    "originator":"BURST-BRH8-VMCB-H54C-D2UVK",
+    "factor":2
+}

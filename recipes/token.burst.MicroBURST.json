@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.MicroBURST",
+    "name":"MicroBURST",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"8037858512672935472",
+    "originator":"BURST-4T39-WTUG-WBVW-DX85C",
+    "factor":4
+}

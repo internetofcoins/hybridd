@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.ADSactly",
+    "name":"ADSactly",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"5567986790414164482",
+    "originator":"BURST-7KP4-JFNX-84J3-DSYK9",
+    "factor":2
+}

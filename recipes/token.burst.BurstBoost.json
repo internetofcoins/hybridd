@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstBoost",
+    "name":"BurstBoost",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"5298936854101771076",
+    "originator":"BURST-M9BL-SY9D-CRDR-BHMWQ",
+    "factor":2
+}

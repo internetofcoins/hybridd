@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.gibsmining",
+    "name":"gibsmining",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"13285586296728134057",
+    "originator":"BURST-R992-RURV-MCW5-8R676",
+    "factor":7
+}

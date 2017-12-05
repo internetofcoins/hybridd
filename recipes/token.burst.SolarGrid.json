@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.SolarGrid",
+    "name":"SolarGrid",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"16885738494266455518",
+    "originator":"BURST-LL9Q-CFZA-BS9S-BT776",
+    "factor":0
+}

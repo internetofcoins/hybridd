@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.RESERVEBNK",
+    "name":"RESERVEBNK",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"18057539612312169901",
+    "originator":"BURST-4Z44-KQBQ-YX5E-7QRPF",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.TESTFUT",
+    "name":"TESTFUT",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"16677485132366415070",
+    "originator":"BURST-D6NX-Q5KG-5UZ7-A2LLV",
+    "factor":5
+}

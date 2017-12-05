@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.OUTBURST",
+    "name":"OUTBURST",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4831287691742257120",
+    "originator":"BURST-Q8K4-J6AS-RY6X-7N529",
+    "factor":1
+}

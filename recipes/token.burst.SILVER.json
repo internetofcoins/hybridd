@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.SILVER",
+    "name":"SILVER",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"2823758324363412734",
+    "originator":"BURST-4MKT-LBA6-LY4V-8YAGG",
+    "factor":4
+}

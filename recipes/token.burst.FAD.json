@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.FAD",
+    "name":"FAD",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"4365263114597251978",
+    "originator":"BURST-9H34-LA3H-X3KM-FYEGX",
+    "factor":0
+}

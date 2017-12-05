@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Burst4All",
+    "name":"Burst4All",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17374526332841192454",
+    "originator":"BURST-GKHD-SQV2-4GJ9-FUA79",
+    "factor":1
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.PUMP",
+    "name":"PUMP",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3385889879838420522",
+    "originator":"BURST-SKNF-HQCN-BZY7-GVZTM",
+    "factor":0
+}

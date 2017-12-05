@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.COINTOSS",
+    "name":"COINTOSS",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"2674932917922497025",
+    "originator":"BURST-ACRE-9QT6-DA72-9BJX8",
+    "factor":0
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.Atlas",
+    "name":"Atlas",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"3756826588997759858",
+    "originator":"BURST-VC49-SWLA-FJFD-2KXCP",
+    "factor":2
+}

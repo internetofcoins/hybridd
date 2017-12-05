@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.solarfarm",
+    "name":"solarfarm",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"11330004142522539040",
+    "originator":"BURST-4PFU-SPUL-327R-63KYJ",
+    "factor":0
+}

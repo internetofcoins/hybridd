@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BURSTaker",
+    "name":"BURSTaker",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"15208279992621279224",
+    "originator":"BURST-RGDA-8LHC-L4C3-4VRH9",
+    "factor":2
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BCMPMiner",
+    "name":"BCMPMiner",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"10278367095211385215",
+    "originator":"BURST-TBAU-6CT7-SD59-76Y22",
+    "factor":1
+}

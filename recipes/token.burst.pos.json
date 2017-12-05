@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.pos",
+    "name":"pos",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"17647398155953557298",
+    "originator":"BURST-4PFU-SPUL-327R-63KYJ",
+    "factor":4
+}

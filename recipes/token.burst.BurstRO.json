@@ -1,0 +1,9 @@
+{
+    "symbol":"burst.BurstRO",
+    "name":"BurstRO",
+    "module":"nxt",
+    "mode":"nxt.burst-token",
+    "contract":"7426415155439324948",
+    "originator":"BURST-GG4B-34Y9-ZXGV-FNTNJ",
+    "factor":2
+}
