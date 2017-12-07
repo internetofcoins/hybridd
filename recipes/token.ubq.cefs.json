@@ -1,0 +1,9 @@
+{
+    "symbol":"ubq.cefs",
+    "name":"CryptopiaFeeShare",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x08533d6a06ce365298b12ef92eb407cba8aa8273",
+    "originator":"0x665ec820f1d1a0d4fd7dac5deaa4e86abe47b3ea",
+    "factor":8
+}
