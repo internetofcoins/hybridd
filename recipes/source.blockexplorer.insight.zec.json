@@ -1,0 +1,10 @@
+{
+  "id":"insight.zec",
+  "name":"Zcash Insight Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"zcash.insight",
+  "factor":8,
+  "host":"http://zcashnetwork.info/api",
+  "cache":1000,
+  "throttle":3
+}

@@ -197,7 +197,3 @@ function link(properties) {
                  'target':target.symbol });
 }
 
-function isToken(symbol) {
-  return (symbol.indexOf('.')!==-1?1:0);
-}
-

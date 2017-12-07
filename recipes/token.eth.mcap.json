@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.mcap",
+  "name":"MCAP",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0x93E682107d1E9defB0b5ee701C71707a4B2E46Bc",
+  "originator":"0xC5Cf6410a3F2EDa2b31Ea73a4fD9b3E80d035fE1",  
+  "factor":8
+}

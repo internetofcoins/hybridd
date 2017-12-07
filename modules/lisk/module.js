@@ -52,7 +52,7 @@ function exec(properties) {
         global.hybridd.asset[target.symbol].link = new Client(options_auth);
       } else { global.hybridd.asset[target.symbol].link = new Client(); }    
 			// set up init probe command to check if Altcoin RPC is responding and connected
-			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getStatus"]})');
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/blocks/getStatus"]})');
 			subprocesses.push('func("lisk","post",{target:'+jstr(target)+',command:["init"],data:data,data})');
       subprocesses.push('pass( (data != null && typeof data.success!="undefined" && data.success ? 1 : 0) )');      
       subprocesses.push('logs(1,"module lisk: "+(data?"connected":"failed connection")+" to ['+target.symbol+'] host '+target.host+'",data)');      
@@ -69,11 +69,11 @@ function exec(properties) {
 		break;
 		case 'status':
 			// set up init probe command to check if Altcoin RPC is responding and connected
-			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/loader/status/sync"]})'); // get sync status
-      subprocesses.push('poke("liskA",data)');	                                                            // store the resulting data for post-process collage
-			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getStatus"]})');   // get milestone / difficulty
-      subprocesses.push('poke("liskB",data)');	                                                            // store the resulting data for post-process collage
-			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/peers/version"]})');      // get version
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/loader/status/sync"]})'); // get sync status
+      subprocesses.push('poke("liskA",data)');	                                                              // store the resulting data for post-process collage
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/blocks/getStatus"]})');   // get milestone / difficulty
+      subprocesses.push('poke("liskB",data)');	                                                              // store the resulting data for post-process collage
+			subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/peers/version"]})');      // get version
 			subprocesses.push('func("lisk","post",{target:'+jstr(target)+',command:["status"],data:{liskA:peek("liskA"),liskB:peek("liskB"),liskC:data}})');       // post process the data
 		break;    
 		case 'factor':
@@ -88,7 +88,7 @@ function exec(properties) {
       // define the source address/wallet
       var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'');
       if(sourceaddr) {
-        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
         subprocesses.push('stop((typeof data.balance!="undefined"?0:1),fromInt(data.balance,'+factor+'))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
@@ -97,8 +97,8 @@ function exec(properties) {
 		case 'push':
       var deterministic_script = (typeof properties.command[1] != 'undefined'?properties.command[1]:false);
       if(deterministic_script && typeof deterministic_script=='string') {
-        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
-        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:'+jstr(['peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:'+jstr(['/peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
         subprocesses.push('stop((typeof data.success!="undefined" && data.success?0:1),(typeof data.transactionId!="undefined"?functions.clean(data.transactionId):"Transaction error or bad nethash!"))'); // shoot deterministic script object to peer node
       } else {
         subprocesses.push('stop(1,"Missing or badly formed deterministic transaction!")');
@@ -116,7 +116,7 @@ function exec(properties) {
       //var startdate = (typeof properties.command[1] != 'undefined'?properties.command[1]:(Date.now()-(86400*14)));
       //var enddate = (typeof properties.command[1] != 'undefined'?properties.command[1]:Date.now());
       var params = 'recipientId='+sourceaddr+limit+offset+'&orderBy=timestamp:desc';
-      command = ['api/transactions?'+params];
+      command = ['/api/transactions?'+params];
       subprocesses.push('poke("sourceaddr","'+sourceaddr+'")');	// store the resulting data for post-process collage
       subprocesses.push('func("lisk","link",'+jstr({target,command})+')');
 		break;
@@ -309,7 +309,7 @@ function link(properties) {
     if(typeof params==='string') { try { params = JSON.parse(params); } catch(e) {} }
     var nethash = (typeof properties.nethash!='undefined'?properties.nethash:'');
     var version = '0.9.9';
-    if(upath.substr(0,4)=='api/') {
+    if(upath.substr(0,5)=='/api/') {
       type='PUT';
       args = {
           headers:{'Content-Type':'application/json','version':version,'port':1,'nethash':nethash},

@@ -64,7 +64,7 @@ function exec(properties) {
         switch(command[0]) {
           case 'balance':
             if(typeof command[1]!='undefined') {
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["address/balance/'+command[1]+'?confirmations=0"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/address/balance/'+command[1]+'?confirmations=0"]})');
               subprocesses.push('test((typeof data.data!="undefined" && typeof data.data.balance!="undefined" && !isNaN(data.data.balance)),2,1,data)')
               subprocesses.push('stop(1,null)');
               subprocesses.push('stop(0, padFloat(data.data.balance,'+factor+') )');            
@@ -75,7 +75,7 @@ function exec(properties) {
           case 'unspent':
             // example: http://btc.blockr.io/api/v1/address/unspent/
             if(typeof command[1]!='undefined') {
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["address/unspent/'+command[1]+'"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/address/unspent/'+command[1]+'"]})');
               subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
             } else {
               subprocesses.push('stop(1,"Please specify an address!")');
@@ -88,15 +88,15 @@ function exec(properties) {
       case 'insight':
         switch(properties.command[0]) {
           case 'balance':
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/balance"]})');
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/unconfirmedBalance"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/addr/'+command[1]+'/balance"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/addr/'+command[1]+'/unconfirmedBalance"]})');
               subprocesses.push('coll(2)');            
               subprocesses.push('stop( (isNaN(data[0])||isNaN(data[1])?1:0), fromInt((data[0]+data[1]),'+factor+') )');
           break;
           case 'unspent':
             // example: https://blockexplorer.com/api/addr/[:addr]/utxo
             if(typeof command[1]!='undefined') {
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["addr/'+command[1]+'/utxo"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/addr/'+command[1]+'/utxo"]})');
               subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
             } else {
               subprocesses.push('stop(1,"Please specify an address!")');
@@ -119,7 +119,7 @@ function exec(properties) {
           case 'unspent':
             // example: http://explorer.litecoin.net/unspent/LYmpJZm1WrP5FSnxwkV2TTo5SkAF4Eha31
             if(typeof command[1]!='undefined') {
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["unspent/'+jstr(command[1])+'"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/unspent/'+jstr(command[1])+'"]})');
               subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
             } else {
               subprocesses.push('stop(1,"Please specify an address!")');

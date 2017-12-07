@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.qtum",
+  "name":"Qtum",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0x9a642d6b3368ddc662CA244bAdf32cDA716005BC",
+  "originator":"0x0006217ffaEc4BaA337C2ABB6C2164bedC372F37",  
+  "factor":18
+}
