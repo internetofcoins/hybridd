@@ -89,7 +89,7 @@ function exec(properties) {
       var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'');
       if(sourceaddr) {
         subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
-        subprocesses.push('stop((typeof data.balance!=="undefined"?0:1),(typeof data.balance==="undefined"?null:fromInt(data.balance,'+factor+')))');
+        subprocesses.push('stop((typeof data.balance!=="undefined"?0:1),(typeof data.balance==="undefined"?null:padFloat(fromInt(data.balance,'+factor+'),'+factor+')))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
       }      
