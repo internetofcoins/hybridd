@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <g id="Asset-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Symbols" transform="translate(-233.000000, -143.000000)" fill-rule="nonzero">
-            <g id="star" transform="translate(233.000000, 143.000000)">
-                <polygon id="Shape" points="10 15.25 3.812 19 5.453 11.969 0.015 7.235 7.187 6.626 10 0.017 12.813 6.626 19.985 7.235 14.547 11.969 16.188 19"></polygon>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-249.000000, -214.000000)">
+        <g id="My-assets" transform="translate(124.000000, 140.000000)" fill="#F5C82C" fill-rule="nonzero">
+            <g id="Table" transform="translate(1.000000, 20.000000)">
+                <g id="TR" transform="translate(19.000000, 30.000000)">
+                    <polygon id="Shape" points="111.985 34.6562351 107.656189 37.2795451 108.804149 32.3610137 105 29.0493471 110.017168 28.6233216 111.985 24 113.952832 28.6233216 118.97 29.0493471 115.165851 32.3610137 116.313811 37.2795451"></polygon>
+                </g>
             </g>
         </g>
     </g>

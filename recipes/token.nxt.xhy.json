@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.xhy",
+    "name":"Internet of Coins Hybrid Asset",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"17179021398403681515",
+    "originator":"NXT-FCXQ-K5NB-EA5E-CF36G",
+    "factor":8
+}

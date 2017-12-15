@@ -89,7 +89,7 @@ function exec(properties) {
       var sourceaddr = (typeof properties.command[1] != 'undefined'?properties.command[1]:'');
       if(sourceaddr) {
         subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/accounts/getBalance?address='+sourceaddr+'"]})'); // send balance query
-        subprocesses.push('stop((typeof data.balance!="undefined"?0:1),fromInt(data.balance,'+factor+'))');
+        subprocesses.push('stop((typeof data.balance!=="undefined"?0:1),(typeof data.balance==="undefined"?null:fromInt(data.balance,'+factor+')))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
       }      
@@ -181,6 +181,7 @@ function post(properties) {
 }
 
 // DEPRECATED: standard function for postprocessing the data of a sequential set of instructions
+/*
 function postOLD(properties) {
 	// decode our serialized properties
 	var processID = properties.processID
@@ -290,7 +291,7 @@ function postOLD(properties) {
 		postdata = (typeof postdata.error!='undefined'?postdata.error:null);
     scheduler.stop(parentID,{err:1,data:null});
 	}
-}
+}*/
 
 // data returned by this connector is stored in a process superglobal -> global.hybridd.process[processID]
 function link(properties) {

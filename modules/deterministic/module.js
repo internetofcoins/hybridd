@@ -84,7 +84,8 @@ function exec(properties) {
         if (fs.existsSync(filename)) {
           // read deterministic.js and push data into process scheduler
           var lzmapack = fs.readFileSync(filename);
-          // return compressed deterministic code object for Lisk
+          // return compressed deterministic code object
+          subprocesses.push('time(8000)');          
           subprocesses.push('stop(0,"'+lzmapack+'")');          
         } else {
           subprocesses.push('stop(404,"Error: Mode does not exist!")');

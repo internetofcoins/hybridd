@@ -1,0 +1,10 @@
+{
+  "id":"abe.ltc",
+  "name":"Litecoin ABE Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"litecoin.abe",
+  "factor":8,
+  "host":"http://explorer.litecoin.net/chain/Litecoin",
+  "cache":1000,
+  "throttle":3
+}
