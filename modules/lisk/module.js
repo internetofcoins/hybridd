@@ -101,6 +101,7 @@ function exec(properties) {
         subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:'+jstr(['/peer/transactions',deterministic_script])+',nethash:data.nethash})'); // shoot deterministic script object to peer node
         subprocesses.push('stop((typeof data.success!="undefined" && data.success?0:1),(typeof data.transactionId!="undefined"?functions.clean(data.transactionId):"Transaction error or bad nethash!"))'); // shoot deterministic script object to peer node
       } else {
+        subprocesses.push('func("lisk","link",{target:'+jstr(target)+',command:["/api/blocks/getNetHash"]})'); // get the nethash to be able to send transactions
         subprocesses.push('stop(1,"Missing or badly formed deterministic transaction!")');
       }
     break;
@@ -180,124 +181,12 @@ function post(properties) {
   scheduler.stop(processID,{err:(success?0:1),data:postdata});
 }
 
-// DEPRECATED: standard function for postprocessing the data of a sequential set of instructions
-/*
-function postOLD(properties) {
-	// decode our serialized properties
-	var processID = properties.processID
-	var procinfo = scheduler.procpart(properties.processID);
-	var parentID = procinfo[0];
-	var prevproc = procinfo[2];
-	var target = properties.target;
-	var factor = (typeof properties.factor != 'undefined'?properties.factor:12);
-	var type  = (typeof properties.type != 'undefined'?properties.type:'deterministic');	
-	var postvars = global.hybridd.proc[parentID].vars;
-	var postdata = global.hybridd.proc[prevproc].data;
-	// set data to what command we are performing
-	global.hybridd.proc[processID].data = properties.command;
-	// handle the command
-	if (postdata == null) {
-		var success = false;
-	} else {
-		var success = true;
-		switch(properties.command[0]) {
-			case 'status':
-				if (typeof postdata.success != 'undefined') {
-					// nicely cherrypick and reformat status data
-					var collage = {};
-					collage.module = 'lisk';
-					if(postvars != null) {
-						if(typeof postvars.liskA != 'undefined') {
-							collage.synced = (typeof postvars.liskA.blocks != 'undefined'	? (postvars.liskA.blocks ? 0 : 1) : null);
-							collage.blocks = (typeof postvars.liskA.height != 'undefined'	? postvars.liskA.height : null);
-							// ADD blocktime
-						}
-						if(typeof postvars.liskB != 'undefined') {
-							collage.fee = (typeof postvars.liskB.fee != 'undefined'					? postvars.liskB.fee : null);
-							collage.supply = (typeof postvars.liskB.supply != 'undefined'			? postvars.liskB.supply : null);							
-							collage.difficulty = (typeof postvars.liskB.milestone != 'undefined'	? postvars.liskB.milestone : null);
-						}
-						collage.testmode = 0;   // Lisk always runs realnet?
-					} else {
-						collage.synced = null;
-						collage.blocks = null;
-						collage.fee = null;
-						collage.supply = null;
-						collage.difficulty = null;
-						collage.testmode = null;
-					}
-					collage.version = (typeof postdata.version != 'undefined' ? String(postdata.version+' (build '+(typeof postdata.build != 'undefined'?postdata.build.rTrim("\n"):'?')+')') : null);
-					postdata = collage;
-					// on init, report back to stdout
-					if(properties.command[1] == 'init') {
-						console.log(' [i] module lisk: connected to ['+target.symbol+'] host '+target.host+':'+target.port);
-					}
-				} else {
-					console.log(' [!] module lisk: failed connection to ['+target.symbol+'] host '+target.host+':'+target.port);
-					global.hybridd.proc[parentID].err = 1;
-				}		
-			break;
-			case 'balance':
-				// if result is not a number, set the error flag!
-				global.hybridd.proc[prevproc].err = 1;
-        if(typeof postdata.success != 'undefined') {
-          if(postdata.success) {
-            // data returned looks like: {"success":true,"balance":"0","unconfirmedBalance":"0"}
-            global.hybridd.proc[prevproc].err = 0;
-            postdata = postdata.balance/Math.pow(10,factor);
-          }
-        }
-			break;
-			case 'transfer':
-				global.hybridd.proc[prevproc].err = 1;
-				if(typeof postdata.transactionId != 'undefined') {
-					global.hybridd.proc[prevproc].err = 0;
-					//postdata = functions.clean(postdata.result.tx_hash);
-					postdata = functions.clean(postdata.transactionId);
-				}
-			break;
-			case 'transferlist':
-				global.hybridd.proc[prevproc].err = 1;
-				if(typeof postdata.transactions != 'undefined') {
-					if(typeof postdata.transactions == 'object') {
-						global.hybridd.proc[prevproc].err = 0;
-						var transactions = [];
-						var cnt = 0;
-						postdata.transactions.forEach(function(entry) {
-							transactions.push({
-								id:entry.id,
-								amount:entry.amount/Math.pow(10,factor),
-								send:(entry.senderId==sourceaddr?1:0),  // GET SOURCEADDR!
-								txid:functions.clean(entry.blockId),
-                time:entry.timestamp
-							});
-							cnt++;
-						});
-						postdata = transactions;
-					}
-				}
-			break;
-			default:
-				success = false;		
-		}
-	}
-  scheduler.stop(processID,{err:(success?1:0),data:postdata});
-	// default is to transfer the datafield of the last subprocess to the main process
-	if (success && !global.hybridd.proc[prevproc].err && typeof postdata != 'undefined') {
-		if(DEBUG) { console.log(' [D] sending postprocessing data to parent '+parentID); }
-    scheduler.stop(parentID,{err:0,data:postdata});
-	} else {
-		if(DEBUG) { console.log(' [D] error in '+prevproc+' during postprocessing for '+parentID); }
-		postdata = (typeof postdata.error!='undefined'?postdata.error:null);
-    scheduler.stop(parentID,{err:1,data:null});
-	}
-}*/
-
 // data returned by this connector is stored in a process superglobal -> global.hybridd.process[processID]
 function link(properties) {
-	var target = properties.target;
-  var base = target.symbol.split('.')[0];     // in case of token fallback to base asset
 	var processID = properties.processID;
+	var target = properties.target;
+  var mode = target.mode;
+  var base = target.symbol.split('.')[0];     // in case of token fallback to base asset
 	var command = properties.command;
 	if(DEBUG) { console.log(' [D] module lisk: sending REST call for ['+target.symbol+'] -> '+JSON.stringify(command)); }
 	// separate path and arguments
@@ -309,7 +198,16 @@ function link(properties) {
   if(typeof params!=='undefined') {
     if(typeof params==='string') { try { params = JSON.parse(params); } catch(e) {} }
     var nethash = (typeof properties.nethash!='undefined'?properties.nethash:'');
-    var version = '0.9.9';
+    var version;
+    // alternative version reporting for other lisk derivatives
+    switch (mode.split('.')[1]) {
+      case 'rise':
+        version = '0.1.1';
+      break;
+      default:  // lisk
+        version = '0.9.9';
+      break;
+    }
     if(upath.substr(0,5)=='/api/') {
       type='PUT';
       args = {
@@ -340,8 +238,7 @@ function link(properties) {
                  'args':args,
                  'throttle':(typeof target.throttle!=='undefined'?target.throttle:global.hybridd.asset[base].throttle),  // in case of token fallback to base asset throttle
                  'pid':processID,
-                 'target':target.symbol });  
-
+                 'target':target.symbol });
 }
 
 
