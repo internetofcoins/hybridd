@@ -1,9 +1,9 @@
 {
     "symbol":"burst.casino",
-    "name":"casino",
+    "name":"Casino",
     "module":"nxt",
     "mode":"nxt.burst-token",
     "contract":"15266167261394017138",
     "originator":"BURST-9JXW-F3YW-U8RG-ESSDG",
-    "factor":0
+    "factor":8
 }
