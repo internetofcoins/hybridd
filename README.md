@@ -34,7 +34,7 @@ ln -s ../nodejs-runtime/x86_64 node
 
 ### Command examples:
 ```
-./hybridd /asset/lsk/status
+./hybridd /asset/lsk/fee
 ```
 
 ```
@@ -58,7 +58,7 @@ For additional information please visit: https://internetofcoins.org
  We have included a 32-bit, 64-bit and ARMv7 version of NodeJS to make things work out of the box, but you can certainly use your own. Please amend the symbolic link in the root of this repository if necessary, or install NodeJS on your system.
 
  <i>What if I get an error?</i>
- Make sure you have correctly configured <b>hybridd.conf</b>. If this does not solve your problem, feel free to share the issue with us.
+ Make sure you have correctly configured <b>hybridd.conf</b>. Also all recipes JSON files included in ./recipes must be without error. If this does not solve your problem, feel free to share the issue with us.
  
 ## Authors
 

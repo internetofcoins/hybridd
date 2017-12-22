@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.trx",
+  "name":"Tronix",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0xf230b790E05390FC8295F4d3F60332c93BEd42e2",
+  "originator":"0x92a23b787B9119AdADB1F474682232f48D6EB3Fd",  
+  "factor":6
+}

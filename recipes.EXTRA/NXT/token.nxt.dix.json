@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.dix",
+    "name":"Dix Asset",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"3300333279580786000",
+    "originator":"NXT-JKRH-WE3T-7HK2-B73AE",
+    "factor":0
+}

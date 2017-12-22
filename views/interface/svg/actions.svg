@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="4px" viewBox="0 0 16 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Asset-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Symbols" transform="translate(-151.000000, -38.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="more_horiz" transform="translate(150.000000, 37.000000)">
+                <path d="M9,0.984 C10.078,0.984 11.016,1.922 11.016,3 C11.016,4.078 10.078,5.016 9,5.016 C7.922,5.016 6.984,4.078 6.984,3 C6.984,1.922 7.922,0.984 9,0.984 Z M15,0.984 C16.078,0.984 17.016,1.922 17.016,3 C17.016,4.078 16.078,5.016 15,5.016 C13.922,5.016 12.984,4.078 12.984,3 C12.984,1.922 13.922,0.984 15,0.984 Z M3,0.984 C4.078,0.984 5.016,1.922 5.016,3 C5.016,4.078 4.078,5.016 3,5.016 C1.922,5.016 0.984,4.078 0.984,3 C0.984,1.922 1.922,0.984 3,0.984 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

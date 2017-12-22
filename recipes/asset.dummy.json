@@ -1,0 +1,11 @@
+{
+  "symbol":"dummy",
+  "name":"Dummycoin (test coin for Internet of Coins)",
+  "module":"dummycoin",
+  "mode":"dummycoin",
+  "factor":8,
+  "fee":0.15,
+  "host":"none",
+  "cache":10000,
+  "throttle":10
+}

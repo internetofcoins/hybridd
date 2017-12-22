@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.viu",
+  "name":"VIU",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0x519475b31653E46D20cD09F9FdcF3B12BDAcB4f5",
+  "originator":"0xfa4833863108B4395bb72BD8eC0eA476eCC4879c",  
+  "factor":18
+}

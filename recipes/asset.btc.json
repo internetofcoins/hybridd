@@ -4,7 +4,7 @@
   "module":"electrum",
   "mode":"bitcoinjslib.bitcoin",
   "factor":8,
-  "fee":0.00075,
+  "fee":0.001,
   "host":"http://127.0.0.1:8338",
   "cache":60000,
   "throttle":10

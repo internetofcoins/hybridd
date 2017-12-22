@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg2"
-   viewBox="0 0 28 28"
-   height="28"
-   width="28"
-   version="1.1">
-  <metadata
-     id="metadata12">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>user-circle-o</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs10" />
-  <title
-     id="title4">user-circle-o</title>
-  <path
-     id="path6"
-     d="M14 0c7.734 0 14 6.266 14 14 0 7.688-6.234 14-14 14-7.75 0-14-6.297-14-14 0-7.734 6.266-14 14-14zM23.672 21.109c1.453-2 2.328-4.453 2.328-7.109 0-6.609-5.391-12-12-12s-12 5.391-12 12c0 2.656 0.875 5.109 2.328 7.109 0.562-2.797 1.922-5.109 4.781-5.109 1.266 1.234 2.984 2 4.891 2s3.625-0.766 4.891-2c2.859 0 4.219 2.312 4.781 5.109zM20 11c0-3.313-2.688-6-6-6s-6 2.688-6 6 2.688 6 6 6 6-2.688 6-6z"/>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-asset-view" transform="translate(-757.000000, -24.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="account_circle">
+                <g transform="translate(757.000000, 24.000000)">
+                    <path d="M7,12.0613982 C8.74158654,12.0613982 10.286859,11.1408253 11.2067308,9.79397035 C11.173778,8.41346154 8.38050881,7.62469952 7,7.62469952 C5.58653846,7.62469952 2.82622196,8.41346154 2.79326923,9.79397035 C3.71384215,11.1415264 5.25841346,12.0613982 7,12.0613982 Z M7,2.10336538 C5.84945913,2.10336538 4.89663462,3.0561899 4.89663462,4.20673077 C4.89663462,5.35727163 5.84945913,6.31009615 7,6.31009615 C8.15054087,6.31009615 9.10336538,5.35727163 9.10336538,4.20673077 C9.10336538,3.0561899 8.15054087,2.10336538 7,2.10336538 Z M7,0 C10.8779046,0 14,3.12209535 14,7 C14,10.8779046 10.8779046,14 7,14 C3.12209535,14 0,10.8779046 0,7 C0,3.12209535 3.12209535,1.2454425e-15 7,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

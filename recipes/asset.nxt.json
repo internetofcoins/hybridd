@@ -1,0 +1,10 @@
+{
+  "symbol":"nxt",
+  "name":"NXT",
+  "module":"nxt",
+  "mode":"nxt.main",
+  "factor":8,
+  "host":["https://nxt.jelurida.com/nxt","https://demo.nxt.org/nxt"],
+  "cache":15000,
+  "throttle":5
+}

@@ -1,0 +1,9 @@
+{
+  "symbol":"eth.zrx",
+  "name":"0x Protocol",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+  "originator":"0xa3b2d1087bCEBe59d188a23F75620612d967DF72",  
+  "factor":18
+}

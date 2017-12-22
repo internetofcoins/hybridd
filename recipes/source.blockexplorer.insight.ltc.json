@@ -1,0 +1,10 @@
+{
+  "id":"insight.ltc",
+  "name":"Litecoin Insight Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"litecoin.insight",
+  "factor":8,
+  "host":"https://insight.litecore.io/api",
+  "cache":1000,
+  "throttle":3
+}
