@@ -1,0 +1,11 @@
+{
+  "symbol":"ltc",
+  "name":"Litecoin",
+  "module":"electrum",
+  "mode":"bitcoinjslib.litecoin",
+  "factor":8,
+  "fee":0.003,
+  "host":"http://127.0.0.1:8438",
+  "cache":30000,
+  "throttle":10
+}

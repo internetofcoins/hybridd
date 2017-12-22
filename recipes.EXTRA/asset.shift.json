@@ -2,7 +2,7 @@
     "symbol":"shift",
     "name":"Shift",
     "module":"lisk",
-    "mode":"lisk",
+    "mode":"lisk.shift",
     "factor":8,
     "host":["https://wallet.shiftnrg.org/"],
     "cache":15000,

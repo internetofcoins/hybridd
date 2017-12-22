@@ -1,167 +1,167 @@
 <div class="databox assets-main wide">
-	<div class="databox-header">
-		<h2>My assets</h2>
-		<div class="manage-button">
-	  	<a onclick='manageAssets();' href="#manage-assets" role="button" data-toggle="modal"><span class="manage-icon"></span>Manage assets</a>
-		</div>
-	</div>
-	<div class="data" style="text-align: center;">
-		<div class="spinner"><div class="spinner-loader">...</div></div>
-	</div>
+  <div class="databox-header">
+    <h2>My assets</h2>
+    <div class="manage-button">
+      <a onclick='manageAssets();' href="#manage-assets" role="button" data-toggle="modal"><span class="manage-icon"></span>Manage assets</a>
+    </div>
+  </div>
+  <div class="data" style="text-align: center;">
+    <div class="spinner"><div class="spinner-loader">...</div></div>
+  </div>
 </div>
-	
+
 <!-- modals ADD SCROLLING HERE! -->
 <div id="manage-assets" class="modal hide fade wide" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h2 id="ModalLabel">Manage assets</h2>
-			<form class="pure-form pure-form-stacked">
-				<span class="clearable">
-				  <input id="search-assets" type="text" placeholder="Type to search..." class="inline" onkeydown = "" oninput = "" onpaste = "" oncut = "">
-				  <i class="clearable__clear">&times;</i>
-			    </span>
-			</form>
-		</div>
-		<div class="modal-body">
-			<div class="data"></div>
-		</div>
-		<div class="modal-footer">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="ModalLabel">Manage assets</h2>
+      <form class="pure-form pure-form-stacked">
+	<span class="clearable">
+	  <input id="search-assets" type="text" placeholder="Type to search..." class="inline" onkeydown = "" oninput = "" onpaste = "" oncut = "">
+	  <i class="clearable__clear">&times;</i>
+	</span>
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="data"></div>
+    </div>
+    <div class="modal-footer">
       <button onclick="$('#search-assets').val('');" class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Cancel</button>
-			<button onclick="$('#search-assets').val('');" id="save-assetlist" class="pure-button pure-button-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
-		</div>
-	</div>
+      <button onclick="$('#search-assets').val('');" id="save-assetlist" class="pure-button pure-button-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
+    </div>
+  </div>
 </div>
 
 <div id="action-send" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h2 id="ModalLabel">Send transaction</h2>
-		</div>
-		<div class="modal-body">
-			<p>Amount available to send from this account: <span class="bold modal-send-balance">?</span>&nbsp;<span class="bold modal-send-currency"></span></p>
-			<div style="font-size: 0.75em; min-height: 1.75em;">Network fee 
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="ModalLabel">Send transaction</h2>
+    </div>
+    <div class="modal-body">
+      <p>Amount available to send from this account: <span class="bold modal-send-balance">?</span>&nbsp;<span class="bold modal-send-currency"></span></p>
+      <div style="font-size: 0.75em; min-height: 1.75em;">Network fee
         <div class="bold modal-send-networkfee" style="display: inline-block; color: grey; word-wrap: break-word;">...</div>
       </div>
-			<div style="height: 1em;"></div>
+      <div style="height: 1em;"></div>
 
-			<span class="modal-send-addressfrom-wrap">
-			  <label>From address</label>
-			  <div class="bold modal-send-addressfrom">...</div>
+      <span class="modal-send-addressfrom-wrap">
+	<label>From address</label>
+	<div class="bold modal-send-addressfrom">...</div>
       </span>
 
-			<form class="pure-form pure-form-stacked">
-				<label for="target">Send to</label>
-				<input id="modal-send-target" type="text" placeholder="enter target address" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();">
-				<label for="amount">Send amount</label>
-				<input id="modal-send-amount" type="text" placeholder="enter quantity" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();" style="width: 74%;">
-				<div onclick='$("#modal-send-amount").val( $("#action-send .modal-send-balance").html() ); check_tx();' class="pure-button pure-button-small pure-button-warning max-amount-button" aria-hidden="true" style="vertical-align: top;">MAX</div>
-			</form>
-			
-		</div>
-		<div class="modal-footer">
-			<button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Cancel</button>
-			<button id="send-transfer" class="pure-button pure-button-send pure-button-primary disabled" aria-hidden="true">Send transaction</button>
-		</div>
-	</div>
+      <form class="pure-form pure-form-stacked">
+	<label for="target">Send to</label>
+	<input id="modal-send-target" type="text" placeholder="enter target address" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();">
+	<label for="amount">Send amount</label>
+	<input id="modal-send-amount" type="text" placeholder="enter quantity" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();" style="width: 74%;">
+	<div onclick='$("#modal-send-amount").val( $("#action-send .modal-send-balance").html() ); check_tx();' class="pure-button pure-button-small pure-button-warning max-amount-button" aria-hidden="true" style="vertical-align: top;">MAX</div>
+      </form>
+
+    </div>
+    <div class="modal-footer">
+      <button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      <button id="send-transfer" class="pure-button pure-button-send pure-button-primary disabled" aria-hidden="true">Send transaction</button>
+    </div>
+  </div>
 </div>
 
 <div id="action-receive" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h2 id="ModalLabel">Receive transaction</h2>
-		</div>
-		<div class="modal-body">
-			<p>To receive <span class="modal-receive-currency"></span> transactions, deposit to the address below or use the QR code.<br></p>
-			<div id="qrcode"></div><br><br>
-			<div class="modal-receive-addressfrom">...</div>
-			<div class="copied"></div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="ModalLabel">Receive transaction</h2>
+    </div>
+    <div class="modal-body">
+      <p>To receive <span class="modal-receive-currency"></span> transactions, deposit to the address below or use the QR code.<br></p>
+      <div id="qrcode"></div><br><br>
+      <div class="modal-receive-addressfrom">...</div>
+      <div class="copied"></div>
 
-			<!--<div style="height: 1em;"></div>-->
-			
-			<!--<p>Status of incoming transaction</p>-->
-			<div class="modal-receive-status" id="receivestatus" style="display: block; font-size: 3em;"></div><div class="modal-receive-status-text"></div>
-		</div>
-		<div class="modal-footer">
-			<button onclick="stop_recv();" class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
-			<button id="modal-receive-button" data-clipboard-text="?" class="pure-button pure-button-xsmall pure-button-primary" aria-hidden="true">Copy address to clipboard</button>
-		</div>
-	</div>
+      <!--<div style="height: 1em;"></div>-->
+
+      <!--<p>Status of incoming transaction</p>-->
+      <div class="modal-receive-status" id="receivestatus" style="display: block; font-size: 3em;"></div><div class="modal-receive-status-text"></div>
+    </div>
+    <div class="modal-footer">
+      <button onclick="stop_recv();" class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
+      <button id="modal-receive-button" data-clipboard-text="?" class="pure-button pure-button-xsmall pure-button-primary" aria-hidden="true">Copy address to clipboard</button>
+    </div>
+  </div>
 </div>
 
 <div id="action-advanced" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h2 id="ModalLabel">Advanced actions</h2>
-		</div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="ModalLabel">Advanced actions</h2>
+    </div>
 
-		<div class="modal-body">
-			<p>
-				Advanced asset actions are a work in progress<br>and currently not yet available.
-			</p>
-            <br><br><div id="advancedmodal"></div><br><br><br>
-        </div>
-        
-		<div class="modal-footer">
-			<button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
-		</div>
-	</div>
+    <div class="modal-body">
+      <p>
+	Advanced asset actions are a work in progress<br>and currently not yet available.
+      </p>
+      <br><br><div id="advancedmodal"></div><br><br><br>
+    </div>
+
+    <div class="modal-footer">
+      <button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+  </div>
 </div>
 
 <div id="action-actions" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h2 id="ModalLabel"></h2>
-		</div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="ModalLabel"></h2>
+    </div>
 
-		<div class="modal-body">
-			<p>
-				Your balance: <span class="balance"></span>
-			</p>
-			<div class="buttons"></div>
-        </div>
-        
-		<div class="modal-footer">
-			<button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
-		</div>
-	</div>
+    <div class="modal-body">
+      <p>
+	Your balance: <span class="balance"></span>
+      </p>
+      <div class="buttons"></div>
+    </div>
+
+    <div class="modal-footer">
+      <button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+  </div>
 </div>
 
 <div id="action-example" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h1 id="ModalLabel">A Bootstrap Modal with Pure</h1>
-		</div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 id="ModalLabel">A Bootstrap Modal with Pure</h1>
+    </div>
 
-		<div class="modal-body">
-			<p>
-				This modal is launched by including <em>just</em> the <code>modal.css</code> and <code>modal.js</code> file from Bootstrap, and including Pure to drive all low-level styles. The result is a fully-functional Modal using just a fraction of the CSS.
-			</p>
+    <div class="modal-body">
+      <p>
+	This modal is launched by including <em>just</em> the <code>modal.css</code> and <code>modal.js</code> file from Bootstrap, and including Pure to drive all low-level styles. The result is a fully-functional Modal using just a fraction of the CSS.
+      </p>
 
-			<form class="pure-form pure-form-stacked">
-				<legend>A Stacked Form</legend>
+      <form class="pure-form pure-form-stacked">
+	<legend>A Stacked Form</legend>
 
-				<label for="email">Email</label>
-				<input id="email" type="text" placeholder="Email">
+	<label for="email">Email</label>
+	<input id="email" type="text" placeholder="Email">
 
-				<label for="password">Password</label>
-				<input id="password" type="password" placeholder="Password">
+	<label for="password">Password</label>
+	<input id="password" type="password" placeholder="Password">
 
-				<label for="state">State</label>
-				<select id="state">
-					<option>AL</option>
-					<option>CA</option>
-					<option>IL</option>
-				</select>
+	<label for="state">State</label>
+	<select id="state">
+	  <option>AL</option>
+	  <option>CA</option>
+	  <option>IL</option>
+	</select>
 
-				<label class="pure-checkbox">
-					<input type="checkbox"> Remember me
-				</label>
-			</form>
-		</div>
+	<label class="pure-checkbox">
+	  <input type="checkbox"> Remember me
+	</label>
+      </form>
+    </div>
 
-		<div class="modal-footer">
-			<button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
-			<button class="pure-button pure-button-primary">Submit</button>
-		</div>
-	</div>
+    <div class="modal-footer">
+      <button class="pure-button pure-button-grey" data-dismiss="modal" aria-hidden="true">Close</button>
+      <button class="pure-button pure-button-primary">Submit</button>
+    </div>
+  </div>
 </div>

@@ -1,7 +1,7 @@
 // generates json login package
 //
 // (c)2016 metasync r&d / internet of coins
- 
+
 viewname = 'interface';
 viewtarget = '#hy_frame > .main';
 
@@ -37,6 +37,7 @@ hy_content += '</style>';
 hy_content += addscript('../../lib/crypto/urlbase64.js');	    // URL safe base 64 encoding
 hy_content += addscript('../../lib/crypto/decimal-light.js');	// arbitrary length decimals
 hy_content += addscript('../../lib/crypto/hex2dec.js');	      // arbitrary length decimals
+hy_content += addscript('../../lib/crypto/proof.js');	        // proof-of-work library
 
 hy_content += '<script>';
 hy_content += 'pass_args = {};';
@@ -68,7 +69,6 @@ hy_content += addsvg('./svg/circle.svg','circle');
 hy_content += addsvg('./svg/actions.svg','actions');
 hy_content += addsvg('./svg/edit.svg','edit');
 hy_content += addsvg('./svg/star.svg','star');
-hy_content += addsvg('./svg/star-o.svg','star-o');
 hy_content += addsvg('./svg/add.svg','add');
 hy_content += addsvg('./svg/remove.svg','remove');
 hy_content += '$("#user-icon").html(svg[\'user\']);';

@@ -1,0 +1,10 @@
+{
+    "symbol":"rise",
+    "name":"Rise",
+    "module":"lisk",
+    "mode":"lisk.rise",
+    "factor":8,
+    "host":["https://wallet.rise.vision"],
+    "cache":15000,
+    "throttle":5
+}

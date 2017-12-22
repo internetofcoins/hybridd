@@ -1,0 +1,9 @@
+{
+    "symbol":"nxt.naut",
+    "name":"NautilusCoin",
+    "module":"nxt",
+    "mode":"nxt.token",
+    "contract":"18154834130337484019",
+    "originator":"NXT-JJJW-2ZDX-BYNV-2KTG7",
+    "factor":8
+}

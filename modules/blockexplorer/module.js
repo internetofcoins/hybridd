@@ -119,7 +119,7 @@ function exec(properties) {
           case 'unspent':
             // example: http://explorer.litecoin.net/unspent/LYmpJZm1WrP5FSnxwkV2TTo5SkAF4Eha31
             if(typeof command[1]!='undefined') {
-              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/unspent/'+jstr(command[1])+'"]})');
+              subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/unspent/'+command[1]+'"]})');
               subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
             } else {
               subprocesses.push('stop(1,"Please specify an address!")');
@@ -155,7 +155,7 @@ function post(properties) {
     case 'blockr':
       switch(properties.command[0]) {
         case 'unspent':
-          if(typeof postdata.data!='undefined' && typeof postdata.data.unspent=='object') {
+          if(typeof postdata.data!=='undefined' && typeof postdata.data.unspent==='object') {
             postdata = postdata.data.unspent;
             result = [];
             for (var i in postdata) {
@@ -170,7 +170,7 @@ function post(properties) {
     case 'insight':
       switch(properties.command[0]) {
         case 'unspent':
-          if(postdata!=null) {
+          if(typeof postdata!=='undefined' && postdata!==null) {
             result = [];
             for (var i in postdata) {
               result.push({amount:padFloat(postdata[i].amount,factor),txid:postdata[i].txid,txn:postdata[i].vout});
@@ -184,7 +184,7 @@ function post(properties) {
     case 'abe':
       switch(properties.command[0]) {
         case 'unspent':
-          if(typeof postdata!='undefined' && typeof postdata.unspent_outputs=='object') {
+          if(typeof postdata!=='undefined' && postdata!==null && typeof postdata.unspent_outputs==='object') {
             postdata = postdata.unspent_outputs;
             result = [];
             for (var i in postdata) {
@@ -232,7 +232,7 @@ function post(properties) {
             }
           }
           var unspentsout = unspentscnt.minus(amount);
-          result = {unspents:unspents,change:fromInt((unspentsout>0?unspentsout:0),factor)}
+          result = {unspents:unspents,change:fromInt((unspentsout>0?unspentsout:0),factor)};
         }
       }
     break;
@@ -278,35 +278,5 @@ function link(properties) {
                  'throttle':target.throttle,
                  'pid':processID,
                  'target':target.id });
-
 }
 
-/* DEPRECATED -- FIXME!
-function validate(properties) {
-  type = properties.type;
-  data = properties.data;
-  var err=1;
-  switch(type) {
-    case 'blockr':
-      if(typeof data.status!=='undefined' && data.status==='success') { err=0; }
-    break;
-    case 'insight':
-      if(typeof data!=='undefined' && typeof data==='string') {
-        try { data = JSON.parse(data); } catch(e) { data = null; }
-        if(typeof data=='array' && data.length>0) { err=0; }
-      }
-    break;
-    case 'abe':
-      if(typeof data!=='undefined') {
-        if(typeof data==='string' && data.subjstr(0,32).indexOf("<html")>-1) {
-          err=1;
-        } else {
-          try { data = JSON.parse(data); } catch(e) { data = null; }
-          if(typeof data=='object') { err=0; }
-        }
-      }
-    break;
-  }
-  return {err:err,data:data};
-}
-*/

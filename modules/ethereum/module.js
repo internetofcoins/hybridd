@@ -79,7 +79,7 @@ function exec(properties) {
         var fee = (typeof global.hybridd.asset[base].fee != 'undefined'?global.hybridd.asset[base].fee*2.465:null);
         factor = (typeof global.hybridd.asset[base].factor != 'undefined'?global.hybridd.asset[base].factor:null);
       }
-      subprocesses.push('stop(('+jstr(fee)+'!=null && '+jstr(factor)+'!=null?0:1),'+(fee!=null && factor!=null?'"'+padFloat(fee,factor)+'"':null)+')');
+      subprocesses.push('stop(('+jstr(fee)+'!==null && '+jstr(factor)+'!==null?0:1),'+(fee!=null && factor!=null?'"'+padFloat(fee,factor)+'"':null)+')');
 		break;
 		case 'balance':
       if(sourceaddr) {
@@ -91,7 +91,7 @@ function exec(properties) {
           var encoded = global.hybridd.asset[symbol].dcode.encode({'func':'balanceOf(address):(uint256)','vars':['address'],'address':sourceaddr}); // returns the encoded binary (as a Buffer) data to be sent
           subprocesses.push('func("ethereum","link",{target:'+jstr(target)+',command:["eth_call",[{"to":"'+target.contract+'","data":"'+encoded+'"},"pending"]]})'); // send token balance ABI query
         }
-        subprocesses.push('stop((data!=null && typeof data.result!="undefined"?0:1),(data!=null && typeof data.result!="undefined"? fromInt(hex2dec.toDec(data.result),'+factor+') :null))');
+        subprocesses.push('stop((data!==null && typeof data.result!=="undefined"?0:1),(data!==null && typeof data.result!=="undefined"? padFloat(fromInt(hex2dec.toDec(data.result),'+factor+'),'+factor+') :null))');
       } else {
         subprocesses.push('stop(1,"Error: missing address!")');
       }

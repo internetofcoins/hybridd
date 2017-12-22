@@ -1,0 +1,10 @@
+{
+  "author": "Joachim de Koning",
+  "name": "modules-storage",
+  "description": "storage module",
+  "version": "1",
+  "main": "./modules/storage", 
+  "engines": {
+    "node": "*"
+  }
+}

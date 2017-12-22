@@ -2,9 +2,9 @@
     "symbol":"ark",
     "name":"Ark",
     "module":"lisk",
-    "mode":"lisk",
+    "mode":"ark",
     "factor":8,
-    "host":["https://arkecosystem.github.io/ark-lite-wallet/app/"],
+    "host":["https://node1.arknet.cloud"],
     "cache":15000,
     "throttle":5
 }
