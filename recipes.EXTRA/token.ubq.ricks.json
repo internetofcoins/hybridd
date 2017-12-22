@@ -1,0 +1,9 @@
+{
+    "symbol":"ubq.ricks",
+    "name":"PickleRicks",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x5e1715bb79805bd672729760b3f7f34d6f485098",
+    "originator":"0x665ec820f1d1a0d4fd7dac5deaa4e86abe47b3ea",
+    "factor":8
+}
