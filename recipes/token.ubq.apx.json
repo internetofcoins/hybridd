@@ -1,0 +1,9 @@
+{
+    "symbol":"ubq.apx",
+    "name":"APX",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0xd245207cfbf6eb6f34970db2a807ab1d178fde6c",
+    "originator":"0x5fa6b99e696bfabb349d2524266ea5adbbfbbf25",
+    "factor":8
+}
