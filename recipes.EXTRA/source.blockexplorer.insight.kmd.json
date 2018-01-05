@@ -1,0 +1,10 @@
+{
+    "id":"insight.kmd",
+    "name":"Komodo Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"komodo.insight",
+    "factor":8,
+    "host":["https://kmd.explorer.supernet.org/api"],
+    "cache":1000,
+    "throttle":2
+}

@@ -1,0 +1,10 @@
+{
+    "id":"abe.wdc",
+    "name":"Worldcoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"worldcoin.abe",
+    "factor":8,
+    "host":["https://www.wdcexplorer.com/"],
+    "cache":1000,
+    "throttle":2
+}

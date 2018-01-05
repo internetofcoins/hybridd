@@ -1,0 +1,10 @@
+{
+    "id":"insight.hush",
+    "name":"Hush Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"hush.insight",
+    "factor":8,
+    "host":["https://explorer.myhush.org/api"],
+    "cache":1000,
+    "throttle":2
+}

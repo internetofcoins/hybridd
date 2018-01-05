@@ -1,0 +1,10 @@
+{
+    "id":"insight.xmy",
+    "name":"Myriad Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"myriad.insight",
+    "factor":8,
+    "host":["http://insight-myr.cryptap.us/api"],
+    "cache":1000,
+    "throttle":2
+}

@@ -1,0 +1,10 @@
+{
+    "id":"insight.leo",
+    "name":"LEOcoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"leocoin.insight",
+    "factor":8,
+    "host":["https://insight.leocoin.org/api"],
+    "cache":1000,
+    "throttle":2
+}

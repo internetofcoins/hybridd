@@ -1,0 +1,10 @@
+{
+    "id":"insight.start",
+    "name":"Startcoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"startcoin.insight",
+    "factor":8,
+    "host":["http://explorer.startcoin.org/api"],
+    "cache":1000,
+    "throttle":2
+}

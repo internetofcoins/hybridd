@@ -1,0 +1,10 @@
+{
+    "id":"insight.fjc",
+    "name":"FujiCoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"fujicoin.insight",
+    "factor":8,
+    "host":["http://explorer.fujicoin.org/api"],
+    "cache":1000,
+    "throttle":2
+}

@@ -1,0 +1,10 @@
+{
+    "id":"insight.mona",
+    "name":"MonaCoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"monacoin.insight",
+    "factor":8,
+    "host":["https://mona.chainsight.info/api"],
+    "cache":1000,
+    "throttle":2
+}

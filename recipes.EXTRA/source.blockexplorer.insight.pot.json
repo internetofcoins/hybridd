@@ -1,0 +1,10 @@
+{
+    "id":"insight.pot",
+    "name":"PotCoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"potcoin.insight",
+    "factor":8,
+    "host":["https://chain.potcoin.com/api"],
+    "cache":1000,
+    "throttle":2
+}

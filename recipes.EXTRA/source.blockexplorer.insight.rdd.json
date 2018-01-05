@@ -1,0 +1,10 @@
+{
+    "id":"insight.rdd",
+    "name":"ReddCoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"reddcoin.insight",
+    "factor":8,
+    "host":["https://live.reddcoin.com/api"],
+    "cache":1000,
+    "throttle":2
+}

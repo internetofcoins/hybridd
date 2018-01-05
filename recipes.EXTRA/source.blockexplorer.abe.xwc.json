@@ -1,0 +1,10 @@
+{
+    "id":"abe.xwc",
+    "name":"Whitecoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"whitecoin.abe",
+    "factor":8,
+    "host":["http://explorer.whitecoin.info/chain/Whitecoin"],
+    "cache":1000,
+    "throttle":2
+}

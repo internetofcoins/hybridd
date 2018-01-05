@@ -1,0 +1,10 @@
+{
+    "id":"insight.dgb",
+    "name":"DigiByte Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"digibyte.insight",
+    "factor":8,
+    "host":["https://digiexplorer.info/api"],
+    "cache":1000,
+    "throttle":2
+}

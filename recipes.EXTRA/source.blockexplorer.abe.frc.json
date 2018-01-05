@@ -1,0 +1,10 @@
+{
+    "id":"abe.frc",
+    "name":"Freicoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"freicoin.abe",
+    "factor":8,
+    "host":["http://freicoin.info/chain/Freicoin"],
+    "cache":1000,
+    "throttle":2
+}
