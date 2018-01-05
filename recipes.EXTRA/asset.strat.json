@@ -1,0 +1,10 @@
+{
+    "symbol":"strat",
+    "name":"Stratis",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.stratis",
+    "factor":8,
+    "host":["http://127.0.0.1:12186"],
+    "cache":15000,
+    "throttle":5
+}

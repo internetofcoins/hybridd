@@ -1,0 +1,10 @@
+{
+    "symbol":"fjc",
+    "name":"Fujicoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.fujicoin",
+    "factor":8,
+    "host":["http://127.0.0.1:3776"],
+    "cache":15000,
+    "throttle":5
+}

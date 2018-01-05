@@ -1,0 +1,10 @@
+{
+    "symbol":"vtc",
+    "name":"Vertcoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.vertcoin",
+    "factor":8,
+    "host":["http://127.0.0.1:5888"],
+    "cache":15000,
+    "throttle":5
+}

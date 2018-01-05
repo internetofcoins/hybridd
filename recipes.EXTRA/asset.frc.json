@@ -1,0 +1,10 @@
+{
+    "symbol":"frc",
+    "name":"FreiCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.freicoin",
+    "factor":8,
+    "host":["http://127.0.0.1:41255"],
+    "cache":15000,
+    "throttle":5
+}

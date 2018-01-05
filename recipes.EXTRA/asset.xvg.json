@@ -1,0 +1,10 @@
+{
+    "symbol":"xvg",
+    "name":"Verge",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.verge",
+    "factor":8,
+    "host":["http://127.0.0.1:5666"],
+    "cache":15000,
+    "throttle":5
+}

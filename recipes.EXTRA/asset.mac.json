@@ -1,0 +1,10 @@
+{
+    "symbol":"mac",
+    "name":"Machinecoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.machinecoin",
+    "factor":8,
+    "host":["http://127.0.0.1:6784"],
+    "cache":15000,
+    "throttle":5
+}

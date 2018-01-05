@@ -1,0 +1,10 @@
+{
+    "symbol":"doge",
+    "name":"Dogecoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.dogecoin",
+    "factor":8,
+    "host":["http://127.0.0.1:4063"],
+    "cache":15000,
+    "throttle":5
+}

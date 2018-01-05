@@ -1,0 +1,10 @@
+{
+    "symbol":"pot",
+    "name":"Potcoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.potcoin",
+    "factor":8,
+    "host":["http://127.0.0.1:4200"],
+    "cache":15000,
+    "throttle":5
+}

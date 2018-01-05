@@ -1,0 +1,10 @@
+{
+    "symbol":"uis",
+    "name":"Unitus",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.unitus",
+    "factor":8,
+    "host":["http://127.0.0.1:8864"],
+    "cache":15000,
+    "throttle":5
+}
