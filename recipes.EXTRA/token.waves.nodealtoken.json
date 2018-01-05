@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.nodealtoken",
+    "name":"NodeAl Token",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"HQRk2UEjZppPp5hxar4QVzdapxNT9GuZbdmBc2XnTFE6",
+    "originator":"3PCwAsmTa2CTDX65A7XHV7pjTNjn69pfgUn",
+    "factor":5
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.wfn",
+    "name":"WavesFullNode",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"7yXJqP2zpXTiXuS2o25seUHYxdDnfSPZJ3SEm5DrQ7cx",
+    "originator":"3P4MRJvttkghWsXxGZ61kqd2M79GtLujoey",
+    "factor":8
+}

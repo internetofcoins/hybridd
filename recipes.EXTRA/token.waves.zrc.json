@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.zrc",
+    "name":"ZrCoin",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"5ZPuAVxAwYvptbCgSVKdTzeud9dhbZ7vvxHVnZUoxf4h",
+    "originator":"3PGVfUNmVFbmX9gQMeAbCxrUxswM8SyzyxM",
+    "factor":8
+}

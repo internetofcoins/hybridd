@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.powertoken",
+    "name":"Powertoken",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"FKEkAhZQCbvgCMcEQS8RTTmMqvaWq79K33cGdkb9aCQc",
+    "originator":"3P5UKcFKpk3ti3BQ5dsHmqBdMVrbMXPrdAp",
+    "factor":8
+}

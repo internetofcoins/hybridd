@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.zec",
+    "name":"Zcash (WAVES)",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"BrjUWjndUanm5VsJkbUip8VRYy6LWJePtxya3FNv4TQa",
+    "originator":"3PAfgHQPgodM6MxUzqRkepiKofGnECNoxt5",
+    "factor":8
+}

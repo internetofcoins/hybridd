@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.pextoken",
+    "name":"PEX-Token",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"DbQd9tLpraNRV9rcQPR78gnhX4tcfZg8KiX3z7tNepMB",
+    "originator":"3PBayXqNqdDpXkndT1vZEVKHdFriENKqAtV",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.primo",
+    "name":"Primo Coin",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"4EmxnV7DhizwpKh5J13Waxovth95uSjknokNFxNAzAaS",
+    "originator":"3PPrdM77NKX47D6oCaTVPA6y2y9WdafeTqV",
+    "factor":8
+}

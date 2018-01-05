@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.sbtc",
+    "name":"SBTC",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"3RSAvjnSj83sFBDZnRZ8LFVivUs4R14fgFbtBHe7jqK5",
+    "originator":"3P4onfQ1jBixKQsvbMaftYHrJcWwTbZ9FZ7",
+    "factor":8
+}

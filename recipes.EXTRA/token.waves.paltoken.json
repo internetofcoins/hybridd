@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.paltoken",
+    "name":"PALToken",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"25vNLJr7afxue3sV3HDSrAcJsMPBarB27sFgaHGsBQSK",
+    "originator":"3P29CKf5gQ7VUgjaekhKqGTV2THWsZtqDNm",
+    "factor":3
+}
