@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.coinhealth",
+    "name":"Coinhealth",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"GGuigYJDs3xoqmr4mGpLAguoEU6CfqTjb9qwk3YLCWRc",
+    "originator":"3PMfHdaDy2Vh6eP4vdzvWrx1axxkHSuoAxk",
+    "factor":8
+}

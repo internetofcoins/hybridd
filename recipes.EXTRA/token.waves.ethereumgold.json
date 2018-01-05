@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.ethereumgold",
+    "name":"Ethereum Gold",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"EcrvPWZ4NagfBJwZyeGUaVLYCa6gJBdJ9W3X2bELZyzz",
+    "originator":"3P5YASA98yzqtd6BTEWrRcFW8VTs274PQpw",
+    "factor":8
+}

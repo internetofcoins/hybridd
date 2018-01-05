@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.collabskatecoin",
+    "name":"CollabSkate Coin",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"H5Pzub5aojAy9YAYqEAippYJPDydCUu7HpEYGwNaTL71",
+    "originator":"3PL3MVvaXWAAqejTaDZbR1aavrHWh9fBV33",
+    "factor":8
+}

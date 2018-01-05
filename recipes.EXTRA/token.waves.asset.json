@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.asset",
+    "name":"Asset",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"8npvje879eyKWaZRpbpRz8kpJcQ1Wu86ahSD5UEtpinM",
+    "originator":"3PNTxAc2gJkR4WowERvV9kHLw7dY6RU3X7C",
+    "factor":8
+}

@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.cardano",
+    "name":"Cardano (WAVES)",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"417B9MwLPwXzZemPQ5QtJj4DBTmrhKeQxoUqvzhDRc9t",
+    "originator":"3PDzoEVCioHH3kpiYManx3sND8XPDMNTozC",
+    "factor":2
+}

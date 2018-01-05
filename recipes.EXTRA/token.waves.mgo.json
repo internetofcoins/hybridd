@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.mgo",
+    "name":"Mobile Go Token (WAVES)",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"2Y8eFFXDTkxgCvXbMT5K4J38cpDYYbQdciJEZb48vTDj",
+    "originator":"3PPkefEurG9zStPCMZpULUcyjjXt2EjiXwM",
+    "factor":8
+}

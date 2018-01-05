@@ -1,0 +1,9 @@
+{
+    "symbol":"waves.libercoin",
+    "name":"Libercoin",
+    "module":"waves",
+    "mode":"waves.token",
+    "contract":"BYbn77phrgtJMxeeZCP2GYQhUNbhrrSuDofnooNVoh2S",
+    "originator":"3P2v5SB5UfzvU1oi98mnxoRMdjjFiwLU6fQ",
+    "factor":8
+}
