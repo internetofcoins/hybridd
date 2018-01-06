@@ -17,8 +17,6 @@ git clone https://github.com/internetofcoins/hybridd
 cd hybridd
 ```
 
-Note: if you are a core developer, replace 'internetofcoins' with 'holosphere' to clone our private development repository.
-
 ### dependencies
 
 Hybridd depends on [electrum client](https://download.electrum.org) to communicate with the Bitcoin blockchain (because why should we reinvent the wheel). The electrum download site provides the following build instructions.
