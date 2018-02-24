@@ -1,0 +1,9 @@
+{
+    "symbol":"eth.SPANK",
+    "name":"SPANK",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x42d6622dece394b54999fbd73d108123806f6a18",
+    "originator":"0xA7f00de671ebEB1b04C19a00842ff1d980847f0B",
+    "factor":18
+    }
