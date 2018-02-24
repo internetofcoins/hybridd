@@ -1,0 +1,9 @@
+{
+"symbol":"eth.h2o",
+"name":"H2O",
+"module":"ethereum",
+"mode":"ethereum.token",
+"contract":"0xd81f9b05E409e0Ab40F8eC766370b7a7c8A25864",
+"originator":"0x00062be45b5415268e5c9ab0d547472cbb38a7d4",
+"factor":18
+}
