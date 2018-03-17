@@ -1,8 +1,9 @@
 {
     "symbol":"waves.mgo",
     "name":"Mobile Go Token (WAVES)",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"2Y8eFFXDTkxgCvXbMT5K4J38cpDYYbQdciJEZb48vTDj",
     "originator":"3PPkefEurG9zStPCMZpULUcyjjXt2EjiXwM",
     "factor":8

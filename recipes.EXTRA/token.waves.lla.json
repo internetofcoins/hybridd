@@ -1,8 +1,9 @@
 {
     "symbol":"waves.lla",
     "name":"Lalena (LLA)",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"CvD7GedwdeHCxtiiQgbEAV6JHxXv9DQ8bkmrFAauiNyy",
     "originator":"3PEWgJ8fEMjwxF34NPcaHz4M61FuiAU3qmv",
     "factor":8

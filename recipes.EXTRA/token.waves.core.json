@@ -1,8 +1,9 @@
 {
     "symbol":"waves.core",
     "name":"CORE",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"3MyMJ9pXLTDnMQhNgoDUBtcfmaGVgnaZNARZwcZzMFk7",
     "originator":"3PBCDoUH1Dvf3ejZxJEwkqWV69NpvJLWKgo",
     "factor":8

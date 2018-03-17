@@ -1,8 +1,9 @@
 {
     "symbol":"waves.kayi",
     "name":"KAYI",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"AH3beNGBUZuofNaALGeb76uyU8gvmWJDxTjZmGuDft1i",
     "originator":"3PQdeXakGNbfcxhJXNgtqLvjHdnrf6fWrQN",
     "factor":8

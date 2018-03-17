@@ -1,8 +1,9 @@
 {
     "symbol":"waves.atlastoken",
     "name":"Atlas Token",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"4GXjNw2CL2xrKKbV8YCnWZauRFFWZL5Hi5NFcci13jes",
     "originator":"3PMv2ZGJmbvZ1uVXUovmnQN66XT6ArowRFp",
     "factor":8

@@ -1,8 +1,9 @@
 {
     "symbol":"waves.akche-2",
     "name":"Akche-2",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"Dor84kmFtyHfTyEdmXoA3DRGGM7PEZEWBvKVfQU3ZqUH",
     "originator":"3PGkhNszSVLS5XRxwKK3RTUCXWhq7FH6KzA",
     "factor":4
