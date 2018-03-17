@@ -1,8 +1,9 @@
 {
     "symbol":"waves.sre",
     "name":"SRE_Token",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"BotFPyCivCDaoQHSD3myBw7GAxsZdiRS76G1WdFVuSXC",
     "originator":"3PNupGiCRhdMVaAiW354LVvwMJnHi4FEZir",
     "factor":8

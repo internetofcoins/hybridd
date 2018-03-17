@@ -1,8 +1,9 @@
 {
     "symbol":"waves.paltoken",
     "name":"PALToken",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"25vNLJr7afxue3sV3HDSrAcJsMPBarB27sFgaHGsBQSK",
     "originator":"3P29CKf5gQ7VUgjaekhKqGTV2THWsZtqDNm",
     "factor":3

@@ -1,8 +1,9 @@
 {
     "symbol":"waves.xhy",
     "name":"Internet of Coins Hybrid Asset",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"4BAkbmAhaTN5BFBD1WjTLS3ijrDmH9XCz4twnhr3HQum",
     "originator":"3PLBy8VDPFFyWiGSwSuQeiyJFZxqGkNDznp",
     "factor":8

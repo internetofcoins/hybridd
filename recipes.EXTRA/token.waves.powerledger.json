@@ -1,8 +1,9 @@
 {
     "symbol":"waves.powerledger",
     "name":"PowerLedger (WAVES)",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"EzHN1PZg4qQ67xhUJpjxodQGLBrzNqoj6dNaExe4tRqp",
     "originator":"3PNM9WbwyMWGiVjXXt3xU8JgiCWEwJNHAHn",
     "factor":8

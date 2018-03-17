@@ -1,8 +1,9 @@
 {
     "symbol":"waves.news",
     "name":"NEWSTOKEN",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"2EAUTcAsFMsndSgiGacKRvygFR1e6gdSd8bEpiemsTPE",
     "originator":"3P6eDSkbRWGPngQdQTtDKiMwVXbMZEFnG4z",
     "factor":8

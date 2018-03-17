@@ -1,8 +1,9 @@
 {
     "symbol":"waves.waah",
     "name":"WAAH",
-    "module":"waves",
+    "module":"quartz",
     "mode":"waves.token",
+    "import":"waves",
     "contract":"fQkfbgHdvwnfauSfg8a19ACLWKNnLjykAiQVHgMA76R",
     "originator":"3PHzrdYRYGANx4gZ3mcS2nLfnysY7JgzhWj",
     "factor":8
