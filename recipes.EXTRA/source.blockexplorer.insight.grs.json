@@ -1,0 +1,10 @@
+{
+    "id":"insight.grs",
+    "name":"Groestlcoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"groestlcoin.insight",
+    "factor":8,
+    "host":["http://groestlsight.groestlcoin.org/api"],
+    "cache":1000,
+    "throttle":2
+}

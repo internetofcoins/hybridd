@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bhamgoldco",
+    "name":"BhamGold Co",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5FdZtz67ki6j7dL9q1tLQDb8TPaRmz3MF44qq2Hz8bze",
+    "originator":"3PNjRwSGmrAW7aBRz49NMpLAJ2FoPjo6XiA",
+    "factor":8
+}

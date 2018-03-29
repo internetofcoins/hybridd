@@ -1,0 +1,10 @@
+{
+    "id":"insight.btcz",
+    "name":"BitcoinZ Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"bitcoinz.insight",
+    "factor":8,
+    "host":["https://bitcoinz.ph/api"],
+    "cache":1000,
+    "throttle":2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.altocar",
+    "name":"ALTOCAR",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5ZVP6vp8Rt7GneEozNATcs7LPjQfwTun9WwnN1ispAH4",
+    "originator":"3PKes1LLVw7YomRSsHEreqaerBRVTHFS6ry",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.smart",
+    "name":"SMART",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"4xDfFdPorzNmB5w8p28Fs5z6fPMf4QKJGcxY3DWT9ugG",
+    "originator":"3PFXzWJ275JR2UgU5k6ajtydU5ydyvTiQMb",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wavesclassic",
+    "name":"Waves Classic",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"8Yiktau4mPvqBZpWJyCVm6D93jtzB2XVDiEvbzMffFzi",
+    "originator":"3P4sQKyRE1oW2NUJNaH54x3xSaHRLdRvG4C",
+    "factor":0
+}

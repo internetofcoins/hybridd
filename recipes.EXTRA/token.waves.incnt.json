@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.incnt",
+    "name":"Incent",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"FLbGXzrpqkvucZqsHDcNxePTkh2ChmEi4GdBfDRRJVof",
+    "originator":"3PQempWgZs3GwkXXMJ18oHhuk3WwfDk9Na8",
+    "factor":8
+}

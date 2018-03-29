@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.biser",
+    "name":"Biser",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2wYwd3oArbPrffDbzmnzRTLdbQQthYsUt9y4a5sJF9kQ",
+    "originator":"3P6WT4anbBmAqW6buowuYFSgDfMect2PhQY",
+    "factor":7
+}

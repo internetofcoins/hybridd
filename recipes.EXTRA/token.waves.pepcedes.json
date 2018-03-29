@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.pepcedes",
+    "name":"#pepcedes",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AD3NaML9PXz3f2igAGzPqD9RLWBApBxyjqsR61A1kC5D",
+    "originator":"3PHtyPhsXSGr2cC4ASDMb8WLZkh9v2fNKQu",
+    "factor":3
+}

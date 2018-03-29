@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.lion",
+    "name":"Lion",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EpxZmzVm4c8pY1TCavPwbc73HYJ4g6PyHPuGDrtLWSe7",
+    "originator":"3P2dbnaWs597r1x7sjrP6g39YL21tjnUMLh",
+    "factor":8
+}

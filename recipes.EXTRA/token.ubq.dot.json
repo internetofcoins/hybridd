@@ -1,0 +1,9 @@
+{
+    "symbol":"ubq.dot",
+    "name":"Dotcoin",
+    "module":"ethereum",
+    "mode":"ethereum.token",
+    "contract":"0x94ad7e41c1d44022c4f47cb1ba019fd1a022c536",
+    "originator":"0x665ec820f1d1a0d4fd7dac5deaa4e86abe47b3ea",
+    "factor":8
+}

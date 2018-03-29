@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.cwv",
+    "name":"Cryptowave",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HxxSmVuX4HbHDiDSGg96nx7wgCBhB9UPHh6pxgnKXjv4",
+    "originator":"3PQCS8F991n3uxyoMsqzkF3iMbjyvt3xkfq",
+    "factor":3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.fundcoin",
+    "name":"FundCoin (FND)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"6RzkuNJkJBmw9sqPuADj2g9tiDZKT85QE4VRb88YkHd7",
+    "originator":"3PArFQot5CkiZ1JZPkfi5wWPeZQGqvMuTuS",
+    "factor":8
+}

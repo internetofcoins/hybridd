@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.fix",
+    "name":"Finamatrix",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"GS5RfWDS8ytVnxqr7M2pnqeFuu7BpSwGnADTcw23FvbZ",
+    "originator":"3PQmAxFUob5MRSS4kNR1BgQffxey2JzmjVj",
+    "factor":8
+}

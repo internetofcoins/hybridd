@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bcc",
+    "name":"Bitcoin Cash (WAVES)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"zMFqXuoyrn5w17PFurTqxB7GsS71fp9dfk6XFwxbPCy",
+    "originator":"3PBLdLAs6qZq2AVdEmBfh2RubQYETm8vvg4",
+    "factor":8
+}

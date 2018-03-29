@@ -1,0 +1,10 @@
+{
+    "id":"insight.mac",
+    "name":"Machinecoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"machinecoin.insight",
+    "factor":8,
+    "host":["https://explorer.machinecoin.org/api"],
+    "cache":1000,
+    "throttle":2
+}

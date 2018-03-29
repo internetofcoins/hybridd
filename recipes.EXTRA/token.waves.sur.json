@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.sur",
+    "name":"Suretly",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5EAm2T6rKnaDHBT8ptWnuEqvKszp8SW9XPFYD1yAAW2x",
+    "originator":"3P2Mcd1PEBMHcLVPgABbVdGv6Dpc6sva4yt",
+    "factor":8
+}

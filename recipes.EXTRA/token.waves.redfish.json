@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.redfish",
+    "name":"Redfishcoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5sU8dF7DyN7dKN4NiFTtVC5shqthSgTEuvKUu2iusyS2",
+    "originator":"3PQeT7ayanjvH4Ab5nRvxvJQqiGuWQRv34F",
+    "factor":8
+}

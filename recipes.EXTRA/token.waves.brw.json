@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.brw",
+    "name":"BrWaves",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3EAHaZPwV5gCoWkoLhjj7rSz9ix7Q4SE6mFczoxA3f9D",
+    "originator":"3P2ksogzUv67Y9SdDcWX96BzCdASdzKPtTE",
+    "factor":3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.zrcoin",
+    "name":"ZrCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EhhKFkKkPZTEdgCrtJ99qTfy2ZcXHt1rgWeAsg1KY4gQ",
+    "originator":"3PE4TaXL7sv6MKtDXUhEDFXAse2CcXvdc7W",
+    "factor":8
+}

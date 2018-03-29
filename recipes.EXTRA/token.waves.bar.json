@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bar",
+    "name":"BARCOIN",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HU5B3q3neZRpq5R9uzoRjopJUpELtnFmz1KW2TAUbp9m",
+    "originator":"3P3xKCgHkKv9oTe9H8owzUerN1hqHwwDLwb",
+    "factor":0
+}

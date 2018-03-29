@@ -1,0 +1,10 @@
+{
+    "symbol":"grs",
+    "name":"Groestlcoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.groestlcoin",
+    "factor":8,
+    "host":["http://127.0.0.1:4121"],
+    "cache":15000,
+    "throttle":5
+}

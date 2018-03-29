@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mfl",
+    "name":"McFly",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7EHVUjcgEV9Du8qp95tS1eBV8DFtenmX64H3QawdCkC4",
+    "originator":"3PHzVtgakKM57U81theAcvbwKfQQBaLswj3",
+    "factor":2
+}

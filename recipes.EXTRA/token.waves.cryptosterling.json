@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.cryptosterling",
+    "name":"cryptoSterling",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"61LRXnv6iB2QDwBVi34r6eEyx8h7VZdyBApB4aP9eKqA",
+    "originator":"3P5e19brts5yKqD2fjggWzSMXhMNwvtFxYT",
+    "factor":0
+}

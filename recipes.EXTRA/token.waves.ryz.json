@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ryz",
+    "name":"ANRYZE",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HXdFUiw5yLLWhkorsRy1E5GttG2QZfzEYAVgEgjBNh8t",
+    "originator":"3PG3qB4wtf282EzQKUGmZW4TJHYwS1ywWS3",
+    "factor":8
+}

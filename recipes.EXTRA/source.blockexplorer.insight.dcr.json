@@ -1,0 +1,10 @@
+{
+    "id":"insight.dcr",
+    "name":"Decred Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"decred.insight",
+    "factor":8,
+    "host":["https://mainnet.decred.org/api"],
+    "cache":1000,
+    "throttle":2
+}

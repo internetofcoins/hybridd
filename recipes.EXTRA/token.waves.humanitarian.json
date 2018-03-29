@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.humanitarian",
+    "name":"Humanitarian",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"H6dk6cgiqRhqbVPbDbSw8XwdihFKoSwV1tr4Q9phqKik",
+    "originator":"3P38kNc91qm7cSZA4vuLzu1Rs5Fy65neoYj",
+    "factor":8
+}

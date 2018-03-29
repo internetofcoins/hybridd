@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ltc",
+    "name":"Litecoin (WAVES)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HZk1mbfuJpmxU1Fs4AX5MWLVYtctsNcg6e2C6VKqK8zk",
+    "originator":"3PAfgHQPgodM6MxUzqRkepiKofGnECNoxt5",
+    "factor":8
+}

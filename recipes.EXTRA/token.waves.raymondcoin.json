@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.raymondcoin",
+    "name":"RaymondCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BhmTDi7iJE4AxVQpYiDL7yHXzH1nnkxWyyRyVzrxB678",
+    "originator":"3PKAJG56wzM6j84cFZ6knS1ngtVmepZr7cu",
+    "factor":8
+}

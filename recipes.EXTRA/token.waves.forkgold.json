@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.forkgold",
+    "name":"ForkGold",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"51mfpQywAbsvfsn3PGxrrT77kqhHazbWFa5WksMoCnnV",
+    "originator":"3P2p4yVFAdPKRNNZPRGCXjrqhQXnVSdNWxr",
+    "factor":0
+}

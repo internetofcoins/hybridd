@@ -1,0 +1,10 @@
+{
+    "symbol":"xsh",
+    "name":"SHIELD",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.shield",
+    "factor":8,
+    "host":["http://127.0.0.1:5113"],
+    "cache":15000,
+    "throttle":5
+}

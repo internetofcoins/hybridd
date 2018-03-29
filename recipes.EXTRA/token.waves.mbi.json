@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mbi",
+    "name":"Monster Byte",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CJpRwfpBcFyA6p3g1fb7xuiArSQ7xLkNH8SD9AB4HeD9",
+    "originator":"3PGQk5iqjafMfjo4bMyU5V3YQhS8yLAXnsF",
+    "factor":2
+}

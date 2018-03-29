@@ -1,0 +1,10 @@
+{
+    "symbol":"dcr",
+    "name":"Decred",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.decred",
+    "factor":8,
+    "host":["https://bws.decred.org/bws/api"],
+    "cache":15000,
+    "throttle":5
+}

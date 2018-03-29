@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ltcw",
+    "name":"LTCW",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BeyLofyYRfRn2JKKCZEA9KEuQ3eQvD5PEvHyHuo7gFPP",
+    "originator":"3P4v6sHqF8ajdQpdFq5YonE65yGVkGnrHRD",
+    "factor":8
+}

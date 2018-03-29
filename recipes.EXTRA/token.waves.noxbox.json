@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.noxbox",
+    "name":"Noxbox",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"94u5oBwukL2PgBoZet3UMEW5yUUuHvA4JEDHn5tJkssK",
+    "originator":"3P9TPURjNNvAmtvEv9GCfagW4LYa7SqVGqQ",
+    "factor":8
+}

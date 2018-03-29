@@ -1,0 +1,10 @@
+{
+    "id":"abe.gcc",
+    "name":"TheGCCcoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"thegcccoin.abe",
+    "factor":8,
+    "host":["http://144.76.113.28/chain/TheGCCcoin"],
+    "cache":1000,
+    "throttle":2
+}

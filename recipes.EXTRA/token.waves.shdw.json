@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.shdw",
+    "name":"Shadow Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"ETLzrCpBqTrpyuMGdiVLBPZnUoKwte88oVdJjoFi5R2h",
+    "originator":"3PKEQiRe2u6488jdvUAUYshrM4fQPf4omak",
+    "factor":8
+}

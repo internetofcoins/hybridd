@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.orymcoin",
+    "name":"orymcoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BT45UeDsJ34D6J794hTnai2miXBoQne4fA5b9KY5aSbZ",
+    "originator":"3PKK9eUCf8KNVuhYYs51tAvS6a9PGCu54Kv",
+    "factor":2
+}

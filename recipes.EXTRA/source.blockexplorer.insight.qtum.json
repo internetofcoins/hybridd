@@ -1,0 +1,10 @@
+{
+    "id":"insight.qtum",
+    "name":"Qtum Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"qtum.insight",
+    "factor":8,
+    "host":["https://explorer.qtum.org/insight-api"],
+    "cache":1000,
+    "throttle":2
+}

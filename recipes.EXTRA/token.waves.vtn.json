@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.vtn",
+    "name":"Voltroon",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"32gwVYerx37pxuNG6eaiFRdya5ETpH8imNsf31VT5WqH",
+    "originator":"3PMQEizNPqFfiPAyyLqqmd8Xj2z6ncFhq7B",
+    "factor":8
+}

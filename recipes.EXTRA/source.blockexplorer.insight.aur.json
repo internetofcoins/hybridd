@@ -1,0 +1,10 @@
+{
+    "id":"insight.aur",
+    "name":"Auroracoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"auroracoin.insight",
+    "factor":8,
+    "host":["http://insight.auroracoin.is/api"],
+    "cache":1000,
+    "throttle":2
+}

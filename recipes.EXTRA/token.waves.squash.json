@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.squash",
+    "name":"SquashCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"4Cxj1FfwKWMwfZZ34QxyZtRfUq4jHSmX9pwXafzBzmdC",
+    "originator":"3P7PRTUZLnjN972ip8yW9RKTLvkCJyjM2KT",
+    "factor":2
+}

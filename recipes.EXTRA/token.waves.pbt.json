@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.pbt",
+    "name":"Primalbase Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EdDvbhk4wJ1kL6pMCq1V36GbQE2nGE7Metb87zbaY2JL",
+    "originator":"3P3pAhbH5y7TwU43X9c3gbskWNfDDuzxyKn",
+    "factor":4
+}

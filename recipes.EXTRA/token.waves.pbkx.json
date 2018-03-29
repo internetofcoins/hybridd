@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.pbkx",
+    "name":"privateBANKX",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"39wcSXj4MdRNRJXA88rVxF7EXWjYixaA3J3EteoN6DMM",
+    "originator":"3PLhmtRKTAcoiyVnSLuR9iu292MSUZjh2jr",
+    "factor":0
+}

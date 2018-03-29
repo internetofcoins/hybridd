@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.iqcash",
+    "name":"iQCash",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2fiCMUZgBZHs7DtwjyTET8gyToNNX1X5r8zUaouqoztQ",
+    "originator":"3PNcrG7urBw47bRUoS1ufdTur41eETq2KLk",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.tracknettoken",
+    "name":"TrackNetToken",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"6284oD9Aky3gZwwwqCFEZzvyx5qeeswAbYEtCHcMyKUR",
+    "originator":"3P9UWgkRZzgP6CjHi8tTW8abcz36f3vbAnw",
+    "factor":4
+}

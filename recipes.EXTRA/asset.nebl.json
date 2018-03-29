@@ -1,0 +1,10 @@
+{
+    "symbol":"nebl",
+    "name":"Neblio",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.neblio",
+    "factor":8,
+    "host":["http://127.0.0.1:6326"],
+    "cache":15000,
+    "throttle":5
+}

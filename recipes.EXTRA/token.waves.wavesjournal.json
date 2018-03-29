@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wavesjournal",
+    "name":"Wavesjournal.com",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7xccn7BMuCLWghLr7bcadnWbXEtWycyTGXc9aLTMoJ6R",
+    "originator":"3P7tVgRwjRMFRBBDL2x74tQbcFuhLFwpHqM",
+    "factor":8
+}

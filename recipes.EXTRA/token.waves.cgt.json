@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.cgt",
+    "name":"Cryptogene Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CVxqNTyfD39WrNsXSfpAUTzsA76astJpzQVEiZn8a1Ai",
+    "originator":"3PLSo4AXwHVsnvYW3JCLqx2FWHoTsHHFnL2",
+    "factor":0
+}

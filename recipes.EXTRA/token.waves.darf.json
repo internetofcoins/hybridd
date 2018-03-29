@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.darf",
+    "name":"DARF",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"96NFBPoikAeacesZggFa6wBXAyczgZFyupbX5rJwFfdQ",
+    "originator":"3PQ1xrcZAiseoZXrtiyyb1pj7Nx3VystoK4",
+    "factor":8
+}

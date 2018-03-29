@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.cof",
+    "name":"CoffeeCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AcrRM9STdBu5PNiFveTCbRFTS8tADhKcsbC2KBp8A4tx",
+    "originator":"3PN4oYcJbJQ8g6NfM4p4njaNMxgSAUa5dp6",
+    "factor":3
+}

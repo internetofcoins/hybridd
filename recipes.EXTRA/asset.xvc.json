@@ -1,0 +1,10 @@
+{
+    "symbol":"xvc",
+    "name":"Vcash",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.vcash",
+    "factor":8,
+    "host":["http://127.0.0.1:5333"],
+    "cache":15000,
+    "throttle":5
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.valis",
+    "name":"VALIS",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"4BSxGP9cXPR6YuYBpCFKWto5eh4o1xj7cCb6oQFHWrsK",
+    "originator":"3PBB8hwWzkKVn1qJ1uowZK8aDDJiPfovA4F",
+    "factor":8
+}

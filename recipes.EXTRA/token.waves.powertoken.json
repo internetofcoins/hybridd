@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.powertoken",
+    "name":"Powertoken",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"FKEkAhZQCbvgCMcEQS8RTTmMqvaWq79K33cGdkb9aCQc",
+    "originator":"3P5UKcFKpk3ti3BQ5dsHmqBdMVrbMXPrdAp",
+    "factor":8
+}

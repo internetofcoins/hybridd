@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.jdc",
+    "name":"JustDatingCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Chs34HQrj37VbWHr8NDZiRZEkyEGBiPowSF4RjrRBCHn",
+    "originator":"3PCjTHNV6Dr6ndWwm1HS9gzGG4GeeppzEcD",
+    "factor":8
+}

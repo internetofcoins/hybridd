@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ftb",
+    "name":"Fincoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"E8jdQECM6i9j28bpH81zZWyAwtaZwJMtzPWz4jCCmot3",
+    "originator":"3PCBbAm3hi4QUf84aFQ95yfBHEYgYxZ9rec",
+    "factor":6
+}

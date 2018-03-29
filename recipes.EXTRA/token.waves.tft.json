@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.tft",
+    "name":"TIMESFARMTOKEN",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"B1u2TBpTYHWCuMuKLnbQfLvdLJ3zjgPiy3iMS2TSYugZ",
+    "originator":"3PHXdv4cC3kMVEavFG1AETezpzECMxCcmeK",
+    "factor":6
+}

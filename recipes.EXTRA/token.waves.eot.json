@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.eot",
+    "name":"EOT Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"GdnNbe6E3txF63gv3rxhpfxytTJtG7ZYyHAvWWrrEbK5",
+    "originator":"3PAY9wimGC8k4Eq2hbrH5DjCs82MND8MSbk",
+    "factor":8
+}

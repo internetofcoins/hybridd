@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.crececoin",
+    "name":"Crececoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AimUJJcy24w82DCdBRiNGgZZpebBKkNWjLNbLURSYan7",
+    "originator":"3P2sjkB6xbEutEjp9CPBEKFtMd4FrphKAUA",
+    "factor":7
+}

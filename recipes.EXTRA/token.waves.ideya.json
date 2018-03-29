@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ideya",
+    "name":"IDEYA",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3KJs46xWHwA6MCFAnjrkUuvxdvbdan18VTySMUW8DHkv",
+    "originator":"3PFZfhJCapbJX9pGWqkqtw5CwxnnSPZ5ocU",
+    "factor":0
+}

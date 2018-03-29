@@ -1,0 +1,10 @@
+{
+    "symbol":"fair",
+    "name":"FairCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.faircoin",
+    "factor":8,
+    "host":["http://127.0.0.1:40405"],
+    "cache":15000,
+    "throttle":5
+}

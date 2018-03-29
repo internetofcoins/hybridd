@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.kln",
+    "name":"Kolion",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EYz8Zvs62D4d7F5ZgXHCWuzuFaZg63FYnfVQrTWQoLSK",
+    "originator":"3P4uJhH4YbGCLgiptvqK5MMkYtZyCfduoov",
+    "factor":4
+}

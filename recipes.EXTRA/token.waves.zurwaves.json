@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.zurwaves",
+    "name":"ZUR-WAVES",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"F6s3Uhpm4cb7zPqt3neUx8kpWyZxx8B4sLK6Z1W4S4CD",
+    "originator":"3P5yhciJb6DBax4JirviviKWRUsbU4zjL2s",
+    "factor":8
+}

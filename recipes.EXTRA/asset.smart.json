@@ -1,0 +1,10 @@
+{
+    "symbol":"smart",
+    "name":"SmartCash",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.smartcash",
+    "factor":8,
+    "host":["http://127.0.0.1:6956"],
+    "cache":15000,
+    "throttle":5
+}

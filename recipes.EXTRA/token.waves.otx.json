@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.otx",
+    "name":"Octanox",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"DxE8xbjHT7rXyRd2DMz5TnNNNC91Kz1SZ9k4dpH6X4JP",
+    "originator":"3PLeB185Ahz2UNq1bUfSiod9BemKQa2GsUo",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.rykibazyki",
+    "name":"RykiBazyki",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"76PzxiVfazYELVnVM6CnvctcgD2Ts9kExHAfCWATd2YQ",
+    "originator":"3P3b3xZQuU587De7ErfqiZhFWs2aoBgD42G",
+    "factor":0
+}

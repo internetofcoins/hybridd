@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.nucleus",
+    "name":"Nucleus (NCL)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"C7kLesHCnqhDSNNgTuCiiMGr3qaEX1oGAXiJ8gTqzyku",
+    "originator":"3P5rAriPLfStXbTCLWA4CT5unRjg8911xbp",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"mona",
+    "name":"MonaCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.monacoin",
+    "factor":8,
+    "host":["http://127.0.0.1:9402"],
+    "cache":15000,
+    "throttle":5
+}

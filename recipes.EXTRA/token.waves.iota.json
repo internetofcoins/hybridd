@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.iota",
+    "name":"IOTA (WAVES)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"9n4jVrNkGgXuFGVBHi2FKoNtrRku8c4Vb1VeKUMny3Rm",
+    "originator":"3P7jsGRx9DJAGaS5NJ8929HYgMmoNgqo4Hd",
+    "factor":3
+}

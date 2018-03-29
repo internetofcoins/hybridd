@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.coin",
+    "name":"Coin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Fz8FCKaUAjg5NCHgJWZchXNGDuPhJR9dL3x2B2EEiBWx",
+    "originator":"3P9Ur1WGbyU8pv6F65GYyXf8gM4Bf8gkRZK",
+    "factor":0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.chill",
+    "name":"Chill",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"DsxRbfYXzwf4PFwUD6kyEJhj2Wd5E9NsHr5WynVKTzie",
+    "originator":"3PCx3juNmnsT9KTjuTbfTfXV5cuejRVVaqu",
+    "factor":8
+}

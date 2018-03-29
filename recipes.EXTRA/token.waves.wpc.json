@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wpc",
+    "name":"whoppercoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"ANTz8NnpfbEcDFXo4gwd7UL5ugc9bdTcPGbEPktRPZw2",
+    "originator":"3P8wgaMfVJZs8LYdyypsGxVdHbcGe6gEkH2",
+    "factor":1
+}

@@ -1,0 +1,10 @@
+{
+    "id":"insight.dash",
+    "name":"Dash Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"dash.insight",
+    "factor":8,
+    "host":["https://insight.dash.siampm.com/api"],
+    "cache":1000,
+    "throttle":2
+}

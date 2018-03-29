@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.chartercoin",
+    "name":"CHARTERcoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BYiYQsAdFb9XNcVVcbeZRbUTDW88mwqRfnXUYZ2VbG4N",
+    "originator":"3PKfdJFmqVWfhhgLr2d3hgvoJJJy1vnE1B9",
+    "factor":2
+}

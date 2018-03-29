@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.akche",
+    "name":"AKCHE",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3ihiQ1TJhe7fBrMc8o9EY8tQNU6phkmp8ZEyvVe4Jfhk",
+    "originator":"3PEQqP5Yf9SEgJyepykk59j5EUyVdmXdHpV",
+    "factor":4
+}

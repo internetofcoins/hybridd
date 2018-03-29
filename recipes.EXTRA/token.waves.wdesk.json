@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wdesk",
+    "name":"WavesDesk",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CqdGdzvXVp2Gxn7wCZgCboMQu2cWYf6HKAsZFyg3Sq7Q",
+    "originator":"3PJ5R4a7Ts2sCjujE8RnvqjERLRqqeNyWFM",
+    "factor":8
+}

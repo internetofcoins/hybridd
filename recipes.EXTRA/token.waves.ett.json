@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ett",
+    "name":"EncryptoTel [WAVES]",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"8ofu3VpEaVCFjRqLLqzTMNs5URKUUQMrPp3k6oFmiCc6",
+    "originator":"3P33FS5SuJHWXg5QJkDABci1iaFQSa9qsDx",
+    "factor":8
+}

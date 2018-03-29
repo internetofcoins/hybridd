@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wgr",
+    "name":"Wagerr",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"8t8DMJFQu5GEhvAetiA8aHa3yPjxLj54sBnZsjnJ5dsw",
+    "originator":"3PASdsWjvY4SwQXHk7LbXeii5xxKQs6Khd3",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "id":"insight.zen",
+    "name":"ZenCash Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"zencash.insight",
+    "factor":8,
+    "host":["https://explorer.zensystem.io/insight-api-zen"],
+    "cache":1000,
+    "throttle":2
+}

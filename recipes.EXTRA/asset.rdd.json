@@ -1,0 +1,10 @@
+{
+    "symbol":"rdd",
+    "name":"ReddCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.reddcoin",
+    "factor":8,
+    "host":["http://127.0.0.1:45443"],
+    "cache":15000,
+    "throttle":5
+}

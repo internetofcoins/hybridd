@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.hallam",
+    "name":"Hallam",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"F7cJDit9LZoru3LV8SXs47WKgDKCB7ZQEqEuBBXMB8K4",
+    "originator":"3P5XQcyuAs3Fs4FcBXUrKPSQmfY6Zvse36L",
+    "factor":2
+}

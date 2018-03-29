@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ocl",
+    "name":"Oceanlab",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"ABFYQjwDHSct6rNk59k3snoZfAqNHVZdHz4VGJe2oCV5",
+    "originator":"3PD8pb6qe6oBEAeZAEzTbAeZANwpbbXfUgW",
+    "factor":8
+}

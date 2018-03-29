@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.pala",
+    "name":"Pala",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"DoUThWtHJZDRVrJaDTy3wLXKgJU1sSzvaTB1BRMEopf6",
+    "originator":"3P4A1W4JrErcd4pYHrBkiRm1bxgnysvu79S",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.coeval",
+    "name":"COEVAL",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7iuKMcC6TKnwipSMZFRTQNh5kwpEU2F8h8wB569qhekf",
+    "originator":"3P5yhciJb6DBax4JirviviKWRUsbU4zjL2s",
+    "factor":8
+}

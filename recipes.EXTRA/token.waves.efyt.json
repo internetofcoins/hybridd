@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.efyt",
+    "name":"Ergo",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"725Yv9oceWsB4GsYwyy4A52kEwyVrL5avubkeChSnL46",
+    "originator":"3PK9QAbwufVJQ2YVLdNxgVnAqG4iciw9LYE",
+    "factor":8
+}

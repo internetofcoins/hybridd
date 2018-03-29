@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.automotive65de",
+    "name":"Automotive65.de",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BtRZCfDew2MNZq1zwdFQcW7J1ksWJAUXDLCMPXkbPL9L",
+    "originator":"3PRFRhgHaoDkbDCSeGLVNsrVPjA3Raf2RHR",
+    "factor":8
+}

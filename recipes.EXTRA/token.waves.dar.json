@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.dar",
+    "name":"Darcrus",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"K5JcgN8UdwNdh5sbdAuPMm5XEd5aFvoXaC3iHsHVz1d",
+    "originator":"3PPKDQ3G67gekeobR8MENopXytEf6M8WXhs",
+    "factor":8
+}

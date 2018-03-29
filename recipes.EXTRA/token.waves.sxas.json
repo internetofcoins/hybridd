@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.sxas",
+    "name":"SXAS",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EjR1ThR2MBgukq4Z5zhdXzcct2Vzvq1QgnkMjcFRhXio",
+    "originator":"3PGrm6a2YsnNi1fjx3DYQyiHg22CEzpwVqs",
+    "factor":6
+}

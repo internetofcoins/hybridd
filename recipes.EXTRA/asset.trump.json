@@ -1,0 +1,10 @@
+{
+    "symbol":"trump",
+    "name":"TrumpCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.trumpcoin",
+    "factor":8,
+    "host":["http://127.0.0.1:5274"],
+    "cache":15000,
+    "throttle":5
+}

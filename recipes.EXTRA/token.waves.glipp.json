@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.glipp",
+    "name":"GLIPP",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"9g5JiYThxFTxknSMA3TT5xoXG7GYjRrTJxxLeeoQ36kJ",
+    "originator":"3PAdQUcvFsQXfsQmAiSgoJxaZH2KVVXcDe6",
+    "factor":8
+}

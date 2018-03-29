@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.tidals",
+    "name":"Tidal Waves",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AAUgxEx61UK5Y9MiEYMsdnCqVhGxBcTJEGTMHJeybuBC",
+    "originator":"3P7QtoSoyq1MKNKXMDBwv9vCe4CXHMbnoom",
+    "factor":8
+}

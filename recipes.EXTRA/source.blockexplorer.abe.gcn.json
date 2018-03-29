@@ -1,0 +1,10 @@
+{
+    "id":"abe.gcn",
+    "name":"GCoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"gcoin.abe",
+    "factor":8,
+    "host":["http://www.gcnchain.com/chain/GCoin"],
+    "cache":1000,
+    "throttle":2
+}

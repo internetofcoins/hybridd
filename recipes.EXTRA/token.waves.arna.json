@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.arna",
+    "name":"Arena",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BsDmB74Y1PvtVrE741i5CJThChQHHF96hDL5nXwv7JdS",
+    "originator":"3PHLv1b6UdubNi5cMJvWdMv2VPnXX4kfiP1",
+    "factor":8
+}

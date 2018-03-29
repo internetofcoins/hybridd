@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.pextoken",
+    "name":"PEX-Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"DbQd9tLpraNRV9rcQPR78gnhX4tcfZg8KiX3z7tNepMB",
+    "originator":"3PBayXqNqdDpXkndT1vZEVKHdFriENKqAtV",
+    "factor":8
+}

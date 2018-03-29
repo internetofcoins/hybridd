@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.win",
+    "name":"WinToken",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7Ry7rUTSS1iCJBFa7trCbwzAwnvvAUrX3gcz2iTL8aAF",
+    "originator":"3PCiz5EFtz7tzGp8mcfvQsVhwPQhuUHse5S",
+    "factor":2
+}

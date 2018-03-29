@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.rsc",
+    "name":"RusCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EMdiF8uaySswfCdMxc114rSfzUsAKCtK9d8eSx6ruKP4",
+    "originator":"3PApebH2ATkYEQEFiyYgM4XUndXg3VXWBJy",
+    "factor":5
+}

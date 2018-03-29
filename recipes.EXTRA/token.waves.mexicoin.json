@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mexicoin",
+    "name":"Mexicoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"86aR3KRvD28FP9DeW4NyLkLL8Bd2xYHoU93aTrn9Z9Pu",
+    "originator":"3P5gcu2NmRGzhidmvjWv856zQyqiy8CPMH4",
+    "factor":0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ytb",
+    "name":"YouTubeCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HhzJGgbbogGQubKkHUyEaHKs7fBRebjoJkgiDQ8jrYee",
+    "originator":"3PFmmWeGPw5BqCbj7n8kv6P7JhRb337spUL",
+    "factor":0
+}

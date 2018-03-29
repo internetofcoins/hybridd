@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.sta",
+    "name":"Starta",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3SdrmU1GGZRiZz12MrMcfUz4JksTzvcU25cLFXpZy1qz",
+    "originator":"3P3adYwtCUQRNx8zPoDDGmXk8wStxBW3UFp",
+    "factor":2
+}

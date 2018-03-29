@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.peppercoin",
+    "name":"PepperCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3taHxaAB5oPdkY4geikcFGd4m4wisBPukSnD8V5Nz7LF",
+    "originator":"3P8KmRb3zg1RA2UUogM4btEzRVZJ6RUjWpp",
+    "factor":8
+}

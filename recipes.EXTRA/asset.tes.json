@@ -1,0 +1,10 @@
+{
+    "symbol":"tes",
+    "name":"TeslaCoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.teslacoin",
+    "factor":8,
+    "host":["http://127.0.0.1:61056"],
+    "cache":15000,
+    "throttle":5
+}

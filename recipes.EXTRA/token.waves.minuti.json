@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.minuti",
+    "name":"minuti",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3r3Gg13gFrHfpjY93Ex5djRGFBuhgg4Tnq2cCfppWYCK",
+    "originator":"3PCstRmNTAU3K77PKZxSzubvkNydqToVsdD",
+    "factor":8
+}

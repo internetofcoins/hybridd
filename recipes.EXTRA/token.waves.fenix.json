@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.fenix",
+    "name":"FENIX&WAVES",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3pEoYCzUb7hWvqoMQGPYffTsxxPDkSzwSskypmYFBLFP",
+    "originator":"3PDv3YjpSSPdZ2i8chPh9fX8Bt9MuqiTJLT",
+    "factor":8
+}

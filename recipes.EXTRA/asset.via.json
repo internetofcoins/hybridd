@@ -1,0 +1,10 @@
+{
+    "symbol":"via",
+    "name":"Viacoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.viacoin",
+    "factor":8,
+    "host":["http://127.0.0.1:5222"],
+    "cache":15000,
+    "throttle":5
+}

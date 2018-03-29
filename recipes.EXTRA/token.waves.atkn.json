@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.atkn",
+    "name":"A-TOKEN",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7U5YKTvz7bt85FyWRB9bvSbqtKcdK3YVJDGfuJ1XjxBh",
+    "originator":"3PDRcfSETvixUB2L7xAcqTK9kG4LSxfKeeF",
+    "factor":8
+}

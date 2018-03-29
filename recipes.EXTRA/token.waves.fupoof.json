@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.fupoof",
+    "name":"Fupoof Coin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"EAmQHCqBVeNunvYRC5bFQh6mtvF34bL9qAwug5PGvjjE",
+    "originator":"3PPZejv53iSpsq3igaE3iXSpanvNHFujNgM",
+    "factor":3
+}

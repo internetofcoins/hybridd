@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.prometheus",
+    "name":"PROMETHEUS",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HEaqSTcBDV4odLPSMuDarcdNZxH3RskLR2kn63xrc2eV",
+    "originator":"3PKA9TnPeBL67Es67SJa1CuUXWZeNmKxNc1",
+    "factor":2
+}

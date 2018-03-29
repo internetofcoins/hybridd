@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.xrpripple",
+    "name":"XRP Ripple (WAVES)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7hpRW3Ajvc3UfVUm2ah1q3SZ1iUCPitE7sg61aJax3Pi",
+    "originator":"3P6obA4fZFLvj4FxCtJ8CZahRvvV5DcP65p",
+    "factor":8
+}

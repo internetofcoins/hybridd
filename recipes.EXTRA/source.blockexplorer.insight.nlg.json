@@ -1,0 +1,10 @@
+{
+    "id":"insight.nlg",
+    "name":"Gulden Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"gulden.insight",
+    "factor":8,
+    "host":["https://blockchain.gulden.com/api"],
+    "cache":1000,
+    "throttle":2
+}

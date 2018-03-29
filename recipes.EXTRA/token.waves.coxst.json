@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.coxst",
+    "name":"CoExistCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7tZxVdAWc8QvsMrXBoicMgU2bSJsaEpFJnPYn1H31B8B",
+    "originator":"3PFY5rAKM4vHNx1FHyMCNxEtPVeqsvb54Za",
+    "factor":8
+}

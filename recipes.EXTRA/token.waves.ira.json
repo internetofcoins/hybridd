@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ira",
+    "name":"PeerBanks",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3eBcKvyMavxACq54yvXk1rCAP4E475NCwGKV6AmQQNaw",
+    "originator":"3P5JFuAHKWm65AGsCNXNNDvnPiB7MkUwEg4",
+    "factor":8
+}

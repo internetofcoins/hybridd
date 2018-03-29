@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.b@",
+    "name":"Bankcoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"APz41KyoKuBBh8t3oZjqvhbbsg6f63tpZM5Ck5LYx6h",
+    "originator":"3PQrvrcwT7rWZfUz3fV66C3suv3nFkw1k94",
+    "factor":8
+}

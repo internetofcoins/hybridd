@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.equa",
+    "name":"EquaCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"ECcmoyW2wQcQMvXp3QbwnMFBpiRthHj54MpYq7scQBeZ",
+    "originator":"3P77dwFC51Bwts9rzMpbStznt6wz8G9nFHF",
+    "factor":4
+}

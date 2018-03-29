@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mrcreator",
+    "name":"MrCreator",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"33f6WzKTEp6QbnFVHAcJV4mjJYFP99NBVHVao3TZ7igG",
+    "originator":"3PNM9WbwyMWGiVjXXt3xU8JgiCWEwJNHAHn",
+    "factor":8
+}

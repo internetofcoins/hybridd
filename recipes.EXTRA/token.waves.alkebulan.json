@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.alkebulan",
+    "name":"Alkebulan (AKB)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"6aGL1auWUVSxwqgqsdKjuwYQD6rHNGX4o4TScdvwZ4M9",
+    "originator":"3P6f7gND1cDLdHXhVfhRomxY6hReoXB8VbT",
+    "factor":1
+}

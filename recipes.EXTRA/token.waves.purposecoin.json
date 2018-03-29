@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.purposecoin",
+    "name":"Purpose Coin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3GusyJAqr8qQbGKCuaBje2rNCEz7FnWFBrXSMywct9rC",
+    "originator":"3PMvE8b2sfneL7KeRfhK6yJ9yaRfp2ALC6r",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.eth",
+    "name":"Ethereum (WAVES)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"474jTeYx2r2Va35794tCScAXWJG9hU2HcgxzMowaZUnu",
+    "originator":"3PAfgHQPgodM6MxUzqRkepiKofGnECNoxt5",
+    "factor":8
+}

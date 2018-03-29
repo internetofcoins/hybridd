@@ -1,0 +1,10 @@
+{
+    "id":"abe.sxc",
+    "name":"Sexcoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"sexcoin.abe",
+    "factor":8,
+    "host":["http://blockexplorer.lavajumper.com/chain/Sexcoin"],
+    "cache":1000,
+    "throttle":2
+}

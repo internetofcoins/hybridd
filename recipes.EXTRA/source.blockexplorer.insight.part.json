@@ -1,0 +1,10 @@
+{
+    "id":"insight.part",
+    "name":"Particl Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"particl.insight",
+    "factor":8,
+    "host":["https://explorer.particl.io/particl-insight-api"],
+    "cache":1000,
+    "throttle":2
+}

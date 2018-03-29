@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.loyal",
+    "name":"tokenloyalty.io",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"3YBdrSJjkAfQiFVefJ6vSRLrRtsWfSgjFd2W53oCWpZM",
+    "originator":"3PLr9ZgYZkvz4EafqJrVJQd48EuuxFt1CmP",
+    "factor":8
+}

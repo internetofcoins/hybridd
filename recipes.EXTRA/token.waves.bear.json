@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bear",
+    "name":"BearWaves",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"9gnc5UCY6RxtSi9FEJkcD57r5NBgdr45DVYtunyDLrgC",
+    "originator":"3PEFQiFMLm1gTVjPdfCErG8mTHRcH2ATaWa",
+    "factor":2
+}

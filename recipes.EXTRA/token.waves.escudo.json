@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.escudo",
+    "name":"Escudo",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"F5BU5eAeUTRWNKy2dmD32Sg2fSrckgYgJ9ET6BrZLuzv",
+    "originator":"3P5Lf1cmcffFX4qpJB3YJPsg3AgsHEpPqNv",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"space",
+    "name":"Spacecoin",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.spacecoin",
+    "factor":8,
+    "host":["http://127.0.0.1:11010"],
+    "cache":15000,
+    "throttle":5
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.zeczcash",
+    "name":"ZEC Zcash",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5LAWj72vkhFn4nKd8kbGrYo9Z8aEQyVomgXzZG7CR2KZ",
+    "originator":"3P6obA4fZFLvj4FxCtJ8CZahRvvV5DcP65p",
+    "factor":8
+}

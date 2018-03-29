@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.halal",
+    "name":"HALAL",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BjAZxDeFpYaQ1gwmg65vYArhve31k8j9mscQDecNZ2bX",
+    "originator":"3P7R8WtixaRqZiVgnm5Uu2dnhuUB8PWJArK",
+    "factor":7
+}

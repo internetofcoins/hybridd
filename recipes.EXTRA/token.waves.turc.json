@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.turc",
+    "name":"TURc",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"F5bNjv3Yn7NYKvJQte8LG9z2SKFdM6PNjMKvzH3GuP5H",
+    "originator":"3P3CUsirR3SxXFFFLSZrMiTzM1GEd4MQtvQ",
+    "factor":8
+}

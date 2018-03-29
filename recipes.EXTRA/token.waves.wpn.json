@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wpn",
+    "name":"WavesPool.NET",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BkFyeRdrLquxds5FenxyonyfTwMVJJ6o6L7VTaPr5fs3",
+    "originator":"3P9AGmZGc2GwZ5WpEyzGoao7BV6kFcPqmcY",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.hope",
+    "name":"HOPE",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BUbe2QtoDYe24cpaCCYDYty7Hx6bXwDT9jmX97g3ksko",
+    "originator":"3PHq8YqxSAx9k6BP469vTXcp3fWiDdtPaxG",
+    "factor":0
+}

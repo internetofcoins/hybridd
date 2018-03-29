@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bcdevelopments",
+    "name":"BCDevelopments",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Hh2ZyvDaNVpqBHgRsoHk4JT6Gh6fcXm5b8ZkevxdhWat",
+    "originator":"3PNP7c2YQfigoQZkeFpPpkqgWDBXhzmEBt8",
+    "factor":8
+}

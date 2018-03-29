@@ -1,0 +1,10 @@
+{
+    "id":"abe.anc",
+    "name":"Anoncoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"anoncoin.abe",
+    "factor":8,
+    "host":["http://abe.darkgamex.ch:2751/chain/Anoncoin"],
+    "cache":1000,
+    "throttle":2
+}

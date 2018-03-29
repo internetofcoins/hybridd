@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.nibiocoin",
+    "name":"Nibiocoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BNSDfrvqoecX8wyhpewn8pmMqAtX9ZAALTbLviwZDuCZ",
+    "originator":"3PFBZpjBShCnKuxEgnX37gJMtfJYztP8U2E",
+    "factor":8
+}

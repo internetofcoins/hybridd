@@ -1,0 +1,10 @@
+{
+    "symbol":"pkb",
+    "name":"ParkByte",
+    "module":"bitcoin",
+    "mode":"bitcoinjslib.parkbyte",
+    "factor":8,
+    "host":["http://127.0.0.1:7543"],
+    "cache":15000,
+    "throttle":5
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wtry",
+    "name":"WTRY",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2mX5DzVKWrAJw8iwdJnV2qtoeVG9h5nTDpTqC1wb1WEN",
+    "originator":"3PKRjf8e2vaMZ9kMbsd9w25GrFKxz79RrHF",
+    "factor":2
+}

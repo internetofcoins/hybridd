@@ -1,0 +1,10 @@
+{
+    "id":"abe.ftc",
+    "name":"Feathercoin Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"feathercoin.abe",
+    "factor":8,
+    "host":["http://explorer.feathercoin.com/chain/Feathercoin"],
+    "cache":1000,
+    "throttle":2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bitcoinsilver",
+    "name":"Bitcoin Silver",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Hrk7YicaVckNq1sPfWUFSeqWPbKynP4hYhxptwG8TSSS",
+    "originator":"3P4TH3ASuQX8gFNVvbRHMZtgfCRSmN3Q9K3",
+    "factor":8
+}

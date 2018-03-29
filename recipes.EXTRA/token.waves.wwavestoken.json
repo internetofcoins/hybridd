@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wwavestoken",
+    "name":"$WWAVES Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BY63NivWBBJNJBnaC191R7JnXnRFJtCS3fsHavkmanp9",
+    "originator":"3PABU5DoGUpvFKiSxz4UJYCoRGAjZqFxJdx",
+    "factor":8
+}

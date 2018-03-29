@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.agro",
+    "name":"Agro Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"J8mgyjKQb4M7DjEKvewBSvKZULMZMDpUtua9VtByLbVD",
+    "originator":"3P6ydVEQLQ3E6FqnumpVM9VXZhMX7x8cfqD",
+    "factor":8
+}

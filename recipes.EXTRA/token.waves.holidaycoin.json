@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.holidaycoin",
+    "name":"HolidayCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"4t4LCdTiHsim6S8YmT7XdXttbE566aZPULXnqPv5LrD6",
+    "originator":"3P5av11c4fWoCsR4r6CsSBdntsxy26zN53m",
+    "factor":8
+}

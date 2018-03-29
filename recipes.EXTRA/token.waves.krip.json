@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.krip",
+    "name":"KripCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Hm9DM6i5DsnHoPhxWWo5j2bFYYVCUaoC9n66EtzmwgAM",
+    "originator":"3PPozXyc9xatZccsRv9JUQsFMCKwAwCX3C7",
+    "factor":5
+}

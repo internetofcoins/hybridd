@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.salescontracts",
+    "name":"SALES Contracts",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"6J4s9XBNFCG1A5P1uddw8bt7gRmaCifxMrvcnTVNxxEm",
+    "originator":"3PGiB52kbEGzS4PJtWWLQXJi46BHaZvWA1S",
+    "factor":4
+}

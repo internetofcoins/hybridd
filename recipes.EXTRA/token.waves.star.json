@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.star",
+    "name":"Starrie",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BTfuGGoeA934Ta1fgcehQ5UhbHuWKj4don64ZNBuMT38",
+    "originator":"3P8geFfLLFEeigeacYXTtTbmyj2CAxyKmja",
+    "factor":8
+}

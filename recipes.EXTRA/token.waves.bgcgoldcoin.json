@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bgcgoldcoin",
+    "name":"BGCGoldCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"9qor5stoFymuTUiFiTrKaKHyCo18agB4XkfAePcZETsj",
+    "originator":"3PNjRwSGmrAW7aBRz49NMpLAJ2FoPjo6XiA",
+    "factor":8
+}

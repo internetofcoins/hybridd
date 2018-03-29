@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mrt",
+    "name":"Miners' Reward Token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"4uK8i4ThRGbehENwa6MxyLtxAjAo1Rj9fduborGExarC",
+    "originator":"3PR8T2UCseRnFR4KdbLHcaK9BxrCoXNYw9m",
+    "factor":2
+}

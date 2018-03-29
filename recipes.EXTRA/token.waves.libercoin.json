@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.libercoin",
+    "name":"Libercoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BYbn77phrgtJMxeeZCP2GYQhUNbhrrSuDofnooNVoh2S",
+    "originator":"3P2v5SB5UfzvU1oi98mnxoRMdjjFiwLU6fQ",
+    "factor":8
+}

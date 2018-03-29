@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.dirtcointoken",
+    "name":"dirt coin token",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CLh6YeZMw5Rmifvt2qupniJuLdBRzEZpmGBLbgV8jfKx",
+    "originator":"3PMtdYw1FPHM9rYTFb7iJBNNFDLKc4eaAHS",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ceto",
+    "name":"CETO",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2PvQuEaYQ8H43eMRM1VMvba8N51WjHzmCmhRx1m8PA29",
+    "originator":"3PCzBD7L8F3z3Zvq5u7hPxBpnWVRNcWispN",
+    "factor":0
+}

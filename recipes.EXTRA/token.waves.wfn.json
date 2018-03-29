@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wfn",
+    "name":"WavesFullNode",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7yXJqP2zpXTiXuS2o25seUHYxdDnfSPZJ3SEm5DrQ7cx",
+    "originator":"3P4MRJvttkghWsXxGZ61kqd2M79GtLujoey",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.ping",
+    "name":"CryptoPing",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Bi4w2UuGRt2jAJFfRb8b3SwDUV5x8krCzX2zZHcRfPNc",
+    "originator":"3P3ixg2NVagTqMx1SxNranC8DHX6tooExdf",
+    "factor":8
+}

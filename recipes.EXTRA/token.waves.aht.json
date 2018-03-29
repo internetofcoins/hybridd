@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.aht",
+    "name":"Bowhead",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"HfFHZaPzGMSdHvaaZ7S8mrZrPWEyGzfA6VDuSRzb8uY6",
+    "originator":"3PBnbHj5rDzAyX7J9YtMuXVGtguy5DUoiAt",
+    "factor":8
+}

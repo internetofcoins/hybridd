@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.sphearx",
+    "name":"SphearX",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"A7t6CtfSLbqhgM93oz2gbUzE8MxGEqCFDYVHEMxvN17i",
+    "originator":"3PE9n5HRUsU6kjknatxPfvam7WmKy8EJcRW",
+    "factor":8
+}

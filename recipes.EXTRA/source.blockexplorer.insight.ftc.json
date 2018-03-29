@@ -1,0 +1,10 @@
+{
+    "id":"insight.ftc",
+    "name":"Feathercoin Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"feathercoin.insight",
+    "factor":8,
+    "host":["https://fsight.chain.tips/api"],
+    "cache":1000,
+    "throttle":2
+}

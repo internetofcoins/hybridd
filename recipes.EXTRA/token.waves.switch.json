@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.switch",
+    "name":"SWITCH",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"JDo8nq7pRQRSkMWSkF1PT2gueHaZqJwPakN2kzwzdS61",
+    "originator":"3PR2US5xLD4sKGK8jxJeUCxLyjxWfbRJdCz",
+    "factor":8
+}

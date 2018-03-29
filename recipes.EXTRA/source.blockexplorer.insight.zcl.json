@@ -1,0 +1,10 @@
+{
+    "id":"insight.zcl",
+    "name":"ZClassic Insight Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"zclassic.insight",
+    "factor":8,
+    "host":["http://explorer.zclmine.pro/insight-api-zcash"],
+    "cache":1000,
+    "throttle":2
+}

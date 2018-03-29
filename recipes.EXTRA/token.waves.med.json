@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.med",
+    "name":"Medicine Man",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CnkUwcYpVpzk3mMM2XfofymwXBnmrSecFbBdMx6WYDCa",
+    "originator":"3PARkkFNnnzqv88xJWrMTNRAvf6gYFZu1vS",
+    "factor":8
+}

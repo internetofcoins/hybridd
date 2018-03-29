@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.monkey",
+    "name":"Monkey (MNY)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2aN5sxTbjtoZziX9iCAyanrtDhCfNcPyRqdpnEHNppdN",
+    "originator":"3P5yhciJb6DBax4JirviviKWRUsbU4zjL2s",
+    "factor":8
+}

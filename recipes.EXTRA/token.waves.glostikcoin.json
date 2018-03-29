@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.glostikcoin",
+    "name":"GlostikCoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"GToGmPsSg7F51odzZj1CmCJbwKs2MPzdAhKJ7C1YZ1Zx",
+    "originator":"3PFor9vg2KQwtnphoff9TnKuk2BMYqEnwHH",
+    "factor":0
+}

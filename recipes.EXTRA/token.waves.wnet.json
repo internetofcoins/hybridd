@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.wnet",
+    "name":"Wavesnode.NET",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AxAmJaro7BJ4KasYiZhw7HkjwgYtt2nekPuF2CN9LMym",
+    "originator":"3P23fi1qfVw6RVDn4CH2a5nNouEtWNQ4THs",
+    "factor":8
+}

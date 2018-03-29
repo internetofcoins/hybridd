@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.grantsbounty",
+    "name":"GrantsBounty",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"47iX3APMeD4ZGmhQr73qg5boyoJZXGWpfX5sbcAD6jsn",
+    "originator":"3PHKCEaNypr631afYocWfy5C9u9zXLQWWA1",
+    "factor":8
+}

@@ -1,0 +1,10 @@
+{
+    "id":"abe.dash",
+    "name":"Dash Abe Blockexplorer",
+    "module":"blockexplorer",
+    "mode":"dash.abe",
+    "factor":8,
+    "host":["https://explorer.dash.org/chain/Dash"],
+    "cache":1000,
+    "throttle":2
+}

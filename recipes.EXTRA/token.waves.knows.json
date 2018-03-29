@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.knows",
+    "name":"KNOWS",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"CqSHx4WhszTZhabfWD8UuX8efg5hbZTPRNtnwW1ojJxe",
+    "originator":"3PHt6JBJ4jzJo8Add2m2B3X7etsXj12wGAz",
+    "factor":8
+}

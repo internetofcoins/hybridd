@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.itcoin",
+    "name":"ITcoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"JC1KqV48X2XpyK1WEzcoyP3iQwQEc8V8DTA3Nx8eyspZ",
+    "originator":"3PAsXUC3ko8QdqJMhC56xCznzAcCHQ9VrsD",
+    "factor":8
+}

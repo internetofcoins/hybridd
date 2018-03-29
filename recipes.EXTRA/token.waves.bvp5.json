@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.bvp5",
+    "name":"BVP 5",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"2YJMoeEktFMB3yuhvEaEdufSJser8Dc4V5LtU2KJpBKg",
+    "originator":"3P4hPXTKeNSvCBzvdiKmKiP2NnPVJTWbe24",
+    "factor":0
+}

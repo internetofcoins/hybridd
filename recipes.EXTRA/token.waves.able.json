@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.able",
+    "name":"Able Coin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"AbAkmDYitAakgDgLY7vkvVijctYcKZTwVe7ZECftLnpv",
+    "originator":"3PFkxiXe7jXyutgjjfuzmB6waWvWsnV69kF",
+    "factor":4
+}

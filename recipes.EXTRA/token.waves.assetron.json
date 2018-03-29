@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.assetron",
+    "name":"ASSETRON",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"8s9GqZUrCicjGoSAaiPaXQkH6XV3JbmG4wdcieD5s4eL",
+    "originator":"3P3psRHvwD9qscKPQw1CDJP8aJ2obzDxL94",
+    "factor":6
+}

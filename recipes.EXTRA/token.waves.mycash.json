@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.mycash",
+    "name":"MyCash",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"5x9VML1czTYPjwTY4XpMGQptjLHk8PdbkYQoZwUXuAgn",
+    "originator":"3PDNejsKUbCeVD2JEqEiSDBFkcz2NruRCSX",
+    "factor":3
+}

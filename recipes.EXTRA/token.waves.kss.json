@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.kss",
+    "name":"Krosscoin",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Dq6ku3HyiMfKvorz2PLRAPwa9ykF78V1uiBhXtMbL2f2",
+    "originator":"3P5e2t14MTL4DdG154x8MqkKJZYm7KwA3ye",
+    "factor":3
+}

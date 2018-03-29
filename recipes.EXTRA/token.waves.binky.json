@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.binky",
+    "name":"Binky",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"J3osz3MDcN2NykpptNertLvFmjiHy4GS4ahmZvaNaGFL",
+    "originator":"3PQaAKDkw58kQ7eEVARBjpfHfnK3CqZf3Br",
+    "factor":1
+}

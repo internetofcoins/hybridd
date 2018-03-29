@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.minex",
+    "name":"Minex",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"59Yy7EgS27Bjure3r77NeamJrUmKR99pVFUgVxP7DYF8",
+    "originator":"3P8ZRkGYzGtkh4aTihwGX1WuHzDGnZL66At",
+    "factor":4
+}

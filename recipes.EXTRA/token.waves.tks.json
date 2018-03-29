@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.tks",
+    "name":"Tokes",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"BDMRyZsmDZpgKhdM7fUTknKcUbVVkDpMcqEj31PUzjMy",
+    "originator":"3P5CzkrNPzGSTUXG4wrvqMkS53r4QoGPkrw",
+    "factor":8
+}
