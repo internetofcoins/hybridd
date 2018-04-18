@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.trading",
+    "name": "atlas : trading (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "atlas:trading",
+    "originator": "NDAD7RIJK7GQNU64OIAY7OAZS32UTHIIQW56W7E4",
+    "factor": 4
+}

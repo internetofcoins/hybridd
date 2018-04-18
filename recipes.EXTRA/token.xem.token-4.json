@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-4",
+    "name": "sexy : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sexy:token",
+    "originator": "NBO2SX6CKB6FTSSH4I4H32RGKBDKLMHTAK3GK2BC",
+    "factor": 0
+}

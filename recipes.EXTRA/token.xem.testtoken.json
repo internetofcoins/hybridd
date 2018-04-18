@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.testtoken",
+    "name": "moonrocket : testtoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "moonrocket:testtoken",
+    "originator": "NAHVLW6YSZKPKBE4C2EDASJHWJDG7P7HAV3ZZSLT",
+    "factor": 3
+}

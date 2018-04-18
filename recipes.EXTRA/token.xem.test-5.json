@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-5",
+    "name": "baneo : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "baneo:test",
+    "originator": "ND4YMYVMDJHX65CFE64RQXG4H6GL46GXX6HWCYGH",
+    "factor": 6
+}

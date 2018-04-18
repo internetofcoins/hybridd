@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-9",
+    "name": "nember.japan : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nember.japan:test",
+    "originator": "NDBEQJ7XIF6P46AST52JQVLPJIJS43VOY5L7LWA5",
+    "factor": 0
+}

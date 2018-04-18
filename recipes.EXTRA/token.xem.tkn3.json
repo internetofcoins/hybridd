@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tkn3",
+    "name": "fund-platform.areum-fund : tkn3 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fund-platform.areum-fund:tkn3",
+    "originator": "NDCNQ2PWNHSRX2K4V7YLOKDVACFVIPG5Z26TJI43",
+    "factor": 6
+}

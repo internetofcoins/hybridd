@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.starter_pack",
+    "name": "nembots : starter_pack (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembots:starter_pack",
+    "originator": "NBO2SX6CKB6FTSSH4I4H32RGKBDKLMHTAK3GK2BC",
+    "factor": 0
+}

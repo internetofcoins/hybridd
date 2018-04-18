@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.towel",
+    "name": "oshibori : towel (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oshibori:towel",
+    "originator": "NDJTUJC74XW54WSVYUBW2VGTN4SCRMO2VFRT5LXP",
+    "factor": 0
+}

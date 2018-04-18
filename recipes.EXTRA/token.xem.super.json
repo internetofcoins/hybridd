@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.super",
+    "name": "credz : super (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "credz:super",
+    "originator": "NCX3OBUKRES3DRWFY4O45I64NBGYCIJISNJCWQHA",
+    "factor": 0
+}

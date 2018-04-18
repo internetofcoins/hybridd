@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-13",
+    "name": "panama : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "panama:token",
+    "originator": "NAQL5G7HN5ZV5WYZJSCOVKTIB462PIOP72HOVRQH",
+    "factor": 6
+}

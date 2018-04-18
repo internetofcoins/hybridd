@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.thanks",
+    "name": "mosaone : thanks (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mosaone:thanks",
+    "originator": "NAMZUV3VOPSZ3JMKZFPYAKKT7RROYBG24LI6AAT4",
+    "factor": 0
+}

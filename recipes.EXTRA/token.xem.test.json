@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test",
+    "name": "buyucoin : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "buyucoin:test",
+    "originator": "NDPLZEFDSTL6B4QJPQBX6APMDACXQGNH3VGNUGFJ",
+    "factor": 0
+}

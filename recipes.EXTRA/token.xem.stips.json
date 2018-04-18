@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.stips",
+    "name": "cryptexcapital : stips (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptexcapital:stips",
+    "originator": "NBBORN6CYQBI6QQ6PNRR6KJ22CCZRLVDTSIO2BCK",
+    "factor": 6
+}

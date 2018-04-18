@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tables",
+    "name": "3a.tablesapp : tables (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "3a.tablesapp:tables",
+    "originator": "NDWMNIZFDOUM4SWZL5V3ZVRRJCSYDQS5LKRWWKIR",
+    "factor": 0
+}

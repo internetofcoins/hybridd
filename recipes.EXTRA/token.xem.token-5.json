@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-5",
+    "name": "digit : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "digit:token",
+    "originator": "NA344H2F7NGNPUYIREH2BZW7IEALP2MDCPZD5XD7",
+    "factor": 6
+}

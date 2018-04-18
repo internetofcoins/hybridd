@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.thanks-2",
+    "name": "mikun : thanks (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mikun:thanks",
+    "originator": "NALAV4EXSE3Q3ECJDJ2YN4WMPX2GCJOGDRGI4DZZ",
+    "factor": 2
+}

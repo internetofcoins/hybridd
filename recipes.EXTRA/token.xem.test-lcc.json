@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-lcc",
+    "name": "locationcore : test-lcc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "locationcore:test-lcc",
+    "originator": "ND77QW4XHQVAMA3AVAFN2YK5NUUDFGXBRNRMU6VS",
+    "factor": 2
+}

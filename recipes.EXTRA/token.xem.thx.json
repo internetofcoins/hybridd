@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.thx",
+    "name": "puchikun : thx (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "puchikun:thx",
+    "originator": "NBGRTSRV32P3SWXT7VRDP2T72GGYEXLQHEF5NUOU",
+    "factor": 1
+}

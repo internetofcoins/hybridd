@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.uni",
+    "name": "sushi.nigirizushi : uni (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sushi.nigirizushi:uni",
+    "originator": "NDBG76LLCEAWO334KIJ45N3UGZK5PAIPIPIYZ5HF",
+    "factor": 0
+}

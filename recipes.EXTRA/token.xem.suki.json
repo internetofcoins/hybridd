@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.suki",
+    "name": "yukarin : suki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yukarin:suki",
+    "originator": "NBTS6HGSOZDYU4F27YXD66HUXCID25MNCOFQY4ZR",
+    "factor": 0
+}

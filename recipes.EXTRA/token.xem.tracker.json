@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tracker",
+    "name": "limitededition : tracker (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "limitededition:tracker",
+    "originator": "NATYNBAL7ZYHT6OWGY2MKDPQLPVQKGFN5PLSXGTK",
+    "factor": 0
+}

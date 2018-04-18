@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tpc",
+    "name": "tokenpost : tpc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tokenpost:tpc",
+    "originator": "NAUBXTA3HDS3ZFI3NEOMKDOWGWX6MZLLBTIYCADR",
+    "factor": 6
+}

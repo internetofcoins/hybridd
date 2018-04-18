@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-17",
+    "name": "dim : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dim:token",
+    "originator": "NDDRG3UEB5LZZZMDWBE4RTKZK73JBHPAIWBHCFMV",
+    "factor": 6
+}

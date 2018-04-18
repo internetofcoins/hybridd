@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.syapay",
+    "name": "syapay : syapay (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "syapay:syapay",
+    "originator": "ND2HBNK6PIES6B6FFSXB6D3WCI47OHHZ7BBVICNF",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-7",
+    "name": "bc : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bc:test",
+    "originator": "NAEGOTHPZJTCL5ZBWOYXOUFMW3OMRD3YVW7X4XXJ",
+    "factor": 6
+}

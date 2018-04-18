@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-8",
+    "name": "alkaest : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "alkaest:test",
+    "originator": "NCPR23FTWET3FFEXRWBRBAPO4FN7ONBWURCFTVY2",
+    "factor": 2
+}

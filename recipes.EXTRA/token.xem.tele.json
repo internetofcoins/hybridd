@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tele",
+    "name": "rootdev.digitalfund : tele (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.digitalfund:tele",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

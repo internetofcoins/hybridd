@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-15",
+    "name": "hiuniversity : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hiuniversity:token",
+    "originator": "NDSKVYBT4T6RAGR6DVPFOWX673UIMBTGWFJD6NBG",
+    "factor": 0
+}

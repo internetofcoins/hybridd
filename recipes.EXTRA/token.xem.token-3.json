@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-3",
+    "name": "iccushe : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "iccushe:token",
+    "originator": "NCP2FROQ3YZTKJ2T6XLYKDJ7KHDMTMKG4LFAP4Q4",
+    "factor": 0
+}

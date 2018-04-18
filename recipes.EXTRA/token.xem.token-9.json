@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-9",
+    "name": "bitusu : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bitusu:token",
+    "originator": "NC2I44OGLLSSPF6RHOAMSF5XLGKKXENHWKD2IPSF",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.subtoken",
+    "name": "rootdev.subnamespace : subtoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.subnamespace:subtoken",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}
