@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitcoin-2",
+    "name": "digitalgold : bitcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "digitalgold:bitcoin",
+    "originator": "NDZ6GVO3NHT5U3X4FB3R6QTBCNRMWOROQECNNH6M",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitapon",
+    "name": "ponchiki : bitapon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ponchiki:bitapon",
+    "originator": "NCF3RYDSYOLK3ABJI35QBKDIDRUJGTGV5BSV2YYS",
+    "factor": 0
+}

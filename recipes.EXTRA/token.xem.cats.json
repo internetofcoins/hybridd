@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cats",
+    "name": "alice.fun : cats (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "alice.fun:cats",
+    "originator": "NA2MU2B7OSAJJSZFHIO65VTM5VFOIL4EPA3CN5BK",
+    "factor": 0
+}

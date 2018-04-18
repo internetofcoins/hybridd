@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.breeze-token",
+    "name": "breeze : breeze-token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "breeze:breeze-token",
+    "originator": "NCHFO7E5JLBYRQOGLTYJUTV5AYEQGHPDLXDC3MG3",
+    "factor": 0
+}

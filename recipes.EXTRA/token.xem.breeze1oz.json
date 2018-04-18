@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.breeze1oz",
+    "name": "breeze : breeze-1oz-silver-bar (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "breeze:breeze-1oz-silver-bar",
+    "originator": "NCHFO7E5JLBYRQOGLTYJUTV5AYEQGHPDLXDC3MG3",
+    "factor": 0
+}

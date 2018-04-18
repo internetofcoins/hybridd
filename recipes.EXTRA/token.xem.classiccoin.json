@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.classiccoin",
+    "name": "gcch : classiccoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gcch:classiccoin",
+    "originator": "NBLNT4D7647BWKIRH7KUQXZPL75GD4ZDHNPEARXX",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bai-2",
+    "name": "yamato : bai (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yamato:bai",
+    "originator": "NDDFC2K2DC7RDLMP5JMEG6PLC6DR7AFDLDDWNRE7",
+    "factor": 0
+}

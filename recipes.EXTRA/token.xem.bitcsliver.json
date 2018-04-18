@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitcsliver",
+    "name": "btcsliver : bitcoinsliver (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "btcsliver:bitcoinsliver",
+    "originator": "NDSO5G4TPTB4E53TNJ24MO4SPVDXOJA7BRJNUBVE",
+    "factor": 6
+}

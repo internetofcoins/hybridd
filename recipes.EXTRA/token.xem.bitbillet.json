@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitbillet",
+    "name": "bitbillet : bitbillet (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bitbillet:bitbillet",
+    "originator": "NA33NNX7JLRYSJDB2BBZ5DJCEHC4AGOJ4DE45EGG",
+    "factor": 6
+}

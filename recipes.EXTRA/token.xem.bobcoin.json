@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bobcoin",
+    "name": "bobcoin : bobcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bobcoin:bobcoin",
+    "originator": "NC7O5GEK56FAMMTF2NKEWDBQN6CUCYAZ247OLNCF",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coc-blo-ex",
+    "name": "devslopes.exams : cache-for-code-blockchain-exam (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes.exams:cache-for-code-blockchain-exam",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 0
+}

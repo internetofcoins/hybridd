@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.basque-cntry",
+    "name": "social.freedom : basque-country (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "social.freedom:basque-country",
+    "originator": "NBJBD4W7WAQLSVJ3L6YC72VXVAURSTYYHMGM2NBX",
+    "factor": 0
+}

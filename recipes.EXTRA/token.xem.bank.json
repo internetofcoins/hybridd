@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bank",
+    "name": "tofmedia : bank (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tofmedia:bank",
+    "originator": "NAWJHYSURL2MPHQ6MMRRGEPASD6JOT2VUXDQT3UI",
+    "factor": 0
+}

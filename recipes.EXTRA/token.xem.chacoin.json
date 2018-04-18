@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.chacoin",
+    "name": "cha : chacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cha:chacoin",
+    "originator": "NBXXT4Q6OPJS2JU5DP5BV5WEWXPD45QAGRBQCIPS",
+    "factor": 0
+}

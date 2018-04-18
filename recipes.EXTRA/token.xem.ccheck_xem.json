@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ccheck_xem",
+    "name": "nm : coincheck_xem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nm:coincheck_xem",
+    "originator": "NBX2CXA2QAMDWKTZ243P5WGQJP7YJQSHA5WS6OZD",
+    "factor": 0
+}

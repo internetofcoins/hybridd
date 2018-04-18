@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bloggercoin",
+    "name": "blogger : bloggercoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "blogger:bloggercoin",
+    "originator": "NALN3NANTI6FSABKA7QJBZL3ZXXLYNGDVC7FEKHF",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.chiwawa",
+    "name": "wanko : chiwawa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wanko:chiwawa",
+    "originator": "NCW2Q2ZWQXYWZB3YF5PXB2YKXCRE3FQVBVL377DW",
+    "factor": 3
+}

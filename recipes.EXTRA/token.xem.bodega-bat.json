@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bodega-bat",
+    "name": "fidelity : bodega-bat (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fidelity:bodega-bat",
+    "originator": "NBJBD4W7WAQLSVJ3L6YC72VXVAURSTYYHMGM2NBX",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.citizen",
+    "name": "cronycapital : citizen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cronycapital:citizen",
+    "originator": "NBTFYHCYHSZAFOG5YNNSTRI6PTICOMM7RUJOHCUE",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.btc-2",
+    "name": "btcoin : btc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "btcoin:btc",
+    "originator": "NAJIQAOPR7MYADK6IQT3PLLHHBWOJIQJYRX6FOFO",
+    "factor": 6
+}

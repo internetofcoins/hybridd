@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bee",
+    "name": "bee : bee (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bee:bee",
+    "originator": "NC7BRMTWSFXQS3GJGV2QKDFKGH4OCNLEN52JU3T5",
+    "factor": 0
+}

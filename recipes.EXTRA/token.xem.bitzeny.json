@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitzeny",
+    "name": "cash : bitzeny (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cash:bitzeny",
+    "originator": "NBMBTUB6JIXGBSETDJBMCGLB2GPTI6GMPAYFNH3P",
+    "factor": 6
+}

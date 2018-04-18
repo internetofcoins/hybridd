@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cessiecoin",
+    "name": "cesco : cessiecoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cesco:cessiecoin",
+    "originator": "NC33L7T4JXV63X5H4X3AP5GIV72QLILJW7CD7RNT",
+    "factor": 6
+}

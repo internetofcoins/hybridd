@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coc-eth-ex",
+    "name": "devslopes.exams : cache-for-code-ethereum-exam (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes.exams:cache-for-code-ethereum-exam",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 0
+}

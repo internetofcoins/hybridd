@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.blue",
+    "name": "xembook : blue (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xembook:blue",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.back",
+    "name": "cash : back (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cash:back",
+    "originator": "NBMBTUB6JIXGBSETDJBMCGLB2GPTI6GMPAYFNH3P",
+    "factor": 1
+}

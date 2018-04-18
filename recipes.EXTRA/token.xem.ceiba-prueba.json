@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ceiba-prueba",
+    "name": "mesopeso.ceiba : ceiba-prueba (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mesopeso.ceiba:ceiba-prueba",
+    "originator": "NCSTLV6LAJWVTNPKLF6WNBHKHLE2ILYGLWU6W4J7",
+    "factor": 0
+}

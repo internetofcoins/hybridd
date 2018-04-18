@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cms-2",
+    "name": "techbureau : cms (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "techbureau:cms",
+    "originator": "NCQC5CPQUII4X55ERVXGRAFPSWJ4X265EQJO24VN",
+    "factor": 6
+}

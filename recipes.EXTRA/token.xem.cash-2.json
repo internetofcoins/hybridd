@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cash-2",
+    "name": "supersonic : cash (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "supersonic:cash",
+    "originator": "NARB67WCN6IM7JF7NOYS63H5HCCYPIQJWHLRMNMP",
+    "factor": 2
+}

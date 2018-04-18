@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.chaco",
+    "name": "doterra : chaco (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "doterra:chaco",
+    "originator": "NAJ4VGKY3P7TEJ327EHQY3UBGW5YZZIWW64K4ALW",
+    "factor": 0
+}

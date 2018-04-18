@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ccoin",
+    "name": "coiners : ccoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coiners:ccoin",
+    "originator": "NDMQSUN52DWNAMEND7XGCFF7LKICZWTSLMK55MED",
+    "factor": 0
+}

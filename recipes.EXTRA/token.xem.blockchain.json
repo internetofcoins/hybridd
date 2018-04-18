@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.blockchain",
+    "name": "catapult : blockchain (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "catapult:blockchain",
+    "originator": "NDC5J27XOP3AGLCDGRN3TKRU3LNXNOPGXN2W26RX",
+    "factor": 1
+}

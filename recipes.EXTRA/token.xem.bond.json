@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bond",
+    "name": "007 : bond (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "007:bond",
+    "originator": "NAJIQAOPR7MYADK6IQT3PLLHHBWOJIQJYRX6FOFO",
+    "factor": 0
+}

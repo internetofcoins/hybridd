@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bezos",
+    "name": "nempress : bezos (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nempress:bezos",
+    "originator": "NB7XRD4OP74MPP32VJ5HPVYKIAFEEBW74HLSMRR4",
+    "factor": 0
+}

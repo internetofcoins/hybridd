@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.church",
+    "name": "church : church (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "church:church",
+    "originator": "NBF4N7YLVIZXDFPUXKPGPLNGDFN4Y2QKA7TYR3TI",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.beancoin",
+    "name": "natureeconomy : beancoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "natureeconomy:beancoin",
+    "originator": "NDPYYFFSRQ36XNL2XJDN2MFGSRKRHGJ6EQSF54DH",
+    "factor": 0
+}
