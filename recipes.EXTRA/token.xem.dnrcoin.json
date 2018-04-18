@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dnrcoin",
+    "name": "dotnetradio : dnrcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dotnetradio:dnrcoin",
+    "originator": "NC7XTRMPOKKDSQWYO76DZSS2OERBT5P472NEU4JM",
+    "factor": 6
+}

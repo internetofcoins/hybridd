@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.diamond",
+    "name": "xemsenjapan : diamond (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xemsenjapan:diamond",
+    "originator": "NDUVMJ3SIENBSJU2J6DNIHC3YUDIFGCBKJEC3KMN",
+    "factor": 5
+}

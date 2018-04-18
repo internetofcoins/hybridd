@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-3",
+    "name": "princess : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "princess:coin",
+    "originator": "NA3WRTTTFRABDUDDJ2OKX4DZRXKCF2ILXKOIDQHB",
+    "factor": 6
+}

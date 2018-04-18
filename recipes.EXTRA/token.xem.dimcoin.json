@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dimcoin",
+    "name": "dimit : dimcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dimit:dimcoin",
+    "originator": "NAM7WSBYJCM7V34LKR4VFW67O74SB3NGDKO4BH45",
+    "factor": 5
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-18",
+    "name": "blockchangers : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "blockchangers:coin",
+    "originator": "NDYZXIMS3AOVH3HJ6ENMYMFSOBXNWHAQ36QF4P5M",
+    "factor": 0
+}

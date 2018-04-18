@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-2",
+    "name": "cafe : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cafe:coin",
+    "originator": "NBG6WYBA7C5HFKR36ISXIT4UW7TVR5Z3WG3CVGHH",
+    "factor": 0
+}

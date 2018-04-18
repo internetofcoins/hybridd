@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.drivectest2",
+    "name": "drivecard.test.token : drivecointest2 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "drivecard.test.token:drivecointest2",
+    "originator": "NBS4R4KQJKQWNNTRUZ7R4M5IKZB5XR74J2TKZWRK",
+    "factor": 6
+}

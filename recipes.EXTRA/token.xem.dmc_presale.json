@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dmc_presale",
+    "name": "dmc_presale : dmc_presale (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dmc_presale:dmc_presale",
+    "originator": "NAUGIWLYVYB5JV7NQMKLNGQZMLKJS3SLAR2QPINT",
+    "factor": 6
+}

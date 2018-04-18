@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-22",
+    "name": "matsushin : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "matsushin:coin",
+    "originator": "NCBGVIQ6FJ66EIDU3BZJ2AHXOXIK2PWJ2V7VCFC5",
+    "factor": 0
+}

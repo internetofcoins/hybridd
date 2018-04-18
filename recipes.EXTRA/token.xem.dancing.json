@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dancing",
+    "name": "party.people : dancing (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "party.people:dancing",
+    "originator": "NDS6PMKCGBQFDGYKSK7UXJ5RLEPOOSIGEUEVJH2I",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cqc",
+    "name": "cqproject : cqc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cqproject:cqc",
+    "originator": "NBSN5YSONQPHLQR4KPSULOGSGVZCOJ2WSSH2RY74",
+    "factor": 6
+}

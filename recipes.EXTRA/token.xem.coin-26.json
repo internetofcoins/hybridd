@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-26",
+    "name": "toko : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "toko:coin",
+    "originator": "NBM6UK32XQLYSBJIZJU5NWZAQRMMYRVFFWWCYICW",
+    "factor": 0
+}

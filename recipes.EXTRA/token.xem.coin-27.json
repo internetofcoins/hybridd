@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-27",
+    "name": "hi : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hi:coin",
+    "originator": "ND7CSEHJYHE3VDXBPFII62CKPMLMLOTGFWEYS3LP",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.crypcoupon",
+    "name": "easterncyber : crypcoupon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "easterncyber:crypcoupon",
+    "originator": "NDSB442XZRYS6O32SV2XRONQBF7TOK2O3ZZZMN5U",
+    "factor": 6
+}

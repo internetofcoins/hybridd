@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.contrib",
+    "name": "chainges : contributor (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "chainges:contributor",
+    "originator": "NA7MCY6CVHW27EDWHXKCRFVZBDPRMRN2QLWCEBCH",
+    "factor": 0
+}

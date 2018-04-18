@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cool-2",
+    "name": "esports : cool (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "esports:cool",
+    "originator": "NDRPEKJIHDK4E2YGCTH6NJT24IALWYK2HIV4IQI4",
+    "factor": 0
+}

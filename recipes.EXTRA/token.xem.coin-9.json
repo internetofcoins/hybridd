@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-9",
+    "name": "valsabbiacoin : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "valsabbiacoin:coin",
+    "originator": "NDKE7VHT6IFX6R7EVQCVEZDCZYHK4PV44M7GD76E",
+    "factor": 3
+}

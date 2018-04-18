@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-7",
+    "name": "yiping : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yiping:coin",
+    "originator": "NBLRTRSTVDCHXW55NMOSJ5LTZCYAKTZXBFPTDU4A",
+    "factor": 6
+}

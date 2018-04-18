@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-17",
+    "name": "chrono : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "chrono:coin",
+    "originator": "NDL2FLDKFJLGYHST635DSUPFRAVOTZNGIPE2CATM",
+    "factor": 0
+}

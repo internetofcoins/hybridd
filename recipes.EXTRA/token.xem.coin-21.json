@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-21",
+    "name": "iteens-lab : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "iteens-lab:coin",
+    "originator": "NBVGXQZGC2PLBTDY77VIJOOZHTOIPJCBO2USLXC3",
+    "factor": 2
+}

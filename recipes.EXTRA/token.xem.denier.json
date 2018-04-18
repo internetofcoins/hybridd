@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.denier",
+    "name": "magic : denier (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "magic:denier",
+    "originator": "NCKFEMS776EIARX2XXRGQNEWLTSHZMEA2SG6PLQG",
+    "factor": 0
+}

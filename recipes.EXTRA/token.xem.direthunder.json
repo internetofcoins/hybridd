@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.direthunder",
+    "name": "myt : direthunder (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myt:direthunder",
+    "originator": "NCKKUOGJRW5YRE3MZQTPORS3SUHINGKZW25BYT4S",
+    "factor": 0
+}

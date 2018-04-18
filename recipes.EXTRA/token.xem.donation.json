@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.donation",
+    "name": "name.oratamah : donation (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "name.oratamah:donation",
+    "originator": "ND6R57VWZGEZFZWXVBLZX35J3EVTNWAUJNEM76HQ",
+    "factor": 0
+}

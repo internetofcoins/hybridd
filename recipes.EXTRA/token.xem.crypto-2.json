@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.crypto-2",
+    "name": "wicked : crypto (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wicked:crypto",
+    "originator": "NCK2PKEYC7VKHJTTRKLULIP3WU2PCVEGKFPST2QG",
+    "factor": 0
+}

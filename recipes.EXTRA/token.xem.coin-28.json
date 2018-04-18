@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-28",
+    "name": "gen : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gen:coin",
+    "originator": "NCH235PKC2YRTZTLZQXH27TGWWELABRR45TZ6EEY",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-29",
+    "name": "kung-fung : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kung-fung:coin",
+    "originator": "NCZVKCRANT3V2KEH6UEB2VFVEKO5TGTO4IKKN66T",
+    "factor": 0
+}

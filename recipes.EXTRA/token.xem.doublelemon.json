@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.doublelemon",
+    "name": "strongzero : doublelemon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "strongzero:doublelemon",
+    "originator": "NBS3D6B2ACUZFSQZXXBUKDJLVF34RLYYZLLU4WSU",
+    "factor": 0
+}

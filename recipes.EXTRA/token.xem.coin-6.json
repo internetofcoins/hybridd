@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-6",
+    "name": "native : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "native:coin",
+    "originator": "NBQPNCXC5E2FLBVKB6YFPNHUDRUJO3G3GB373WOS",
+    "factor": 6
+}

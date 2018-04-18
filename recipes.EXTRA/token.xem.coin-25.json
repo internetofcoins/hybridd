@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-25",
+    "name": "aospace.market : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aospace.market:coin",
+    "originator": "NCK43MS6ASIC7ORTW3RANOSKKE34GC2AEGYECABU",
+    "factor": 0
+}

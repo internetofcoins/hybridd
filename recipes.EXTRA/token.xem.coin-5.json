@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-5",
+    "name": "rossywhite : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rossywhite:coin",
+    "originator": "NALA6M32U2OIVRCPQ2IAKOOWQVATOQJ6CJMEGSO3",
+    "factor": 1
+}

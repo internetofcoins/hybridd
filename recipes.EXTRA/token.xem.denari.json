@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.denari",
+    "name": "denario : denari (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "denario:denari",
+    "originator": "NCBKPCA7LLAW3TCQN5O5AIEMMKSZPXUPCFL3SFWK",
+    "factor": 3
+}

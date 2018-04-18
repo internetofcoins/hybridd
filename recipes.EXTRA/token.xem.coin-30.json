@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-30",
+    "name": "soralis : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "soralis:coin",
+    "originator": "NCWIGGBM5JJB24JI4GYNDP2XNKDPK2GMLMWSBGYD",
+    "factor": 6
+}

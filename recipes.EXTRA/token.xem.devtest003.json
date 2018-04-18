@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.devtest003",
+    "name": "taskchange.team.coin : devtest003 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "taskchange.team.coin:devtest003",
+    "originator": "NAS2DDZE5STOUXZZNAI3TNVRHPB7GTCQIKDVEWIE",
+    "factor": 0
+}

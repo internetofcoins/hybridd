@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coins",
+    "name": "virtual_gold : coins (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "virtual_gold:coins",
+    "originator": "NBCYQDDUMF4KKVYQ6MHNGEHBOF4EE4GMIRFXRXVG",
+    "factor": 2
+}

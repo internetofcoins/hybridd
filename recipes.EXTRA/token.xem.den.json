@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.den",
+    "name": "den : den (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "den:den",
+    "originator": "NCUCHDXOUSDEVGWXKO2WGY36WYOB6XFSWW7LLXDV",
+    "factor": 0
+}

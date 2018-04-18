@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.com",
+    "name": "naver : com (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "naver:com",
+    "originator": "NCCRZEF36PFJVA3TK6BYZI4DZCGPTP4CE467HSCT",
+    "factor": 6
+}
