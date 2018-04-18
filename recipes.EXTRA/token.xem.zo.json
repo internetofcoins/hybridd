@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zo",
+    "name": "zo : zo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zo:zo",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

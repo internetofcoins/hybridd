@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yen-2",
+    "name": "play : yen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "play:yen",
+    "originator": "ND6R57VWZGEZFZWXVBLZX35J3EVTNWAUJNEM76HQ",
+    "factor": 0
+}

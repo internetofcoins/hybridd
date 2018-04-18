@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xarbon-oco",
+    "name": "sustainableworld : xarbon-oco (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sustainableworld:xarbon-oco",
+    "originator": "NA6FLAJO6UUMMV4H3DMLATFBDUIZENB4IT5O5BS2",
+    "factor": 6
+}

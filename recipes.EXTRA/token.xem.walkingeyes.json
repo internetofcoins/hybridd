@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.walkingeyes",
+    "name": "walkingeyes : walkingeyes (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "walkingeyes:walkingeyes",
+    "originator": "NAMUYA4XK5ANYQQYGW4GKBQ72VKXPO2Q3XH6GHPT",
+    "factor": 6
+}

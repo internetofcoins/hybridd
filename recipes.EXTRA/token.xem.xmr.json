@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xmr",
+    "name": "xchange : xmr (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xchange:xmr",
+    "originator": "NARRW5NLG5CYHNSTTN7VYUYPTLXUW5AC3MRT2NOU",
+    "factor": 6
+}

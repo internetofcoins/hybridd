@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.vote_for_b",
+    "name": "myheart : vote_for_the_b (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:vote_for_the_b",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}

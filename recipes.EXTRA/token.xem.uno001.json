@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.uno001",
+    "name": "nembear : uno001 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:uno001",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

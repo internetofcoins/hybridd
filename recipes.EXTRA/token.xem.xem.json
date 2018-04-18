@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xem",
+    "name": "cmd : xem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cmd:xem",
+    "originator": "NCFM3LQ4A3EBZFNG35LQEBSXI7O7OXCNKZXRBQFV",
+    "factor": 0
+}

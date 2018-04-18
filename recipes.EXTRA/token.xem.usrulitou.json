@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.usrulitou",
+    "name": "rititenger : usrulitou (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rititenger:usrulitou",
+    "originator": "NC75LR4A25TDYQNB3HS7PKOJYH3URGLIQG64BCKZ",
+    "factor": 0
+}

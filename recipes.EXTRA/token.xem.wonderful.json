@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wonderful",
+    "name": "performance : wonderful (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "performance:wonderful",
+    "originator": "NDA4URQPKWZXSPX5355SCWN6GJBC6JFHHFYUVF3M",
+    "factor": 0
+}

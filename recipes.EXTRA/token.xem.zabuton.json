@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zabuton",
+    "name": "nicole : zabuton (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nicole:zabuton",
+    "originator": "NBS7YSO4DK5FRRQMYVO7LR5AIMNSARSOR6QENVR7",
+    "factor": 0
+}

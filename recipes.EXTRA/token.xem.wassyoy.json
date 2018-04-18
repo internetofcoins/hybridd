@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wassyoy",
+    "name": "uzuzuzu : wassyoy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "uzuzuzu:wassyoy",
+    "originator": "NCFIHJTUPXS6375FJXN2AS44SN7BTN2GSLB7HMYB",
+    "factor": 0
+}

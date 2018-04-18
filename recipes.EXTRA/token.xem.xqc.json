@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xqc",
+    "name": "qchain : xqc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "qchain:xqc",
+    "originator": "NDY75BUUEB257O3NOUEIED4LJEGSISY5RG7NOZZI",
+    "factor": 6
+}

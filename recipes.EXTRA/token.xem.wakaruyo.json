@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wakaruyo",
+    "name": "messagecoin : wakaruyo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:wakaruyo",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

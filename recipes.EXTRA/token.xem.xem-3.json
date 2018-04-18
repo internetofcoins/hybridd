@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xem-3",
+    "name": "musiko : xem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "musiko:xem",
+    "originator": "NBYVUBXSE4MZZY5HFZQ6T32IBBFGT4NPLZGNGPG7",
+    "factor": 0
+}

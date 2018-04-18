@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yorsofot",
+    "name": "rititenger : yorsofot (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rititenger:yorsofot",
+    "originator": "NC75LR4A25TDYQNB3HS7PKOJYH3URGLIQG64BCKZ",
+    "factor": 0
+}

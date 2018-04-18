@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.waribikiken",
+    "name": "nembear : waribikiken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:waribikiken",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

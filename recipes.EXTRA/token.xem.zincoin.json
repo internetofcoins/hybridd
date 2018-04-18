@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zincoin",
+    "name": "zn : zincoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zn:zincoin",
+    "originator": "NBOWJK2MEGQHX2X3MIOKOEIMXDUG772YTMWAXDOB",
+    "factor": 0
+}

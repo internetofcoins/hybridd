@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wcoin",
+    "name": "wsmy.asset : wcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wsmy.asset:wcoin",
+    "originator": "NBEGW675LT6EG4I33TPRQYKEITUO3HPZOFSGPMPR",
+    "factor": 6
+}

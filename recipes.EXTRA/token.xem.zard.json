@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zard",
+    "name": "lovenem : zard (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lovenem:zard",
+    "originator": "NBSVTBZA3IXAF7VCZZL2TDWCV3MPHX73RIQWDB7I",
+    "factor": 2
+}

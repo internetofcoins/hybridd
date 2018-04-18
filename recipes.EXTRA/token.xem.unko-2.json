@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.unko-2",
+    "name": "unko : unko (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "unko:unko",
+    "originator": "NCSPXQTU6Q5GA7QOWJVPVAVJHG3HA57YJ3ZXQJL5",
+    "factor": 6
+}

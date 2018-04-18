@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yasai-2",
+    "name": "oneheart.kodomoshokudo : yasai (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oneheart.kodomoshokudo:yasai",
+    "originator": "NBW6TBKX6GIUA4IJCJ4XKZLPN6ZSHQMVZPQLLM7Q",
+    "factor": 0
+}

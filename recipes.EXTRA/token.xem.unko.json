@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.unko",
+    "name": "kusai : unko (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kusai:unko",
+    "originator": "NALAV4EXSE3Q3ECJDJ2YN4WMPX2GCJOGDRGI4DZZ",
+    "factor": 2
+}

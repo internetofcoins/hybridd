@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yaju",
+    "name": "yaju : yaju (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yaju:yaju",
+    "originator": "NBLIDJ3UJZJ2PVC7ZV7UWN6EGYTOENAKUB5VTASG",
+    "factor": 0
+}

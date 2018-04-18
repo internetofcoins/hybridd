@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.whiteday",
+    "name": "shiitake : whiteday (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shiitake:whiteday",
+    "originator": "NC46IOC2T3SLXXIXOKBQF4JXBN3MLGLUHVO4IP3Y",
+    "factor": 0
+}

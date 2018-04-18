@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wanwan",
+    "name": "go1 : wanwan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "go1:wanwan",
+    "originator": "NBLIIKCJKOUSI2RFNUNYHQSF7FYCMCATIWKPHYOJ",
+    "factor": 6
+}

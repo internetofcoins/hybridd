@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xem-4",
+    "name": "oratamah : xem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oratamah:xem",
+    "originator": "ND6R57VWZGEZFZWXVBLZX35J3EVTNWAUJNEM76HQ",
+    "factor": 0
+}

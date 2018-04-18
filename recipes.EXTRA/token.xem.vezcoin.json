@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.vezcoin",
+    "name": "coinvest : vezcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coinvest:vezcoin",
+    "originator": "NCX7Y742SOOAOEVHKCQMR5MDR4SEY4SFASLDUHJO",
+    "factor": 2
+}

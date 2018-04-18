@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wedw",
+    "name": "rootdev.mescedes-benz : wedw (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.mescedes-benz:wedw",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

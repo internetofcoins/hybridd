@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yana-coin",
+    "name": "item : yana-coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "item:yana-coin",
+    "originator": "NAH2PPAD4AUTECLBNS6LH2QSUQ7YPBXSRR27JJCJ",
+    "factor": 0
+}
