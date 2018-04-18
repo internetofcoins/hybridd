@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.moolah",
+    "name": "moocharoo : moolah (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "moocharoo:moolah",
+    "originator": "NB2E3FCDZQLRF7UFQ5SVNWR6XVCFSANCRKBTWSSO",
+    "factor": 2
+}

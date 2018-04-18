@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.levtolckas-2",
+    "name": "dangerous.coincheck_stolen_funds_do_not_accept_trades : levy_to_lock_assets (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dangerous.coincheck_stolen_funds_do_not_accept_trades:levy_to_lock_assets",
+    "originator": "NDG7OZKMQ4S5R57STVC2VPG2JRC4ZMW7BC55AJWM",
+    "factor": 0
+}

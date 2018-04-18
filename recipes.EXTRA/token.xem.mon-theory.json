@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mon-theory",
+    "name": "yu : monetary-theory (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yu:monetary-theory",
+    "originator": "NC3VTXBTBGEPU6SBHQGV5SEN4TL4CTCPB525YTN2",
+    "factor": 0
+}

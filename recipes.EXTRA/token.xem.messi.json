@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.messi",
+    "name": "xemex.sport : messi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xemex.sport:messi",
+    "originator": "NBO2YQ3ULGYX7YHJK7JI4THL7SSPWWE7HNPZ44QC",
+    "factor": 0
+}

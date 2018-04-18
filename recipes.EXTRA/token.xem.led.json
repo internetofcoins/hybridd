@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.led",
+    "name": "limitededition : led (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "limitededition:led",
+    "originator": "NATYNBAL7ZYHT6OWGY2MKDPQLPVQKGFN5PLSXGTK",
+    "factor": 6
+}

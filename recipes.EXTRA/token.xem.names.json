@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.names",
+    "name": "doc : names (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "doc:names",
+    "originator": "NB5GSQHMAWFSYYG3FVTHI6IJZWBZFE6L3V7KXTZB",
+    "factor": 0
+}

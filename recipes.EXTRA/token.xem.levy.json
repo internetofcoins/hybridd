@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.levy",
+    "name": "cybersecurity : levy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cybersecurity:levy",
+    "originator": "NC5UWYXREJO7KBBKQJRXI26STLS53LDE4O2KINOA",
+    "factor": 0
+}

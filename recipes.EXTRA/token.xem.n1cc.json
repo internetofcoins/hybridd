@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.n1cc",
+    "name": "no1ssd : n1cc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "no1ssd:n1cc",
+    "originator": "NAOM5NR6B476M5YRICTZJHATRVSAUCFFE5HFXDVI",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nembird-2",
+    "name": "nemg3 : nembird (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemg3:nembird",
+    "originator": "NDI6XV3BGZRKDRA23V4LVGSIBIGKYLRYLIKWPWTH",
+    "factor": 0
+}

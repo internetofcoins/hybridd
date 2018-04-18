@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mametubu",
+    "name": "haikara : mametubu (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "haikara:mametubu",
+    "originator": "NBE7XTMC3VNMGHDZUOXFHUIEAQ4A3T4BZ4PZFOGG",
+    "factor": 0
+}

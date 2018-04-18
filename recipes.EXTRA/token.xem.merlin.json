@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.merlin",
+    "name": "test_01 : merlin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "test_01:merlin",
+    "originator": "NBAE2UAAY4UQGSDSZ6GVFD2JYKQC57DPEK447BOD",
+    "factor": 0
+}

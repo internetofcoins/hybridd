@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.michacoin",
+    "name": "michael : michacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "michael:michacoin",
+    "originator": "NCZSDKIKWKFEFD7M5ZFSTC4OUNCPO2MTLBBZCQWS",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.levy-2",
+    "name": "ts : levy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ts:levy",
+    "originator": "NCU63AYO6RS2ISG4UEP5CALTKVQOB4FUTYIYXUAV",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.like",
+    "name": "labolike : like (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "labolike:like",
+    "originator": "NDJ4H7QV7Y2AC7VD5XX4QBPTAI6SMYSFYFJPJ56Z",
+    "factor": 4
+}

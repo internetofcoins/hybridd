@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mts",
+    "name": "like : mts (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "like:mts",
+    "originator": "NDJ4H7QV7Y2AC7VD5XX4QBPTAI6SMYSFYFJPJ56Z",
+    "factor": 2
+}

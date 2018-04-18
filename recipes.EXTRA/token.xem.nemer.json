@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemer",
+    "name": "faucet : nemer (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "faucet:nemer",
+    "originator": "NCKZZE2IZTDXMYSO3QZJZ2OB3P2GDZJHF7MKEHKR",
+    "factor": 0
+}

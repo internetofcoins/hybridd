@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mycards",
+    "name": "jabo38 : mycards (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jabo38:mycards",
+    "originator": "NBHZO2ERSRTABRZZKVT7IJBJWIQUVWBJJEFFTIPV",
+    "factor": 2
+}

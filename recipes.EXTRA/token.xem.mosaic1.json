@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mosaic1",
+    "name": "shadowrider2012 : mosaic1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shadowrider2012:mosaic1",
+    "originator": "NABSVWVKG7DPQTN5ZNLSIVS5PVV4VIMWLLT5RIZI",
+    "factor": 0
+}

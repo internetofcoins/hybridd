@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.m1-080118",
+    "name": "nem-arial : m1-080118 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem-arial:m1-080118",
+    "originator": "ND4RMUCEHAIN72ZECM5BQVN6Z7F7UPHOF7NN4TPW",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lyl",
+    "name": "appsulotely : lyl (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "appsulotely:lyl",
+    "originator": "NB7TKBBYZ7W75IJ5SN7WDGBZC62Z4FQQHBXKZBJA",
+    "factor": 6
+}

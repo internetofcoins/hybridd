@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nem7",
+    "name": "3kings3-rv-nem : nem77777777777777777777777777777 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "3kings3-rv-nem:nem77777777777777777777777777777",
+    "originator": "NCPYSXQNL22AD6IYB3C3KFSSIBZXRNZQIARLZI7Z",
+    "factor": 6
+}

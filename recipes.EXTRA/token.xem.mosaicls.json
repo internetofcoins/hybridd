@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mosaicls",
+    "name": "testls : mosaicls (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "testls:mosaicls",
+    "originator": "NCGDBTPZMH56Q5NUE7SJ3MQI5RQYNJG6IKEFHUFP",
+    "factor": 0
+}

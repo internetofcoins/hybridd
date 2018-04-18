@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mijinko",
+    "name": "xembook : mijinko (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xembook:mijinko",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

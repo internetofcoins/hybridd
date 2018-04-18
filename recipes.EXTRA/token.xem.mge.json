@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mge",
+    "name": "koinon : mge (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "koinon:mge",
+    "originator": "NBMXCHEA7XZ5XVUJC7IXU5WSOWCQ5YDSNFYJPBKU",
+    "factor": 0
+}

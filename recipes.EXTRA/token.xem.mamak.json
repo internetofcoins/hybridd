@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mamak",
+    "name": "k-wopd : mamak (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "k-wopd:mamak",
+    "originator": "NBGAT2LDWN47D25W2Q77SCLBTDI7XLVZU56K2DBY",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mcz",
+    "name": "marcayzer : mcz (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "marcayzer:mcz",
+    "originator": "NB2TSQPMQRSOCVQEP2VJBGV7ZNDODI7W6OP7L2AX",
+    "factor": 0
+}

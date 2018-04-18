@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.metapscoin",
+    "name": "takaoasayama : metapscoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "takaoasayama:metapscoin",
+    "originator": "NCSPXQTU6Q5GA7QOWJVPVAVJHG3HA57YJ3ZXQJL5",
+    "factor": 6
+}

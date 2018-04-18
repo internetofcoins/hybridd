@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.me",
+    "name": "beer : me (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "beer:me",
+    "originator": "NAXCJYOXW4YL3B2K6PHQ5EZWAHAT3BCE2JBUXU2H",
+    "factor": 0
+}

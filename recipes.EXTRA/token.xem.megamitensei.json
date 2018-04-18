@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.megamitensei",
+    "name": "familycomputer : megamitensei (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "familycomputer:megamitensei",
+    "originator": "NDVANFB53PLKILI4ESDDNHYLKXDMEHNQGXJI65KH",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.maruicoin",
+    "name": "techbureau : maruicoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "techbureau:maruicoin",
+    "originator": "ND3IFIYYEMFJEHNHCW6NRVMLOYKYHUWUZCW3UHXW",
+    "factor": 2
+}

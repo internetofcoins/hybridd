@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mitoken",
+    "name": "jelly.tip : mitoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jelly.tip:mitoken",
+    "originator": "NAZB5524XHUUX64IKZSHHSWKWPOLZTRY6XG54RBY",
+    "factor": 0
+}

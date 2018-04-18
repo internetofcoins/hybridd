@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.minute",
+    "name": "chronobank : minute (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "chronobank:minute",
+    "originator": "NDLPLDX2CKFMKBLACL7HN2FA4EA4RWXTBK5VLLLW",
+    "factor": 2
+}

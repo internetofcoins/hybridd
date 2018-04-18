@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lovenem",
+    "name": "lovenem : lovenem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lovenem:lovenem",
+    "originator": "NBSVTBZA3IXAF7VCZZL2TDWCV3MPHX73RIQWDB7I",
+    "factor": 0
+}

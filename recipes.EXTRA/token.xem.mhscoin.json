@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mhscoin",
+    "name": "mhs : mhscoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mhs:mhscoin",
+    "originator": "NDZ33VBLZTMCHD5C2HSSBQQXHMDMSY2PX2K4RBP3",
+    "factor": 0
+}

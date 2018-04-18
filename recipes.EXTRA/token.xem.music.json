@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.music",
+    "name": "party.people : music (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "party.people:music",
+    "originator": "NDS6PMKCGBQFDGYKSK7UXJ5RLEPOOSIGEUEVJH2I",
+    "factor": 0
+}

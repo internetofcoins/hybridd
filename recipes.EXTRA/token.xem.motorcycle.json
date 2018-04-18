@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.motorcycle",
+    "name": "samidare : motorcycle (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "samidare:motorcycle",
+    "originator": "NASIDPUZA4DBM5ZJW53QSFCUJYVMEAZ4TZUYUNEO",
+    "factor": 0
+}

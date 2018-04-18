@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lottery",
+    "name": "daoka : lottery (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "daoka:lottery",
+    "originator": "NCXIZQEARYTW2BGFHAPEZCIY5ILOUUJRC3VZH4MZ",
+    "factor": 0
+}

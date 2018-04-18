@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.moegirls",
+    "name": "plz : moegirls (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "plz:moegirls",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

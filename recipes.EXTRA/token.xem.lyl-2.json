@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lyl-2",
+    "name": "appsolutely : lyl (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "appsolutely:lyl",
+    "originator": "NBYFA6YVDRUPQEHEFIWJJCUG65XUSIMYYQPIP7WP",
+    "factor": 6
+}

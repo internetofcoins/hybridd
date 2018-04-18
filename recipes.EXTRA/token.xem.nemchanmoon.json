@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemchanmoon",
+    "name": "sake-online : nemchanmoon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sake-online:nemchanmoon",
+    "originator": "NAYBQZ24Y6AHSERK33YAFT4I5YUG3W76ENHKZGGC",
+    "factor": 0
+}

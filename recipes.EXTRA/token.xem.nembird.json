@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nembird",
+    "name": "ibaragi : nembird (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ibaragi:nembird",
+    "originator": "NBJH5KAEGN7ILZL3ZP2QC36F7QZ2RFEMCUXSSGG2",
+    "factor": 0
+}

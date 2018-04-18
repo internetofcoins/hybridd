@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lvbc",
+    "name": "lvbc : lvbc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lvbc:lvbc",
+    "originator": "NAVUBEUQPSZO3G3Y6JSCTJAH7HMIQ6JPYPJCXV7C",
+    "factor": 0
+}

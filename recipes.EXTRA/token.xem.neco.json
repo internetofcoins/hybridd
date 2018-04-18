@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.neco",
+    "name": "puipui : neco (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "puipui:neco",
+    "originator": "NASHVPBCXIWW6WTOQQ2LJ6USSMXKEFCYJCKO3BVM",
+    "factor": 1
+}

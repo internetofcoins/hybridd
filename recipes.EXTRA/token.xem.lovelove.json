@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lovelove",
+    "name": "lovelove : lovelove (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lovelove:lovelove",
+    "originator": "NCA2GP4HRIWBY3D3IR3OOIJHEVDBLIHN6IZICVQ6",
+    "factor": 0
+}
