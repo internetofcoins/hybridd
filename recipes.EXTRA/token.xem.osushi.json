@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.osushi",
+    "name": "magic : osushi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "magic:osushi",
+    "originator": "NCKFEMS776EIARX2XXRGQNEWLTSHZMEA2SG6PLQG",
+    "factor": 0
+}

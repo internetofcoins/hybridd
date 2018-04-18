@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.okome",
+    "name": "onapeko : okome (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "onapeko:okome",
+    "originator": "NDJ5ZSSGK47Q3CQWTBLWWV6523S3WNRRVLKGLNHO",
+    "factor": 3
+}

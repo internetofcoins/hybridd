@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.omfg",
+    "name": "wtf : omfg (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wtf:omfg",
+    "originator": "NARH3PB5BI4BVHJTINMYJFCKE7ETWHLLFZFSWO2H",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nostolenfnds",
+    "name": "ts : warning_dont_accept_stolen_funds (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ts:warning_dont_accept_stolen_funds",
+    "originator": "NCU63AYO6RS2ISG4UEP5CALTKVQOB4FUTYIYXUAV",
+    "factor": 0
+}

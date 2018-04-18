@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemnag2018",
+    "name": "daoka : nemday_nagoya_2018 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "daoka:nemday_nagoya_2018",
+    "originator": "NCXIZQEARYTW2BGFHAPEZCIY5ILOUUJRC3VZH4MZ",
+    "factor": 0
+}

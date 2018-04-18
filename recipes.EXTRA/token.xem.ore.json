@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ore",
+    "name": "ritimineda : ore (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ritimineda:ore",
+    "originator": "NAOUORTAMAZ7ADNW7H3MZPJNVSKBCLSR77OCBRTL",
+    "factor": 0
+}

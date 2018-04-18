@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ohayou",
+    "name": "messagecoin : ohayou (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:ohayou",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

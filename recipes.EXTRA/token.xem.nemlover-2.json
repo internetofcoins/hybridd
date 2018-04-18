@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemlover-2",
+    "name": "salon : nemlover (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "salon:nemlover",
+    "originator": "NBVSZYIN3HVNIFIFAE73ZNH36DRD3SMPCW6HC6UM",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.poddy",
+    "name": "podrock : poddy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "podrock:poddy",
+    "originator": "NDXQYJLK26VQQ7OU2CAL6IT2KM4S2CAKPN6ZJD2I",
+    "factor": 0
+}

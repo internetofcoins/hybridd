@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.peca",
+    "name": "catalonia : peca (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "catalonia:peca",
+    "originator": "NBZI7EXLREDSJK33LVHGP5ESAAQD5VUFRKKDMOGJ",
+    "factor": 5
+}

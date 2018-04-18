@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nex",
+    "name": "nextem : nex (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nextem:nex",
+    "originator": "NDY4RHUZ3CZOZ53O5HNEXTEM7UF5X3MMDGH4IMAD",
+    "factor": 0
+}

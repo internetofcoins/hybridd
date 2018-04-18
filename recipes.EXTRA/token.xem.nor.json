@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nor",
+    "name": "nor : nor (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nor:nor",
+    "originator": "NBHTBHZN7VBAW6N4QPFIK4DSO3BIXVA4I3EUK6AX",
+    "factor": 6
+}

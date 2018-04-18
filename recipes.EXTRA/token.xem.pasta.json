@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pasta",
+    "name": "foods : pasta (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "foods:pasta",
+    "originator": "NCR6LUWDIPLM7WI6OJZRX4RJVZWODECNHM3RFSA3",
+    "factor": 0
+}

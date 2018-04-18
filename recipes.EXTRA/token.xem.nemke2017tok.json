@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemke2017tok",
+    "name": "nemicon : nemket2017tokyo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemicon:nemket2017tokyo",
+    "originator": "ND76ZXQEHPTUB555DCCIERA7ITBVDSRKE3EYNCOJ",
+    "factor": 0
+}

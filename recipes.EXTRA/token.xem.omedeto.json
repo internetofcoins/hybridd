@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.omedeto",
+    "name": "messagecoin : omedeto (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:omedeto",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

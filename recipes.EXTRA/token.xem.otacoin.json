@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.otacoin",
+    "name": "coin_otaku : otacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coin_otaku:otacoin",
+    "originator": "NA37CF4ARNLOZIB72DHN7AEXYM4CE54QWQRTKVYS",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.octopus",
+    "name": "tako : octopus (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tako:octopus",
+    "originator": "NCQATDOHGKZ7UTUL67PAITCNJLOEPLZWIAH6EN3U",
+    "factor": 0
+}

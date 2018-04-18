@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pers-token",
+    "name": "pacnem : personal-token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pacnem:personal-token",
+    "originator": "NDHGYUVXKUWYFNO6THLUKAF6ZH2WIDCC6XD5UPC4",
+    "factor": 0
+}

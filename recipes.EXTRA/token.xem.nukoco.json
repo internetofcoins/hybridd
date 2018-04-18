@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nukoco",
+    "name": "julico : nukoco (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "julico:nukoco",
+    "originator": "NBWL226SR2SUMNYZXV54HWRFJHVPLHPTWIY5QHF2",
+    "factor": 0
+}

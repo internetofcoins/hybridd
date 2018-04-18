@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nyen",
+    "name": "njpy : nyen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "njpy:nyen",
+    "originator": "NB4R3TUAME3VW77HISUELL354R4DMARB63HS244Z",
+    "factor": 6
+}

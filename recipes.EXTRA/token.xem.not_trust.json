@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.not_trust",
+    "name": "myheart : not_trust (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:not_trust",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}

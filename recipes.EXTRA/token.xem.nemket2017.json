@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemket2017",
+    "name": "daoka : nemket2017 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "daoka:nemket2017",
+    "originator": "NCXIZQEARYTW2BGFHAPEZCIY5ILOUUJRC3VZH4MZ",
+    "factor": 0
+}

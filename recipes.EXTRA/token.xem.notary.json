@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.notary",
+    "name": "belgium : notary (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "belgium:notary",
+    "originator": "NARZ5ERMKNP4UB46HFCJE7FCCNGOWPIYHMA6BELG",
+    "factor": 0
+}

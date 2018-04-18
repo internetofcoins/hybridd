@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.platinum",
+    "name": "rootdev.metal : platinum (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.metal:platinum",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

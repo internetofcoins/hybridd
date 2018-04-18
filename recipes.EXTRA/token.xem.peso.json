@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.peso",
+    "name": "filipino : peso (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "filipino:peso",
+    "originator": "NCEGJSUZB2MXBVHZKVIL7ZH7AWBAAG5O3VYT2PEP",
+    "factor": 2
+}

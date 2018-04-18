@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.panda",
+    "name": "lucky : panda (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lucky:panda",
+    "originator": "NCLZFT24O5NMNJHHQWHFKHIRDS534QSZHFMLJGHU",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ntegra",
+    "name": "unwrd : ntegra (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "unwrd:ntegra",
+    "originator": "NBLF35AQ6AEE2QYFWRHOGHDTJXIW3BAJQBGAU55Q",
+    "factor": 6
+}

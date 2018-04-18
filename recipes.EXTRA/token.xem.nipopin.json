@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nipopin",
+    "name": "wakka777 : nipopin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wakka777:nipopin",
+    "originator": "NCBC3LDLBKSWUS7FBS6KLD4CJ4UC3IN4Z7UCEGU3",
+    "factor": 6
+}

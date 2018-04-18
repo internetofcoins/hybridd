@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.not_like",
+    "name": "myheart : not_like (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:not_like",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}
