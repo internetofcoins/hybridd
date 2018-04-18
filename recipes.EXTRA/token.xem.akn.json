@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.akn",
+    "name": "finance : akn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "finance:akn",
+    "originator": "NBSW2ZJLUP2GXV3BMCVQWFWD32LXTVKPXVZLL4KR",
+    "factor": 0
+}

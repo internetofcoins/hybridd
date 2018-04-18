@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aaa",
+    "name": "adara : aaa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "adara:aaa",
+    "originator": "NAKOMQDZ457SNU2UZXYRI6X6DQTFHZIKQH72QDEY",
+    "factor": 6
+}

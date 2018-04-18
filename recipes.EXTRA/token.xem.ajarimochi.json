@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ajarimochi",
+    "name": "ren : ajarimochi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ren:ajarimochi",
+    "originator": "NDTY3HJWZ5VROGDP2C6HUUF4W75HIAHXGMO4JCVG",
+    "factor": 0
+}

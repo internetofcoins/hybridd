@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.art",
+    "name": "nice : art (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nice:art",
+    "originator": "ND7CSEHJYHE3VDXBPFII62CKPMLMLOTGFWEYS3LP",
+    "factor": 0
+}

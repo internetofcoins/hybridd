@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.afrotail",
+    "name": "gamerespect : afrotail (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gamerespect:afrotail",
+    "originator": "NB7XRD4OP74MPP32VJ5HPVYKIAFEEBW74HLSMRR4",
+    "factor": 0
+}

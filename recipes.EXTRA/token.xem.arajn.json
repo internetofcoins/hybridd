@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.arajn",
+    "name": "jolig : arajn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jolig:arajn",
+    "originator": "NBFRDRFZNSDIZMTCXUDXFMWJQ4FMTUXZFU2DSQ2F",
+    "factor": 0
+}

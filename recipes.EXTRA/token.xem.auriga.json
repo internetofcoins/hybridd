@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.auriga",
+    "name": "auriga : auriga (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "auriga:auriga",
+    "originator": "NB5VGPSHLYTRJWSQD5U53GWIHAMFP7AFLMZTBVOE",
+    "factor": 6
+}

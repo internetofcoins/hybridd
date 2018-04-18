@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aapl",
+    "name": "zeus-test : aapl (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:aapl",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

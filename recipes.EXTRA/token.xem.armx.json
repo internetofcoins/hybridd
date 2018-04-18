@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.armx",
+    "name": "armodo : armx (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "armodo:armx",
+    "originator": "NCGVSABKFZNV3LLUY5W7LCZ3JMHGV7Q6HAOSCS7X",
+    "factor": 1
+}

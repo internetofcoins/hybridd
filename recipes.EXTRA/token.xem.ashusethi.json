@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ashusethi",
+    "name": "anurodhashusethi : ashusethi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "anurodhashusethi:ashusethi",
+    "originator": "NB5WFNQE6E22EXZHWFRBIPTE53X6NBYVPHFGVZNC",
+    "factor": 0
+}

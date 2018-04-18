@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aclmosaic",
+    "name": "acapitalloans : aclmosaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "acapitalloans:aclmosaic",
+    "originator": "NBVVJBC5IZEQWDFJKZ3EJ3H3TDZ5SRO7IEFYUFTS",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.1000jpy",
+    "name": "lc : 1000jpy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:1000jpy",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 6
+}

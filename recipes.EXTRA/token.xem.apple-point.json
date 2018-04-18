@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.apple-point",
+    "name": "chunri : apple-point (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "chunri:apple-point",
+    "originator": "NAIICDC4S4EHJVKOYBILYGLNOLSYRVXGSMMD6GVZ",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.arigato",
+    "name": "messagecoin : arigato (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:arigato",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

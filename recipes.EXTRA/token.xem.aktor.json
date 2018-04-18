@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aktor",
+    "name": "aktor : aktor (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aktor:aktor",
+    "originator": "NDYI3EKAWUHAMCIJTZM7JVL65RSLEHKBLH2FKEZZ",
+    "factor": 5
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.1alice",
+    "name": "mizunashi : 1alice (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mizunashi:1alice",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

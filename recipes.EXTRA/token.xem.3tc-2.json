@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.3tc-2",
+    "name": "3tnetworks : 3tc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "3tnetworks:3tc",
+    "originator": "NAWTWZ7U2Y7PWRZ6R5AXGK5SL3QFXRNARPF7UH27",
+    "factor": 5
+}

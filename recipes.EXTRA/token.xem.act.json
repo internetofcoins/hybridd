@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.act",
+    "name": "valat.testpj01 : act (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "valat.testpj01:act",
+    "originator": "NBRYUKWKW4UMTK7UVLRUNZPQP623AIO4PREV23ZR",
+    "factor": 0
+}

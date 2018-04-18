@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ainori",
+    "name": "ainori : ainori (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ainori:ainori",
+    "originator": "NDHZJ4CZOTR7LCPKH4FUHRBO36CM4FIVSGQDYMJN",
+    "factor": 0
+}

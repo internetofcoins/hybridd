@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.amzn",
+    "name": "zeus-test : amzn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:amzn",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}
