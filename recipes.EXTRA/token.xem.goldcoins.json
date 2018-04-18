@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.goldcoins",
+    "name": "5goldcoins.test5goldcoins : goldcoins (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "5goldcoins.test5goldcoins:goldcoins",
+    "originator": "NA2JAW7RFXTRPX5BUSJN47AQK5E5EJQVDZBXSGY7",
+    "factor": 2
+}

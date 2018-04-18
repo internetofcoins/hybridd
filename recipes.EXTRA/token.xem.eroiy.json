@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eroiy",
+    "name": "superfrucht : eroiy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "superfrucht:eroiy",
+    "originator": "NAYLXODNMJCORC6IIETDCMY4ARGKFXGNPQH7KOY7",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.evgenamon",
+    "name": "evgenator : evgenamon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "evgenator:evgenamon",
+    "originator": "NDV52MBTUB7BIFIKCLVO6NFESJ4SGJ3DAJMFX5UQ",
+    "factor": 0
+}

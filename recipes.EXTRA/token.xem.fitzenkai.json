@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fitzenkai",
+    "name": "hitnano : fitzenkai (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hitnano:fitzenkai",
+    "originator": "NANM5W4UDO477NJ4GG53SPHYHVH25XJCIE4JIJB5",
+    "factor": 0
+}

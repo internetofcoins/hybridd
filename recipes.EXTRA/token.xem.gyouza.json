@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gyouza",
+    "name": "gyouza : gyouza (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gyouza:gyouza",
+    "originator": "NBXYVPPSLNFHPTCTSGGDETBAR67PWDQSDZRCWAW7",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.entry",
+    "name": "nemket.nemket2017 : entry (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemket.nemket2017:entry",
+    "originator": "NAODY3JTJ27JAD2L3QXNHHZFCR2CDTMATBJ5BSRW",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.faucet",
+    "name": "namuyan : faucet (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "namuyan:faucet",
+    "originator": "NAN7XFG52NL3V5AW3NTSYO77AVR6X5LYRJKXWKHY",
+    "factor": 0
+}

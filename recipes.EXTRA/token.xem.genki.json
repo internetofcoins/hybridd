@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.genki",
+    "name": "messagecoin : genki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:genki",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

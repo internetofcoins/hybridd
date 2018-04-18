@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fuji",
+    "name": "mountain : fuji (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mountain:fuji",
+    "originator": "NASIDPUZA4DBM5ZJW53QSFCUJYVMEAZ4TZUYUNEO",
+    "factor": 0
+}

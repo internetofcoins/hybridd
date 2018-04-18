@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.globalelite",
+    "name": "amountnone : globalelite (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "amountnone:globalelite",
+    "originator": "NCJ2IS2OVJLBVXPGEJK756ALX5KUAGTIUYKRHET2",
+    "factor": 6
+}

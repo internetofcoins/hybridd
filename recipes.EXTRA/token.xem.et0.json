@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.et0",
+    "name": "et0nia : et0 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "et0nia:et0",
+    "originator": "NAJM6U6KOTRCUIOFNV2JZ7NCXNLBXICOTBOH26DY",
+    "factor": 0
+}

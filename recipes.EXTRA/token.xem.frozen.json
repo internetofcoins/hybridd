@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.frozen",
+    "name": "ccb.froz.usd : frozen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ccb.froz.usd:frozen",
+    "originator": "NAGBLEN5FLGMKCXHZVX26BKML5W36QAJ4UAFEDQE",
+    "factor": 6
+}

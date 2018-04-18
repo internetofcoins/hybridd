@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ert-2",
+    "name": "eroiy : ert (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "eroiy:ert",
+    "originator": "NCWWNOXFO3A4NNOJIGDMIGRMIXKHRC2MTVHM5ZDP",
+    "factor": 6
+}

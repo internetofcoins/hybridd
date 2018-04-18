@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.good-luck",
+    "name": "cash : good-luck (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cash:good-luck",
+    "originator": "NBMBTUB6JIXGBSETDJBMCGLB2GPTI6GMPAYFNH3P",
+    "factor": 0
+}

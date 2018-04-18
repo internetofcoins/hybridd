@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.green-piece",
+    "name": "egolog.nem-lifegame : green-piece (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "egolog.nem-lifegame:green-piece",
+    "originator": "NASDK2YLMTKEWAFCNX5A23QJ5ZNEC7HZBHN7MLJV",
+    "factor": 0
+}

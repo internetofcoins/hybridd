@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eth",
+    "name": "009.lab : eth (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "009.lab:eth",
+    "originator": "NB24NHKJ6EHFFK3RFY2OW4I6ZTJHCFRC6F24HX5V",
+    "factor": 6
+}

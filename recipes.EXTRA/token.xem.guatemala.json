@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.guatemala",
+    "name": "nemuriya : guatemala (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemuriya:guatemala",
+    "originator": "NCX573DG62BHVK4QWOXH3CG54YHICYK5WKACMO6K",
+    "factor": 0
+}

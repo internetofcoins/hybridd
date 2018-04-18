@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ebi",
+    "name": "ebibit : ebi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ebibit:ebi",
+    "originator": "NCXIZQEARYTW2BGFHAPEZCIY5ILOUUJRC3VZH4MZ",
+    "factor": 0
+}

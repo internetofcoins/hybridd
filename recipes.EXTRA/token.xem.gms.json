@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gms",
+    "name": "gms : gms (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gms:gms",
+    "originator": "NAYK5NNWATBPGRLGWMDI4UPO5NPTK3MR2SAMVJJT",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fomotoket1",
+    "name": "fomo : fomotokentest1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fomo:fomotokentest1",
+    "originator": "NA6FW7Y4ZFRYXPCULWZY5DAC76UXRQLDNV52I4BD",
+    "factor": 2
+}

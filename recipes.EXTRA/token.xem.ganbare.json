@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ganbare",
+    "name": "messagecoin : ganbare (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:ganbare",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

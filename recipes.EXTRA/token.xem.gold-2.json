@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gold-2",
+    "name": "rootdev.metal : gold (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.metal:gold",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

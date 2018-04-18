@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fukutomi",
+    "name": "kamakura : fukutomi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kamakura:fukutomi",
+    "originator": "NDLJKUTJEX5OYFUWOJG2JLOBLX62IC2EP25HACPT",
+    "factor": 0
+}

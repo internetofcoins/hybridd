@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.glad",
+    "name": "myheart : glad (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:glad",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}

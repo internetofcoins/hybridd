@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gray",
+    "name": "myheart : gray (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:gray",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}

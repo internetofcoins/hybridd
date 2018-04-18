@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ert",
+    "name": "fruchtig : ert (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fruchtig:ert",
+    "originator": "NCKOG5O3US46AVAJ23WUQ3FBDOUKLQ3RQB5APE3R",
+    "factor": 0
+}

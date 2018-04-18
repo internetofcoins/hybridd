@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.google",
+    "name": "gmail : google (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gmail:google",
+    "originator": "NDIN7WMO5Q3IHOLQDDVXL4U3NSNJ5IQANJQJ4ASG",
+    "factor": 3
+}

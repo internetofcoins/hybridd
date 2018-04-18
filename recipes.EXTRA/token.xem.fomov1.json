@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fomov1",
+    "name": "fomo.fomov1 : fomov1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fomo.fomov1:fomov1",
+    "originator": "NA6FW7Y4ZFRYXPCULWZY5DAC76UXRQLDNV52I4BD",
+    "factor": 2
+}

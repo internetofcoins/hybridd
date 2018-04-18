@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eur",
+    "name": "lc : eur (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:eur",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 3
+}

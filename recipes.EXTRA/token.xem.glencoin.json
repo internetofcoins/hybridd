@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.glencoin",
+    "name": "glen17 : glencoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "glen17:glencoin",
+    "originator": "NCN5QE74APPEOJHQHG4ZZ5YOZE7YSI2YMVG3VSEU",
+    "factor": 0
+}

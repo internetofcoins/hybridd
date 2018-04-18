@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eyan",
+    "name": "sonohanashi : eyan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sonohanashi:eyan",
+    "originator": "NAREE2BCZKVIBXDENYGOCO5HLQRRK2VOGHVG7GFD",
+    "factor": 0
+}

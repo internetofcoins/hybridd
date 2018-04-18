@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fmt-2",
+    "name": "fmt : fmt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fmt:fmt",
+    "originator": "NCWVH3UBB6BL7S2YYDPJ2P6UM5WBTR6ZZKKW3U4K",
+    "factor": 4
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fluffs",
+    "name": "fluffr : fluffs (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fluffr:fluffs",
+    "originator": "NCIP5RMOZYMIL7KC7F4NKIY3BCGS4RE7Y4BPDOSI",
+    "factor": 6
+}

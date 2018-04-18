@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fortune",
+    "name": "alchemist : fortune (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "alchemist:fortune",
+    "originator": "NAM4TA2XN5NU7S7CWMUJAGNZOP3QEM57E6C2IYEL",
+    "factor": 0
+}

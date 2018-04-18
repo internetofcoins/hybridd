@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.goodluck",
+    "name": "harvester : goodluck (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "harvester:goodluck",
+    "originator": "NA6BJN3PCUQCROERW3H3BUHBQAE3ACJUDIWI2DBY",
+    "factor": 0
+}

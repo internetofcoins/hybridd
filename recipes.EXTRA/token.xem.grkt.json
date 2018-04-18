@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.grkt",
+    "name": "elc : grkt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "elc:grkt",
+    "originator": "NBBZXFIUYANAW77K7FQPTPTAY2WYGXVCYPTP4PER",
+    "factor": 3
+}
