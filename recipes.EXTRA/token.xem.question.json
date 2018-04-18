@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.question",
+    "name": "questionem : question (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "questionem:question",
+    "originator": "NDS4NYASKRQIA2DDANYN4YOYVZC3QOAI4V7AQ6UW",
+    "factor": 0
+}

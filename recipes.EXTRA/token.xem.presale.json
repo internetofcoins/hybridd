@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.presale",
+    "name": "petro : presale (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "petro:presale",
+    "originator": "NCGBBZKOTERO3EXMPPCNDNDXZQQJXBEMWWO7MB66",
+    "factor": 6
+}

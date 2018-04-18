@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rkgkcoin",
+    "name": "ac.rkgk : rkgkcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ac.rkgk:rkgkcoin",
+    "originator": "NARMK6TZRNR6IIYTZDQIAXLHXISIWJTAUOQKI7GQ",
+    "factor": 0
+}

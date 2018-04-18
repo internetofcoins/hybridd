@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.premium-1",
+    "name": "theta-u : premium-1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "theta-u:premium-1",
+    "originator": "NAPKZDRNWXXCOLFAEK5IEKG3LLHDHAELDNIDMMVB",
+    "factor": 0
+}

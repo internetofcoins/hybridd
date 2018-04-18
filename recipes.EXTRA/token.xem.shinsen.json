@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shinsen",
+    "name": "shibuya : shinsen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shibuya:shinsen",
+    "originator": "NDRY3Q4DFRDHY2VO6S3SRTYZW7V7NGKJOLNEYVLK",
+    "factor": 1
+}

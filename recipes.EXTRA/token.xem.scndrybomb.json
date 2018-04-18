@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.scndrybomb",
+    "name": "killerqueen.sheerheartattack : secondarybomb (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "killerqueen.sheerheartattack:secondarybomb",
+    "originator": "NB5VGPSHLYTRJWSQD5U53GWIHAMFP7AFLMZTBVOE",
+    "factor": 6
+}

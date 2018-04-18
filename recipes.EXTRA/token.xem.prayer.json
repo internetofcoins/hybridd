@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.prayer",
+    "name": "prayer : prayer (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "prayer:prayer",
+    "originator": "NDZBH3XLSQALDINNYNU3MEQHY2PGQ4DSXXMMLWSK",
+    "factor": 5
+}

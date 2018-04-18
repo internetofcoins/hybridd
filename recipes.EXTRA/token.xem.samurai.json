@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.samurai",
+    "name": "jpn : samurai (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jpn:samurai",
+    "originator": "NASIDPUZA4DBM5ZJW53QSFCUJYVMEAZ4TZUYUNEO",
+    "factor": 0
+}

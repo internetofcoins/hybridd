@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.power",
+    "name": "magic : power (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "magic:power",
+    "originator": "NCKFEMS776EIARX2XXRGQNEWLTSHZMEA2SG6PLQG",
+    "factor": 0
+}

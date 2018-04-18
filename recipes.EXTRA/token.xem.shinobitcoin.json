@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shinobitcoin",
+    "name": "shinobi : shinobitcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shinobi:shinobitcoin",
+    "originator": "NBOA64TVMC424XGWAC43YI5IBMH3H7BF6IQXPT6V",
+    "factor": 0
+}

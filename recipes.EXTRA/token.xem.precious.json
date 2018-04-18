@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.precious",
+    "name": "precious : precious (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "precious:precious",
+    "originator": "NAJM6U6KOTRCUIOFNV2JZ7NCXNLBXICOTBOH26DY",
+    "factor": 6
+}

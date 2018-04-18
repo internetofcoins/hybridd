@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.point",
+    "name": "oshibori : point (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oshibori:point",
+    "originator": "NDJTUJC74XW54WSVYUBW2VGTN4SCRMO2VFRT5LXP",
+    "factor": 0
+}

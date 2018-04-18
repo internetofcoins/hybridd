@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.silver",
+    "name": "rootdev.metal : silver (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.metal:silver",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

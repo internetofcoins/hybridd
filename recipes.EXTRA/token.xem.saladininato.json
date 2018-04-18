@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.saladininato",
+    "name": "inatoinato : saladininato (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "inatoinato:saladininato",
+    "originator": "NDXHUHW5REIWY5IAKMNKKIY5N265ATXQZMPNOUK2",
+    "factor": 0
+}

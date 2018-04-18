@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pumpkin",
+    "name": "halloween2017 : pumpkin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "halloween2017:pumpkin",
+    "originator": "NCWIGGBM5JJB24JI4GYNDP2XNKDPK2GMLMWSBGYD",
+    "factor": 0
+}

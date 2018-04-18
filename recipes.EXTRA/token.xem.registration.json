@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.registration",
+    "name": "kchain : registration (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kchain:registration",
+    "originator": "NCBVGZ5RB5MFTHYPXEFDIMIQATPGAZDDYZZ62RUG",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ryuta1k",
+    "name": "ttech : ryuta1k (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ttech:ryuta1k",
+    "originator": "NCUK4VQHA4OSEXD5K2TKBEE2722PCXAEQ3SPTDBJ",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.saji",
+    "name": "nicole : saji (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nicole:saji",
+    "originator": "NBS7YSO4DK5FRRQMYVO7LR5AIMNSARSOR6QENVR7",
+    "factor": 0
+}

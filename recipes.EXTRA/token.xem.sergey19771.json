@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.sergey19771",
+    "name": "sergey1977 : sergey19771 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sergey1977:sergey19771",
+    "originator": "NA2BMN5TL5L4REPT3WARPPAN6AM3JCBPPTBLN2JT",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.point-2",
+    "name": "skill : point (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "skill:point",
+    "originator": "NCKFEMS776EIARX2XXRGQNEWLTSHZMEA2SG6PLQG",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rabbit",
+    "name": "rabbit : rabbit (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rabbit:rabbit",
+    "originator": "NCY5UFXFQN4RXZDVYPGCUU5244QSVJYMCKBGC3OS",
+    "factor": 0
+}

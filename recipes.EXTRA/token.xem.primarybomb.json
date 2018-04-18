@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.primarybomb",
+    "name": "killerqueen.bombtransmutation : primarybomb (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "killerqueen.bombtransmutation:primarybomb",
+    "originator": "NB5VGPSHLYTRJWSQD5U53GWIHAMFP7AFLMZTBVOE",
+    "factor": 6
+}

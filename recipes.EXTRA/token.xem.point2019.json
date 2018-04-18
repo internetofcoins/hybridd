@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.point2019",
+    "name": "oshibori : point2019 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oshibori:point2019",
+    "originator": "NDJTUJC74XW54WSVYUBW2VGTN4SCRMO2VFRT5LXP",
+    "factor": 0
+}

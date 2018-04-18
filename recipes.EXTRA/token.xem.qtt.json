@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.qtt",
+    "name": "quicktrade.token : qtt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "quicktrade.token:qtt",
+    "originator": "NCBS4S2YFWNDSX4LY63GFKB36SWB3D35XROE2ZSS",
+    "factor": 6
+}

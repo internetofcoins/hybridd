@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.riddle",
+    "name": "walkingeyes : riddle (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "walkingeyes:riddle",
+    "originator": "NAMUYA4XK5ANYQQYGW4GKBQ72VKXPO2Q3XH6GHPT",
+    "factor": 0
+}

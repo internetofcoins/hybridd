@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.qchein",
+    "name": "evgeny : qchein (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "evgeny:qchein",
+    "originator": "NDX3VWRKPQESLTKFKKGGBR7JABELQKBM5NH2CCQ2",
+    "factor": 3
+}

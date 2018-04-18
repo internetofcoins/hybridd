@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.sa",
+    "name": "oneheart.kodomoshokudo : sa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oneheart.kodomoshokudo:sa",
+    "originator": "NBW6TBKX6GIUA4IJCJ4XKZLPN6ZSHQMVZPQLLM7Q",
+    "factor": 0
+}

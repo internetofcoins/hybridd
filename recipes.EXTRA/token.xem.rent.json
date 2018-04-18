@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rent",
+    "name": "shelter_classic : rent (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shelter_classic:rent",
+    "originator": "NCORZQU55IF3PRP7K6ERVJCGPYNIBU4MCIB5R6B3",
+    "factor": 6
+}

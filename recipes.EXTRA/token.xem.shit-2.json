@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shit-2",
+    "name": "shares : shit (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shares:shit",
+    "originator": "NA6CMPKJF4TLRBNROWYO35ZY5XMY6HB5KZEKK3UQ",
+    "factor": 6
+}

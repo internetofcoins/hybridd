@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.star",
+    "name": "lucky : star (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lucky:star",
+    "originator": "NCLZFT24O5NMNJHHQWHFKHIRDS534QSZHFMLJGHU",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ros",
+    "name": "icchy.rosso : ros (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "icchy.rosso:ros",
+    "originator": "NA277GUUXXO3WBE4JW7KVFMMY47O2TA3KL2NAEUL",
+    "factor": 2
+}

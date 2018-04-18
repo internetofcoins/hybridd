@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.small",
+    "name": "receipt : small (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "receipt:small",
+    "originator": "NCURWXCQDSRX3JGYVUERQUZNUYOLVC5VKO7DFHZ5",
+    "factor": 0
+}

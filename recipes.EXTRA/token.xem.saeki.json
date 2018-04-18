@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.saeki",
+    "name": "saeki : saeki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "saeki:saeki",
+    "originator": "ND47SOF4GJ4YJCTBHSPHNDNU43GA7OUUVMAQCWQW",
+    "factor": 0
+}

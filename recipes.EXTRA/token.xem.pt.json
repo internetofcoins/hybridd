@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pt",
+    "name": "jpbit : pt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jpbit:pt",
+    "originator": "NBLK2AI3JONRZWVA57TC63W5UQ3JUD77MBXQWQES",
+    "factor": 0
+}
