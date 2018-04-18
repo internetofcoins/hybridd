@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kiwioption01",
+    "name": "kiwi : kiwioption01 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kiwi:kiwioption01",
+    "originator": "NDRPEKJIHDK4E2YGCTH6NJT24IALWYK2HIV4IQI4",
+    "factor": 0
+}

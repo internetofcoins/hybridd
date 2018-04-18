@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.h-of-famer",
+    "name": "pacnem : hall-of-famer (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pacnem:hall-of-famer",
+    "originator": "NDHGYUVXKUWYFNO6THLUKAF6ZH2WIDCC6XD5UPC4",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hbis-2",
+    "name": "demoassets : hbis-2 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "demoassets:hbis-2",
+    "originator": "NDKAE4Y5FBKYPM5O6KQSUUIHEJZ2VHZURRDC4VMY",
+    "factor": 0
+}

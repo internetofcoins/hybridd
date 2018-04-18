@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.katio",
+    "name": "katio : katio (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "katio:katio",
+    "originator": "NBPXXZ32KPYSIYBDZSRQXNORDUMBXRTDDQYIXZBM",
+    "factor": 6
+}

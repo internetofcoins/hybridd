@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jpy",
+    "name": "virtual-asset : jpy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "virtual-asset:jpy",
+    "originator": "NDU7JGAEOIEFOYZYOIL4ZZDMRAL222XR6C5Q55QU",
+    "factor": 6
+}

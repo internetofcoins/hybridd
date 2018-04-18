@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.keio_coin",
+    "name": "polipoli : keio_coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "polipoli:keio_coin",
+    "originator": "NA6GB33ALQKB4ARVRAR7AE5JUF5OIOSVL3JNZY5H",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kzk",
+    "name": "fujori : kzk (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fujori:kzk",
+    "originator": "NCXLMGU5Y7GBF6XJ4QU2SV2S33XKLX6KYLNSZBKR",
+    "factor": 6
+}

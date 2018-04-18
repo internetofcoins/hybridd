@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.heso_nori",
+    "name": "nem_phone : hesokuri_norida- (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem_phone:hesokuri_norida-",
+    "originator": "NAI7ZBUUJZT5KM25XM6OG57P3XYOLW6ZV7LN2WAF",
+    "factor": 0
+}

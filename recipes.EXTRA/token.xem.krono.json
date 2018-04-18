@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.krono",
+    "name": "kronium : krono (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kronium:krono",
+    "originator": "NB6DHBECTVSLIF5JRPEOSUNR3GEOYCZZ52Y7TNLS",
+    "factor": 6
+}

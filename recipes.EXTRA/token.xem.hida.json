@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hida",
+    "name": "tomato : hida (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tomato:hida",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

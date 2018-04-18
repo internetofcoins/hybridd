@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.keep-c-n-nem",
+    "name": "hodl-moon-lambo : keep-calm-and-nem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hodl-moon-lambo:keep-calm-and-nem",
+    "originator": "NC7EXKY4LPVNOHSFXS6RAC3WYRRCTHPWESZT6HIX",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.info",
+    "name": "startup : info (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "startup:info",
+    "originator": "NB73OFB2R3R7KYGIVQGUDT2ABDPTUMYH6I23JC3N",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.himibi",
+    "name": "himibi : himibi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "himibi:himibi",
+    "originator": "NDOGMG3YS6EI4HCRCL7L6Q2VPJF4Q4ZTVVGEORMC",
+    "factor": 6
+}

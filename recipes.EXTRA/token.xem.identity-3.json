@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.identity-3",
+    "name": "catalonia : identity (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "catalonia:identity",
+    "originator": "NBZI7EXLREDSJK33LVHGP5ESAAQD5VUFRKKDMOGJ",
+    "factor": 0
+}

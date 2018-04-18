@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kousagi",
+    "name": "takeratta : kousagi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "takeratta:kousagi",
+    "originator": "NC37UMARCYRHIKKAOC3E2OLFP22Q33NBD52LA3I6",
+    "factor": 6
+}

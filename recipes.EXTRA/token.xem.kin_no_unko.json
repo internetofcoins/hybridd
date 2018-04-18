@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kin_no_unko",
+    "name": "goldenpoo : kin_no_unko (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "goldenpoo:kin_no_unko",
+    "originator": "NDW7G5O4UIL6GKT5JEOTJJNAWGGQHDSQSUHQUTP3",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.happa",
+    "name": "char : happa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "char:happa",
+    "originator": "NAISZEAZZLPCJRIOOHG2NLFZCK3DMBL2EQOMZJYD",
+    "factor": 0
+}

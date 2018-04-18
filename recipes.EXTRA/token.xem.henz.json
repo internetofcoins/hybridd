@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.henz",
+    "name": "pinky : henz (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pinky:henz",
+    "originator": "NAT6VHVA53Z5L4JROYWJ6K3OMGBEH3JOVJRZXWFB",
+    "factor": 0
+}

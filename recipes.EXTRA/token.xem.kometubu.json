@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kometubu",
+    "name": "haikara : kometubu (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "haikara:kometubu",
+    "originator": "NBE7XTMC3VNMGHDZUOXFHUIEAQ4A3T4BZ4PZFOGG",
+    "factor": 0
+}

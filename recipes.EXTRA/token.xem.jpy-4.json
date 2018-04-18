@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jpy-4",
+    "name": "nembank : jpy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembank:jpy",
+    "originator": "NAT6FTYA6K2J54TK3UGR4XWN2HJ6STVYULXUKFQF",
+    "factor": 0
+}

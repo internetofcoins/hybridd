@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hkd",
+    "name": "lc : hkd (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:hkd",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hearts--",
+    "name": "pacnem : hearts-- (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pacnem:hearts--",
+    "originator": "NDHGYUVXKUWYFNO6THLUKAF6ZH2WIDCC6XD5UPC4",
+    "factor": 0
+}

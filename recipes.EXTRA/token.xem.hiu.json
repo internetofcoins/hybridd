@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hiu",
+    "name": "hiuniversity : hiu (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hiuniversity:hiu",
+    "originator": "NDSKVYBT4T6RAGR6DVPFOWX673UIMBTGWFJD6NBG",
+    "factor": 0
+}

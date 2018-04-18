@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jupiter",
+    "name": "supernova.planets : jupiter (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "supernova.planets:jupiter",
+    "originator": "NCWRDFMEYE5JLDC4LMKIVP34R3ZV6N44TFRVOXUK",
+    "factor": 0
+}

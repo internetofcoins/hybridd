@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.icotoken",
+    "name": "rootdev.bank : icotoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.bank:icotoken",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

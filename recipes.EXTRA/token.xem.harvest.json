@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.harvest",
+    "name": "nem_holder : harvest (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem_holder:harvest",
+    "originator": "NCTARYLI3GBB7ZGW555KQ7YCVONIDLF2DIEBNJL5",
+    "factor": 0
+}

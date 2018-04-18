@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.identity",
+    "name": "palestine : identity (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "palestine:identity",
+    "originator": "NBZI7EXLREDSJK33LVHGP5ESAAQD5VUFRKKDMOGJ",
+    "factor": 0
+}

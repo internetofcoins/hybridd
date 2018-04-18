@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ikehayacoin",
+    "name": "blogger : ikehayacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "blogger:ikehayacoin",
+    "originator": "NALN3NANTI6FSABKA7QJBZL3ZXXLYNGDVC7FEKHF",
+    "factor": 0
+}

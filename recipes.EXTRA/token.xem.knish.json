@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.knish",
+    "name": "wishknish : knish (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wishknish:knish",
+    "originator": "NDDVE3IPHBYSPYEBVW32YN2FNSTKL4OZZKEEOWJ7",
+    "factor": 6
+}

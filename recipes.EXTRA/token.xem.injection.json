@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.injection",
+    "name": "cybersecurity : injection (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cybersecurity:injection",
+    "originator": "NC5UWYXREJO7KBBKQJRXI26STLS53LDE4O2KINOA",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kutiku",
+    "name": "plz : kutiku (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "plz:kutiku",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

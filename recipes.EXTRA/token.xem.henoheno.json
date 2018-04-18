@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.henoheno",
+    "name": "teiai_group : henoheno (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "teiai_group:henoheno",
+    "originator": "NCVVDODP2WPR5VPDZLAV3RTWV3HTG6JHM4MNB3FM",
+    "factor": 2
+}

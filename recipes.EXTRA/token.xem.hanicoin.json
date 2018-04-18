@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hanicoin",
+    "name": "mati : hanicoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mati:hanicoin",
+    "originator": "NAD6RU5QGYQLBTRJX774EFFYQ4FMP2DVMXLSVJHE",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kanonueda",
+    "name": "oneheart.kodomoshokudo : kanonueda (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oneheart.kodomoshokudo:kanonueda",
+    "originator": "NBW6TBKX6GIUA4IJCJ4XKZLPN6ZSHQMVZPQLLM7Q",
+    "factor": 0
+}

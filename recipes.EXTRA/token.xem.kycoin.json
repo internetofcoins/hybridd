@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kycoin",
+    "name": "kycoin : kycoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kycoin:kycoin",
+    "originator": "ND3RFELJOJFMGJNZQ5J7Q6IH3GLCAARSFOSHNSCT",
+    "factor": 0
+}

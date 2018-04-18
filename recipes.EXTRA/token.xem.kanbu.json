@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kanbu",
+    "name": "kobun : kanbu (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kobun:kanbu",
+    "originator": "NDF5VXDCHZRRDCBQRWVB2CLDLGNZPL7MLDOYBAD7",
+    "factor": 0
+}

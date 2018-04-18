@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.inventitems",
+    "name": "rentonsoftworks : inventoryitems (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rentonsoftworks:inventoryitems",
+    "originator": "NCTQ32V5XEC2DTF46ZXGQCXADE37DNO3HMH7CEO3",
+    "factor": 0
+}

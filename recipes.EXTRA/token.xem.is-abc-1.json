@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.is-abc-1",
+    "name": "demoassets : is-abc-1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "demoassets:is-abc-1",
+    "originator": "NDKAE4Y5FBKYPM5O6KQSUUIHEJZ2VHZURRDC4VMY",
+    "factor": 0
+}

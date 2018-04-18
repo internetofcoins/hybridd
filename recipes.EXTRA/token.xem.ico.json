@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ico",
+    "name": "petro : ico (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "petro:ico",
+    "originator": "NCGBBZKOTERO3EXMPPCNDNDXZQQJXBEMWWO7MB66",
+    "factor": 6
+}

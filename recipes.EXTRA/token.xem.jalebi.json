@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jalebi",
+    "name": "sweets : jalebi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sweets:jalebi",
+    "originator": "NDU76WZMT73IEOPHRONCMQMVVUJQDABGY5ZCF4UR",
+    "factor": 6
+}

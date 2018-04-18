@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hip_kola_mut",
+    "name": "progressbar.nem101 : hipster_kola_mutable (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "progressbar.nem101:hipster_kola_mutable",
+    "originator": "NBX2XKIYFYMOV6ZTC3JQDN6ZKHGP3M4OSDUWDULD",
+    "factor": 0
+}

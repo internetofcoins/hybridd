@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hiropi",
+    "name": "hiropi-fx : hiropi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hiropi-fx:hiropi",
+    "originator": "NAPHYAG7RY5YHEPTSGZ3XD3H3PDUA5ILDQOD2V3I",
+    "factor": 3
+}

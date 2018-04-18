@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kawauso",
+    "name": "dendrite : kawauso (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dendrite:kawauso",
+    "originator": "NCDOMBE6WVJN7PBGZZ5SPCINO5I5XJ2OL6X26XZI",
+    "factor": 0
+}
