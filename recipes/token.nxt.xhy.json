@@ -1,6 +1,6 @@
 {
     "symbol":"nxt.xhy",
-    "name":"Internet of Coins Hybrid Asset",
+    "name":"Internet of Coins Hybrid Asset (NXT)",
     "module":"nxt",
     "mode":"nxt.token",
     "contract":"17179021398403681515",

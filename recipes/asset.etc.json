@@ -4,6 +4,6 @@
   "module":"ethereum",
   "mode":"ethereum",
   "factor":18,
-  "host":"https://mewapi.epool.io",
+  "host":["https://etc-geth.0xinfra.com","https://mew.epool.io"],
   "cache":15000
 }

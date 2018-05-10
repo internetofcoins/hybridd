@@ -1,7 +1,8 @@
 {
   "symbol":"ltc",
   "name":"Litecoin",
-  "module":"electrum",
+  "module":"quartz",
+  "import":"btc",
   "mode":"bitcoinjslib.litecoin",
   "factor":8,
   "fee":0.003,

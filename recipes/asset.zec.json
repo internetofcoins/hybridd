@@ -1,0 +1,46 @@
+{
+  "symbol":"zec",
+  "name":"ZCash",
+  "module":"quartz",
+  "mode":"zcash.livenet",
+  "user":"user",
+  "pass":"emFxMTJ3c3gK",
+  "factor":8,
+  "fee":0.0001,
+  "host":["http://127.0.0.1:8232/"],
+  "cache":15000,
+  "throttle":5,
+
+  "quartz":{
+    "init" : [
+      "curl('asset://$symbol','','POST',{jsonrpc:'1.0',id:Math.floor(Math.random()*10000),method:'getinfo',params:[]},{'content-type':'text/plain'})",
+      "logs(1,'module $symbol: '+(data?'connected':'failed connection')+' to host [$host]')"
+    ],
+    "status" : [
+      "curl('asset://$symbol','','POST',{jsonrpc:'1.0',id:Math.floor(Math.random()*10000),method:'getinfo',params:[]},{'content-type':'text/plain'})",
+      "logs(1,'module $symbol: '+(data?'connected':'failed connection')+' to host [$host]')"
+    ],
+    "unspent" : [
+      "func('blockexplorer','exec',{target:{symbol:'$symbol'}, command:['unspent','$1','$2']})"
+    ],
+     "balance" : [
+      "func('blockexplorer','exec',{target:{symbol:'$symbol'}, command:['balance','$1']})"
+    ],
+    "push" : [
+      "curl('asset://$symbol','','POST',{jsonrpc:'1.0',id: Math.floor(Math.random()*10000),method:'sendrawtransaction',params:['$1']},{'content-type':'text/plain'})",
+      "test(data,2,1,data)",
+      "stop(1,'Broadcast failed!')",
+      "tran('.result',data,2,1)",
+      "stop(1,'No result!')",
+      "pass(data)"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "history" : [],
+    "contract" : [],
+    "fee" : [
+      "pass('$fee')"
+    ]
+  }
+}

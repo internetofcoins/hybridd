@@ -1,0 +1,41 @@
+{
+  "symbol":"omni",
+  "name":"Omni",
+  "module":"quartz",
+  "mode":"omni.main",
+  "factor":6,
+  "fee":0.05,
+  "contract":"undefined",
+  "xhost":"wss://www.omniwallet.org",
+  "cache":120000,
+  "throttle":5,
+  "quartz":{
+    "init" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "status" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "unspent" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+     "balance" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "push" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "history" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "contract" : [
+       "stop(1,'Not yet implemented!')"
+    ],
+    "fee" : [
+      "pass('$fee')"
+    ]
+  }
+}

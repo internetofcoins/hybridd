@@ -1,0 +1,38 @@
+{
+  "quartz":{
+    "init" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "status" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "unspent" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "balance" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "push" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "history" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "contract" : [
+      "pass('$contract')"
+    ],
+    "fee" : [
+      "pass('$fee')"
+    ],
+    "details" : [
+      "each({fee:1,factor:1,contract:1},'asset://$symbol','subdetails')",
+      "stop(0,{fee:data.fee,factor:data.factor,contract:data.contract,symbol:'$symbol',name:'$name',mode:'$mode','unified-symbols':'$unified-symbols','fee-symbol':'$fee-symbol'!=='undefined'?'$fee-symbol':'$symbol'.split('.')[0],'keygen-base':'$keygen-base'!=='undefined'?'$keygen-base':'$symbol'.split('.')[0]})"
+    ],
+    "subdetails" : [
+      "call('asset://$symbol',data.key)"
+    ]
+  }
+}

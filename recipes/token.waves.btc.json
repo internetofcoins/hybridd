@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.btc",
+    "name":"Bitcoin (Waves)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS",
+    "originator":"3PC4roN512iugc6xGVTTM2XkoWKEdSiiscd",
+    "factor":8
+}

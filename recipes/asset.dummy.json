@@ -1,11 +1,45 @@
 {
   "symbol":"dummy",
   "name":"Dummycoin (test coin for Internet of Coins)",
-  "module":"dummycoin",
+  "module":"quartz",
   "mode":"dummycoin",
   "factor":8,
   "fee":0.15,
   "host":"none",
   "cache":10000,
-  "throttle":10
+  "throttle":10,
+  "quartz":{
+    "init" : [
+      "logs(1,'module $symbol: initialized')"
+    ],
+    "status" : [
+      "stop(0,'This coin is a dummy for testing.')"
+    ],
+    "unspent" : [
+      "test('$1',2,1)",
+      "stop(1,'Error: missing address!')",
+      "pass([{amount:'$2',txid:'ba62059329d6ca73aed11c367c0459f43ab671b47c061a6e9a92995e8b764a7d',txn:1}])"
+    ],
+    "balance" : [
+      "test('$1',2,1)",
+      "stop(1,'Error: missing address!')",
+      "pass('10000')"
+    ],
+    "push" : [
+      "wait(3000)",
+      "stop(0,'TXIDTXIDTXIDTXIDTXIDTXIDTXID')"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "history" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "contract" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "fee" : [
+      "pass('$fee')"
+    ]
+  }
 }

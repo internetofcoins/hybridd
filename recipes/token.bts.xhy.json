@@ -1,0 +1,10 @@
+{
+  "symbol":"bts.xhy",
+  "name":"Internet of Coins Hybrid Asset - MAINTENANCE",
+  "module":"quartz",
+  "mode":"bitshares.token",
+  "contract":"1.3.1275",
+  "originator":"1.2.155481",
+  "import":"bts",
+  "factor":8
+}

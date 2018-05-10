@@ -1,11 +1,51 @@
 {
   "symbol":"btc",
   "name":"Bitcoin",
-  "module":"electrum",
+  "module":"quartz",
   "mode":"bitcoinjslib.bitcoin",
+  "user":"user",
+  "pass":"1nt3rn3t0fc01ns",
   "factor":8,
-  "fee":0.001,
+  "fee":0.0001,
   "host":"http://127.0.0.1:8338",
   "cache":60000,
-  "throttle":10
+  "throttle":10,
+  "quartz":{
+    "init" : [
+      "curl('asset://$symbol','','POST',{'jsonrpc':'2.0','id':0,'method':'version','params':[]},{'content-type':'text/plain'})",
+      "logs(1,'module $symbol: '+(data?'connected':'failed connection')+' to host [$host]')"
+    ],
+    "status" : [
+      "curl('asset://$symbol','','POST',{'jsonrpc':'2.0','id':0,'method':'version','params':[]},{'content-type':'text/plain'})"
+    ],
+    "unspent" : [
+      "func('blockexplorer','exec',{target:{symbol:'$symbol'}, command:['unspent','$1','$2']})"
+    ],
+    "balance" : [
+      "curl('asset://$symbol','','POST',{'jsonrpc':'2.0','id':0,'method':'getaddressbalance','params':['$1']},{'content-type':'text/plain'})",
+      "tran({confirmed:'.result.confirmed',unconfirmed:'.result.unconfirmed'},data,2,1)",
+      "stop(1,'No result!')",
+      "pass(String(Number(data.confirmed)+Number(data.unconfirmed)))"
+    ],
+    "push" : [
+      "curl('asset://$symbol','','POST',{'jsonrpc':'2.0','id':0,'method':'broadcast','params':['$1']},{'content-type':'text/plain'})",
+      "test(data,2,1,data)",
+      "stop(1,'Broadcast failed!')",
+      "tran('.result',data,2,1)",
+      "stop(1,'No result!')",
+      "pass(data)"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "history" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "contract" : [
+      "stop(1,'Not yet implemented!')"
+    ],
+    "fee" : [
+      "pass('$fee')"
+    ]
+  }
 }

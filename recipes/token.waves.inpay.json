@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.inpay",
+    "name":"InPay (Waves)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"9pPVf3gcLH3NQA2aYVRcTV2N2i32qBzA5cEMWYqBYfMi",
+    "originator":"3P3k8NsfC6cjz17q9u6QEtn7riWg4aH7Sjy",
+    "factor":8
+}

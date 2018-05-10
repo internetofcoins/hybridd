@@ -1,0 +1,10 @@
+{
+  "author": "Rouke Pouw",
+  "name": "modules-quartz",
+  "description": "Generalized Quartz Internet of Coins module",
+  "version": "1",
+  "main": "./modules/quartz", 
+  "engines": {
+    "node": "*"
+  }
+}

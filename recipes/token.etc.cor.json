@@ -1,0 +1,9 @@
+{
+  "symbol":"etc.cor",
+  "name":"Corion (Ethereum Classic)",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0x96D1E6B85D6799678D6E8bF81d3dC0c2F583268f",
+  "originator":"unknown",
+  "factor":6
+}

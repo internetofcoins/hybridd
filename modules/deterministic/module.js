@@ -22,8 +22,10 @@ function init() {
     if( mode ) {
       // index the modes
       assets[asset] = mode;
-      if(typeof modes[mode]=='undefined') { modes[mode.split('.')[0]]=[]; }
-      modes[mode.split('.')[0]].push(asset);
+      if(typeof modes[mode]==='undefined') { modes[mode]=[]; }
+      modes[mode].push(asset);
+      //if(typeof modes[mode.split('.')[0]]==='undefined') { modes[mode.split('.')[0]]=[]; }
+      //modes[mode.split('.')[0]].push(asset);
       // hash the deterministic packages
       var filename = '../modules/deterministic/'+mode.split('.')[0]+'/deterministic.js.lzma';
       if (typeof hashes[mode.split('.')[0]]=='undefined' && fs.existsSync(filename)) {
@@ -57,6 +59,10 @@ function exec(properties) {
 	var type  = target.type;
 	var factor = (typeof target.factor != 'undefined'?target.factor:8);
   var command = properties.command;
+  if(typeof command[1]!=='undefined') {
+    var symbol = command[1].toLowerCase();
+    var base = symbol.split('.')[0];
+  }
 	var subprocesses = [];	
 	// set request to what command we are performing
 	global.hybridd.proc[processID].request = properties.command;
@@ -72,10 +78,21 @@ function exec(properties) {
         subprocesses.push('stop(0,'+jstr(global.hybridd.source['deterministic'].hashes)+')');
     break;
     case 'hash':
-      if(typeof global.hybridd.source['deterministic'].hashes[command[1]]!='undefined') {
-        subprocesses.push('stop(0,"'+global.hybridd.source['deterministic'].hashes[command[1]]+'")');
+      if(base) {
+        var modetype = base;
+        for (var entry in global.hybridd.source['deterministic'].modes) {
+          if(global.hybridd.source['deterministic'].modes[entry].indexOf(symbol)!==-1) {
+            modetype = entry;
+          }
+        }
+        var basemode = modetype.split('.')[0];
+        if(typeof global.hybridd.source['deterministic'].hashes[basemode]!=='undefined') {
+          subprocesses.push('stop(0,{deterministic:"'+modetype+'",hash:"'+global.hybridd.source['deterministic'].hashes[basemode]+'"})');
+        } else {
+          subprocesses.push('stop(1,"Error: Mode or symbol does not exist!")');
+        }
       } else {
-        subprocesses.push('stop(404,"Error: Mode does not exist!")');
+        subprocesses.push('stop(1,"Error: Please specify a mode or symbol!")');
       }
     break;
     case 'code':

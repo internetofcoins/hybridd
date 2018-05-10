@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.usd",
+    "name":"US dollar (Waves)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"Ft8X1v1LTa1ABafufpaCWyVj8KkaxUWE6xBhW6sNFJck",
+    "originator":"3PC4roN512iugc6xGVTTM2XkoWKEdSiiscd",
+    "factor":2
+}

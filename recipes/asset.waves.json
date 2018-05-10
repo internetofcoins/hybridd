@@ -1,0 +1,62 @@
+{
+  "symbol":"waves",
+  "name":"Waves",
+  "module":"quartz",
+  "mode":"waves",
+  "factor":8,
+  "fee":0.001,
+  "host": "https://nodes.wavesnodes.com",
+  "host-alt": "https://104.20.58.132",
+  "rejectUnauthorized":false,
+  "cache":15000,
+  "throttle":3,
+  "contract":"undefined",
+  "block-explorer-host": "https://nodes.wavesplatform.com",
+  "quartz":{
+    "init" : [
+      "test('$contract'==='undefined',1,3)",
+      "curl('asset://$symbol','/utils/seed/2','GET')",
+      "logs(1,'module: $symbol: '+(data?'connected':'failed connection')+' to host [$host]')"
+    ],
+    "status" : [
+      "curl('asset://$symbol','/utils/seed/2','GET')",
+      "chck({module:'$symbol',synced:null,blocks:null,fee:null,supply:null,difficulty:null,testmode:null,version:null},2)",
+      "stop(0,data)",
+      "stop(1,'No result')"
+    ],
+    "factor" : [
+      "pass('$factor')"
+    ],
+    "balance" : [
+      "test('$1',2,1,data)",
+      "stop(1,'No source address')",
+      "test('$contract'==='undefined',1,3)",
+      "curl('$block-explorer-host','/addresses/balance/details/$1','GET')",
+      "tran('.regular',data,4,3)",
+      "curl('$block-explorer-host','/assets/balance/$1/$contract','GET')",
+      "tran('.balance',data,2,1)",
+      "stop(1,'No result!')",
+      "pass(data/Math.pow(10,$factor))"
+    ],
+    "fee" : [
+      "form('$fee',$waves::factor)",
+      "stop(0,data)"
+    ],
+    "push" : [
+      "pass(JSON.parse('$1'))",
+      "curl('asset://$symbol','/assets/broadcast/transfer','POST',data,{Accept:'application/json','Content-Type':'application/json'})",
+      "test(data.error,1,2,data)",
+      "stop(1,data.message)",
+      "tran('.id',data,2,1)",
+      "stop(1,'Transaction Failed! '+jstr(data))",
+      "pass(data)"
+    ],
+    "history" : [
+      "curl('asset://$symbol','/transactions/address/$1/limit/50]','GET')"
+    ],
+    "contract" : [
+      "pass('$contract')"
+    ],
+    "unspent" : []
+  }
+}

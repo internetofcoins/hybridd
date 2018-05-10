@@ -1,0 +1,10 @@
+{
+    "symbol":"waves.liquid",
+    "name":"Liquid (Waves)",
+    "module":"quartz",
+    "mode":"waves.token",
+    "import":"waves",
+    "contract":"7FzrHF1pueRFrPEupz6oiVGTUZqe8epvC7ggWUx8n1bd",
+    "originator":"3PCm1gSQ1qwt8jhxUbp6AkDaNhbz1ohuruH",
+    "factor":8
+}

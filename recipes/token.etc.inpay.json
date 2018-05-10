@@ -1,0 +1,9 @@
+{
+  "symbol":"etc.inpay",
+  "name":"InPay (Ethereum Classic)",
+  "module":"ethereum",
+  "mode":"ethereum.token",
+  "contract":"0x908dc05899e362EbF70372111Cc21Ac85B3D7BD8",
+  "originator":"0x06fb2b1b112C7FC24114c59eB9514e270b9F9638",
+  "factor":8
+}

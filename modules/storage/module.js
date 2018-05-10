@@ -7,9 +7,7 @@ var proofOfWork = require('../../lib/crypto/proof');
 
 // exports
 exports.init = init;
-exports.tick = tick;
 exports.exec = exec;
-exports.stop = stop;
 exports.proof = proof;
 exports.getStorage = getStorage;
 exports.getMeta = getMeta;
@@ -17,15 +15,14 @@ exports.getMeta = getMeta;
 // initialization function
 function init() {
   var modulename = 'storage';
-  // check for storage directory? if not there make one?
-}
-
-// stop function
-function stop() {
-}
-
-// loop tick called by internal scheduler
-function tick(properties) {
+  // check for storage directory? if not there make one
+  
+  //
+  // FIXME: properly run autoclean every X seconds, without setInterval
+  //
+  setInterval(function() {
+    storage.AutoClean();
+  },300000); // every five minutes
 }
 
 // exec
@@ -38,7 +35,7 @@ function exec(properties) {
 	var type  = target.type;
 	var factor = (typeof target.factor != 'undefined'?target.factor:8);
   var command = properties.command;
-	var subprocesses = [];	
+	var subprocesses = [];
 	// set request to what command we are performing
 	global.hybridd.proc[processID].request = properties.command;
 	// handle standard cases here, and construct the sequential process list
@@ -61,7 +58,7 @@ function exec(properties) {
                 var difficulty = (bytes*64>5000?bytes*64:5000);            // the more bytes to store, the bigger the POW challenge
                 var pow = proofOfWork.create(difficulty);
                 // save storage
-                storage.Set(command[1],command[2],{time:Date.now(),hash:DJB2.hash(command[2]),size:bytes,pow:pow.proof,res:0});
+                storage.Set(command[1],command[2],{time:Date.now(),hash:DJB2.hash(command[2]),size:bytes,pow:pow.proof,res:pow.hash,n:0});
                 subprocesses.push('stop(0,"'+pow.hash+'")');
               } else {
                 subprocesses.push('stop(1,"Storage object limit is 4096 bytes!")');
@@ -111,9 +108,14 @@ function proof(properties) {
   storage.GetMeta(key, function(meta) {
     if(meta!==null) {
       if(meta.pow===pow) {
-        meta.res=1;
-        storage.SetMeta(key, meta);
-        scheduler.stop(processID,{err:0,data:'OK'});
+        if(meta.res!==1) {
+          meta.n+=1;
+          meta.res=1;
+          storage.SetMeta(key, meta);
+          scheduler.stop(processID,{err:0,data:'OK'});
+        } else {
+          scheduler.stop(processID,{err:0,data:'Ignored.'});
+        }
       } else {
         scheduler.stop(processID,{err:1,data:'Invalid proof!'});
       }
@@ -143,7 +145,6 @@ function getMeta(properties) {
       scheduler.stop(processID,{err:1,data:null});
     } else {
       if(typeof meta.pow!=='undefined') { delete meta.pow; }
-      if(typeof meta.read!=='undefined') { delete meta.read; }
       scheduler.stop(processID,{err:0,data:meta});
     }
   });

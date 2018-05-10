@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="M---DASHBOARD-VIEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-344.000000, -13.000000)">
+        <g id="dashboardView" transform="translate(-1.000000, -1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="topNavigation">
+                <path d="M358.166222,15.7777778 C359.874667,17.2508065 361,19.4805464 361,21.921232 C361,26.3816096 357.416889,30 353,30 C348.583111,30 345,26.3816096 345,21.921232 C345,19.4805464 346.125333,17.2508065 347.833778,15.7777778 L349.083556,17.0398609 C347.708444,18.1762742 346.792,19.9428315 346.792,21.921232 C346.792,25.4139527 349.542222,28.190356 353,28.190356 C356.457778,28.190356 359.208,25.4130551 359.208,21.921232 C359.208,19.9437291 358.333333,18.2184634 356.916444,17.08205 L358.166222,15.7777778 Z M353.888889,14 L353.888889,22.8888889 L352.111111,22.8888889 L352.111111,14 L353.888889,14 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,10 +1,11 @@
 {
-    "symbol":"ark",
-    "name":"Ark",
-    "module":"lisk",
-    "mode":"ark",
-    "factor":8,
-    "host":["https://node1.arknet.cloud"],
-    "cache":15000,
-    "throttle":5
+  "symbol":"ark",
+  "name":"Ark",
+  "module":"lisk",
+  "mode":"ark",
+  "factor":8,
+  "fee":0.1,
+  "host":["https://node1.arknet.cloud"],
+  "cache":15000,
+  "throttle":5
 }

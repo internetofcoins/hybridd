@@ -1,0 +1,268 @@
+{
+  "a":{"_alias":"asset"},
+  "asset":{
+    "_help":"Assets are cryptocurrencies or tokens.",
+    "_this" : "List all available assets",
+    "_ref":{
+      "_list":"asset",
+      "address":"TODO",
+      "balance":{
+        "_this": "Retrieve the balance TODO",
+        "_response": {"error":0,"info":"Process data.","id":"1519829438958324","progress":1,"started":1519829438958,"stopped":1519829440606,"data":"0.025106200000000000"}
+      },
+      "contract":{
+        "_this": "Retrieve the balance TODO",
+        "_response": [
+          {"error":1,"info":"Process data.","id":"1519829579467984","progress":1,"started":1519829579467,"stopped":1519829579499,"data":"Error: Not a contract address!"},
+          {"error":0,"info":"Process data.","id":"1519829634775083","progress":1,"started":1519829634775,"stopped":1519829634778,"data":"0xf230b790E05390FC8295F4d3F60332c93BEd42e2"}
+        ]
+      },
+      "details":{
+        "_this": "Retrieve the fee symbol TODO",
+        "_response": "TODO"
+      },
+      "factor":{
+        "_this": "Retrieve the factor TODO",
+        "_response": {"error":0,"info":"Process data.","id":"1519829794292742","progress":1,"started":1519829794292,"stopped":1519829794316,"data":"18"}
+      },
+      "fee":{
+        "_this": "Retrieve the fee TODO",
+        "_response": {"error":0,"info":"Process data.","id":"1519830189432904","progress":1,"started":1519830189432,"stopped":1519830189437,"data":"0.000420000000000000"}
+      },
+      "fee-symbol":{
+        "_this": "Retrieve the fee symbol TODO",
+        "_response": "TODO"
+      },
+      "history":"Retrieve asset history TODO",
+      "push":{
+        "_this":"Push a signed transaction.",
+        "_response" : "{\"error\":0,\"info\":\"Process data.\",\"id\":\"1519830244168082\",\"progress\":1,\"started\":1519830244168,\"stopped\":1519830244173,\"data\":$TRANSACTION_ID}"
+      },
+      "keygen-base":{
+        "_this": "Retrieve the keygen-base TODO",
+        "_response": "TODO"
+      },
+
+      "status":"Retrieve the status of the service. TODO",
+      "test":"TODO",
+      "transfer":"TODO",
+      "unspent": {
+        "_this" : "Retrieve the unspent. Unspent is a bitcoin related term that in hybridd is used for pretransactional data. Bitcoin: unspent means available inputs for creating a transaction. Ethereum: unspent means the most recent nonce of the cryptocurrency account needed for constructing a transaction.  NXT: unspent means the server reply information needed to construct a deterministic transaction.",
+        "_response" : {"error":0,"info":"Process data.","id":"1519830913478733","progress":1,"started":1519830913478,"stopped":1519830914923,"data":{"nonce":"1"}}
+      }
+    },
+    "command":{
+      "_access":"root"
+    }
+  },
+  "c":{"_alias":"command"},
+  "command":{
+    "_help":"Execute a command to hybridd.",
+    "_access":"root",
+    "apiqueue" :{
+      "_help" : "Commands to control and check the API Queue.",
+      "pause":"Pause the API Queue",
+      "resume":"Resume the API Queue when it is paused.",
+      "status":"Check the status of the API Queue."
+    },
+    "cache" :{
+      "_help" : "Commands to control and check the cache.",
+      "clear" : "Clear the cache."
+    },
+    "reload" : {
+      "_help":"Commands to reload hybridd or specific components",
+      "_this":"Reload hybridd.",
+      "conf":"Reload hybridd configuration files.",
+      "modules":"Reload hybridd modules.",
+      "recipes":"Reload hybridd recipes."
+    },
+    "scheduler" :{
+      "_help" : "Commands to control and check the Scheduler.",
+      "pause":"Pause the Scheduler.",
+      "resume":"Resume the Scheduler when it is paused.",
+      "status":"Check the status of the Scheduler."
+    },
+    "userinterface" :{
+      "_help" : "Commands to control and check the User Interface.",
+      "close":"Close the User Interface.",
+      "listen":"Resume the listening on the User Interface when it is closed.",
+      "status":"Check the status of the User Interface."
+    },
+    "restinterface" :{
+      "_help" : "Commands to control and check the Rest Interface.",
+      "close":"Close the Rest Interface.",
+      "listen":"Resume the listening on the Rest Interface when it is closed.",
+      "status":"Check the status of the Rest Interface."
+    },
+    "stop" : "Stop hybridd."
+  },
+  "h":{"_alias":"help"},
+  "help":{
+    "_this" : "Display help as html."
+  },
+  "n":{"_alias":"network"},
+  "net":{"_alias":"network"},
+  "network":{},
+  "l":{"_alias":"list"},
+  "list":{
+    "asset" : {
+      "names":"TODO",
+      "modes":"TODO",
+      "details":"Retrieve a list of all basic asset details [{symbol,name,mode}]"
+    }
+  },
+  "p":{"_alias":"proc"},
+  "proc":{
+    "_this" : "List all processes.",
+    "_ref" : {
+      "_list" : "proc",
+      "_this" : "Display process details."
+    },
+    "kill":{
+      "_ref" : {
+        "_list" : "proc",
+        "_this" : "Kill a process and all child processes."
+      }
+    },
+    "pause":{
+      "_this" : "List all paused processes.",
+      "_ref" : {
+        "_list" : "proc",
+        "_this" : "Pause a process and all child processes."
+      }
+    },
+    "resume":{
+      "_ref" : {
+        "_list" : "proc",
+        "_this" : "Resume a paused process and all child processes."
+      }
+    },
+    "peek":{
+      "_access":"root",
+      "_ref" : {
+        "_list" : "proc",
+        "_this" : "Display process internal data."
+      }
+    },
+    "queue":{
+      "_access":"owner",
+      "_this" : "Display queued processes.",
+      "_ref" : {
+        "_list" : "proc",
+        "_this" : "Display process queue status."
+      }
+    }
+  },
+  "s":{"_alias":"source"},
+  "source":{
+    "_help":"Sources are public hosts for blockchain requests.",
+    "_this":"List available sources.",
+    "command":{
+      "_this":"TODO",
+      "_access":"root"
+    },
+    "storage" : {
+      "command" : {
+        "_this":"Execute a direct command.",
+        "_access":"root"
+      },
+      "get":"TODO",
+      "set":"TODO",
+      "del":"TODO",
+      "pow":"TODO",
+      "meta":"TODO"
+    },
+    "deterministic": {
+      "command" : {
+        "_this":"Execute a direct command.",
+        "_access":"root"
+      },
+      "assets":"List available assets.",
+      "code": {
+        "_ref":{
+          "_list" : "mode",
+          "_this" : "Returns the lzma compressed deterministic blobs (client side code) for a `$MODE` ."
+        }
+      },
+      "hash":  {
+        "_ref":{
+          "_list" : "mode",
+          "_this" : "Returns the DJB2 hash of the deterministic blobs (client side code) for `$MODE` ."
+        }
+      },
+      "hashes":"Returns the DJB2 hash of all deterministic blobs (client side code).",
+      "modes":"List available modes."
+    },
+    "blockexplorer": {
+      "command" : {
+        "_this":"Execute a direct command.",
+        "_access":"root"
+      },
+      "_ref":{
+        "_list":"source",
+        "balance" : "Retrieve the balance. TODO",
+        "command" : "Execute a command TODO",
+        "status" : "Retrieve the status TODO",
+        "unspent"  : "Retrieve the unspent TODO"
+      }
+
+    }
+  },
+  "v":{"_alias":"view"},
+  "view":{
+    "_this" : "List available views.",
+    "_ref" : {
+      "_list" : "view",
+      "_this" : "Returns the json file stored in `$HYBRIDD_HOME/views/$VIEW.json` . This file contains view information in packed form."
+    }
+  },
+  "x":{"_alias":"xauth"},
+  "xauth":{
+    "_help" : "Create a secure channel.",
+    "_ref":{
+      "_help" : "The 64 char session hex key is given as as a public key.",
+      "_list":"session_hexkey",
+      "0" : {
+        "_this":"Step 0 consists of requesting `$NONCE1` . Note that resending the request will erase the session.",
+        "_response" : "{error:0, nonce1:$NONCE1}"
+      },
+      "1" : {
+        "_ref" : {
+          "_list":"crypt_hex",
+          "_this": "Step 1 consists of sending the signed `$NONCE1` , if this is verified the session public key is given.",
+          "_response" : "{error:0,server_sign_pubkey:$SERVER_SIGN_PUBKEY,server_session_pubkey:$SERVER_SESSION_PUBKEY,current_nonce:$NONCE_CONHEX,crhex:$CRYPT_HEX}"
+        }
+      }
+    }
+  },
+  "y":{"_alias":"ychan"},
+  "ychan":{
+    "_help" : "Send an encrypted request through the channel and recieve an encrypted response.",
+    "_ref":{
+      "_help" : "The 64 char session hex key is given as a public key.",
+      "_list":"session_hexkey",
+      "_ref" : {
+        "_list":"nonce",
+        "_ref" : {
+          "_list":"encrypted_path",
+          "_this" : " `$ENCRYPTED_PATH` , for example: `/asset/btc/command/help` encrypted using the `$SESSION_PUBLIC_KEY` is executed as an API command and the result is encrypted and returned."
+        }
+      }
+    }
+  },
+  "z":{"_alias":"zchan"},
+  "zchan":{
+    "_help" : "Send an encrypted request through the channel and recieve an encrypted and compressed response.",
+    "_ref":{
+      "_list":"session_hexkey",
+      "_help" : "The 64 char session hex key is given as a public key.",
+      "_ref" : {
+        "_list":"nonce",
+        "_ref" : {
+          "_list":"encrypted_path",
+          "_this" : " `$ENCRYPTED_PATH` , for example: `/asset/btc/command/help` encrypted using the `$SESSION_PUBLIC_KEY` is executed as an API command and the result is encrypted and compressed using lmza and returned."
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 // generates json login package
 //
 // (c)2016 metasync r&d / internet of coins
- 
+
 fs = require('fs');
 lzma = require('../../lib/crypto/lz-string.js');
 
@@ -19,6 +19,9 @@ hy_content += '<script>'+fs.readFileSync('./js/custom-alert.min.js')+'</script>'
 // new account generator code (head)
 hy_content += '<script>'+fs.readFileSync('./js/newaccount_A.js')+'</script>';
 
+// new account generator code (body)
+hy_content += '<script>'+fs.readFileSync('./js/newaccount_B.js')+'</script>';
+
 // load in the page elements to add to DOM
 hy_content += ''+fs.readFileSync('./login.html');
 
@@ -28,12 +31,12 @@ hy_content += '<script>'+fs.readFileSync('../../lib/crypto/nacl.js')+'</script>'
 // including sjcl (pbkdf2 sha256 for key generation)
 hy_content += '<script>'+fs.readFileSync('../../lib/crypto/sjcl.js')+'</script>';
 
+// Add global variables
+hy_content += '<script>'+fs.readFileSync('./js/globals.js')+'</script>';
+
 // and finally the login action handler code
 hy_content += '<script>'+fs.readFileSync('./login.js')+'</script>';
 hy_content += '<script>'+fs.readFileSync('./login.ui.js')+'</script>';
-
-// new account generator code (body)
-hy_content += '<script>'+fs.readFileSync('./js/newaccount_B.js')+'</script>';
 
 // hex2base32 for account generator code
 hy_content += '<script>'+fs.readFileSync('../../lib/crypto/hex2base32.js')+'</script>';
