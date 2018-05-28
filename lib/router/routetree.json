@@ -96,6 +96,26 @@
     },
     "stop" : "Stop hybridd."
   },
+  "e":{"_alias":"engine"},
+  "engine":{
+    "_help":"Engines are scriptable modules that can be built to do a variety of tasks.",
+    "_this":"List available engines.",
+    "command":{
+      "_this":"TODO",
+      "_access":"root"
+    },
+    "storage" : {
+      "command" : {
+        "_this":"Execute a direct command.",
+        "_access":"root"
+      },
+      "get":"Get data from storage",
+      "set":"Set data in storage",
+      "del":"Delete data from storage",
+      "pow":"Provide proof-of-work for long term storage",
+      "meta":"Access metadata in storage"
+    }
+  },
   "h":{"_alias":"help"},
   "help":{
     "_this" : "Display help as html."
@@ -155,7 +175,7 @@
   },
   "s":{"_alias":"source"},
   "source":{
-    "_help":"Sources are public hosts for blockchain requests.",
+    "_help":"Sources are read-only information providers.",
     "_this":"List available sources.",
     "command":{
       "_this":"TODO",

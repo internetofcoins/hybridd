@@ -24,6 +24,7 @@
       "func('blockexplorer','exec',{target:{symbol:'$symbol'}, command:['unspent','$1','$2']})"
     ],
      "balance" : [
+      "time($cache)",
       "func('blockexplorer','exec',{target:{symbol:'$symbol'}, command:['balance','$1']})"
     ],
     "push" : [

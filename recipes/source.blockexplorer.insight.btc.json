@@ -1,5 +1,5 @@
 {
-  "id":"insight.btc",
+  "source":"insight.btc",
   "name":"Bitcoin Insight Blockexplorer",
   "module":"blockexplorer",
   "mode":"bitcoin.insight",

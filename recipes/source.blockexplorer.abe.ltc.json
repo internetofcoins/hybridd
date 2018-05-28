@@ -1,5 +1,5 @@
 {
-  "id":"abe.ltc",
+  "source":"abe.ltc",
   "name":"Litecoin ABE Blockexplorer",
   "module":"blockexplorer",
   "mode":"litecoin.abe",

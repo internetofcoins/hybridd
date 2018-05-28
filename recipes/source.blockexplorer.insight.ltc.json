@@ -1,5 +1,5 @@
 {
-  "id":"insight.ltc",
+  "source":"insight.ltc",
   "name":"Litecoin Insight Blockexplorer",
   "module":"blockexplorer",
   "mode":"litecoin.insight",

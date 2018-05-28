@@ -48,6 +48,12 @@
     ],
     "fee" : [
       "pass('$fee')"
+    ],
+    "history" : [
+      "curl('asset://$symbol','','',{'method':'call', 'params':[0,'get_account_history',['$1']], id: Math.floor(Math.random()*10000)})",
+    ],
+    "transaction" : [
+      "curl('asset://$symbol','','',{'method':'call', 'params':[0,'get_recent_transaction_by_id',['$1']], id: Math.floor(Math.random()*10000)})",
     ]
   }
 }

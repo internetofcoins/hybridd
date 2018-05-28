@@ -1,0 +1,9 @@
+{
+  "symbol":"omni.usdt",
+  "name":"US dollar Tether (Omni)",
+  "module":"quartz",
+  "mode":"bitcoinjslib.omni",
+  "import":"omni",
+  "factor":8,
+  "contract":"31"
+}

@@ -1,7 +1,7 @@
 // generates json login package
 //
 // (c)2016 metasync r&d / internet of coins
- 
+
 viewname = 'interface.dashboard';
 viewtarget = '#hy_frame > .main > .container > .content';
 
@@ -15,6 +15,9 @@ hy_content = ''; // variable to hold package content
 
 // load in the page elements to add to DOM
 hy_content += fs.readFileSync('./'+viewname+'.html');
+hy_content += '<script>';
+hy_content += fs.readFileSync('./js/render_utils.js');
+hy_content += '</script>';
 hy_content += '<script>';
 hy_content += fs.readFileSync('./'+viewname+'.js');
 hy_content += '</script>';

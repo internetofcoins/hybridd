@@ -5,6 +5,7 @@
   "mode":"nem",
   "factor":6,
   "fee":0.05,
+  "fee-mosaic":0.9,
   "host":["http://femto.innermedia.net:7890","http://199.217.118.114:7890","http://62.109.20.138:7890","http://plum.supernode.me:7890","http://103.27.76.170:7890","http://supernode.host:7890","http://supernode.nem-cloud.info:7890","http://nano.innermedia.net:7890","http://ninja2016.dynu.com:7890","http://shibuya.supernode.me:7890","http://supernode.nem-blockchain.solutions:7890","http://pattaya1node.ddns.net:7890","http://nsm.supernode.me:7890","http://esposium.de:7890","http://nem.homeip.net:7890","http://go.nem.ninja:7890"],
   "cache":180000,
   "throttle":5,
@@ -29,7 +30,7 @@
       "pass(data)"
     ],
      "balance" : [
-      "time(15000)",
+      "time(32000)",
       "test('$contract'==='undefined',1,6)",
       "curl('asset://$symbol','/account/get?address='+'$1'.replace(/-/g,''),'GET')",
       "tran('.account.balance',data,2,1)",
@@ -43,6 +44,7 @@
       "find({'namespaceId':peek('namespace')},data,1,2)",
       "tran('.quantity',data,2,1)",
       "pass(0)",
+      "time($cache,data)",
       "form(data,$factor,'reduce')"
     ],
     "push" : [
@@ -63,7 +65,10 @@
       "pass('$originator:$contract')"
     ],
     "fee" : [
-      "pass('$fee')"
+      "test('$contract'==='undefined',1,2)",
+      "jump(2,'$fee')",
+      "jump(1,'$fee-mosaic')",
+      "pass(data)"
     ]
   }
 }

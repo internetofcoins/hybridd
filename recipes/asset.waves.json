@@ -36,6 +36,7 @@
       "curl('$block-explorer-host','/assets/balance/$1/$contract','GET')",
       "tran('.balance',data,2,1)",
       "stop(1,'No result!')",
+      "time($cache,data)",
       "pass(data/Math.pow(10,$factor))"
     ],
     "fee" : [
@@ -51,12 +52,16 @@
       "stop(1,'Transaction Failed! '+jstr(data))",
       "pass(data)"
     ],
-    "history" : [
-      "curl('asset://$symbol','/transactions/address/$1/limit/50]','GET')"
-    ],
     "contract" : [
       "pass('$contract')"
     ],
-    "unspent" : []
+    "unspent" : [],
+    "history" : [
+      "curl('$block-explorer-host','/transactions/address/$1/limit/50','GET')"
+    ],
+    "transaction" : [
+      "curl('$block-explorer-host','/transactions/info/$1','GET')"
+    ]
+
   }
 }

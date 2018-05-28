@@ -4,7 +4,7 @@
   "module":"nxt",
   "mode":"nxt.main",
   "factor":8,
-  "host":["https://demo.nxt.org/nxt","http://phvll7lsuuvlqpfo.myfritz.net:7876/nxt","http://nxt1.testdruif.be:7876/nxt","http://nxt.notbot.me:7876/nxt","http://evert.servebeer.com:7876/nxt","http://zuqka1.duckdns.org:7876/nxt"],
+  "host":["https://demo.nxt.org/nxt","http://phvll7lsuuvlqpfo.myfritz.net:7876/nxt","http://nxt1.testdruif.be:7876/nxt","http://nxt.notbot.me:7876/nxt","http://evert.servebeer.com:7876/nxt"],
   "cache":15000,
   "throttle":5
 }

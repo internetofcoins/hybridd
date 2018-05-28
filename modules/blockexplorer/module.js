@@ -38,6 +38,7 @@ function tick(properties) {
 // child processes are waited on, and the parent process is then updated by the postprocess() function
 // http://docs.electrum.org/en/latest/protocol.html
 function exec(properties) {
+
   // decode our serialized properties
   var processID = properties.processID;
   var target = {};
@@ -111,6 +112,28 @@ function exec(properties) {
         if(typeof command[1]!=='undefined') {
           subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/addr/'+command[1]+'/utxo"]})');
           subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
+        } else {
+          subprocesses.push('stop(1,"Please specify an address!")');
+        }
+        break;
+      default:
+        subprocesses.push('stop(1,"Source function not supported!")');
+      }
+      break;
+    case 'cryptoid':
+      switch(properties.command[0]) {
+      case 'balance':
+        subprocesses.push('logs(1,"test log message")');
+        subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["?key=d8d21ccfe2fa&q=getbalance&a='+command[1]+'"]})');
+        //subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["/addr/'+command[1]+'/unconfirmedBalance"]})');
+        subprocesses.push('coll(2)');
+        subprocesses.push('stop( (isNaN(data[0])||isNaN(data[1])?1:0), fromInt((data[0]+data[1]),'+factor+') )');
+        break;
+      case 'unspent':
+        // example: https://blockexplorer.com/api/addr/[:addr]/utxo
+        if(typeof command[1]!=='undefined') {
+          subprocesses.push('func("blockexplorer","link",{target:'+jstr(target)+',command:["?key=d8d21ccfe2fa&q=unspent&active='+command[1]+'"]})');
+          //subprocesses.push('func("blockexplorer","post",{target:'+jstr(target)+',command:'+jstr(command)+',data:data})');
         } else {
           subprocesses.push('stop(1,"Please specify an address!")');
         }
@@ -220,7 +243,7 @@ function post(properties) {
     if(typeof properties.command[2]!=='undefined') {
       var amount = toInt(properties.command[2],factor);
       if(amount.greaterThan(0)) {
-        result = functions.sortArrayByObjKey(result,"amount",true);
+        result = functions.sortArrayByObjKey(result,"amount",false);
         global.hybridd.proc[processID].progress = 0.75;
         unspentscnt = toInt(0,factor);
         var usedinputs = [];

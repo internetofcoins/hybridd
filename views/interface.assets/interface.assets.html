@@ -2,7 +2,7 @@
   <div class="databox-header">
     <h2>My assets</h2>
     <div class="manage-button">
-      <a onclick='manageAssets();' href="#manage-assets" class="pure-button pure-button-misc" role="button" data-dismiss="modal" data-toggle="modal">Manage assets</a>
+      <a id="manageAssetsBtn" onclick='M.manageAssets();' href="#manage-assets" class="pure-button pure-button-misc" role="button" data-dismiss="modal" data-toggle="modal">Manage assets</a>
     </div>
   </div>
   <div class="data" style="text-align: center;">
@@ -23,11 +23,11 @@
       </form>
     </div>
     <div class="modal-body">
-      <div class="data"></div>
+      <div class="data manageAssets"></div>
     </div>
     <div class="modal-footer">
-      <button onclick="$('#search-assets').val('');" class="pure-button pure-button-secondary" data-dismiss="modal" aria-hidden="true">Cancel</button>
-      <button onclick="$('#search-assets').val('');" id="save-assetlist" class="pure-button pure-button-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
+      <button class="pure-button pure-button-secondary manageBtnCancel" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      <button id="save-assetlist" class="pure-button pure-button-primary manageBtnSave" data-dismiss="modal" aria-hidden="true">Save changes</button>
     </div>
   </div>
 </div>
@@ -51,10 +51,11 @@
 
       <form class="pure-form pure-form-stacked">
 	<label for="target">Send to</label>
-	<input id="modal-send-target" type="text" placeholder="enter target address" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();">
+	<input id="modal-send-target" type="text" placeholder="enter target address" class="inline">
 	<label for="amount">Send amount</label>
-	<input id="modal-send-amount" type="text" placeholder="enter quantity" class="inline" onkeydown = "check_tx();" oninput = "check_tx();" onpaste = "check_tx();" oncut = "check_tx();" style="width: 77%;">
-	<div onclick='$("#modal-send-amount").val( $("#action-send .modal-send-balance").html() ); check_tx();' class="pure-button pure-button-warning max-amount-button" aria-hidden="true" style="vertical-align: top;">MAX</div>
+	<input id="modal-send-amount" type="text" placeholder="enter quantity" class="inline" style="width: 77%;">
+
+	<div class="pure-button pure-button-warning max-amount-button" aria-hidden="true" style="vertical-align: top;">MAX</div>
       </form>
 
     </div>
@@ -87,7 +88,7 @@
       <div class="modal-receive-status" id="receivestatus" style="display: block; font-size: 3em;"></div><div class="modal-receive-status-text"></div>
     </div>
     <div class="modal-footer">
-      <button onclick="stop_recv();" class="pure-button pure-button-secondary" data-dismiss="modal" aria-hidden="true">Close</button>
+      <button onclick="receiveAsset.resetReceiveStatus();" class="pure-button pure-button-secondary" data-dismiss="modal" aria-hidden="true">Close</button>
       <button id="modal-receive-button" data-clipboard-text="?" class="pure-button pure-button-xsmall pure-button-primary" aria-hidden="true">Copy address to clipboard</button>
     </div>
   </div>

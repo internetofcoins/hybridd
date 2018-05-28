@@ -1,0 +1,10 @@
+{
+  "source":"cryptoid.dgb",
+  "name":"chainz cryptoid Blockexplorer",
+  "module":"blockexplorer",
+  "mode":"digibyte.cryptoid",
+  "factor":8,
+  "host":"https://chainz.cryptoid.info/dgb/api.dws",
+  "cache":1000,
+  "throttle":1
+}

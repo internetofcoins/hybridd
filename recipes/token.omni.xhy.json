@@ -1,36 +1,11 @@
 {
   "symbol":"omni.xhy",
-  "name":"Internet of Coins Hybrid Asset - MAINTENANCE",
+  "name":"Internet of Coins Hybrid Asset",
   "module":"quartz",
   "mode":"bitcoinjslib.omni",
-  "contract":"IN PROGRESS",
-  "originator":"IN PROGRESS",
+  "import":"omni",
   "factor":8,
-  "quartz":{
-    "init" : [
-      "logs(1,'module $symbol: initialized')"
-    ],
-    "status" : [
-      "stop(0,'This coin is a dummy for testing.')"
-    ],
-    "balance":[
-      "stop(0,'0.0000000')"
-    ],
-    "push":[
-      "pass('NOT YET SUPPORTED!')"
-    ],
-    "factor" : [
-      "pass('$factor')"
-    ],
-    "history" : [
-      "stop(1,'Not yet implemented!')"
-    ],
-    "contract" : [
-      "stop(1,'Not yet implemented!')"
-    ],
-    "fee" : [
-      "pass('$fee')"
-    ]
-  }
+  "contract":"142",
+  "originator":"12VaCTi8wrdrjh2qdBjL7hJeDgdF9cdbso"
 }
 

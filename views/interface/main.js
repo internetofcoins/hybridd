@@ -24,6 +24,7 @@ hy_content = ''; // variable to hold package content
 // CSS
 hy_content += '<style>';
 hy_content += fs.readFileSync('./css/spinner.css');		// Spinner for loading screens in CSS
+hy_content += fs.readFileSync('./css/clipboard.css');		// CLipboard transitions
 // DEPRECATED: already included in login -> hy_content += fs.readFileSync('./css/purecss.css');		// PureCSS
 hy_content += fs.readFileSync('./css/modal.css');		// CSS based modal boxes
 hy_content += fs.readFileSync('./css/base.css');		// custom styling for Internet of Coins, base (mobile)
@@ -41,14 +42,19 @@ hy_content += addscript('../../lib/crypto/proof.js');	        // proof-of-work l
 
 hy_content += '<script>';
 hy_content += fs.readFileSync('./js/globalobjects.js');	// global objects/functions
+hy_content += fs.readFileSync('./js/utils.js');
 hy_content += "\n"+'pass_args = {};';
 hy_content += 'init.interface = function(args) {';
 hy_content += 'pass_args = args;';							        // pass args along DOM to toplevel buttons
 hy_content += fs.readFileSync('./js/topmenu.js');			  // responsive top menu
+hy_content += fs.readFileSync('./js/ychan.js');
+hy_content += fs.readFileSync('./js/zchan.js');
 hy_content += fs.readFileSync('./js/hybriddcall.js');		// autonomous calls to hybridd
+hy_content += fs.readFileSync('./js/deterministic.js');
+hy_content += fs.readFileSync('./js/assetInitialization.js');
+hy_content += fs.readFileSync('./js/valuations.js');
 hy_content += fs.readFileSync('./interface.js');	      // finally, take action
 hy_content += '}'+"\n";
-hy_content += fs.readFileSync('./js/topmenuset.js');	  // resets state of top menu
 hy_content += '</script>';
 
 hy_content += addscript('./js/sha256.js');          // fast SHA256 hashing
@@ -95,18 +101,9 @@ hy_content += addsvg('./svg/slack.svg','slack');
 hy_content += addsvg('./svg/riot.svg','riot');
 hy_content += addsvg('./svg/bitcointalk.svg','bitcointalk');
 
-hy_content += '$("#dashboard-icon").html(svg[\'dashboard-o\']);';
-hy_content += '$("#assets-icon").html(svg[\'assets-o\']);';
-hy_content += '$("#trade-icon").html(svg[\'trade-o\']);';
-hy_content += '$("#chat-icon").html(svg[\'chat-o\']);';
-hy_content += '$("#apps-icon").html(svg[\'apps-o\']);';
-hy_content += '$("#other-icon").html(svg[\'other-o\']);';
-hy_content += '$("#logout-icon").html(svg[\'logout-o\']);';
-
+hy_content += 'document.querySelector("#logout-icon").innerHTML = svg[\'logout-o\'];';
 hy_content += addsvg('./svg/send.svg','send');
 hy_content += addsvg('./svg/receive.svg','receive');
-hy_content += '$("#user-icon").html(svg[\'user\']);';
-hy_content += '$("#topmenu-logout").html(svg[\'logout-alt\']);';
 hy_content += '</script>';
 
 // load in the page elements *after* Javascript insertion

@@ -3,13 +3,13 @@
   "name":"Counterparty",
   "module":"quartz",
   "mode":"bitcoinjslib.counterparty",
-  "module-deterministic":"bitcoinjslib",
   "factor":8,
-  "fee":0.0002,
+  "fee":0.00004946,
   "fee-symbol":"btc",
   "keygen-base":"btc",
   "contract":"XCP",
   "host":["https://counterwallet.coindaddy.io","https://wallet.counterwallet.io"],
+  "host_unspent":["http://rpc:1234@public.coindaddy.io:4000"],
   "cache":120000,
   "throttle":5,
   "api-documentation":"https://counterparty.io/docs/counterblock_api/",
@@ -22,18 +22,20 @@
        "stop(1,'Not yet implemented!')"
     ],
     "unspent" : [
-       "stop(1,'Not yet implemented!')"
+      "func('blockexplorer','exec',{target:{symbol:'$fee-symbol'}, command:['unspent','$1','$fee']})",
+      "pass({'unspents':data.unspents,'change':String(Number(data.change)+0.00000546)})"
     ],
-     "balance" : [
-       "time(32000)",
-       "curl('asset://$symbol','/_api','POST',{'jsonrpc':'2.0','id':0,'method':'get_normalized_balances','params':{'addresses':['$1']}},{'content-type':'text/plain'})",
-       "test(typeof data.result!=='undefined',2,1,data)",
-       "stop(1,'No result!')",
-       "find({'asset':'$contract'},data.result,2,1)",
-       "jump(2,'0')",
-       "form(data.quantity,$factor,'reduce')",
-       "pass(data)"
-     ],
+    "balance" : [
+      "time(32000)",
+      "curl('asset://$symbol','/_api','POST',{'jsonrpc':'2.0','id':0,'method':'get_normalized_balances','params':{'addresses':['$1']}},{'content-type':'text/plain'})",
+      "test(typeof data.result!=='undefined',2,1,data)",
+      "stop(1,'No result!')",
+      "find({'asset':'$contract'},data.result,2,1)",
+      "jump(2,'0')",
+      "form(data.quantity,$factor,'reduce')",
+      "time($cache,data)",
+      "pass(data)"
+    ],
     "push" : [
       "curl('asset://$symbol','/_api','POST',{'jsonrpc':'2.0','id':0,'method':'broadcast_tx','params':{'signed_tx_hex':'$1'}},{'content-type':'text/plain'})",
       "test(data,2,1,data)",
@@ -49,7 +51,7 @@
        "stop(1,'Not yet implemented!')"
     ],
     "contract" : [
-       "stop(1,'Not yet implemented!')"
+       "pass('$contract')"
     ],
     "fee" : [
       "pass('$fee')"

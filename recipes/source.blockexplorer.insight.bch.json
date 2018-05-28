@@ -1,5 +1,5 @@
 {
-  "id":"insight.bch",
+  "source":"insight.bch",
   "name":"Bitcoin Cash Insight Blockexplorer",
   "module":"blockexplorer",
   "mode":"bitcoincash.insight",
