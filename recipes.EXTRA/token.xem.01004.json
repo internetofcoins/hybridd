@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.01004",
+    "name": "mosaone : 01004 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mosaone:01004",
+    "originator": "NAMZUV3VOPSZ3JMKZFPYAKKT7RROYBG24LI6AAT4",
+    "factor": 0
+}

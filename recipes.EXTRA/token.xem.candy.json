@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.candy",
+    "name": "halloween2017 : candy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "halloween2017:candy",
+    "originator": "NCWIGGBM5JJB24JI4GYNDP2XNKDPK2GMLMWSBGYD",
+    "factor": 0
+}

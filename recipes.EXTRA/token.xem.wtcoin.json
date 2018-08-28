@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wtcoin",
+    "name": "wintech.wtcoin_ico : wtcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wintech.wtcoin_ico:wtcoin",
+    "originator": "NB2ZNUML6EVUY7YTRG5TLFL3Z44A3YNU4OZPQ622",
+    "factor": 6
+}

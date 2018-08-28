@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.z",
+    "name": "harvester : z (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "harvester:z",
+    "originator": "NA6BJN3PCUQCROERW3H3BUHBQAE3ACJUDIWI2DBY",
+    "factor": 0
+}

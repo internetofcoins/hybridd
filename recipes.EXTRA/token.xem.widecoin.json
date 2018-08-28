@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.widecoin",
+    "name": "goldenlotus : widecoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "goldenlotus:widecoin",
+    "originator": "NCQDCKEVLMMIOUT4HKRWF7K3ONAHHE5IRLAJ5OQX",
+    "factor": 6
+}

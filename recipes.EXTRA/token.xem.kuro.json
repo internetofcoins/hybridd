@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kuro",
+    "name": "kurdistan : kuro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kurdistan:kuro",
+    "originator": "NBZI7EXLREDSJK33LVHGP5ESAAQD5VUFRKKDMOGJ",
+    "factor": 2
+}

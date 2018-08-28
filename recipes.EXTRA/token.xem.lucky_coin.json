@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lucky_coin",
+    "name": "gox : lucky_coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gox:lucky_coin",
+    "originator": "NCWX3RKAOT4DITPEKGZX5SNGICKKGVZLVT2EKKI6",
+    "factor": 0
+}

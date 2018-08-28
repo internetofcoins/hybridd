@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.comsahoes",
+    "name": "comsahoes : comsahoes (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "comsahoes:comsahoes",
+    "originator": "ND2XBTK6NOVDMYCRLWTZZCKK2PLB74IV4N5UQC2P",
+    "factor": 0
+}

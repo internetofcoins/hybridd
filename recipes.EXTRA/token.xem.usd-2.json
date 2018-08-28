@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.usd-2",
+    "name": "lc : usd (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:usd",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.raymondcoin",
+    "name": "katalystcoin : raymondcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "katalystcoin:raymondcoin",
+    "originator": "NCHMGWRKOYJ33HY65RWQO4VPMDVFZTUHCUI2Q67L",
+    "factor": 6
+}

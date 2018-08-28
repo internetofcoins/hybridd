@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.l-coin",
+    "name": "nembear : l-coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:l-coin",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

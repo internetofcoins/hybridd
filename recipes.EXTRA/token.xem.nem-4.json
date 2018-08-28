@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nem-4",
+    "name": "crypto : nem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "crypto:nem",
+    "originator": "NDKHCXFTRHK35ADD2Z2NYHO4IGIXNMC2LN7EDZPP",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hot-potato",
+    "name": "award : hot-potato (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "award:hot-potato",
+    "originator": "NBOVLA3V7Z7H7TT5VZ4PYRGOE6Y3DRRQKACB77KY",
+    "factor": 0
+}

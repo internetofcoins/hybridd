@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dash",
+    "name": "xchange : dash (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xchange:dash",
+    "originator": "NARRW5NLG5CYHNSTTN7VYUYPTLXUW5AC3MRT2NOU",
+    "factor": 6
+}

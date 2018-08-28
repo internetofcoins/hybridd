@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ytt",
+    "name": "ykd : ytt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ykd:ytt",
+    "originator": "NCZP24URLYXDINDQ4GNXL5AXT6QDSWWDAW5F6YA4",
+    "factor": 0
+}

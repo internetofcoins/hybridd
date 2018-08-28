@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lastone",
+    "name": "rootdev.subnamespace : lastone (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.subnamespace:lastone",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

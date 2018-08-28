@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ocknamo",
+    "name": "ocknamo : ocknamo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ocknamo:ocknamo",
+    "originator": "NCWX3RKAOT4DITPEKGZX5SNGICKKGVZLVT2EKKI6",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tanzania",
+    "name": "nemuriya : tanzania (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemuriya:tanzania",
+    "originator": "NCX573DG62BHVK4QWOXH3CG54YHICYK5WKACMO6K",
+    "factor": 0
+}

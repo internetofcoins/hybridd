@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mosaic-3",
+    "name": "nembar-tokyo : mosaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembar-tokyo:mosaic",
+    "originator": "NA3DJXC2MKMGVLJOYXIEJ5HADBKBVQJFG4NEPRPK",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.locker_levy",
+    "name": "ts : locker_levy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ts:locker_levy",
+    "originator": "NCU63AYO6RS2ISG4UEP5CALTKVQOB4FUTYIYXUAV",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tamago",
+    "name": "oden : tamago (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oden:tamago",
+    "originator": "NC43J7IDXESSR27GPJIFOOCRW6ECSG3I5JKEJB4R",
+    "factor": 0
+}

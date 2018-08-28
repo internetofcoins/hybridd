@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dhp",
+    "name": "diehardtales : dhp (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "diehardtales:dhp",
+    "originator": "NAJPB7PPX7BJ7MG6XHPTDBXM2F5X6WHQOPEPMADL",
+    "factor": 0
+}

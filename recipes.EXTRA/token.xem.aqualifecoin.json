@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aqualifecoin",
+    "name": "aqualife : aqualifecoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aqualife:aqualifecoin",
+    "originator": "NDTRKMHA3ZKSUITGGF6RFG3HXFYUGPOPXGQKSXEK",
+    "factor": 6
+}

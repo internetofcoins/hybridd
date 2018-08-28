@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ryutalevym",
+    "name": "ttech : ryutalevymosaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ttech:ryutalevymosaic",
+    "originator": "NCUK4VQHA4OSEXD5K2TKBEE2722PCXAEQ3SPTDBJ",
+    "factor": 0
+}

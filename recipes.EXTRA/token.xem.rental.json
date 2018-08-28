@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rental",
+    "name": "oshibori : rental (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oshibori:rental",
+    "originator": "NDJTUJC74XW54WSVYUBW2VGTN4SCRMO2VFRT5LXP",
+    "factor": 0
+}

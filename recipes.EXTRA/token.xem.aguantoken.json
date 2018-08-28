@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.aguantoken",
+    "name": "aguan : aguantoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aguan:aguantoken",
+    "originator": "NDSO3N7S3WT737XWNOUH23DIKOBWK4ENKPMZYV4K",
+    "factor": 6
+}

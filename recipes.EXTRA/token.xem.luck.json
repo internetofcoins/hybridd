@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.luck",
+    "name": "kung-fung : luck (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kung-fung:luck",
+    "originator": "NCZVKCRANT3V2KEH6UEB2VFVEKO5TGTO4IKKN66T",
+    "factor": 0
+}

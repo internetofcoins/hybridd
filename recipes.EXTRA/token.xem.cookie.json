@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cookie",
+    "name": "halloween2017 : cookie (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "halloween2017:cookie",
+    "originator": "NCWIGGBM5JJB24JI4GYNDP2XNKDPK2GMLMWSBGYD",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hirory",
+    "name": "bitlabo : hirory (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bitlabo:hirory",
+    "originator": "NDTQSCVOKNTC762RLB2DAERGZWSBOUZ63CBYWAA2",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.takaocoin-2",
+    "name": "takao : takaocoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "takao:takaocoin",
+    "originator": "ND3IFIYYEMFJEHNHCW6NRVMLOYKYHUWUZCW3UHXW",
+    "factor": 6
+}

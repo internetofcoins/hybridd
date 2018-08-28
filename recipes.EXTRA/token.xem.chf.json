@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.chf",
+    "name": "lc : chf (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:chf",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 3
+}

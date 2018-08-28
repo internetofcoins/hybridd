@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kandencoin",
+    "name": "techbureau : kandencoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "techbureau:kandencoin",
+    "originator": "ND3IFIYYEMFJEHNHCW6NRVMLOYKYHUWUZCW3UHXW",
+    "factor": 0
+}

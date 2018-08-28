@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.demonagroda",
+    "name": "demotessty : demonagroda (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "demotessty:demonagroda",
+    "originator": "NCW3Z6P3K6SPEGNH6DJ2FIUDXAXKPTL2AM3QGDXY",
+    "factor": 1
+}

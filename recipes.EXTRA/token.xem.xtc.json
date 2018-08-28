@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xtc",
+    "name": "fortune : xtc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fortune:xtc",
+    "originator": "NB3MPD4FPMKNFEPDWRIP4VROJQW2Q2YU4RKMZLED",
+    "factor": 3
+}

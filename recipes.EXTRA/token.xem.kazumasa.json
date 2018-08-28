@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kazumasa",
+    "name": "kazu : kazumasa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kazu:kazumasa",
+    "originator": "NBRDXFOVSGUEVIBWQQVIQXKXTG42PZFBH4YMLADX",
+    "factor": 1
+}

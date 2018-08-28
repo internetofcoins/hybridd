@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nempioneer",
+    "name": "award : nempioneer (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "award:nempioneer",
+    "originator": "NBOVLA3V7Z7H7TT5VZ4PYRGOE6Y3DRRQKACB77KY",
+    "factor": 0
+}

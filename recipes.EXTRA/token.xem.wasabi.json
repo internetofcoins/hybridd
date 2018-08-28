@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wasabi",
+    "name": "sushi : wasabi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sushi:wasabi",
+    "originator": "NDBG76LLCEAWO334KIJ45N3UGZK5PAIPIPIYZ5HF",
+    "factor": 2
+}

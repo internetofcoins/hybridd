@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.baxon",
+    "name": "go1 : baxon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "go1:baxon",
+    "originator": "NBLIIKCJKOUSI2RFNUNYHQSF7FYCMCATIWKPHYOJ",
+    "factor": 3
+}

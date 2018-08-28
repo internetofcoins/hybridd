@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gachiho",
+    "name": "nem_holder : gachiho (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem_holder:gachiho",
+    "originator": "NCTARYLI3GBB7ZGW555KQ7YCVONIDLF2DIEBNJL5",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cvx",
+    "name": "zeus-test : cvx (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:cvx",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

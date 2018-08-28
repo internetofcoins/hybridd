@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kubrick",
+    "name": "xem.namespaceuri : kubrick (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xem.namespaceuri:kubrick",
+    "originator": "NDON233GTXGJXPRTVDJLLSAEEYY5JWKS7BA5LU2N",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.foodie",
+    "name": "dxe.test : foodie (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dxe.test:foodie",
+    "originator": "NDA6J27EIOMHTW3WG3OSR3G4WTO23B2TEOCHEXDN",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-2",
+    "name": "coinvest : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coinvest:token",
+    "originator": "NCX7Y742SOOAOEVHKCQMR5MDR4SEY4SFASLDUHJO",
+    "factor": 6
+}

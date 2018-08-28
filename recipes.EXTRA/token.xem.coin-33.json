@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-33",
+    "name": "ever : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ever:coin",
+    "originator": "NC2T4TKHA4MYEAEQYQMPVRX527UHRE5EP63QC5I4",
+    "factor": 0
+}

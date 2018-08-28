@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.presence",
+    "name": "darc : presence (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "darc:presence",
+    "originator": "NBIZ7HVCNATUJNDERTEBR3AYIQODAOPCL6SEZQSC",
+    "factor": 6
+}

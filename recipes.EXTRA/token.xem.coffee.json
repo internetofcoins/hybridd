@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coffee",
+    "name": "plz : coffee (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "plz:coffee",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

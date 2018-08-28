@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kyancoin",
+    "name": "michael : kyancoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "michael:kyancoin",
+    "originator": "NCZSDKIKWKFEFD7M5ZFSTC4OUNCPO2MTLBBZCQWS",
+    "factor": 0
+}

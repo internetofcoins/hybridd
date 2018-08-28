@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemsnow",
+    "name": "nemg3 : nemsnow (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemg3:nemsnow",
+    "originator": "NDI6XV3BGZRKDRA23V4LVGSIBIGKYLRYLIKWPWTH",
+    "factor": 0
+}

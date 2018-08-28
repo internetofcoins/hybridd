@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.froz-2",
+    "name": "ccb.froz : froz (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ccb.froz:froz",
+    "originator": "NAGBLEN5FLGMKCXHZVX26BKML5W36QAJ4UAFEDQE",
+    "factor": 4
+}

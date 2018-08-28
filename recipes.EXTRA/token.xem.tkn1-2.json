@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tkn1-2",
+    "name": "rootdev : tkn1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev:tkn1",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

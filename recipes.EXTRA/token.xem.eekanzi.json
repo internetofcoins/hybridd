@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eekanzi",
+    "name": "gottsu : eekanzi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gottsu:eekanzi",
+    "originator": "NBYQXNHXDZAUG7TONA54DISKXAT6OKEGENUEK3DQ",
+    "factor": 1
+}

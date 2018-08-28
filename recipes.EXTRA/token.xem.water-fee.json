@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.water-fee",
+    "name": "baikal : water-fee (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "baikal:water-fee",
+    "originator": "NANLMBP6GPFCPAANQ6FGYO22CKPNLDYQVF7E7QH5",
+    "factor": 6
+}

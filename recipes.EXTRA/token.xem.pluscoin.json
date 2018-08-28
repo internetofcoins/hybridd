@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pluscoin",
+    "name": "metaps : pluscoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "metaps:pluscoin",
+    "originator": "NB2ZBFRF3QAMJNAB44PTBEIXTZV2G7G7ZAIWRQ2T",
+    "factor": 4
+}

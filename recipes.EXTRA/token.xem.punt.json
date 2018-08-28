@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.punt",
+    "name": "mobius : punt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mobius:punt",
+    "originator": "NDA7MQH2NR6Z67BLYFKOXX4DELYHDTP4HNMOBIUS",
+    "factor": 0
+}

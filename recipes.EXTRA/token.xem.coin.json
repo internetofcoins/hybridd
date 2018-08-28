@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin",
+    "name": "cpi : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cpi:coin",
+    "originator": "NCXJLBZFHGJHYW52RABWRT2YSIZRKKTO43WP4EFT",
+    "factor": 2
+}

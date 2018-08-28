@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.poc",
+    "name": "minden : poc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "minden:poc",
+    "originator": "NAP744VNOWTRNKHXATXJ3SSW2WYA5RBDJVGYNAT7",
+    "factor": 0
+}

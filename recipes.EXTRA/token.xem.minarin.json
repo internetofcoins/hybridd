@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.minarin",
+    "name": "mizunashi : minarin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mizunashi:minarin",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

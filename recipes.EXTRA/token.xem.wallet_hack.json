@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wallet_hack",
+    "name": "virus : wallet_hack (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "virus:wallet_hack",
+    "originator": "NBO2SX6CKB6FTSSH4I4H32RGKBDKLMHTAK3GK2BC",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.manji",
+    "name": "nembear : manji (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:manji",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

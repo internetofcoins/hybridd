@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.unidades",
+    "name": "product : unidades (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "product:unidades",
+    "originator": "NDB3YUJLGN2DQRB7LCCB6KEUJYPXGNUXHFYNAEN5",
+    "factor": 4
+}

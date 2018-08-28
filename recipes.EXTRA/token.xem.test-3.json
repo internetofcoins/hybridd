@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-3",
+    "name": "beta_ico : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "beta_ico:test",
+    "originator": "NCIX354YGM6GPNNYYBQC2S4ZAHUNRBHDDY7TEEPX",
+    "factor": 2
+}

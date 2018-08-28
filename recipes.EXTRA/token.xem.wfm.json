@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wfm",
+    "name": "wfm : wfm (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wfm:wfm",
+    "originator": "NCFEKXLRHJQ5ZU77BAZMBBJCXG224O6LFMAFRUVP",
+    "factor": 6
+}

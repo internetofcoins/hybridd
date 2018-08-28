@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.red_token",
+    "name": "jabo38 : red_token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jabo38:red_token",
+    "originator": "NBHZO2ERSRTABRZZKVT7IJBJWIQUVWBJJEFFTIPV",
+    "factor": 2
+}

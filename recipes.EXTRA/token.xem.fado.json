@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fado",
+    "name": "fado : fado (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fado:fado",
+    "originator": "NDZUU5GLEW5MRKIY6VEKKZDNBU4KCQEPNLKWTI44",
+    "factor": 2
+}

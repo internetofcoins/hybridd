@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.perica",
+    "name": "teiai_group : perica (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "teiai_group:perica",
+    "originator": "NCVVDODP2WPR5VPDZLAV3RTWV3HTG6JHM4MNB3FM",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.paladium",
+    "name": "rootdev.metal : paladium (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.metal:paladium",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

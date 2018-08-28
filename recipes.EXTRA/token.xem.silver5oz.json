@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.silver5oz",
+    "name": "appscore.cn : silver5oz (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "appscore.cn:silver5oz",
+    "originator": "NCDGDWRN5C7KDHY6Z6PDSCK5NVOM4UD64G6RWQ4U",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitpound",
+    "name": "bitpound : bitpound (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bitpound:bitpound",
+    "originator": "NC6YJS4IRORIR5OSD4H2N3IWKLRADRBLVKX7RKMY",
+    "factor": 0
+}

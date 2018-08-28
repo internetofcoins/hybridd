@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tertiarybomb",
+    "name": "killerqueen.bitesthedust : tertiarybomb (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "killerqueen.bitesthedust:tertiarybomb",
+    "originator": "NB5VGPSHLYTRJWSQD5U53GWIHAMFP7AFLMZTBVOE",
+    "factor": 6
+}

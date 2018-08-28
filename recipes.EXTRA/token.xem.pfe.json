@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pfe",
+    "name": "zeus-test : pfe (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:pfe",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

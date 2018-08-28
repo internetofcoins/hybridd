@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.goldtoken",
+    "name": "goldtoken : goldtoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "goldtoken:goldtoken",
+    "originator": "NBSOUHFUTSOO5GQULKG5GBPICHUXQEUSI2I5MKGE",
+    "factor": 6
+}

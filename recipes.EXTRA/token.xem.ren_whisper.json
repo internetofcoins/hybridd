@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ren_whisper",
+    "name": "ren : ren_whisper (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ren:ren_whisper",
+    "originator": "NDTY3HJWZ5VROGDP2C6HUUF4W75HIAHXGMO4JCVG",
+    "factor": 0
+}

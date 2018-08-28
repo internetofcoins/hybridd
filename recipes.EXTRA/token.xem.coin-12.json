@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-12",
+    "name": "daddy : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "daddy:coin",
+    "originator": "NDMTD6X3BX3GOJZKVKETUREMJYNQYOO464XS6MB3",
+    "factor": 5
+}

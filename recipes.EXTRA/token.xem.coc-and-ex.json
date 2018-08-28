@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coc-and-ex",
+    "name": "devslopes.exams : cache-for-code-android-exam (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes.exams:cache-for-code-android-exam",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 0
+}

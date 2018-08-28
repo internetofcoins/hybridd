@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.koban",
+    "name": "gizoku : koban (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gizoku:koban",
+    "originator": "NDVD5EVKSZGUG42UZ243OKOK7M6JRWBLE3HNVBY5",
+    "factor": 0
+}

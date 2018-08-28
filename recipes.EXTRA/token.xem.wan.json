@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wan",
+    "name": "inu : wan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "inu:wan",
+    "originator": "NCFWZ4DJDOXNJMLL5OJKX7PM6YNVBWEWBZFLE555",
+    "factor": 6
+}

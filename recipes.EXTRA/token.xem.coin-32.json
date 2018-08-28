@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-32",
+    "name": "dim : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dim:coin",
+    "originator": "NDDRG3UEB5LZZZMDWBE4RTKZK73JBHPAIWBHCFMV",
+    "factor": 6
+}

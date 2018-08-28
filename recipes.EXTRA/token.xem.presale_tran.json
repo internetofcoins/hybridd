@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.presale_tran",
+    "name": "petro : presale_transfer (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "petro:presale_transfer",
+    "originator": "NCGBBZKOTERO3EXMPPCNDNDXZQQJXBEMWWO7MB66",
+    "factor": 6
+}

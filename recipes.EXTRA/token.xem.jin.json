@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jin",
+    "name": "enxjin : jin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "enxjin:jin",
+    "originator": "NDGN7I32WSEZXXX6WIKWIS635SL3AV2II6PQ37RB",
+    "factor": 1
+}

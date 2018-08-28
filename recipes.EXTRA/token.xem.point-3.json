@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.point-3",
+    "name": "magic : point (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "magic:point",
+    "originator": "NCKFEMS776EIARX2XXRGQNEWLTSHZMEA2SG6PLQG",
+    "factor": 0
+}

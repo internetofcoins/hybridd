@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.g",
+    "name": "hysteric : g (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hysteric:g",
+    "originator": "NAICSMV2BH35SA7RVQU425IDSDJUWQ6DZ3NKJUQ4",
+    "factor": 2
+}

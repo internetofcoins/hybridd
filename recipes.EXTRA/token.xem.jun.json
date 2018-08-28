@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jun",
+    "name": "hamada : jun (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hamada:jun",
+    "originator": "NC2BBRXDCY2LAMFRAJQH3L2OUSFMFO7DFTDMXQNK",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token2",
+    "name": "betatest_ico : token2 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "betatest_ico:token2",
+    "originator": "NCIX354YGM6GPNNYYBQC2S4ZAHUNRBHDDY7TEEPX",
+    "factor": 2
+}

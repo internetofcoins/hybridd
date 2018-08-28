@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.avs1990",
+    "name": "avs1990 : avs1990 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "avs1990:avs1990",
+    "originator": "NDIMX7FWSAAYRSU653OCP7J4IVRYOIC72G3R4G6L",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xtr",
+    "name": "tarocoin : xtr (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tarocoin:xtr",
+    "originator": "NAEJU7BPXYPRYNDAVCWTUD5OMKSKAT2GPEIJY7F7",
+    "factor": 0
+}

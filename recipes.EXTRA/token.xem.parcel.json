@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.parcel",
+    "name": "belgium : parcel (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "belgium:parcel",
+    "originator": "NARZ5ERMKNP4UB46HFCJE7FCCNGOWPIYHMA6BELG",
+    "factor": 0
+}

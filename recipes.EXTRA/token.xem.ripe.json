@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ripe",
+    "name": "tomato : ripe (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tomato:ripe",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

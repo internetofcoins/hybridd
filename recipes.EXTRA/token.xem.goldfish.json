@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.goldfish",
+    "name": "lucky : goldfish (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lucky:goldfish",
+    "originator": "NCLZFT24O5NMNJHHQWHFKHIRDS534QSZHFMLJGHU",
+    "factor": 0
+}

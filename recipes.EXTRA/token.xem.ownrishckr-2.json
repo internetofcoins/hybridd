@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ownrishckr-2",
+    "name": "mizunashi : owner_of_this_account_is_hacker (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mizunashi:owner_of_this_account_is_hacker",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

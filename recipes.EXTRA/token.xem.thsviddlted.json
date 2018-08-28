@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.thsviddlted",
+    "name": "aitsu : this_video_has_been_deleted (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aitsu:this_video_has_been_deleted",
+    "originator": "NDZFPDRFYTN3DAXIZ4VQKGC6ME3G6HG6PUBSVMLV",
+    "factor": 2
+}

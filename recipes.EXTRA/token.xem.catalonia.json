@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.catalonia",
+    "name": "social.freedom : catalonia (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "social.freedom:catalonia",
+    "originator": "NBJBD4W7WAQLSVJ3L6YC72VXVAURSTYYHMGM2NBX",
+    "factor": 0
+}

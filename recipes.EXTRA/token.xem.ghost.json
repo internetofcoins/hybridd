@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ghost",
+    "name": "halloween2017 : ghost (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "halloween2017:ghost",
+    "originator": "NCWIGGBM5JJB24JI4GYNDP2XNKDPK2GMLMWSBGYD",
+    "factor": 0
+}

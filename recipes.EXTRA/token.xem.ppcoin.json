@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ppcoin",
+    "name": "wamani : ppcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wamani:ppcoin",
+    "originator": "NBFPFRS4XYTO2NK3SXX6TZOE3DB5OQKB53JKJ6OJ",
+    "factor": 2
+}

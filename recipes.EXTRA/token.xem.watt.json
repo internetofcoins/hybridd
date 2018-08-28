@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.watt",
+    "name": "electricity : watt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "electricity:watt",
+    "originator": "NC4W72YHKSY7APQC2C2HIQKAGRWUFTUIJVRK23WH",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.suniverse",
+    "name": "universe : suniverse (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "universe:suniverse",
+    "originator": "NCKRXPEUS6QQ4VHUMJPZIGLHOA2JJXDVXV4HNEAH",
+    "factor": 3
+}

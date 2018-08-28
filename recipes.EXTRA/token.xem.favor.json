@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.favor",
+    "name": "south_egypt : favor (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "south_egypt:favor",
+    "originator": "NC5EJDMCGAZ2SXIP6YKRTMI27IYDDTXGVEKNQY6O",
+    "factor": 6
+}

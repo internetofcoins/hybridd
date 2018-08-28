@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.changelly",
+    "name": "bean : changelly (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bean:changelly",
+    "originator": "NCOC7BIWC35ZINQ3AI2N3DKAC6UXYQNCFYLF2LEE",
+    "factor": 1
+}

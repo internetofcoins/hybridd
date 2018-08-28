@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.all-time-bp",
+    "name": "pacnem : all-time-best-player (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pacnem:all-time-best-player",
+    "originator": "NDHGYUVXKUWYFNO6THLUKAF6ZH2WIDCC6XD5UPC4",
+    "factor": 0
+}

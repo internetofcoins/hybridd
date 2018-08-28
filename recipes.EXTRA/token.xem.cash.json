@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cash",
+    "name": "princess : cash (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "princess:cash",
+    "originator": "NA3WRTTTFRABDUDDJ2OKX4DZRXKCF2ILXKOIDQHB",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.habits",
+    "name": "kevin : habits (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kevin:habits",
+    "originator": "NCDQCGM45L5FLWTKVAVKHSBDUU2ZGXYROGZ32DDP",
+    "factor": 1
+}

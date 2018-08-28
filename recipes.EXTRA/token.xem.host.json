@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.host",
+    "name": "yiping.token : host (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yiping.token:host",
+    "originator": "NBLRTRSTVDCHXW55NMOSJ5LTZCYAKTZXBFPTDU4A",
+    "factor": 6
+}

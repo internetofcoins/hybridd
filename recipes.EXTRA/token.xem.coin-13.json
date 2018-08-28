@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-13",
+    "name": "serendipity : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "serendipity:coin",
+    "originator": "NCGLWE2SVA5DP2X4TO7JBOM65PRIFZZPSPSHDGU4",
+    "factor": 3
+}

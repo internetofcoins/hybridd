@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test-2",
+    "name": "prover : test (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "prover:test",
+    "originator": "NBZSX45K3TOU6PHPOD22BPQ3NMHS2MOVTC3VRROC",
+    "factor": 6
+}

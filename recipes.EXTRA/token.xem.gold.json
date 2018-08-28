@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gold",
+    "name": "xemsenjapan : gold (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xemsenjapan:gold",
+    "originator": "NDUVMJ3SIENBSJU2J6DNIHC3YUDIFGCBKJEC3KMN",
+    "factor": 5
+}

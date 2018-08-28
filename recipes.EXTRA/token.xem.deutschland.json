@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.deutschland",
+    "name": "thomasbrandes : deutschland (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "thomasbrandes:deutschland",
+    "originator": "NDWVG526C4TI3OMMFYZJOM6FI4WNR5HUSKRROTDW",
+    "factor": 6
+}

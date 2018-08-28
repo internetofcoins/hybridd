@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.drink",
+    "name": "food : drink (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "food:drink",
+    "originator": "NA5CVJCUWZSG3QQBWW6TMDUTIHIADSBA4XVOS3XB",
+    "factor": 0
+}

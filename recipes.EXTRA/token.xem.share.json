@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.share",
+    "name": "crowdfunder : share (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "crowdfunder:share",
+    "originator": "NC2NKWYJSMSDIFM2D2DED7UCMMN6B7G4TOXQ5UEB",
+    "factor": 6
+}

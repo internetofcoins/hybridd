@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.npxs",
+    "name": "pundix : npxs (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pundix:npxs",
+    "originator": "NB2G7ANELAJXBDFHNX2LXM5S7B4N7LFAKKHWWPD6",
+    "factor": 6
+}

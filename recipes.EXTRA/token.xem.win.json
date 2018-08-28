@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.win",
+    "name": "local.bitcoin : win (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "local.bitcoin:win",
+    "originator": "NBMWSKAPW3FYWFQNQLHGZ3YLZRDIHQTO7EXAKXGT",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zero-2",
+    "name": "greenearth : zero (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "greenearth:zero",
+    "originator": "NCDEWQJ7OSDUDJR37XKNV2N62D7DKNQZO3WIWW3S",
+    "factor": 0
+}

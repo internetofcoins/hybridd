@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tadakaji",
+    "name": "tadayoshikajino : tadayoshikajino (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tadayoshikajino:tadayoshikajino",
+    "originator": "NBRSBHIIV2KSWGWZ7BYZFCOIHL5FZN5TW33L2745",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.buriburi",
+    "name": "unko : buriburi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "unko:buriburi",
+    "originator": "NCSPXQTU6Q5GA7QOWJVPVAVJHG3HA57YJ3ZXQJL5",
+    "factor": 6
+}

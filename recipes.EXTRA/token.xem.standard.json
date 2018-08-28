@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.standard",
+    "name": "matro.tokens : standard (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "matro.tokens:standard",
+    "originator": "NDRL63UYBNBZYNLVO7YEXZCOWH6XW6UH2EMQS3IC",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.eco",
+    "name": "ecobit : eco (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ecobit:eco",
+    "originator": "NATPCKIL2TBE73PHI6UDCJHEMU63WYP5LSFTX2SW",
+    "factor": 0
+}

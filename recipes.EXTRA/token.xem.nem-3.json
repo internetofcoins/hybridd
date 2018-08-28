@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nem-3",
+    "name": "hi.happy_nem : nem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hi.happy_nem:nem",
+    "originator": "ND7CSEHJYHE3VDXBPFII62CKPMLMLOTGFWEYS3LP",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitcoin",
+    "name": "avito : bitcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "avito:bitcoin",
+    "originator": "ND7DCILH6OV3D6RXUBHEKR7CC5G3KU3WW3THKUAU",
+    "factor": 0
+}

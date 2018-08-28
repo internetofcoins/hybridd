@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.diamond-101",
+    "name": "etc : diamond-101 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "etc:diamond-101",
+    "originator": "NAYKQGTKOW6MYHY36ITESE3TZR6CRSWCWWKZ5L4J",
+    "factor": 0
+}

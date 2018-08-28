@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.trollpoints",
+    "name": "taunsew : trollpoints (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "taunsew:trollpoints",
+    "originator": "NA6CMPKJF4TLRBNROWYO35ZY5XMY6HB5KZEKK3UQ",
+    "factor": 6
+}

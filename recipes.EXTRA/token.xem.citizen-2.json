@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.citizen-2",
+    "name": "belgium : citizen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "belgium:citizen",
+    "originator": "NARZ5ERMKNP4UB46HFCJE7FCCNGOWPIYHMA6BELG",
+    "factor": 0
+}

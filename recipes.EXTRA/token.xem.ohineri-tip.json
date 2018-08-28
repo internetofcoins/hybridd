@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ohineri-tip",
+    "name": "talofa : ohineri-tip (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "talofa:ohineri-tip",
+    "originator": "ND3X6IR6LMQBHKHS2SAK3HANTFS46NOWGYZT6HI5",
+    "factor": 6
+}

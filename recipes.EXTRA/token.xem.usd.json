@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.usd",
+    "name": "virtual-asset : usd (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "virtual-asset:usd",
+    "originator": "NDU7JGAEOIEFOYZYOIL4ZZDMRAL222XR6C5Q55QU",
+    "factor": 6
+}

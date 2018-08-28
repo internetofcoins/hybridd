@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hackers",
+    "name": "gox : hackers (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gox:hackers",
+    "originator": "NCWX3RKAOT4DITPEKGZX5SNGICKKGVZLVT2EKKI6",
+    "factor": 6
+}

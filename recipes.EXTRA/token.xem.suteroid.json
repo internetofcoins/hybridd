@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.suteroid",
+    "name": "akasakimasao.nonakanobuyosi : suteroid (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "akasakimasao.nonakanobuyosi:suteroid",
+    "originator": "NA2OJUHDJX5MRCBYDPD3VZ62AYPA737T5AQRS5NL",
+    "factor": 0
+}

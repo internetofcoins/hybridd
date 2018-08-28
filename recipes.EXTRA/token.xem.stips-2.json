@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.stips-2",
+    "name": "cryptex20fund1 : stips (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptex20fund1:stips",
+    "originator": "NBCFXCB6MBWYJA45WQIP36YL5XQH23VY7MJNEDJT",
+    "factor": 6
+}

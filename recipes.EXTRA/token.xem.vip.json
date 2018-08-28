@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.vip",
+    "name": "nembar : vip (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembar:vip",
+    "originator": "NA3DJXC2MKMGVLJOYXIEJ5HADBKBVQJFG4NEPRPK",
+    "factor": 0
+}

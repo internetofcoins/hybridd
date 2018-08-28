@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.spthx",
+    "name": "puchikun : spthx (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "puchikun:spthx",
+    "originator": "NBGRTSRV32P3SWXT7VRDP2T72GGYEXLQHEF5NUOU",
+    "factor": 0
+}

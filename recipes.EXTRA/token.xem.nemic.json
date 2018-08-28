@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemic",
+    "name": "nemicon : nemic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemicon:nemic",
+    "originator": "ND76ZXQEHPTUB555DCCIERA7ITBVDSRKE3EYNCOJ",
+    "factor": 0
+}

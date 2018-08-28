@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.orange-piece",
+    "name": "egolog.nem-lifegame : orange-piece (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "egolog.nem-lifegame:orange-piece",
+    "originator": "NASDK2YLMTKEWAFCNX5A23QJ5ZNEC7HZBHN7MLJV",
+    "factor": 0
+}

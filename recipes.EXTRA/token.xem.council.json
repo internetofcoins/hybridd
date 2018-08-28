@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.council",
+    "name": "stia : council (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "stia:council",
+    "originator": "NA5OMVRZIC3VQMCZJRBOBHAA2LTZHUYP25B5B7GC",
+    "factor": 0
+}

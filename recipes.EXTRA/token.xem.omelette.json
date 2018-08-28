@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.omelette",
+    "name": "egg : omelette (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "egg:omelette",
+    "originator": "NB354UBHI4ROOK4GT4KUBYRNE4ZL2RKQRLOZWKLK",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hukunotane",
+    "name": "calmbright : huku_no_tane (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "calmbright:huku_no_tane",
+    "originator": "NDYQ3CVR5VGPMN3CJB72FG6G6DOBZFMFXKEU3A55",
+    "factor": 0
+}

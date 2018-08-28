@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.akippa",
+    "name": "techbureau : akippa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "techbureau:akippa",
+    "originator": "ND3IFIYYEMFJEHNHCW6NRVMLOYKYHUWUZCW3UHXW",
+    "factor": 0
+}

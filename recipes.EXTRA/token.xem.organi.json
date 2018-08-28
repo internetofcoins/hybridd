@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.organi",
+    "name": "organifoundation : organi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "organifoundation:organi",
+    "originator": "NCKSCTZZQWMYMXMHYYMNSVUOYBVJV2RNFSCYTA56",
+    "factor": 6
+}

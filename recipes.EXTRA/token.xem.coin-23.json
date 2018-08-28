@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-23",
+    "name": "platinum : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "platinum:coin",
+    "originator": "NALAV4EXSE3Q3ECJDJ2YN4WMPX2GCJOGDRGI4DZZ",
+    "factor": 2
+}

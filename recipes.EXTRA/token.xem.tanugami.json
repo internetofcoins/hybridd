@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tanugami",
+    "name": "godtanu : tanugami (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "godtanu:tanugami",
+    "originator": "NCQAEAKEGOVZPKD65WHNR3DJ7KNRJVKIOHMEG777",
+    "factor": 0
+}

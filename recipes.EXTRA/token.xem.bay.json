@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bay",
+    "name": "yokohama : bay (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yokohama:bay",
+    "originator": "NDA24PQLDV7QBQHLRV2HUJKLYLFE6VDLLTOLOSJ5",
+    "factor": 0
+}

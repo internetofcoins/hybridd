@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.test1",
+    "name": "pt : test1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pt:test1",
+    "originator": "NDKDLD23BBNL4WX3Y7N32JBG3EOPD5SMOERV56HK",
+    "factor": 0
+}

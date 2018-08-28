@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.puyopuyo",
+    "name": "sodefrin : puyopuyo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sodefrin:puyopuyo",
+    "originator": "NAUCVMDD5ZB27RP34IWA3D5RVQI3ZOJIOWNKMAD2",
+    "factor": 0
+}

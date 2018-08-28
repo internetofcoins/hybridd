@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tokens",
+    "name": "imre.g : tokens (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "imre.g:tokens",
+    "originator": "NDS3R3ZVAUCQGIU4GUG7L56II4IIXBGIMREL45YG",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.index",
+    "name": "sredafund : index (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sredafund:index",
+    "originator": "NBX63RB5XF4D45CVDPDZG2P6VUC7MMOKPEMBOUT6",
+    "factor": 6
+}

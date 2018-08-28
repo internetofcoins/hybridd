@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.apig",
+    "name": "nems : apig (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nems:apig",
+    "originator": "NBWH243MPSXC3FGWKSOTGWX55QX425JGUGA7LA2N",
+    "factor": 0
+}

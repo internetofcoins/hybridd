@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.acc",
+    "name": "rootdev.assel : acc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.assel:acc",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

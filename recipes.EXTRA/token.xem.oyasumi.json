@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.oyasumi",
+    "name": "messagecoin : oyasumi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:oyasumi",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

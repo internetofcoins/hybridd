@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.warai",
+    "name": "messagecoin : warai (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:warai",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

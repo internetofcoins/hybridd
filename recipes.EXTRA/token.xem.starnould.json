@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.starnould",
+    "name": "nembear : starnould (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:starnould",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

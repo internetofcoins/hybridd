@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.toro",
+    "name": "sushi.nigirizushi : toro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sushi.nigirizushi:toro",
+    "originator": "NDBG76LLCEAWO334KIJ45N3UGZK5PAIPIPIYZ5HF",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.signature",
+    "name": "save.contract : signature (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "save.contract:signature",
+    "originator": "NDKHCXFTRHK35ADD2Z2NYHO4IGIXNMC2LN7EDZPP",
+    "factor": 0
+}

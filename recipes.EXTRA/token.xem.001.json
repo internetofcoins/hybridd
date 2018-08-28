@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.001",
+    "name": "nemuriya : 001 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemuriya:001",
+    "originator": "NCX573DG62BHVK4QWOXH3CG54YHICYK5WKACMO6K",
+    "factor": 0
+}

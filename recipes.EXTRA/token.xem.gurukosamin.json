@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gurukosamin",
+    "name": "setagaya : gurukosamin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "setagaya:gurukosamin",
+    "originator": "NBPC5LTFUF52M5GAQOM7PQ5IO3PAW3GL624ACBXU",
+    "factor": 2
+}

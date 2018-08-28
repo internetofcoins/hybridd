@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-10",
+    "name": "liebe : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "liebe:coin",
+    "originator": "NBAC66DNOU47R6XX36CFABZT4QBMIYHPD4PGWH7H",
+    "factor": 0
+}

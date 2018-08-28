@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.trade",
+    "name": "buy : trade (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "buy:trade",
+    "originator": "NDBEQJ7XIF6P46AST52JQVLPJIJS43VOY5L7LWA5",
+    "factor": 0
+}

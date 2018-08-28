@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hiyoko",
+    "name": "nem_holder : hiyoko (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem_holder:hiyoko",
+    "originator": "NCTARYLI3GBB7ZGW555KQ7YCVONIDLF2DIEBNJL5",
+    "factor": 0
+}

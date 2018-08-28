@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nember",
+    "name": "name.chubu : nember (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "name.chubu:nember",
+    "originator": "ND6R57VWZGEZFZWXVBLZX35J3EVTNWAUJNEM76HQ",
+    "factor": 0
+}

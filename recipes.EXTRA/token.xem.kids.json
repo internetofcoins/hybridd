@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kids",
+    "name": "children : kids (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "children:kids",
+    "originator": "NA52AFMMCLZSSQPX6UYA7LSJJLZLYQJOSJKP7RYK",
+    "factor": 0
+}

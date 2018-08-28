@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dragonfly",
+    "name": "dragon : dragonfly (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dragon:dragonfly",
+    "originator": "NA6KZOJ43M6WPDT4MMHDIM55VQKZ4BTTKKVEIRIY",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.monacoin",
+    "name": "monacoin : monacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "monacoin:monacoin",
+    "originator": "NBOAS7WWMXKZKZGSQZYNM4DLTCZP3W2VP2S7VMBH",
+    "factor": 6
+}

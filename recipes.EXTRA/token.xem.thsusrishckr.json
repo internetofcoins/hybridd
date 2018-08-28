@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.thsusrishckr",
+    "name": "dangerous : this_user_is_a_hacker (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dangerous:this_user_is_a_hacker",
+    "originator": "NDG7OZKMQ4S5R57STVC2VPG2JRC4ZMW7BC55AJWM",
+    "factor": 0
+}

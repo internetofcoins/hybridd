@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nmz002",
+    "name": "yassan : nmz002 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yassan:nmz002",
+    "originator": "NDCJKTT35CX4WWAI5ZMWS2EXXQDHDDLXEP4JK3K5",
+    "factor": 0
+}

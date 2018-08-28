@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.race",
+    "name": "zeus-test : race (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:race",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

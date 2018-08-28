@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gold-6",
+    "name": "cap : gold (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cap:gold",
+    "originator": "NBHUKJGZH6NEVVGS2XMQNDY2ITJKK4P3AFFAY77U",
+    "factor": 2
+}

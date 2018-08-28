@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gold-4",
+    "name": "xembook.tip : gold (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xembook.tip:gold",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

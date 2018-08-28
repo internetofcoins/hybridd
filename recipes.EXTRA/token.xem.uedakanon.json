@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.uedakanon",
+    "name": "oneheart : uedakanon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oneheart:uedakanon",
+    "originator": "NBW6TBKX6GIUA4IJCJ4XKZLPN6ZSHQMVZPQLLM7Q",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.una-ju",
+    "name": "foods : una-ju (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "foods:una-ju",
+    "originator": "NCR6LUWDIPLM7WI6OJZRX4RJVZWODECNHM3RFSA3",
+    "factor": 0
+}

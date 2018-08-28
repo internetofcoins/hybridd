@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemether",
+    "name": "nemether : nemether (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemether:nemether",
+    "originator": "NC56RYVRUPG3WRNGMVNRKODJZJNZKZYS76UAPO7K",
+    "factor": 6
+}

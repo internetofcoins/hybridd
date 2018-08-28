@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lolcoin",
+    "name": "toys : lolcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "toys:lolcoin",
+    "originator": "NC7EIJLP5YTIS5G6XIXS5G4QVG27YMYHMX3J22UC",
+    "factor": 0
+}

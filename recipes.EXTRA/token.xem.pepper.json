@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pepper",
+    "name": "cryptospace : pepper (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptospace:pepper",
+    "originator": "NDNMW3IYHMNV3CYQ3QX5NRY36YYSQKPZVRBZV2E3",
+    "factor": 2
+}

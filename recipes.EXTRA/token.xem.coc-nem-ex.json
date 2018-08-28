@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coc-nem-ex",
+    "name": "devslopes.exams : cache-for-code-nem-exam (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes.exams:cache-for-code-nem-exam",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 0
+}

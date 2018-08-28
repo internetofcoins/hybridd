@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-19",
+    "name": "asakusa : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "asakusa:coin",
+    "originator": "NC46IOC2T3SLXXIXOKBQF4JXBN3MLGLUHVO4IP3Y",
+    "factor": 0
+}

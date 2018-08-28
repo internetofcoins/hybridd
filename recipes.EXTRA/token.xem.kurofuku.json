@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kurofuku",
+    "name": "kobun : kurofuku (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kobun:kurofuku",
+    "originator": "NDF5VXDCHZRRDCBQRWVB2CLDLGNZPL7MLDOYBAD7",
+    "factor": 0
+}

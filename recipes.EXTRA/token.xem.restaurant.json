@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.restaurant",
+    "name": "restaurant : restaurant (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "restaurant:restaurant",
+    "originator": "NB52LHPTHP4KQSGI42674O3TYKCMLS7VWARQ3JJ4",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.blueskycoin",
+    "name": "bluesky : blueskycoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bluesky:blueskycoin",
+    "originator": "NDZG7CEBFVFQAEHRLIWFZV3XRTSTH7BZUPEPOI7J",
+    "factor": 2
+}

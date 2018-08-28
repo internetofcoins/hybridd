@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.miyazakicoin",
+    "name": "nembear : miyazakicoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:miyazakicoin",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

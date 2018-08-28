@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.sm1234567890",
+    "name": "pt.test : sample-mosaic-1234567890 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pt.test:sample-mosaic-1234567890",
+    "originator": "NDKDLD23BBNL4WX3Y7N32JBG3EOPD5SMOERV56HK",
+    "factor": 0
+}

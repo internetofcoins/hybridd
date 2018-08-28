@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.carats",
+    "name": "fluffr : carats (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fluffr:carats",
+    "originator": "NCIP5RMOZYMIL7KC7F4NKIY3BCGS4RE7Y4BPDOSI",
+    "factor": 6
+}

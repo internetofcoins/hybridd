@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.btc-3",
+    "name": "huobitest : btc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "huobitest:btc",
+    "originator": "NASOILKN3RF52ACE6JZKI7XPOX7NN5DBPLAQKO4M",
+    "factor": 6
+}

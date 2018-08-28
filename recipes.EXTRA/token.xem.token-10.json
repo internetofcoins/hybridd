@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-10",
+    "name": "toko.member : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "toko.member:token",
+    "originator": "NBM6UK32XQLYSBJIZJU5NWZAQRMMYRVFFWWCYICW",
+    "factor": 0
+}

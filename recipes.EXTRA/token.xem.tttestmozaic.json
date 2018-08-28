@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tttestmozaic",
+    "name": "testtest : tttestmozaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "testtest:tttestmozaic",
+    "originator": "NDK6T4QP3NCR2EJPTNNQBLK4VDTSHR23Q4QEHEXR",
+    "factor": 6
+}

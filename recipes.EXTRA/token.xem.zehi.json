@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zehi",
+    "name": "zehi : zehi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zehi:zehi",
+    "originator": "NBPGR7QAV4YFJT6UBXJLAFNQS5YBXTWOOT3EJY77",
+    "factor": 0
+}

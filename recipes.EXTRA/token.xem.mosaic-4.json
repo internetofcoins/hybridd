@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mosaic-4",
+    "name": "tk1024 : mosaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tk1024:mosaic",
+    "originator": "NB5BJUTZIL6UECQZTJWSMPXTNA5HLDFF6QCILP72",
+    "factor": 0
+}

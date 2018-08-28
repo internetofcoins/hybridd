@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-8",
+    "name": "cashback : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cashback:coin",
+    "originator": "NAO2NSLWQAPXDLUFFJXGE3CGBATJKAK4PTBASACI",
+    "factor": 0
+}

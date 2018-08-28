@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.misw",
+    "name": "yaju.misw : misw (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "yaju.misw:misw",
+    "originator": "NBLIDJ3UJZJ2PVC7ZV7UWN6EGYTOENAKUB5VTASG",
+    "factor": 0
+}

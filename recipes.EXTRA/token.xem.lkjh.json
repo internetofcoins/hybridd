@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lkjh",
+    "name": "oiuy : lkjh (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "oiuy:lkjh",
+    "originator": "NAEF6AFIRJC37FVOYN5RQ5KLFJBXNCT4M5YP73EC",
+    "factor": 0
+}

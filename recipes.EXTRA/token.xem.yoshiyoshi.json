@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yoshiyoshi",
+    "name": "messagecoin : yoshiyoshi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:yoshiyoshi",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

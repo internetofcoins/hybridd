@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kos",
+    "name": "kslo : kos (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kslo:kos",
+    "originator": "NDUXZB7UMJETAB24PYTWYOULGGOUORDAX3Z7BXYZ",
+    "factor": 0
+}

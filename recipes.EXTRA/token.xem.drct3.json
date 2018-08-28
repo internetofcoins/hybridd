@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.drct3",
+    "name": "drivecard.test.token : drct3 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "drivecard.test.token:drct3",
+    "originator": "NBS4R4KQJKQWNNTRUZ7R4M5IKZB5XR74J2TKZWRK",
+    "factor": 4
+}

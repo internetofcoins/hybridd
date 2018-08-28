@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cointest-2",
+    "name": "nation : cointest (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nation:cointest",
+    "originator": "NA6CMPKJF4TLRBNROWYO35ZY5XMY6HB5KZEKK3UQ",
+    "factor": 2
+}

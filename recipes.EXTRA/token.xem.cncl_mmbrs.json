@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cncl_mmbrs",
+    "name": "nemfoundation : council_members (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemfoundation:council_members",
+    "originator": "NA6Z7FVYGOMPWIQIMEUDGZHTMMYI3HEH7IR64NE5",
+    "factor": 0
+}

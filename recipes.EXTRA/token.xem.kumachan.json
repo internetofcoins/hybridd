@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kumachan",
+    "name": "8888 : kumachan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "8888:kumachan",
+    "originator": "NC6PEEN2NO67UZPSRQLPWM4L7BHICWOBYXUFQTI5",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-7",
+    "name": "fundplatform : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fundplatform:token",
+    "originator": "NCEVYWPHA7XO2NOBLDMCU7W5XRHPME2QSFKMMN3I",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xm",
+    "name": "ingress : xm (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ingress:xm",
+    "originator": "NDWXIPLMVC65KB3JF5K5N2SKWE6E7S3DYAVAAXS7",
+    "factor": 0
+}

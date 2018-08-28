@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yubaricoin",
+    "name": "cryptravel : yubaricoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptravel:yubaricoin",
+    "originator": "NAZR46SLKP4ABM4OE4TV5NG6DC2JVBN2FR75FONH",
+    "factor": 0
+}

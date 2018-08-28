@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-14",
+    "name": "garuda : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "garuda:coin",
+    "originator": "NB6HZM3EODVW34K6Z56TAPQOZIXVPB7XPYLP5WJN",
+    "factor": 2
+}

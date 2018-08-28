@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.carrot",
+    "name": "friend.vegetable : carrot (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "friend.vegetable:carrot",
+    "originator": "NCJQZIGJLMVPCOZAUUSI7V7BJ6MOGO2TTZCQFPHC",
+    "factor": 2
+}

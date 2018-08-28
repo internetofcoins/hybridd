@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.krn",
+    "name": "karen : krn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "karen:krn",
+    "originator": "NDRBIZ2OWODJ2NGDGJ7PAK3OWF5Q5VLAR5S7CI6F",
+    "factor": 0
+}

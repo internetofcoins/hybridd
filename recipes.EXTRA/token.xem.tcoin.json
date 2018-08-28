@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tcoin",
+    "name": "itechly : tcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "itechly:tcoin",
+    "originator": "NCZ4AUC3MCQSKDSNZT56NLYC62AXFJMTNUHZ4K3X",
+    "factor": 0
+}

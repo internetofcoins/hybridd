@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-11",
+    "name": "polysweet : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "polysweet:coin",
+    "originator": "NC7OFQ47WHZCMSQ34COB4D7GE7QZYC7I37QDMT4A",
+    "factor": 3
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.komekue",
+    "name": "nemgu : komekue (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nemgu:komekue",
+    "originator": "ND26Z6YIWTUFO2KQHQ3H72NOQG2Z4P7UU6INZCGY",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.audg",
+    "name": "dreamgoal : audg (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dreamgoal:audg",
+    "originator": "NDM6WGHUSPSZDHE4R3A32RZQTRJOAUPDR757Y5TW",
+    "factor": 0
+}

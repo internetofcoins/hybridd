@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dvc-ind",
+    "name": "theta-u : device-individual (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "theta-u:device-individual",
+    "originator": "NAPKZDRNWXXCOLFAEK5IEKG3LLHDHAELDNIDMMVB",
+    "factor": 0
+}

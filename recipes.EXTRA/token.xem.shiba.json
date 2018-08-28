@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shiba",
+    "name": "wanko : shiba (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wanko:shiba",
+    "originator": "NCW2Q2ZWQXYWZB3YF5PXB2YKXCRE3FQVBVL377DW",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.laquila",
+    "name": "aquillax : laquila (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aquillax:laquila",
+    "originator": "NCBNQYELSMRHJFB2GQJ7HRZ7VAOVNZCW7PMEMPIU",
+    "factor": 4
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.baramaki",
+    "name": "name.oratamah : baramaki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "name.oratamah:baramaki",
+    "originator": "ND6R57VWZGEZFZWXVBLZX35J3EVTNWAUJNEM76HQ",
+    "factor": 0
+}

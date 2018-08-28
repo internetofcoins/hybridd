@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.god_cat",
+    "name": "samidare : god_cat (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "samidare:god_cat",
+    "originator": "NASIDPUZA4DBM5ZJW53QSFCUJYVMEAZ4TZUYUNEO",
+    "factor": 0
+}

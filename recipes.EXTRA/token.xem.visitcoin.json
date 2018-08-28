@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.visitcoin",
+    "name": "sight-visit : visitcoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sight-visit:visitcoin",
+    "originator": "NC6P3NEJA4W6YDGS2EN5Z3QUOQDSXFAGFGI7UOXN",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ssc",
+    "name": "win : ssc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "win:ssc",
+    "originator": "NARAX7SVLHWWWKSG6YCTYISTAVE5GRJADRODORBX",
+    "factor": 6
+}

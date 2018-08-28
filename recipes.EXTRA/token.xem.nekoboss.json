@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nekoboss",
+    "name": "cat_my_boss : nekoboss (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cat_my_boss:nekoboss",
+    "originator": "NCYONY4WO7LZLHRKCQSCQLHNCV2YFG2WRBMKEWFL",
+    "factor": 0
+}

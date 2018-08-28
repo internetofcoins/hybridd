@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bonds",
+    "name": "ebay : bonds (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ebay:bonds",
+    "originator": "NCJBFEANAYQRSMVSPJE2JNT53RCFYAECLK5GOTH3",
+    "factor": 2
+}

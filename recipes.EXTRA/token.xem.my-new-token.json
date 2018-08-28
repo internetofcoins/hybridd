@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.my-new-token",
+    "name": "rootdev.name-of-my-new-fund : my-new-token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.name-of-my-new-fund:my-new-token",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

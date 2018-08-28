@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-24",
+    "name": "angoutaro : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "angoutaro:coin",
+    "originator": "NBPFPO4J7MDRZNVMLGVLJ6MNT57JG5SBQ6XI4YNN",
+    "factor": 0
+}

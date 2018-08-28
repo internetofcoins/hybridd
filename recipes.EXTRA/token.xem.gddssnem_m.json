@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gddssnem_m",
+    "name": "julico : goddessnem_minarin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "julico:goddessnem_minarin",
+    "originator": "NBWL226SR2SUMNYZXV54HWRFJHVPLHPTWIY5QHF2",
+    "factor": 0
+}

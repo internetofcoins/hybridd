@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cabbage_jp",
+    "name": "futures : cabbage_jp (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "futures:cabbage_jp",
+    "originator": "NDY4XDTJUWVIWNQC3OFFYSRP7G5XV2WOOV7PYMFD",
+    "factor": 0
+}

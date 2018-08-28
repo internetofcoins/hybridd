@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.altcoins",
+    "name": "rootdev.bank : altcoins (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rootdev.bank:altcoins",
+    "originator": "NCYL4Q6CDOYWRFFRYJXH4BZPWUHDCRG7KWCNJJKQ",
+    "factor": 6
+}

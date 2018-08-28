@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.extreme",
+    "name": "credz : extreme (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "credz:extreme",
+    "originator": "NCX3OBUKRES3DRWFY4O45I64NBGYCIJISNJCWQHA",
+    "factor": 0
+}

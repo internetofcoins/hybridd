@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.sutekiyan",
+    "name": "sonohanashi : sutekiyan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sonohanashi:sutekiyan",
+    "originator": "NAREE2BCZKVIBXDENYGOCO5HLQRRK2VOGHVG7GFD",
+    "factor": 0
+}

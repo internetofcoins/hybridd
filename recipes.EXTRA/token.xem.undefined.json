@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.undefined",
+    "name": "unknown : undefined (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "unknown:undefined",
+    "originator": "NACCIA3BHEPOBDKC2CHGSX52XW4SLBKSF2EW7JOI",
+    "factor": 0
+}

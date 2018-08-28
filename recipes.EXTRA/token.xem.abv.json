@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.abv",
+    "name": "abvapp : abv (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "abvapp:abv",
+    "originator": "ND4DHC6JALALOWDIZ3FCLSM7PUWAH43JVYBROO7J",
+    "factor": 3
+}

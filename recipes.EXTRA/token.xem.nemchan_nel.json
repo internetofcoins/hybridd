@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nemchan_nel",
+    "name": "xembook.gallery : nemchan_nel (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xembook.gallery:nemchan_nel",
+    "originator": "NBZNQL2JDWTGUAW237PXV4SSXSPORY43GUSWGSB7",
+    "factor": 0
+}

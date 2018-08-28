@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.root1",
+    "name": "sakura : root1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sakura:root1",
+    "originator": "NAT3Q755KOLHOGP7NDUOPTBA65645DX75AGHEOJP",
+    "factor": 0
+}

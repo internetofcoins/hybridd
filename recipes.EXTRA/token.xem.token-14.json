@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-14",
+    "name": "grf : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "grf:token",
+    "originator": "NBSEBHXXGP5UVR43RDF6GYFTMNHG37CKCZ2SSXFK",
+    "factor": 6
+}

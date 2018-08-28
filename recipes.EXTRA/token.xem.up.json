@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.up",
+    "name": "myheart : up (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "myheart:up",
+    "originator": "NDW4ET2EF5LTK3FKBVNYNBIXME6D5FA3F7NFA6LD",
+    "factor": 0
+}

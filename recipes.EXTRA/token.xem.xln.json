@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xln",
+    "name": "medallion : xln (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "medallion:xln",
+    "originator": "NDEAZADF5ILDPIPFGFHV44BDFFYTPL54WGX5WMD7",
+    "factor": 3
+}

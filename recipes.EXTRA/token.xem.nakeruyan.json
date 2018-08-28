@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nakeruyan",
+    "name": "sonohanashi : nakeruyan (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "sonohanashi:nakeruyan",
+    "originator": "NAREE2BCZKVIBXDENYGOCO5HLQRRK2VOGHVG7GFD",
+    "factor": 0
+}

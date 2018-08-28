@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.altcoin25",
+    "name": "a25 : altcoin25 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "a25:altcoin25",
+    "originator": "NB3IEB3DAG7UIPEBPN7P4PCYVC7BTCVSDWXEK64M",
+    "factor": 4
+}

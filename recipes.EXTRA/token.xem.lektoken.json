@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.lektoken",
+    "name": "mm : lektoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mm:lektoken",
+    "originator": "NDSET7L2X4NRKR4BR74F2G2KEWVWZVKHE32GF5WB",
+    "factor": 0
+}

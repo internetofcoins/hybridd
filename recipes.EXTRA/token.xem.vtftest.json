@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.vtftest",
+    "name": "vestor : vtftest (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "vestor:vtftest",
+    "originator": "NDTBC4ORQTSIYACVXNJDREZBY37OSFAZFDZTVH4P",
+    "factor": 1
+}

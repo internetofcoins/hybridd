@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.edacoin",
+    "name": "mm : edacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mm:edacoin",
+    "originator": "NDSET7L2X4NRKR4BR74F2G2KEWVWZVKHE32GF5WB",
+    "factor": 0
+}

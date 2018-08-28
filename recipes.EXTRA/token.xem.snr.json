@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.snr",
+    "name": "senior : snr (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "senior:snr",
+    "originator": "ND2TBCZXNEQKTX7KOG77T3EL7WVGRE2GZ7QEMAZB",
+    "factor": 6
+}

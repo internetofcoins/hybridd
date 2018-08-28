@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.promises",
+    "name": "save : promises (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "save:promises",
+    "originator": "NDKHCXFTRHK35ADD2Z2NYHO4IGIXNMC2LN7EDZPP",
+    "factor": 0
+}

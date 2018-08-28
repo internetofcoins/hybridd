@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.sbux",
+    "name": "zeus-test : sbux (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:sbux",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

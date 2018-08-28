@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mojeicocoin",
+    "name": "progressbar.nem101 : moje_ico_coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "progressbar.nem101:moje_ico_coin",
+    "originator": "NBX2XKIYFYMOV6ZTC3JQDN6ZKHGP3M4OSDUWDULD",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kanna",
+    "name": "kanna : kanna (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kanna:kanna",
+    "originator": "NC5LMVQVN53336NHLAA4UVHGQBBJUYGF2YPZTXTB",
+    "factor": 0
+}

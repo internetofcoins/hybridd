@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.line",
+    "name": "japan_taka_kato : line (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "japan_taka_kato:line",
+    "originator": "NC7RFH22FGX6WMUBGQ7WQJOZGBMO6OWU3CH76L72",
+    "factor": 6
+}

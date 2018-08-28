@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.comsa",
+    "name": "mosaic_nem : comsa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mosaic_nem:comsa",
+    "originator": "NAJ3JZVUI24AAGJ3R4EXJ4JJX23MBLLMJ4W5FRCH",
+    "factor": 1
+}

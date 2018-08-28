@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mcd",
+    "name": "zeus-test : mcd (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zeus-test:mcd",
+    "originator": "NDNRSWFEQ256HQLUYTL6SOS3RYHEJKBLOWL2C6MJ",
+    "factor": 0
+}

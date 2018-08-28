@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.no_4",
+    "name": "coin_monster : no_4 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coin_monster:no_4",
+    "originator": "NBQA6TLEOTVD5WKA7E7DN373KTRARTG2PN6OT6E4",
+    "factor": 0
+}

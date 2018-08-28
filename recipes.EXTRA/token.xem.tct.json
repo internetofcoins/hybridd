@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tct",
+    "name": "techtelier : tct (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "techtelier:tct",
+    "originator": "NA4LRUNUQPOSPBZUVOYDBOYC5OBWULH5ZJGGSSB6",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.player",
+    "name": "pacnem : player (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pacnem:player",
+    "originator": "NDHGYUVXKUWYFNO6THLUKAF6ZH2WIDCC6XD5UPC4",
+    "factor": 0
+}

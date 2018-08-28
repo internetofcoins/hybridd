@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-20",
+    "name": "privatejet : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "privatejet:coin",
+    "originator": "NC2PZMRQXNPLIYN2IOVEEY2O4QC6XJPLAQJM5QJ5",
+    "factor": 0
+}

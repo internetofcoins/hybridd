@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mosaic-2",
+    "name": "ziggyziggyziggy1 : mosaic (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ziggyziggyziggy1:mosaic",
+    "originator": "NAAC6TQ4BE3OPANDCBALH6C3JR4KICKJJ2YE2ME5",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cute",
+    "name": "suzu : cute (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "suzu:cute",
+    "originator": "NCO754ANF6RLKM4HEAK4BILWDRLFGIX6PTFLTKOD",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.wkrw",
+    "name": "wsmy : wkrw (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "wsmy:wkrw",
+    "originator": "NBEGW675LT6EG4I33TPRQYKEITUO3HPZOFSGPMPR",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pjm",
+    "name": "pajama : pjm (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "pajama:pjm",
+    "originator": "NBRMW5IA7JDBVKVFDL7YDI4NMWG7RAK7GABLF5YI",
+    "factor": 6
+}

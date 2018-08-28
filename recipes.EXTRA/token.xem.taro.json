@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.taro",
+    "name": "taro : taro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "taro:taro",
+    "originator": "NAQ5Y3ZUYRJ7AZR6GJCSR5GOUW6MDTQVPMTK57BF",
+    "factor": 0
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.grip",
+    "name": "gamerespect : grip (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gamerespect:grip",
+    "originator": "NB7XRD4OP74MPP32VJ5HPVYKIAFEEBW74HLSMRR4",
+    "factor": 0
+}

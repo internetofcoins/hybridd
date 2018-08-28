@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shit",
+    "name": "angoutaro : shit (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "angoutaro:shit",
+    "originator": "NBPFPO4J7MDRZNVMLGVLJ6MNT57JG5SBQ6XI4YNN",
+    "factor": 0
+}

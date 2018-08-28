@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.usdt",
+    "name": "etherium : usdt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "etherium:usdt",
+    "originator": "NCZA47BEQFT53JEUDATAMOLRGI47BPAOLCSUMQDK",
+    "factor": 5
+}

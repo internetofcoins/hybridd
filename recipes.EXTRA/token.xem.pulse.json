@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pulse",
+    "name": "white : pulse (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "white:pulse",
+    "originator": "NDWKRVXTOOQGPQ26O7XOMDUPU7FUNENPUMMAN7VP",
+    "factor": 0
+}

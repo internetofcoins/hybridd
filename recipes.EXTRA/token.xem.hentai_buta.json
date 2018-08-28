@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hentai_buta",
+    "name": "hentaibutayarou : hentai_butayarou (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hentaibutayarou:hentai_butayarou",
+    "originator": "NCCN4YGWGF7X77J52AATGDLOIDY2FQMD4L4ENX7T",
+    "factor": 0
+}

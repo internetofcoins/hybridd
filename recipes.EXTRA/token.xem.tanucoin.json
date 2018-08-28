@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tanucoin",
+    "name": "godtanu : tanucoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "godtanu:tanucoin",
+    "originator": "NCQAEAKEGOVZPKD65WHNR3DJ7KNRJVKIOHMEG777",
+    "factor": 0
+}

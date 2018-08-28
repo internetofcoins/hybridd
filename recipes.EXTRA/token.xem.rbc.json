@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rbc",
+    "name": "rainbow : rbc (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rainbow:rbc",
+    "originator": "NBBXG5DRMSMQVNO7L3X7IJJZHKKN543VZ7XRCNBM",
+    "factor": 0
+}

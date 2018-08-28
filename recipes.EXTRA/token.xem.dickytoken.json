@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dickytoken",
+    "name": "dicky : dickytoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dicky:dickytoken",
+    "originator": "NBZKNJD2GU2HUYM43U5L4DCMLU6WGDFXOP6W4FBD",
+    "factor": 6
+}

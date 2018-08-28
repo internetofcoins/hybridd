@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.crystal",
+    "name": "matro : crystal (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "matro:crystal",
+    "originator": "NDRL63UYBNBZYNLVO7YEXZCOWH6XW6UH2EMQS3IC",
+    "factor": 3
+}

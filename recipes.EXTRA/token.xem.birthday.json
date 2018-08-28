@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.birthday",
+    "name": "happy : birthday (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "happy:birthday",
+    "originator": "NB2KOTEMPDWA7H5UNBSA75IKBXLE3RQU6YQOQWHY",
+    "factor": 0
+}

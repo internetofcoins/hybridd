@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tempura",
+    "name": "foods : tempura (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "foods:tempura",
+    "originator": "NCR6LUWDIPLM7WI6OJZRX4RJVZWODECNHM3RFSA3",
+    "factor": 0
+}

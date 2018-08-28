@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.apollo",
+    "name": "micai : apollo (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "micai:apollo",
+    "originator": "ND6VEMJPRBLTKI5X55RB6NLIJSY7ZQ5Z3ED5ANAD",
+    "factor": 0
+}

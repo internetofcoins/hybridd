@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.guarito",
+    "name": "latam.venezuela : guarito (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "latam.venezuela:guarito",
+    "originator": "NDZGCAVAGDSVBWACT6VZH4E6G2ZDUAJGG5SSBACW",
+    "factor": 2
+}

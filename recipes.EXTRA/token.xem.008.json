@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.008",
+    "name": "nembear : 008 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nembear:008",
+    "originator": "NCYWDOKBFL2Z3JC4SASVBSMZIVNVK3XF4PWAWUSJ",
+    "factor": 0
+}

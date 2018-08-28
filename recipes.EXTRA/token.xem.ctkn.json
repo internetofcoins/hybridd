@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ctkn",
+    "name": "leopcorso : ctkn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "leopcorso:ctkn",
+    "originator": "NCXBMNV76RBU7I3D56YM22D3M4LQ5JZKOLE7ECPH",
+    "factor": 0
+}

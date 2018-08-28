@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xbyn",
+    "name": "by : xbyn (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "by:xbyn",
+    "originator": "NBGJENKJCCSDY7YJTHIW4KEUBB4725GMAGJV46UF",
+    "factor": 2
+}

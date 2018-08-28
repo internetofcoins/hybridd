@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.glove",
+    "name": "emojigames.dev.jump : glove (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "emojigames.dev.jump:glove",
+    "originator": "NDRQHXUGKZMVLUJQFFUDNDAYPM2MWGAYGXPJ2AO7",
+    "factor": 0
+}

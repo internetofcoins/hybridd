@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.famicom",
+    "name": "familycomputer : famicom (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "familycomputer:famicom",
+    "originator": "NDVANFB53PLKILI4ESDDNHYLKXDMEHNQGXJI65KH",
+    "factor": 0
+}

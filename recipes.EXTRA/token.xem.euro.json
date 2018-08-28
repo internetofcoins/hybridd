@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.euro",
+    "name": "europa : euro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "europa:euro",
+    "originator": "NC24SZGOYZU6LWP6FLNEME2Y6M3PBSLJ66BBYJFS",
+    "factor": 6
+}

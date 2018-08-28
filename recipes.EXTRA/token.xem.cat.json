@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cat",
+    "name": "xecat : cat (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xecat:cat",
+    "originator": "NCFU56OPJMQE6XHNVVNC2RMSCTISPPMS6VDTJTLJ",
+    "factor": 6
+}

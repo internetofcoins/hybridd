@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fmt",
+    "name": "freemarkettoken : fmt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "freemarkettoken:fmt",
+    "originator": "NCWVH3UBB6BL7S2YYDPJ2P6UM5WBTR6ZZKKW3U4K",
+    "factor": 4
+}

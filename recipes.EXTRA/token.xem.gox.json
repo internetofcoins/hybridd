@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gox",
+    "name": "gox : gox (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gox:gox",
+    "originator": "NCWX3RKAOT4DITPEKGZX5SNGICKKGVZLVT2EKKI6",
+    "factor": 0
+}

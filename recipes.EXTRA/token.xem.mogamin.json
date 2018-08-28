@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mogamin",
+    "name": "kancolle.mogami : mogamin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "kancolle.mogami:mogamin",
+    "originator": "NC3YNFPMEVBSAGBJDU6Q6NCRNXSNBWPYL73OXYFM",
+    "factor": 1
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.dbg",
+    "name": "dreamgoal : dbg (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "dreamgoal:dbg",
+    "originator": "NDM6WGHUSPSZDHE4R3A32RZQTRJOAUPDR757Y5TW",
+    "factor": 0
+}

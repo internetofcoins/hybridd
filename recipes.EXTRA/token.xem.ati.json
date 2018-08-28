@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ati",
+    "name": "tesol : ati (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tesol:ati",
+    "originator": "NCEWFOIW5SXOB5E3LXV4JUXR5JRUOIYR3QR7EJHN",
+    "factor": 3
+}

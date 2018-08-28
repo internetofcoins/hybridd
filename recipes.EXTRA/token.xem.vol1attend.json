@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.vol1attend",
+    "name": "cryptosaka.cryptmarket : vol1attend (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptosaka.cryptmarket:vol1attend",
+    "originator": "NAK6D547NSVLEDHI6RFMC5AFV4PV4JYYP6OQNEOA",
+    "factor": 0
+}

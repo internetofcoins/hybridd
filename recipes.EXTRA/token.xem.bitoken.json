@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.bitoken",
+    "name": "businessinfinity : bitoken (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "businessinfinity:bitoken",
+    "originator": "NBOGCJ57OSANVIM73QOZSKRJMQZH3GUAN3EAGP3A",
+    "factor": 0
+}

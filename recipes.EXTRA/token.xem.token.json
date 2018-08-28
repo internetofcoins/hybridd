@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token",
+    "name": "scg : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "scg:token",
+    "originator": "NBJQPTJDHHFTBJ4PAON53QLSYYH2ASJIC3RVNETZ",
+    "factor": 6
+}

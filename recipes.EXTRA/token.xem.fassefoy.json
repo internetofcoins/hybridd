@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fassefoy",
+    "name": "shibucho : fassefoy (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shibucho:fassefoy",
+    "originator": "NDVJZMUX42E3Y2YYKNKROC4B4DNK7TVHQUG6FHLZ",
+    "factor": 3
+}

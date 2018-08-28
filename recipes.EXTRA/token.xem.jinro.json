@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jinro",
+    "name": "jinro : jinro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jinro:jinro",
+    "originator": "NCX2JCYQJQIZ4VGVWTBA67HAAB72J4K2W3ZWDMDF",
+    "factor": 0
+}

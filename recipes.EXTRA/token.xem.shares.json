@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shares",
+    "name": "gcc : shares (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gcc:shares",
+    "originator": "NCBG3BJYSE4OLE47D2YUKWHRZF5HWYBZYMN34PDN",
+    "factor": 2
+}

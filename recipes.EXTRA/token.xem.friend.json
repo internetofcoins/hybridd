@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.friend",
+    "name": "coins : friend (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coins:friend",
+    "originator": "NAG6QLXJSPB3MKWZ4TPHLNEWXU7RSE55IBPABQGZ",
+    "factor": 6
+}

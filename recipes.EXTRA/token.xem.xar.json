@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xar",
+    "name": "xarcade : xar (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xarcade:xar",
+    "originator": "NDESPW3R77BZJE2BNRNZUVUIXPURS5MGPGNWT6M4",
+    "factor": 4
+}

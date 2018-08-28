@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.zero",
+    "name": "nnnnnnn : zero (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nnnnnnn:zero",
+    "originator": "NCFSRPSZR6PHXK6R2SZT3V7L3CN55FY5XMO37HU5",
+    "factor": 0
+}

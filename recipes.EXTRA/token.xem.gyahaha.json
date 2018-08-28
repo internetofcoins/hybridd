@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gyahaha",
+    "name": "teiai_group : gyahaha (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "teiai_group:gyahaha",
+    "originator": "NCVVDODP2WPR5VPDZLAV3RTWV3HTG6JHM4MNB3FM",
+    "factor": 2
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.watsons_crdt",
+    "name": "watsons : watsons_credit (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "watsons:watsons_credit",
+    "originator": "NDUOAV3NNQOMMTQX44EMPIRDDX5AJ7YSESULB7PI",
+    "factor": 0
+}

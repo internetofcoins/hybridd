@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gu",
+    "name": "japason : gu (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "japason:gu",
+    "originator": "NALBKRX7LQT7K3M6DF2GNFODZ5ELMCYGJO4ZEP64",
+    "factor": 0
+}

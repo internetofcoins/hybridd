@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.hitoshitaira",
+    "name": "19811219taira : hitoshitaira (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "19811219taira:hitoshitaira",
+    "originator": "NDNMUAY7CICHS26TYZD6F3VEN7CYMFRBADODSTML",
+    "factor": 6
+}

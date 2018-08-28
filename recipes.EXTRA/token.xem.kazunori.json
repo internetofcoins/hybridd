@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kazunori",
+    "name": "uehara : kazunori (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "uehara:kazunori",
+    "originator": "NDBVKZM3PZSB4J7TXSWRW2H5TLKFPQFN664QBYCL",
+    "factor": 6
+}

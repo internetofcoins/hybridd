@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.frozen-3",
+    "name": "ccb.froz.gbp : frozen (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ccb.froz.gbp:frozen",
+    "originator": "NAGBLEN5FLGMKCXHZVX26BKML5W36QAJ4UAFEDQE",
+    "factor": 6
+}

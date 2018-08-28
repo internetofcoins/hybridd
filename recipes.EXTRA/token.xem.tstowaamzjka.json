@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tstowaamzjka",
+    "name": "cryptolobos : testowaamozajka (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "cryptolobos:testowaamozajka",
+    "originator": "NC6DI5OCH3RYIJWR7NBTL346R3GBY5QHT55KSYSN",
+    "factor": 3
+}

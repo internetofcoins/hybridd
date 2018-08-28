@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ownrishckr",
+    "name": "mizunashi.coincheck_stolen_funds_do_not_accept_trades : owner_of_this_account_is_hacker (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mizunashi.coincheck_stolen_funds_do_not_accept_trades:owner_of_this_account_is_hacker",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

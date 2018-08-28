@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cheers",
+    "name": "beer.drink.it : cheers (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "beer.drink.it:cheers",
+    "originator": "NAXCJYOXW4YL3B2K6PHQ5EZWAHAT3BCE2JBUXU2H",
+    "factor": 0
+}

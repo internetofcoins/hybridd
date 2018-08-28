@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.yoroshiku",
+    "name": "messagecoin : yoroshiku (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:yoroshiku",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

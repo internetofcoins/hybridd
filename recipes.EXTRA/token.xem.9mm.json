@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.9mm",
+    "name": "nem_games.ammo : 9mm (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nem_games.ammo:9mm",
+    "originator": "NDN5BVIVFR3EAYEM5JE2T5RBWHBDS3EJODN4KSWJ",
+    "factor": 0
+}

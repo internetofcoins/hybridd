@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.kiyosuitw",
+    "name": "teiai_group : kiyosuitw (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "teiai_group:kiyosuitw",
+    "originator": "NCVVDODP2WPR5VPDZLAV3RTWV3HTG6JHM4MNB3FM",
+    "factor": 0
+}

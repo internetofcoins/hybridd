@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.suga",
+    "name": "force : suga (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "force:suga",
+    "originator": "NA7ZK6D3YHUKDYIFXTP3O6QFVSS5LBIYASNVNMXN",
+    "factor": 0
+}

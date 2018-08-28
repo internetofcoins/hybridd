@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.crypto",
+    "name": "hub.five : crypto (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "hub.five:crypto",
+    "originator": "NBATXG72F3PXKI2UZ6N2W4GQA44EDXQHFZGZJAJE",
+    "factor": 0
+}

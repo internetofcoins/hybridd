@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.cache",
+    "name": "devslopes : cache (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes:cache",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 6
+}

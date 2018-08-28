@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.choki",
+    "name": "japason : choki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "japason:choki",
+    "originator": "NALBKRX7LQT7K3M6DF2GNFODZ5ELMCYGJO4ZEP64",
+    "factor": 0
+}

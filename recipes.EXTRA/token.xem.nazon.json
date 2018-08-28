@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nazon",
+    "name": "nazoncoin.banu : nazon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nazoncoin.banu:nazon",
+    "originator": "NBF3LZBYF4BZVJH7RABNAM3WTPQ5DFWTCGADTPYG",
+    "factor": 6
+}

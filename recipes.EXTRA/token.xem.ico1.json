@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ico1",
+    "name": "vb_name_space : ico1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "vb_name_space:ico1",
+    "originator": "NAK4D2SQBTTNXBQ6PCBELJ5ESRDZXWCZYOICDG5T",
+    "factor": 5
+}

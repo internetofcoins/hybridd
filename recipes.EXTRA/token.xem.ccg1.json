@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ccg1",
+    "name": "coin_monster : ccg1 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "coin_monster:ccg1",
+    "originator": "NBQA6TLEOTVD5WKA7E7DN373KTRARTG2PN6OT6E4",
+    "factor": 0
+}

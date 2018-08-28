@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.mark",
+    "name": "root : mark (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "root:mark",
+    "originator": "NCNRRP7UYL7PTZT7SCRMS6R7TPQXB37SILVFC7M4",
+    "factor": 6
+}

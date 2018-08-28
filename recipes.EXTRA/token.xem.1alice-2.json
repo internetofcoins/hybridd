@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.1alice-2",
+    "name": "zo : 1alice (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "zo:1alice",
+    "originator": "NCVGXTCV7YYGCUTOWRSEALEVHVTDFRJ54BQYDKTI",
+    "factor": 0
+}

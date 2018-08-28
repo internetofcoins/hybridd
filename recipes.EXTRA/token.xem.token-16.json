@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-16",
+    "name": "aitsu : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "aitsu:token",
+    "originator": "NDZFPDRFYTN3DAXIZ4VQKGC6ME3G6HG6PUBSVMLV",
+    "factor": 2
+}

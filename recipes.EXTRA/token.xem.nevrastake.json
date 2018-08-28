@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nevrastake",
+    "name": "nevra : nevrastake (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nevra:nevrastake",
+    "originator": "NAO57OAPFE3LFZSLVDNXPMI4IYRSYEXE3ASO2F6M",
+    "factor": 1
+}

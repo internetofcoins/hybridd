@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.medal",
+    "name": "tanukinakamoto : medal (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tanukinakamoto:medal",
+    "originator": "NB2225VL43PTZROTAEIMVZFWJK3CPE7Y23OFRTTO",
+    "factor": 0
+}

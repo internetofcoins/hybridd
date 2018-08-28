@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rad",
+    "name": "radar : rad (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "radar:rad",
+    "originator": "NACFKHDSTHSLBRJL77GFSGSPRCIZBWVFU2KLTMRD",
+    "factor": 0
+}

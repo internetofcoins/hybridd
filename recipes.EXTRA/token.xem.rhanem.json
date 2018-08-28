@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.rhanem",
+    "name": "rhan : rhanem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rhan:rhanem",
+    "originator": "NCQTLN6KIESPB6IX2TZFX5M2LGQ22OWF44JR5XI2",
+    "factor": 4
+}

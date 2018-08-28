@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.soushucoin",
+    "name": "win : soushucoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "win:soushucoin",
+    "originator": "NARAX7SVLHWWWKSG6YCTYISTAVE5GRJADRODORBX",
+    "factor": 0
+}

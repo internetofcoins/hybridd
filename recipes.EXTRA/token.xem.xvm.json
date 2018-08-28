@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.xvm",
+    "name": "mosaicexchange : xvm (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "mosaicexchange:xvm",
+    "originator": "NBRMW5IA7JDBVKVFDL7YDI4NMWG7RAK7GABLF5YI",
+    "factor": 6
+}

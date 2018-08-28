@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shoes",
+    "name": "emojigames.dev.jump : shoes (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "emojigames.dev.jump:shoes",
+    "originator": "NDRQHXUGKZMVLUJQFFUDNDAYPM2MWGAYGXPJ2AO7",
+    "factor": 0
+}

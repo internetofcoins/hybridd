@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gomenne",
+    "name": "messagecoin : gomenne (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "messagecoin:gomenne",
+    "originator": "NAMZRMLJGWY3L6OQ7XVSFVBLIBVLQPEJTFK75EQW",
+    "factor": 0
+}

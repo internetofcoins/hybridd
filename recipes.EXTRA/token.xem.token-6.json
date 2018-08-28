@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.token-6",
+    "name": "chrono : token (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "chrono:token",
+    "originator": "NDL2FLDKFJLGYHST635DSUPFRAVOTZNGIPE2CATM",
+    "factor": 0
+}

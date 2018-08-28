@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nem-2",
+    "name": "xemio : nem (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "xemio:nem",
+    "originator": "NASWCCDGTKUJOKNVE6BJKP5M4EOSP5LCJ3XVRR7Q",
+    "factor": 0
+}

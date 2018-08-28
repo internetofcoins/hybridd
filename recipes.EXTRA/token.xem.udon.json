@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.udon",
+    "name": "udon : udon (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "udon:udon",
+    "originator": "ND6SRQRBEYYM6DKEYD3AUYGUL7M5YBMTCVVP3MXL",
+    "factor": 0
+}

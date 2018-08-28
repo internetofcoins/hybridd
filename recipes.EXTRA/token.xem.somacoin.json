@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.somacoin",
+    "name": "gananeremit : somacoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "gananeremit:somacoin",
+    "originator": "NBCIMDLY7RUQF3WCOJG4DCLX5LFFIST6OOJG5MJH",
+    "factor": 2
+}

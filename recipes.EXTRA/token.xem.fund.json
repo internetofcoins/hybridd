@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.fund",
+    "name": "fund-platform : fund (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "fund-platform:fund",
+    "originator": "NDCNQ2PWNHSRX2K4V7YLOKDVACFVIPG5Z26TJI43",
+    "factor": 6
+}

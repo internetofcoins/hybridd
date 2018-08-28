@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.askil911",
+    "name": "askil1853 : askil911 (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "askil1853:askil911",
+    "originator": "NCXAGEHDHS6EMP6UKKJGUAUDYZUQTDVPNHDXGV2R",
+    "factor": 4
+}

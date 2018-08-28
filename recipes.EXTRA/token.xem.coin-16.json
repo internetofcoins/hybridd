@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-16",
+    "name": "shibuya : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "shibuya:coin",
+    "originator": "NDRY3Q4DFRDHY2VO6S3SRTYZW7V7NGKJOLNEYVLK",
+    "factor": 0
+}

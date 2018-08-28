@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ctest",
+    "name": "rhosoi : ctest (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "rhosoi:ctest",
+    "originator": "ND3D6TXJYZGQUJ7T2OFYOUF4ACBRFZGSAJ7ZNHOH",
+    "factor": 6
+}

@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.nico",
+    "name": "compass : nico (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "compass:nico",
+    "originator": "NBTWZ7RU7PGSAOB2HRLJ2T6KRHBVQT2SPWVPGHE7",
+    "factor": 2
+}

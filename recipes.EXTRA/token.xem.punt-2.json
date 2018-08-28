@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.punt-2",
+    "name": "antwerpen.a-kaart : punt (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "antwerpen.a-kaart:punt",
+    "originator": "NATKZHOJROEAMXZ3J4AKZ5ETIW5XWSJ7IZJWANTW",
+    "factor": 0
+}

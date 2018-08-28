@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.tanuki",
+    "name": "tanuki : tanuki (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "tanuki:tanuki",
+    "originator": "NBVSMEZ5SVURDHG4R4CGK3GOMSX42JQT4CILMJGT",
+    "factor": 0
+}

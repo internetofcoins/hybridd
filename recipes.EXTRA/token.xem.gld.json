@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gld",
+    "name": "greenfirefunding : gld (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "greenfirefunding:gld",
+    "originator": "NB3C7K3A6WMWZAWZE54GKOWY3AJPYQBZMNACUHJJ",
+    "factor": 1
+}

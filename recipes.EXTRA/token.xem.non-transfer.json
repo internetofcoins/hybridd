@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.non-transfer",
+    "name": "devslopes : non-transferable (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "devslopes:non-transferable",
+    "originator": "NDWGDKKAYGHLV6KCO6PDY4A2UXGWWY7OIIGP44FM",
+    "factor": 0
+}

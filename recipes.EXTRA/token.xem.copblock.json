@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.copblock",
+    "name": "miningyobusiness : copblock (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "miningyobusiness:copblock",
+    "originator": "NACIL2W3NVU347LYBX26NSHC5UW3TAAKQDML2NZE",
+    "factor": 5
+}

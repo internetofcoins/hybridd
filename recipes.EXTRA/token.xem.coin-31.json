@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.coin-31",
+    "name": "detective : coin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "detective:coin",
+    "originator": "NAJIQAOPR7MYADK6IQT3PLLHHBWOJIQJYRX6FOFO",
+    "factor": 5
+}

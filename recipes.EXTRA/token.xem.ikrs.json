@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ikrs",
+    "name": "ikarashi : ikrs (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ikarashi:ikrs",
+    "originator": "NACJR53MJUPUTYUWAO725DH56TQJ3NXCZ2RRN75J",
+    "factor": 0
+}

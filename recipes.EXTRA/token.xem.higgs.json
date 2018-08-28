@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.higgs",
+    "name": "nextem.ex : higgs (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "nextem.ex:higgs",
+    "originator": "NDY4RHUZ3CZOZ53O5HNEXTEM7UF5X3MMDGH4IMAD",
+    "factor": 6
+}

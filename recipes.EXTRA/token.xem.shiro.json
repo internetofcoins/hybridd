@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.shiro",
+    "name": "bakuhatsu : shiro (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "bakuhatsu:shiro",
+    "originator": "NCIWQHU3F33OCWY2PRTOL3PYERJ5PQEVQPDKNWW7",
+    "factor": 6
+}

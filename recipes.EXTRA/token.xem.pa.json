@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.pa",
+    "name": "japason : pa (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "japason:pa",
+    "originator": "NALBKRX7LQT7K3M6DF2GNFODZ5ELMCYGJO4ZEP64",
+    "factor": 0
+}

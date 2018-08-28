@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.jiujitsucoin",
+    "name": "jiujitsu : jiujitsucoin (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "jiujitsu:jiujitsucoin",
+    "originator": "NCJ6TXTRCX3J4VUFKSXL65EZ4WYFSZUHJADXBIYM",
+    "factor": 6
+}

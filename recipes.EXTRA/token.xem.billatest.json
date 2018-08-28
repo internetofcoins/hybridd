@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.billatest",
+    "name": "billa : billatest (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "billa:billatest",
+    "originator": "NCX7M7QNWXTSYAT4ZW3QE3YYK35XACVDMO4VADOQ",
+    "factor": 0
+}

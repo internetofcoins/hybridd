@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.gbp",
+    "name": "lc : gbp (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "lc:gbp",
+    "originator": "NDTZECV7NU5QANKTVUHWLTSYTNZIQNJKAVNTC54U",
+    "factor": 3
+}

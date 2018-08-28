@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.seoulfood",
+    "name": "3a : seoulfood (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "3a:seoulfood",
+    "originator": "NDWMNIZFDOUM4SWZL5V3ZVRRJCSYDQS5LKRWWKIR",
+    "factor": 2
+}

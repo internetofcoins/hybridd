@@ -1,0 +1,10 @@
+{
+    "symbol": "xem.ragi",
+    "name": "ibaragi : ragi (NEM)",
+    "module": "quartz",
+    "mode": "nem.mosaic",
+    "import": "xem",
+    "contract": "ibaragi:ragi",
+    "originator": "NBJH5KAEGN7ILZL3ZP2QC36F7QZ2RFEMCUXSSGG2",
+    "factor": 2
+}
