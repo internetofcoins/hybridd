@@ -1,0 +1,9 @@
+{
+  "symbol": "eth.drps",
+  "name": "DRP Security",
+  "module": "ethereum",
+  "mode": "ethereum.token",
+  "contract": "0x3e250a4f78410c29cfc39463a81f14a226690eb4",
+  "originator": "0xA96Fd4994168bF4A15aeF72142ac605cF45b6d8e",
+  "factor": 8
+}

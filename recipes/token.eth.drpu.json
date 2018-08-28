@@ -1,0 +1,9 @@
+{
+  "symbol": "eth.drpu",
+  "name": "DRP Utility",
+  "module": "ethereum",
+  "mode": "ethereum.token",
+  "contract": "0xe30e02f049957e2a5907589e06ba646fb2c321ba",
+  "originator": "0xA96Fd4994168bF4A15aeF72142ac605cF45b6d8e",
+  "factor": 8
+}
