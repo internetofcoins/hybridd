@@ -1,0 +1,7 @@
+ "symbol":"eth.tnb”,
+     "name”:”Time New Bank“,
+     "module":"ethereum",
+     "mode":"ethereum.token",
+     "contract":"0xf7920b0768ecb20a123fac32311d07d193381d6f",
+     "originator":"0x6aeCad943DAa4dE1C4f380D6BD41861996D3e3Cf",
+     "factor":18
