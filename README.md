@@ -2,6 +2,10 @@
 
 # Internet of Coins hybridd node system
 
+
+## NOTICE: We are migrating our code to Gitlab! We kindly ask your patience. We'll post our Gitlab link as soon as things are ready. Thanks, and stay tuned!
+
+
 ## Overview
 
 This repository hosts the Internet of Coins <i>hybridd</i> node system. Our codebase is mainly NodeJS, with modules that can be written in other languages as well. This code is currently under heavy development, and subject to changes at any moment.
