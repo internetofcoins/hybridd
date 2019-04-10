@@ -3,7 +3,7 @@
 # Internet of Coins hybridd node system
 
 
-## NOTICE: We are migrating our code to Gitlab! We kindly ask your patience. We'll post our Gitlab link as soon as things are ready. Thanks, and stay tuned!
+## NOTICE: We have migrated. Find our latest code here: https://github.com/hybrix-io
 
 
 ## Overview
